@@ -7,6 +7,6 @@ teclado, o possam jogar. Os comandos deverão ser introduzidos através de um
 interpretador de comandos.
 
 ## Identificação dos criadores
-# Alunos da Universidade do Minho:
+### Alunos da Universidade do Minho:
   Alef Pinto Keuffer         - A91683
   Pedro Paulo Costa Pereira  - A88062
