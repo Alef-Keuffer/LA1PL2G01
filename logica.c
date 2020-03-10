@@ -3,7 +3,6 @@
 #include "dados.h"
 #include "interface.h"
 
-//Change 'tab', 'num_jogadas'
 // Função que deve ser completada e colocada na camada da lógica do programa
 int jogar(ESTADO *e, COORDENADA c) {
     printf("jogar %d %d\n", c.coluna, c.linha);
