@@ -1,9 +1,11 @@
 #include "dados.h"
 
 void atualizar_tab(ESTADO *e, COORDENADA c){
-    for (int row = (*e).tamanho_tabuleiro; row > 0; --row)
-        for (int col = 1; col <= (*e).tamanho_tabuleiro; ++col)
-            if (row==c.linha-1 && col==c.coluna-1) (*e).tab[row-1][col-1] = c;
+    for (int row = 0; row < 8; row++)
+        for (int col = 0; col <= 8; col++){
+            if (row==(*e).ultima_jogada.coluna && col==(*e).ultima_jogada.coluna) (*e).tab[rol][col] = Preto; 
+            if (row==c.linha && col==c.coluna) (*e).tab[row][col] = BRANCA;
+        }
 }
 void atualizar_ultima_jogada(ESTADO *e, COORDENADA c){
     (*e).ultima_jogada = c;
