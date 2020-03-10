@@ -8,5 +8,5 @@ interpretador de comandos.
 
 ## Identificação dos criadores
 ### Alunos da Universidade do Minho:
-  Alef Pinto Keuffer         - A91683
-  Pedro Paulo Costa Pereira  - A88062
+ *Alef Pinto Keuffer         - A91683
+ *Pedro Paulo Costa Pereira  - A88062
