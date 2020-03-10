@@ -10,6 +10,7 @@ int jogar(ESTADO *e, COORDENADA c) {
     atualizar_ultima_jogada(e, c);
     atualizar_num_jogadas(e);
     atualizar_jogador_atual(e);
+    atualizar_jogadas(e, c);
     mostrar_tabuleiro(e);
     return 1;
 }
