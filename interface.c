@@ -28,7 +28,7 @@ void mostrar_tabuleiro(ESTADO *e) {
             if (row == 7 && col == 7) putchar('2');
             else if (row == 0 && col == 0) putchar('1');
             else if ((*e).tab[row][col] == VAZIO) putchar('.');
-            else if ((*e).tab[row][col-1] == PRETA) putchar('#');
+            else if ((*e).tab[row][col] == PRETA) putchar('#');
             else if ((*e).tab[row][col] == BRANCA) putchar('*');
             else exit(0); //Nao sei se tem uma situação que não previ
 }
