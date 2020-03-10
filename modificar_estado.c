@@ -3,7 +3,7 @@
 void atualizar_tab(ESTADO *e, COORDENADA c){
     for (int row = 0; row < 8; row++)
         for (int col = 0; col <= 8; col++){
-            if (row==(*e).ultima_jogada.coluna && col==(*e).ultima_jogada.coluna) (*e).tab[rol][col] = PRETO; 
+            if (row==(*e).ultima_jogada.coluna && col==(*e).ultima_jogada.coluna) (*e).tab[rol][col] = PRETA; 
             if (row==c.linha && col==c.coluna) (*e).tab[row][col] = BRANCA;
         }
 }
