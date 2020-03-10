@@ -1,3 +1,17 @@
+#include <stdio.h>
+#include "modificar_estado.h"
 #include "dados.h"
+#include "interface.h"
 
-//...
+//Change 'tab', 'num_jogadas'
+// Função que deve ser completada e colocada na camada da lógica do programa
+int jogar(ESTADO *e, COORDENADA c) {
+    printf("jogar %d %d\n", c.coluna, c.linha);
+    c.coluna = c.coluna -64;
+    atualizar_tab(e, c);
+    atualizar_ultima_jogada(e, c);
+    atualiza_num_jogadas(e);
+    atualizar_jogador_atual(e);
+    mostrar_tabuleiro(e);
+    return 1;
+}
