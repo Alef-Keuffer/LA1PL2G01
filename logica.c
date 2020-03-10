@@ -5,7 +5,7 @@
 
 // Função que deve ser completada e colocada na camada da lógica do programa
 int jogar(ESTADO *e, COORDENADA c) {
-    printf("jogar %d %d\n", c.coluna, c.linha);
+    printf("jogar %c %d\n", c.coluna, c.linha);
     c.coluna = c.coluna -64;
     atualizar_tab(e, c);
     atualizar_ultima_jogada(e, c);
