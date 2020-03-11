@@ -1,3 +1,5 @@
+#include "dados.h"
+
 #ifndef MODIFICAR_ESTADO_H
 #define MODIFICAR_ESTADO_H
 
