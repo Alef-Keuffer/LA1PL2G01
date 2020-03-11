@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Modificar_Estado.h"
+#include "modificar_estado.h"
 
 // Função que deve ser completada e colocada na camada da lógica do programa
 int jogar(ESTADO *e, COORDENADA c) {
