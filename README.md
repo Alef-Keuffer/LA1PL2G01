@@ -5,5 +5,6 @@
 
 ## Identificação dos criadores
 ### Alunos da Universidade do Minho:
+Grupo 01 do turno PL2 (Laboratório de Algoritmia), composto por:
  * Alef Pinto Keuffer         - A91683
  * Pedro Paulo Costa Pereira  - A88062
