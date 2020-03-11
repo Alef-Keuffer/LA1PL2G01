@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "Dados.h"
-#include "Logica.h"
+#include "dados.h"
+#include "logica.h"
 
 
 #define BUF_SIZE 1024
