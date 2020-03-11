@@ -8,3 +8,13 @@
 Grupo 01 do turno PL2 (Laboratório de Algoritmia), composto por:
  * Alef Pinto Keuffer         - A91683
  * Pedro Paulo Costa Pereira  - A88062
+
+## Progresso por semanas
+### Semana 1 (guião 5):
+ * *Criação dos módulos*: A princípio, foram criados 4 módulos: 1 para a camada de dados, 2 para a lógica do programa e 1 para a camada de interface. Decidiu-se dividir a lógica do programa em dois módulos para se ter uma melhor ideia de quais funções modificam o estado.
+ 
+ * *Inicializar o estado do jogo*: Tal função se encontra no módulo "dados". Num estado inicial, temos que o jogador 1 é o atual jogador; o número de jogadas é igual a zero; a peça branca se encontra na casa de coordenada e5 e todas as outras casas estão vazias. Como forma de facilitar o processo, inicializou-se, também, a última jogada como e5. **Nota:** houve dificuldade em utilizar o *typedef enum* para enumerar o estado de cada casa, por isso definiu-se *BRANCA*, *PRETA* e *VAZIA* como valores inteiros (utilizando *#define BRANCA 1*, por exemplo).
+ 
+ * *Colocar uma peça branca na casa jogada*: Tal função se encontra no módulo "modificar_estado" (*void atualizar_tab(ESTADO *e, COORDENADA c)*). Consiste simplesmente em mudar o estado da casa no array e->tab. Foi definida de forma que, assumindo que a última jogada já tenha sido atualizada, a peça preta é colocada no lugar da casa branca. Falta validar a jogada.
+ 
+ * *Mostrar o tabuleiro com a jogada efetuada*: Tal função se encontra no módulo "interface". A função imprime o atual estado do tabuleiro (usando o array e->tab), por meio de um ciclo que verifica o estado de cada casa e imprime o char desejado para cada estado.
