@@ -1,4 +1,4 @@
-#include "Dados.h"
+#include "dados.h"
 #include "interface.h"
 
 int main() {
