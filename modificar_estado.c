@@ -1,4 +1,4 @@
-#include "Dados.h"
+#include "dados.h"
 
 void atualizar_tab(ESTADO *e, COORDENADA c){
     (*e).tab[(*e).ultima_jogada.linha][(*e).ultima_jogada.coluna] = PRETA;
