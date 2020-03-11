@@ -1,3 +1,5 @@
+#include "dados.h"
+
 #ifndef LOGICA_H_
 #define LOGICA_H_
 

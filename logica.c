@@ -7,8 +7,8 @@ int jogar(ESTADO *e, COORDENADA c) {
     printf("jogar %c %d\n", c.coluna+'a', c.linha+1);
     atualizar_tab(e, c);
     atualizar_ultima_jogada(e, c);
+    atualizar_jogadas(e, c);
     atualizar_num_jogadas(e);
     atualizar_jogador_atual(e);
-    mostrar_tabuleiro(e);
     return 1;
 }
