@@ -9,7 +9,7 @@ void atualizar_ultima_jogada(ESTADO *e, COORDENADA c){
     e.ultima_jogada = c;
 }
 void atualizar_num_jogadas(ESTADO *e){
-    e.num_jogadas = e.num_jogadas +1
+    if ((*e).jogador_atual == 2) (*e).num_jogadas = (*e).num_jogadas +1;
 }
 void atualizar_jogador_atual(ESTADO *e){
     if (e.jogador_atual == 1) e.jogador_atual = 2;
