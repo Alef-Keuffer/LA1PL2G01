@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include "dados.h"
 
 ESTADO *inicializar_estado(){
     int i, j;
