@@ -25,10 +25,10 @@ int interpretador(ESTADO *e){
 
 // Função que deve ser completada e colocada na camada de interface
 void mostrar_tabuleiro(ESTADO *e) {
-    for (int row = 0; row < 8; row++) {
+    for (int row = 7; row >=0; row--) {
         for (int col = 0; col < 8; col++) {
-            if (row == 0 && col == 7) putchar('2');
-            else if (row == 7 && col == 0) putchar('1');
+            if (row == 7 && col == 7) putchar('2');
+            else if (row == 0 && col == 0) putchar('1');
             else if ((*e).tab[row][col] == VAZIO) putchar('.');
             else if ((*e).tab[row][col] == PRETA) putchar('#');
             else if ((*e).tab[row][col] == BRANCA) putchar('*');
