@@ -1,5 +1,5 @@
 #include "dados.h"
-#include "acessar_dados.h"
+#include "acessar_estado.h"
 #include <stdio.h>
 
 void gr (ESTADO *e, char *file_path) {
@@ -14,11 +14,12 @@ void gr (ESTADO *e, char *file_path) {
             else if (obter_casa(e, row, col) == BRANCA) putc('*', fPtr);
         putc('\n', fPtr);
     }
+    putc('\n', fPtr);
     int i, a;
-    if ((*e).jogador_atual == 1) for (a=0, i=1; a<(*e).num_jogadas; i++, a++) fprintf(fPtr, "\n%02d: %c%c %c%c", i, (*e).jogadas[a].jogador1.coluna +'a', (*e).jogadas[a].jogador1.linha +'1', (*e).jogadas[a].jogador2.coluna + 'a', (*e).jogadas[a].jogador2.linha + '1');
+    if (JogadorAtual(e) == 1) for (a=0, i=1; a<NumJogadas(e); i++, a++) fprintf(fPtr, "%02d: %c%c %c%c\n", i, obter_subcoordenadas(e, a, 1, COLUNA) +'a', obter_subcoordenadas(e, a, 1, LINHA) +'1', obter_subcoordenadas(e, a, 2, COLUNA) + 'a', obter_subcoordenadas(e, a, 2, LINHA) + '1');
     else{
-        for (a=0, i=1; a<(*e).num_jogadas; i++, a++) fprintf(fPtr, "\n%02d: %c%c %c%c", i, (*e).jogadas[a].jogador1.coluna +'a', (*e).jogadas[a].jogador1.linha +'1', (*e).jogadas[a].jogador2.coluna + 'a', (*e).jogadas[a].jogador2.linha + '1');
-        fprintf (fPtr, "\n%02d: %c%c", i, (*e).jogadas[a].jogador1.coluna +'a', (*e).jogadas[a].jogador1.linha +'1');
+        for (a=0, i=1; a<NumJogadas(e); i++, a++) fprintf(fPtr, "%02d: %c%c %c%c\n", i, obter_subcoordenadas(e, a, 1, COLUNA) +'a', obter_subcoordenadas(e, a, 1, LINHA) +'1', obter_subcoordenadas(e, a, 2, COLUNA) + 'a', obter_subcoordenadas(e, a, 2, LINHA) + '1');
+        fprintf (fPtr, "%02d: %c%c\n", i, obter_subcoordenadas(e, a, 1, COLUNA) +'a', obter_subcoordenadas(e, a, 1, LINHA) +'1');
     }
     fclose(fPtr);
 }

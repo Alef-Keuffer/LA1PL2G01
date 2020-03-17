@@ -96,10 +96,10 @@
 		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/README.md">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/acessar_dados.c">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/acessar_estado.c">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/acessar_dados.h">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/acessar_estado.h">
 			<Option target="Rastros_C"/>
 		</Unit>
 		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/dados.c">

@@ -122,32 +122,32 @@ Rastros_C/fast:
 	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/build
 .PHONY : Rastros_C/fast
 
-acessar_dados.obj: acessar_dados.c.obj
+acessar_estado.obj: acessar_estado.c.obj
 
-.PHONY : acessar_dados.obj
+.PHONY : acessar_estado.obj
 
 # target to build an object file
-acessar_dados.c.obj:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/acessar_dados.c.obj
-.PHONY : acessar_dados.c.obj
+acessar_estado.c.obj:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/acessar_estado.c.obj
+.PHONY : acessar_estado.c.obj
 
-acessar_dados.i: acessar_dados.c.i
+acessar_estado.i: acessar_estado.c.i
 
-.PHONY : acessar_dados.i
+.PHONY : acessar_estado.i
 
 # target to preprocess a source file
-acessar_dados.c.i:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/acessar_dados.c.i
-.PHONY : acessar_dados.c.i
+acessar_estado.c.i:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/acessar_estado.c.i
+.PHONY : acessar_estado.c.i
 
-acessar_dados.s: acessar_dados.c.s
+acessar_estado.s: acessar_estado.c.s
 
-.PHONY : acessar_dados.s
+.PHONY : acessar_estado.s
 
 # target to generate assembly for a file
-acessar_dados.c.s:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/acessar_dados.c.s
-.PHONY : acessar_dados.c.s
+acessar_estado.c.s:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/acessar_estado.c.s
+.PHONY : acessar_estado.c.s
 
 dados.obj: dados.c.obj
 
@@ -320,9 +320,9 @@ help:
 	@echo ... Rastros_C
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... acessar_dados.obj
-	@echo ... acessar_dados.i
-	@echo ... acessar_dados.s
+	@echo ... acessar_estado.obj
+	@echo ... acessar_estado.i
+	@echo ... acessar_estado.s
 	@echo ... dados.obj
 	@echo ... dados.i
 	@echo ... dados.s

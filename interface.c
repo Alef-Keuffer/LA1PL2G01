@@ -3,7 +3,7 @@
 #include <string.h>
 #include "dados.h"
 #include "logica.h"
-#include "acessar_dados.h"
+#include "acessar_estado.h"
 #include "io.h"
 
 #define BUF_SIZE 1024
@@ -42,9 +42,9 @@ void mostrar_tabuleiro(ESTADO *e) {
 
 void movs (ESTADO *e) {
     int a, i;
-    if ((*e).jogador_atual == 1) for (a=0, i=1; a<(*e).num_jogadas; i++, a++) printf("%02d: %c%c %c%c\n", i, (*e).jogadas[a].jogador1.coluna +'a', (*e).jogadas[a].jogador1.linha +'1', (*e).jogadas[a].jogador2.coluna + 'a', (*e).jogadas[a].jogador2.linha + '1');
+    if (JogadorAtual(e) == 1) for (a=0, i=1; a<NumJogadas(e); i++, a++) printf("%02d: %c%c %c%c\n", i, obter_subcoordenadas(e, a, 1, COLUNA) +'a', obter_subcoordenadas(e, a, 1, LINHA) +'1', obter_subcoordenadas(e, a, 2, COLUNA) + 'a', obter_subcoordenadas(e, a, 2, LINHA) + '1');
     else{
-        for (a=0, i=1; a<(*e).num_jogadas; i++, a++) printf("%02d: %c%c %c%c\n", i, (*e).jogadas[a].jogador1.coluna +'a', (*e).jogadas[a].jogador1.linha +'1', (*e).jogadas[a].jogador2.coluna + 'a', (*e).jogadas[a].jogador2.linha + '1');
-        printf ("%02d: %c%c\n", i, (*e).jogadas[a].jogador1.coluna +'a', (*e).jogadas[a].jogador1.linha +'1');
+        for (a=0, i=1; a<NumJogadas(e); i++, a++)  printf("%02d: %c%c %c%c\n", i, obter_subcoordenadas(e, a, 1, COLUNA) +'a', obter_subcoordenadas(e, a, 1, LINHA) +'1', obter_subcoordenadas(e, a, 2, COLUNA) + 'a', obter_subcoordenadas(e, a, 2, LINHA) + '1');
+        printf ("%02d: %c%c\n", i, obter_subcoordenadas(e, a, 1, COLUNA) +'a', obter_subcoordenadas(e, a, 1, LINHA) +'1');
     }
 }

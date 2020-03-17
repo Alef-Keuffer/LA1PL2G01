@@ -4,6 +4,8 @@
 #define VAZIO 0
 #define BRANCA 1
 #define PRETA -1
+#define COLUNA 132
+#define LINHA 133
 
 typedef struct {
     int coluna;

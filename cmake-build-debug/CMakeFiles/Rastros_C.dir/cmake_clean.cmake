@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Rastros_C.dir/acessar_dados.c.obj"
+  "CMakeFiles/Rastros_C.dir/acessar_estado.c.obj"
   "CMakeFiles/Rastros_C.dir/dados.c.obj"
   "CMakeFiles/Rastros_C.dir/interface.c.obj"
   "CMakeFiles/Rastros_C.dir/io.c.obj"

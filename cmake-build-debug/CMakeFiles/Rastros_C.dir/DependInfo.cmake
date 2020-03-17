@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/alefk/Documents/LA1PL2G1/acessar_dados.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/acessar_dados.c.obj"
+  "C:/Users/alefk/Documents/LA1PL2G1/acessar_estado.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/acessar_estado.c.obj"
   "C:/Users/alefk/Documents/LA1PL2G1/dados.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/dados.c.obj"
   "C:/Users/alefk/Documents/LA1PL2G1/interface.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/interface.c.obj"
   "C:/Users/alefk/Documents/LA1PL2G1/io.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/io.c.obj"
