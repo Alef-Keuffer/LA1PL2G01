@@ -8,23 +8,23 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/alefk/Documents/Rastros_C/cmake-build-debug"/>
+				<Option working_dir="C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Rastros_C">
-				<Option output="C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Rastros_C.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/alefk/Documents/Rastros_C/cmake-build-debug"/>
+				<Option output="C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Rastros_C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/alefk/Documents/Rastros_C/."/>
+					<Add directory="C:/Users/alefk/Documents/LA1PL2G1/."/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -37,20 +37,20 @@
 					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Rastros_C"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Rastros_C"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Rastros_C/fast">
-				<Option output="C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Rastros_C.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/alefk/Documents/Rastros_C/cmake-build-debug"/>
+				<Option output="C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Rastros_C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/alefk/Documents/Rastros_C/."/>
+					<Add directory="C:/Users/alefk/Documents/LA1PL2G1/."/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -63,67 +63,79 @@
 					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Rastros_C/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Rastros_C/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/alefk/Documents/Rastros_C/cmake-build-debug"/>
+				<Option working_dir="C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/alefk/Documents/Rastros_C/cmake-build-debug"/>
+				<Option working_dir="C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/alefk/Documents/Rastros_C/LICENSE">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/LICENSE">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/Rastros_C/README.md">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/README.md">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/Rastros_C/dados.c">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/acessar_dados.c">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/Rastros_C/dados.h">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/acessar_dados.h">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/Rastros_C/interface.c">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/dados.c">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/Rastros_C/interface.h">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/dados.h">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/Rastros_C/logica.c">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/interface.c">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/Rastros_C/logica.h">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/interface.h">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/Rastros_C/main.c">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/io.c">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/Rastros_C/modificar_estado.c">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/io.h">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/Rastros_C/modificar_estado.h">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/logica.c">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/Rastros_C/CMakeLists.txt">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/logica.h">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/main.c">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/modificar_estado.c">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/modificar_estado.h">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

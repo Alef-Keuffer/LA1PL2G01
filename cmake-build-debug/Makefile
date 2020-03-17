@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\alefk\Documents\Rastros_C
+CMAKE_SOURCE_DIR = C:\Users\alefk\Documents\LA1PL2G1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\alefk\Documents\Rastros_C\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alefk\Documents\Rastros_C\cmake-build-debug\CMakeFiles C:\Users\alefk\Documents\Rastros_C\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alefk\Documents\Rastros_C\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -121,6 +121,33 @@ Rastros_C: cmake_check_build_system
 Rastros_C/fast:
 	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/build
 .PHONY : Rastros_C/fast
+
+acessar_dados.obj: acessar_dados.c.obj
+
+.PHONY : acessar_dados.obj
+
+# target to build an object file
+acessar_dados.c.obj:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/acessar_dados.c.obj
+.PHONY : acessar_dados.c.obj
+
+acessar_dados.i: acessar_dados.c.i
+
+.PHONY : acessar_dados.i
+
+# target to preprocess a source file
+acessar_dados.c.i:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/acessar_dados.c.i
+.PHONY : acessar_dados.c.i
+
+acessar_dados.s: acessar_dados.c.s
+
+.PHONY : acessar_dados.s
+
+# target to generate assembly for a file
+acessar_dados.c.s:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/acessar_dados.c.s
+.PHONY : acessar_dados.c.s
 
 dados.obj: dados.c.obj
 
@@ -175,6 +202,33 @@ interface.s: interface.c.s
 interface.c.s:
 	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/interface.c.s
 .PHONY : interface.c.s
+
+io.obj: io.c.obj
+
+.PHONY : io.obj
+
+# target to build an object file
+io.c.obj:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/io.c.obj
+.PHONY : io.c.obj
+
+io.i: io.c.i
+
+.PHONY : io.i
+
+# target to preprocess a source file
+io.c.i:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/io.c.i
+.PHONY : io.c.i
+
+io.s: io.c.s
+
+.PHONY : io.s
+
+# target to generate assembly for a file
+io.c.s:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/io.c.s
+.PHONY : io.c.s
 
 logica.obj: logica.c.obj
 
@@ -266,12 +320,18 @@ help:
 	@echo ... Rastros_C
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... acessar_dados.obj
+	@echo ... acessar_dados.i
+	@echo ... acessar_dados.s
 	@echo ... dados.obj
 	@echo ... dados.i
 	@echo ... dados.s
 	@echo ... interface.obj
 	@echo ... interface.i
 	@echo ... interface.s
+	@echo ... io.obj
+	@echo ... io.i
+	@echo ... io.s
 	@echo ... logica.obj
 	@echo ... logica.i
 	@echo ... logica.s

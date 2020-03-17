@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/alefk/Documents/Rastros_C/dados.c
-stdlib.h
--
-dados.h
-C:/Users/alefk/Documents/Rastros_C/dados.h
+C:/Users/alefk/Documents/LA1PL2G1/acessar_dados.h
 
-C:/Users/alefk/Documents/Rastros_C/dados.h
+C:/Users/alefk/Documents/LA1PL2G1/dados.h
 
-C:/Users/alefk/Documents/Rastros_C/interface.c
+C:/Users/alefk/Documents/LA1PL2G1/interface.c
 stdio.h
 -
 stdlib.h
@@ -22,35 +18,25 @@ stdlib.h
 string.h
 -
 dados.h
-C:/Users/alefk/Documents/Rastros_C/dados.h
+C:/Users/alefk/Documents/LA1PL2G1/dados.h
 logica.h
-C:/Users/alefk/Documents/Rastros_C/logica.h
+C:/Users/alefk/Documents/LA1PL2G1/logica.h
+acessar_dados.h
+C:/Users/alefk/Documents/LA1PL2G1/acessar_dados.h
+io.h
+C:/Users/alefk/Documents/LA1PL2G1/io.h
 
-C:/Users/alefk/Documents/Rastros_C/interface.h
-
-C:/Users/alefk/Documents/Rastros_C/logica.c
+C:/Users/alefk/Documents/LA1PL2G1/io.c
+dados.h
+C:/Users/alefk/Documents/LA1PL2G1/dados.h
+acessar_dados.h
+C:/Users/alefk/Documents/LA1PL2G1/acessar_dados.h
 stdio.h
 -
-modificar_estado.h
-C:/Users/alefk/Documents/Rastros_C/modificar_estado.h
-dados.h
-C:/Users/alefk/Documents/Rastros_C/dados.h
 
-C:/Users/alefk/Documents/Rastros_C/logica.h
-dados.h
-C:/Users/alefk/Documents/Rastros_C/dados.h
+C:/Users/alefk/Documents/LA1PL2G1/io.h
 
-C:/Users/alefk/Documents/Rastros_C/main.c
+C:/Users/alefk/Documents/LA1PL2G1/logica.h
 dados.h
-C:/Users/alefk/Documents/Rastros_C/dados.h
-interface.h
-C:/Users/alefk/Documents/Rastros_C/interface.h
-
-C:/Users/alefk/Documents/Rastros_C/modificar_estado.c
-dados.h
-C:/Users/alefk/Documents/Rastros_C/dados.h
-
-C:/Users/alefk/Documents/Rastros_C/modificar_estado.h
-dados.h
-C:/Users/alefk/Documents/Rastros_C/dados.h
+C:/Users/alefk/Documents/LA1PL2G1/dados.h
 
