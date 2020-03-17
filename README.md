@@ -9,6 +9,17 @@ Grupo 01 do turno PL2 (Laboratório de Algoritmia), composto por:
 ## Objetivo
   Pretende-se implementar o jogo Rastros. Para descobrir as regras do jogo, clique [aqui](http://ludicum.org/jogos/abstr/rastros/ludus-jogos-rastros.pdf/view). O seu programa deverá permitir que dois jogadores, partilhando o mesmo teclado, o possam jogar. Os comandos deverão ser introduzidos através de um interpretador de comandos.
 
+## Estruturação do programa
+### Camada de dados
+ * acessar_estado
+ * dados
+ * modificar_estado
+### Lógica do programa
+ * io
+ * logica
+### Camada de interface
+ * interface
+
 ## Progresso por semanas
 ### Semana 1 (guião 5):
  * *Criação dos módulos*: A princípio, foram criados 4 módulos: 1 para a camada de dados, 2 para a lógica do programa e 1 para a camada de interface. Decidiu-se dividir a lógica do programa em dois módulos para se ter uma melhor ideia de quais funções modificam o estado.
