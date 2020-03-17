@@ -14,7 +14,11 @@ void gr (ESTADO *e, char *file_path) {
             else if (obter_casa(e, row, col) == BRANCA) putc('*', fPtr);
         putc('\n', fPtr);
     }
-    for (int a=0, i=1; a<(*e).num_jogadas; i++, a++)
-        fprintf(fPtr, "\n%02d: %c%c %c%c", i, (*e).jogadas[a].jogador1.coluna +'a', (*e).jogadas[a].jogador1.linha +'1', (*e).jogadas[a].jogador2.coluna + 'a', (*e).jogadas[a].jogador2.linha + '1');
+    int i, a;
+    if ((*e).jogador_atual == 1) for (a=0, i=1; a<(*e).num_jogadas; i++, a++) fprintf(fPtr, "\n%02d: %c%c %c%c", i, (*e).jogadas[a].jogador1.coluna +'a', (*e).jogadas[a].jogador1.linha +'1', (*e).jogadas[a].jogador2.coluna + 'a', (*e).jogadas[a].jogador2.linha + '1');
+    else{
+        for (a=0, i=1; a<(*e).num_jogadas; i++, a++) fprintf(fPtr, "\n%02d: %c%c %c%c", i, (*e).jogadas[a].jogador1.coluna +'a', (*e).jogadas[a].jogador1.linha +'1', (*e).jogadas[a].jogador2.coluna + 'a', (*e).jogadas[a].jogador2.linha + '1');
+        fprintf (fPtr, "\n%02d: %c%c", i, (*e).jogadas[a].jogador1.coluna +'a', (*e).jogadas[a].jogador1.linha +'1');
+    }
     fclose(fPtr);
 }

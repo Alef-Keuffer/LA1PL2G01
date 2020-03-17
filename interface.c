@@ -41,6 +41,10 @@ void mostrar_tabuleiro(ESTADO *e) {
 }
 
 void movs (ESTADO *e) {
-    for (int a=0, i=1; a<(*e).num_jogadas; i++, a++)
-        printf("%02d: %c%c %c%c\n", i, (*e).jogadas[a].jogador1.coluna +'a', (*e).jogadas[a].jogador1.linha +'1', (*e).jogadas[a].jogador2.coluna + 'a', (*e).jogadas[a].jogador2.linha + '1');
+    int a, i;
+    if ((*e).jogador_atual == 1) for (a=0, i=1; a<(*e).num_jogadas; i++, a++) printf("%02d: %c%c %c%c\n", i, (*e).jogadas[a].jogador1.coluna +'a', (*e).jogadas[a].jogador1.linha +'1', (*e).jogadas[a].jogador2.coluna + 'a', (*e).jogadas[a].jogador2.linha + '1');
+    else{
+        for (a=0, i=1; a<(*e).num_jogadas; i++, a++) printf("%02d: %c%c %c%c\n", i, (*e).jogadas[a].jogador1.coluna +'a', (*e).jogadas[a].jogador1.linha +'1', (*e).jogadas[a].jogador2.coluna + 'a', (*e).jogadas[a].jogador2.linha + '1');
+        printf ("%02d: %c%c\n", i, (*e).jogadas[a].jogador1.coluna +'a', (*e).jogadas[a].jogador1.linha +'1');
+    }
 }
