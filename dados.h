@@ -1,11 +1,14 @@
 #ifndef DADOS_H_
 #define DADOS_H_
 
-#define VAZIO 0
-#define BRANCA 1
-#define PRETA -1
 #define COLUNA 132
 #define LINHA 133
+
+typedef enum{
+    VAZIO = '.',
+    BRANCA = '*',
+    PRETA = '#'
+}CASA;
 
 typedef struct {
     int coluna;
