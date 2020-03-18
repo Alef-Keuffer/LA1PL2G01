@@ -25,6 +25,7 @@ int interpretador(ESTADO *e, int num_comandos){
         COORDENADA coord = {*col - 'a', *lin - '1'};
         if(jogada_valida(e, coord)){
             jogar(e, coord);
+            printf("jogar %c %c\n", col, lin);
             mostrar_tabuleiro(e);
         }
         else{
@@ -33,8 +34,9 @@ int interpretador(ESTADO *e, int num_comandos){
         }
     }
     if(strlen(linha) == 2 && sscanf(linha, "%[q]", col) == 1) exit(0);
-    if(sscanf(linha, "%[gr] %s", col, filename) == 2) gr(e, filename);
-    if(strlen(linha) == 5 && sscanf(linha, "%[movs]", command) == 1) movs(e);
+    if(sscanf(linha, "%*[g]%*[r] %s", filename) == 1) gr(e, filename);
+    if(sscanf(linha, "%*[l]%*[e]%*[r] %s", filename) == 1) ler(filename);
+    if(strlen(linha) == 5 && sscanf(linha, "%*[m]%*[o]%*[v]%*[s]%c", command) == 1) movs(e);
     num_comandos++;
     return interpretador(e, num_comandos);
 }

@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/alefk/Documents/LA1PL2G1/acessar_estado.c
-dados.h
-C:/Users/alefk/Documents/LA1PL2G1/dados.h
-
 C:/Users/alefk/Documents/LA1PL2G1/acessar_estado.h
 
 C:/Users/alefk/Documents/LA1PL2G1/dados.h
@@ -30,15 +26,9 @@ C:/Users/alefk/Documents/LA1PL2G1/acessar_estado.h
 io.h
 C:/Users/alefk/Documents/LA1PL2G1/io.h
 
-C:/Users/alefk/Documents/LA1PL2G1/io.c
+C:/Users/alefk/Documents/LA1PL2G1/io.h
 dados.h
 C:/Users/alefk/Documents/LA1PL2G1/dados.h
-acessar_estado.h
-C:/Users/alefk/Documents/LA1PL2G1/acessar_estado.h
-stdio.h
--
-
-C:/Users/alefk/Documents/LA1PL2G1/io.h
 
 C:/Users/alefk/Documents/LA1PL2G1/logica.h
 dados.h

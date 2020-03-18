@@ -15,8 +15,11 @@ CMakeFiles/Rastros_C.dir/interface.c.obj: ../logica.h
 
 CMakeFiles/Rastros_C.dir/io.c.obj: ../acessar_estado.h
 CMakeFiles/Rastros_C.dir/io.c.obj: ../dados.h
+CMakeFiles/Rastros_C.dir/io.c.obj: ../interface.h
 CMakeFiles/Rastros_C.dir/io.c.obj: ../io.c
+CMakeFiles/Rastros_C.dir/io.c.obj: ../logica.h
 
+CMakeFiles/Rastros_C.dir/logica.c.obj: ../acessar_estado.h
 CMakeFiles/Rastros_C.dir/logica.c.obj: ../dados.h
 CMakeFiles/Rastros_C.dir/logica.c.obj: ../logica.c
 CMakeFiles/Rastros_C.dir/logica.c.obj: ../modificar_estado.h

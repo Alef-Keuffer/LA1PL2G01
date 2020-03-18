@@ -3,5 +3,5 @@
 #include "dados.h"
 
 void gr (ESTADO *e, char *file_path);
-
+void ler(char *filename);
 #endif //RASTROS_C_IO_H
