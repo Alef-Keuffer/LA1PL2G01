@@ -3,13 +3,14 @@
 #include <string.h>
 #include "dados.h"
 #include "logica.h"
-
+#include "acessar_estado.h"
+#include "io.h"
 
 #define BUF_SIZE 1024
-void mostrar_tabuleiro(ESTADO *e);
+void mostrar_tabuleiro(ESTADO *e); void movs(ESTADO *e);
 
 int interpretador(ESTADO *e){
-    char linha[BUF_SIZE];
+    char linha[BUF_SIZE], filename[BUF_SIZE], command[5];
     char col[2], lin[2];
 
     if(fgets(linha, BUF_SIZE, stdin) == NULL)
@@ -18,9 +19,11 @@ int interpretador(ESTADO *e){
         COORDENADA coord = {*col - 'a', *lin - '1'};
         jogar(e, coord);
         mostrar_tabuleiro(e);
-        return interpretador(e);
     }
-    return 1;
+    if(strlen(linha) == 2 && sscanf(linha, "%[q]", col) == 1) exit(0);
+    if(sscanf(linha, "%[gr] %s", col, filename) == 2) gr(e, filename);
+    if(strlen(linha) == 5 && sscanf(linha, "%[movs]", command) == 1) movs(e);
+    return interpretador(e);
 }
 
 // Função que deve ser completada e colocada na camada de interface
@@ -29,10 +32,19 @@ void mostrar_tabuleiro(ESTADO *e) {
         for (int col = 0; col < 8; col++)
             if (row == 7 && col == 7) putchar('2');
             else if (row == 0 && col == 0) putchar('1');
-            else if ((*e).tab[row][col] == VAZIO) putchar('.');
-            else if ((*e).tab[row][col] == PRETA) putchar('#');
-            else if ((*e).tab[row][col] == BRANCA) putchar('*');
+            else if (obter_casa(e, row, col) == VAZIO) putchar('.');
+            else if (obter_casa(e, row, col) == PRETA) putchar('#');
+            else if (obter_casa(e, row, col) == BRANCA) putchar('*');
             else exit(0); //Nao sei se tem uma situação que não previ
         putchar('\n');
+    }
+}
+
+void movs (ESTADO *e) {
+    int a, i;
+    if (JogadorAtual(e) == 1) for (a=0, i=1; a<NumJogadas(e); i++, a++) printf("%02d: %c%c %c%c\n", i, obter_subcoordenadas(e, a, 1, COLUNA) +'a', obter_subcoordenadas(e, a, 1, LINHA) +'1', obter_subcoordenadas(e, a, 2, COLUNA) + 'a', obter_subcoordenadas(e, a, 2, LINHA) + '1');
+    else{
+        for (a=0, i=1; a<NumJogadas(e); i++, a++)  printf("%02d: %c%c %c%c\n", i, obter_subcoordenadas(e, a, 1, COLUNA) +'a', obter_subcoordenadas(e, a, 1, LINHA) +'1', obter_subcoordenadas(e, a, 2, COLUNA) + 'a', obter_subcoordenadas(e, a, 2, LINHA) + '1');
+        printf ("%02d: %c%c\n", i, obter_subcoordenadas(e, a, 1, COLUNA) +'a', obter_subcoordenadas(e, a, 1, LINHA) +'1');
     }
 }

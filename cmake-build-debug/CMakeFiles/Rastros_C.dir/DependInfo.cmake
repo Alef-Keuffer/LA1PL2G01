@@ -4,11 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/alefk/Documents/Rastros_C/dados.c" "C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/CMakeFiles/Rastros_C.dir/dados.c.obj"
-  "C:/Users/alefk/Documents/Rastros_C/interface.c" "C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/CMakeFiles/Rastros_C.dir/interface.c.obj"
-  "C:/Users/alefk/Documents/Rastros_C/logica.c" "C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/CMakeFiles/Rastros_C.dir/logica.c.obj"
-  "C:/Users/alefk/Documents/Rastros_C/main.c" "C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/CMakeFiles/Rastros_C.dir/main.c.obj"
-  "C:/Users/alefk/Documents/Rastros_C/modificar_estado.c" "C:/Users/alefk/Documents/Rastros_C/cmake-build-debug/CMakeFiles/Rastros_C.dir/modificar_estado.c.obj"
+  "C:/Users/alefk/Documents/LA1PL2G1/acessar_estado.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/acessar_estado.c.obj"
+  "C:/Users/alefk/Documents/LA1PL2G1/dados.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/dados.c.obj"
+  "C:/Users/alefk/Documents/LA1PL2G1/interface.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/interface.c.obj"
+  "C:/Users/alefk/Documents/LA1PL2G1/io.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/io.c.obj"
+  "C:/Users/alefk/Documents/LA1PL2G1/logica.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/logica.c.obj"
+  "C:/Users/alefk/Documents/LA1PL2G1/main.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/main.c.obj"
+  "C:/Users/alefk/Documents/LA1PL2G1/modificar_estado.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/modificar_estado.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

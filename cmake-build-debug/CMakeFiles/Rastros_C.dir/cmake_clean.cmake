@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Rastros_C.dir/acessar_estado.c.obj"
   "CMakeFiles/Rastros_C.dir/dados.c.obj"
   "CMakeFiles/Rastros_C.dir/interface.c.obj"
+  "CMakeFiles/Rastros_C.dir/io.c.obj"
   "CMakeFiles/Rastros_C.dir/logica.c.obj"
   "CMakeFiles/Rastros_C.dir/main.c.obj"
   "CMakeFiles/Rastros_C.dir/modificar_estado.c.obj"

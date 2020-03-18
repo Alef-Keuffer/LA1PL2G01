@@ -16,4 +16,4 @@ add_executable(Rastros_C
     main.c
     modificar_estado.c
     modificar_estado.h
-    README.md)
+    README.md io.c io.h acessar_estado.c acessar_estado.h)
