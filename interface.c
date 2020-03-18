@@ -35,6 +35,7 @@ int interpretador(ESTADO *e, int num_comandos){
     if(strlen(linha) == 2 && sscanf(linha, "%[q]", col) == 1) exit(0);
     if(sscanf(linha, "%[gr] %s", col, filename) == 2) gr(e, filename);
     if(strlen(linha) == 5 && sscanf(linha, "%[movs]", command) == 1) movs(e);
+    num_comandos++;
     return interpretador(e, num_comandos);
 }
 
