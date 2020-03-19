@@ -25,3 +25,21 @@ int jogada_valida(ESTADO *e, COORDENADA c){
 
     return res;
 }
+
+int fim_de_jogo(ESTADO *e){
+    int i, j, res, num_vazias = 0;
+    int jog = JogadorAtual(e);
+    COORDENADA c = obter_ultimajogada(e);
+
+    for(i = -1; i < 2; i++){
+        for(j = -1; j < 2; j++){
+            if(obter_casa(e, c.linha + i, c.coluna + j) == VAZIO) num_vazias++;
+        }
+    }
+
+    if((num_vazias == 0 && jog == 2) || (c.linha == 0 && c.coluna == 0)) res = 1;
+    else if((num_vazias == 0 && jog == 1) || (c.linha == 7 && c.coluna == 7)) res = 2;
+    else res = 0;
+
+    return res;
+}
