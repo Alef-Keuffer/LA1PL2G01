@@ -31,8 +31,8 @@ int fim_de_jogo(ESTADO *e){
     int jog = JogadorAtual(e);
     COORDENADA c = obter_ultimajogada(e);
 
-    for(i = -1; i < 2 && c.linha + i >= 0 && c.linha + i <= 7; i++){
-        for(j = -1; j < 2 && c.coluna + j >= 0 && c.coluna + j <= 7; j++){
+    for(i = -1; i < 2; i++){
+        for(j = -1; j < 2; j++){
             if(obter_casa(e, c.linha + i, c.coluna + j) == VAZIO) num_vazias++;
         }
     }
