@@ -18,6 +18,7 @@ int interpretador(ESTADO *e, int num_comandos){
     char linha[BUF_SIZE], filename[BUF_SIZE], command[5];
     char col[2], lin[2];
 
+    if(fim_de_jogo(e)) printf("Fim de jogo! O jogador %d venceu.\n", fim_de_jogo(e));
     prompt(e, num_comandos);
     if(fgets(linha, BUF_SIZE, stdin) == NULL)
         return 0;
