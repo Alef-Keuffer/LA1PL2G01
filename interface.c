@@ -26,7 +26,7 @@ int interpretador(ESTADO *e, int num_comandos){
         COORDENADA coord = {*col - 'a', *lin - '1'};
         if(jogada_valida(e, coord)){
             jogar(e, coord);
-            printf("jogar %c %c\n", col, lin);
+            printf("jogar %c %c\n", coord.coluna +'a', coord.linha +'1');
             mostrar_tabuleiro(e);
         }
         else{
