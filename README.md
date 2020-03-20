@@ -29,3 +29,13 @@ Grupo 01 do turno PL2 (Laboratório de Algoritmia), composto por:
  * *Colocar uma peça branca na casa jogada*: Tal função se encontra no módulo "modificar_estado" (_void atualizar_tab(ESTADO *e, COORDENADA c)_). Consiste simplesmente em mudar o estado da casa no array e->tab. Foi definida de forma que, assumindo que a última jogada já tenha sido atualizada, a peça preta é colocada no lugar da casa branca. Falta validar a jogada.
  
  * *Mostrar o tabuleiro com a jogada efetuada*: Tal função se encontra no módulo "interface". A função imprime o atual estado do tabuleiro (usando o array e->tab), por meio de um ciclo que verifica o estado de cada casa e imprime o char desejado para cada estado.
+ 
+### Semana 2 (guião 6):
+#### Contribuições do Alef:
+1. Iniciei o processo de documentação com o Doxygen.
+   1. Criei o grupo Camada de dados e adicionei os subgrupos "modificar dados" e "accesar dados".
+   1. Coloquei as funções de modificar_estado no grupo "Camada de dados" e adicionei breve descrições para cada uma.
+1. Implementei o comando Q.
+1. Implementei o comando ler.
+1. Implementei o comando gr.
+1. Implementei o comando movs.
