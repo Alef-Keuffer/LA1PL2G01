@@ -33,7 +33,7 @@ Grupo 01 do turno PL2 (Laboratório de Algoritmia), composto por:
 ### Semana 2 (guião 6):
 #### Contribuições do Alef:
 1. Iniciei o processo de documentação com o Doxygen.
-   1. Criei o grupo Camada de dados e adicionei os subgrupos "modificar dados" e "accesar dados".
+   1. Criei o grupo "Camada de dados" e adicionei os subgrupos "modificar dados" e "accesar dados".
    1. Coloquei as funções de modificar_estado no grupo "Camada de dados" e adicionei breve descrições para cada uma.
 1. Implementei o comando Q.
 1. Implementei o comando ler.
