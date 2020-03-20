@@ -32,10 +32,17 @@ Grupo 01 do turno PL2 (Laboratório de Algoritmia), composto por:
  
 ### Semana 2 (guião 6):
 #### Contribuições do Alef:
-1. Iniciei o processo de documentação com o Doxygen.
+ * Iniciei o processo de documentação com o Doxygen.
    1. Criei o grupo "Camada de dados" e adicionei os subgrupos "modificar dados" e "accesar dados".
    1. Coloquei as funções de modificar_estado no grupo "Camada de dados" e adicionei breve descrições para cada uma.
-1. Implementei o comando Q.
-1. Implementei o comando ler.
-1. Implementei o comando gr.
-1. Implementei o comando movs.
+ * Implementei o comando Q.
+ * Implementei o comando ler.
+ * Implementei o comando gr.
+ * Implementei o comando movs.
+
+#### Contribuições do Pedro:
+ * *Validação da jogada*: Criação da função *jogada_valida* no módulo "logica", que consiste verificar se a casa escolhida está vazia e se é adjacente à casa da última jogada.
+ * *Deteção do fim de jogo*: Criação da função *fim_de_jogo* no módulo "logica", que verifica se a peça branca encontra-se na casa final de um dos jogadores ou numa casa onde não há nenhuma casa adjacente vazia. A função é chamada antes do interpretador imprimir o prompt e ficar à espera do comando.
+ * *Implementação do prompt*: Função *prompt*, no módulo "interface".
+ 
+**Nota:** também foram adicionadas, por ambos integrantes, funções que acessam as informações contidas no estado e que serão usadas por todo o programa. Tais funções se encontram no módulo "acessar_estado".
