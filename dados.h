@@ -1,3 +1,9 @@
+/// @defgroup groupAlpha Camada de dados
+/// @defgroup subAlpha1 Modificar dados
+/// @ingroup groupAlpha
+/// @defgroup subAlpha2 Acessar dados
+/// @ingroup groupAlpha
+
 #ifndef DADOS_H_
 #define DADOS_H_
 
