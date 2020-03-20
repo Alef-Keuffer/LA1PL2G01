@@ -1,0 +1,32 @@
+\hypertarget{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md1}{}\doxysection{Identificação dos criadores}\label{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md1}
+\hypertarget{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md2}{}\doxysubsection{Alunos da Universidade do Minho\+:}\label{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md2}
+Grupo 01 do turno P\+L2 (Laboratório de Algoritmia), composto por\+:
+\begin{DoxyItemize}
+\item Alef Pinto Keuffer -\/ A91683
+\item Pedro Paulo Costa Pereira -\/ A88062
+\end{DoxyItemize}\hypertarget{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md3}{}\doxysection{Objetivo}\label{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md3}
+Pretende-\/se implementar o jogo Rastros. Para descobrir as regras do jogo, clique \href{http://ludicum.org/jogos/abstr/rastros/ludus-jogos-rastros.pdf/view}{\texttt{ aqui}}. O seu programa deverá permitir que dois jogadores, partilhando o mesmo teclado, o possam jogar. Os comandos deverão ser introduzidos através de um interpretador de comandos.\hypertarget{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md4}{}\doxysection{Estruturação do programa}\label{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md4}
+\hypertarget{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md5}{}\doxysubsection{Camada de dados}\label{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md5}
+
+\begin{DoxyItemize}
+\item acessar\+\_\+estado
+\item dados
+\item modificar\+\_\+estado 
+\end{DoxyItemize}\hypertarget{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md6}{}\doxysubsection{Lógica do programa}\label{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md6}
+
+\begin{DoxyItemize}
+\item io
+\item logica 
+\end{DoxyItemize}\hypertarget{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md7}{}\doxysubsection{Camada de interface}\label{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md7}
+
+\begin{DoxyItemize}
+\item interface
+\end{DoxyItemize}\hypertarget{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md8}{}\doxysection{Progresso por semanas}\label{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md8}
+\hypertarget{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md9}{}\doxysubsection{Semana 1 (guião 5)\+:}\label{md__c_1__users_alefk__documents__l_a1_p_l2_g1__r_e_a_d_m_e_autotoc_md9}
+
+\begin{DoxyItemize}
+\item {\itshape Criação dos módulos}\+: A princípio, foram criados 4 módulos\+: 1 para a camada de dados, 2 para a lógica do programa e 1 para a camada de interface. Decidiu-\/se dividir a lógica do programa em dois módulos para se ter uma melhor ideia de quais funções modificam o estado.
+\item {\itshape Inicializar o estado do jogo}\+: Tal função se encontra no módulo \char`\"{}dados\char`\"{}. Num estado inicial, temos que o jogador 1 é o atual jogador; o número de jogadas é igual a zero; a peça branca se encontra na casa de coordenada e5 e todas as outras casas estão vazias. Como forma de facilitar o processo, inicializou-\/se, também, a última jogada como e5. {\bfseries{Nota\+:}} houve dificuldade em utilizar o {\itshape typedef enum} para enumerar o estado de cada casa, por isso definiu-\/se {\itshape B\+R\+A\+N\+CA}, {\itshape P\+R\+E\+TA} e {\itshape V\+A\+Z\+IA} como valores inteiros (utilizando $\ast$\#define B\+R\+A\+N\+CA 1$\ast$, por exemplo).
+\item {\itshape Colocar uma peça branca na casa jogada}\+: Tal função se encontra no módulo \char`\"{}modificar\+\_\+estado\char`\"{} ({\itshape void \mbox{\hyperlink{group__group1_ga4069ee1a3c9975d368b648b5fbff1c5c}{atualizar\+\_\+tab(\+E\+S\+T\+A\+D\+O $\ast$e, C\+O\+O\+R\+D\+E\+N\+A\+D\+A c)}}}). Consiste simplesmente em mudar o estado da casa no array e-\/$>$tab. Foi definida de forma que, assumindo que a última jogada já tenha sido atualizada, a peça preta é colocada no lugar da casa branca. Falta validar a jogada.
+\item {\itshape Mostrar o tabuleiro com a jogada efetuada}\+: Tal função se encontra no módulo \char`\"{}interface\char`\"{}. A função imprime o atual estado do tabuleiro (usando o array e-\/$>$tab), por meio de um ciclo que verifica o estado de cada casa e imprime o char desejado para cada estado. 
+\end{DoxyItemize}
