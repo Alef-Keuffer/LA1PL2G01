@@ -36,7 +36,7 @@ int interpretador(ESTADO *e, int num_comandos){
     }
     if(strlen(linha) == 2 && sscanf(linha, "%[Q]", col) == 1) exit(0);
     if(sscanf(linha, "%*[g]%*[r] %s", filename) == 1) gr(e, filename);
-    if(sscanf(linha, "%*[l]%*[e]%*[r] %s", filename) == 1) ler(filename);
+    if(sscanf(linha, "%*[l]%*[e]%*[r] %s", filename) == 1) ler(e, filename);
     if(strlen(linha) == 5 && sscanf(linha, "%*[m]%*[o]%*[v]%*[s]%c", command) == 1) movs(e);
     num_comandos++;
     return interpretador(e, num_comandos);
