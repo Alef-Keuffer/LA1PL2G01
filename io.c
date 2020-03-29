@@ -1,8 +1,7 @@
+#include <stdio.h>
 #include "dados.h"
 #include "acessar_estado.h"
-#include <stdio.h>
-#include "logica.h"
-#include "interface.h"
+#include "modificar_estado.h"
 
 void gr (ESTADO *e, char *file_path) {
     FILE * fPtr;
@@ -26,23 +25,31 @@ void gr (ESTADO *e, char *file_path) {
     fclose(fPtr);
 }
 
-void ler(char *filename){
+void ler(ESTADO *e, char *filename){
     FILE* file = fopen(filename, "r");
-    char line[256];
-    int i, num_comandos = 0;
-    ESTADO *e = inicializar_estado();
+    char line[256], jog1[256], jog2[256];
+    int i, num_jog, jogadas = 0;
 
-    for (i=0; fgets(line, sizeof(line), file); i++)
-        if (i>=9  &&  line[6] != '\n') {
-            COORDENADA coord1 = {line[4] - 'a', line[5] - '1'};
-            COORDENADA coord2 = {line[7] - 'a', line[8] - '1'};
-            jogar(e, coord1);
-            jogar(e, coord2);
+    for (i=0; fgets(line, sizeof(line), file); i++){
+        if (i < 8) {
+            armazenar_linha(e, i, line);
         }
-        else if (i>=9){
-            COORDENADA coord1 = {line[4] - 'a', line[5] - '1'};
-            jogar(e, coord1);
+        else if (i>=8  &&  sscanf(line, "%d: %s %s", &num_jog, jog1, jog2) == 3) {
+            COORDENADA c1 = {jog1[0] - 'a', jog1[1] - '1'};
+            COORDENADA c2 = {jog2[0] - 'a', jog2[1] - '1'};
+            JOGADA j = {c1, c2};
+            armazenar_jogada(e, j, num_jog);
+            jogadas += 2;
         }
+        else if (i>=8 && sscanf(line, "%d: %s %s", &num_jog, jog1, jog2) == 2){
+            COORDENADA c1 = {jog1[0] - 'a', jog1[1] - '1'};
+            COORDENADA c2 = {-1, 1};
+            JOGADA j = {c1, c2};
+            armazenar_jogada(e, j, num_jog);
+            jogadas++;
+            armazenar_ultima_jogada(e, c1);
+        }
+    }
+    armazenar_jogador(e, jogadas);
     fclose(file);
-    interpretador(e, num_comandos);
 }
