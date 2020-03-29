@@ -1,7 +1,7 @@
-#include "dados.h"
-
 #ifndef MODIFICAR_ESTADO_H
 #define MODIFICAR_ESTADO_H
+
+#include "dados.h"
 
 /// Coloca a peça branca na casa jogada e preta na posição anterior.
 /// \ingroup subAlpha1
@@ -35,5 +35,10 @@ void atualizar_jogador_atual(ESTADO *e);
 /// \param e é o estado do tabuleiro.
 /// \param c é a coordenada do movimento realizado.
 void atualizar_jogadas (ESTADO *e, COORDENADA c);
+
+void armazenar_linha(ESTADO *e, int linha, const char *line);
+void armazenar_jogada(ESTADO *e, JOGADA jog, int num_jog);
+void armazenar_jogador(ESTADO *e, int num_jogadas);
+void armazenar_ultima_jogada(ESTADO *e, COORDENADA c);
 
 #endif //MODIFICAR_ESTADO_H
