@@ -10,9 +10,7 @@ void gr (ESTADO *e, char *file_path) {
         for (int col = 0; col < 8; col++)
             if (row == 7 && col == 7) fprintf(fPtr, "2");
             else if (row == 0 && col == 0) fprintf(fPtr, "1");
-            else if (obter_casa(e, row, col) == VAZIO) putc('.', fPtr);
-            else if (obter_casa(e, row, col) == PRETA) putc('#', fPtr);
-            else if (obter_casa(e, row, col) == BRANCA) putc('*', fPtr);
+            else putc(obter_casa(e, row, col), fPtr);
         putc('\n', fPtr);
     }
     putc('\n', fPtr);
