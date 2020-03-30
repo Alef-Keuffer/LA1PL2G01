@@ -11,7 +11,7 @@ void mostrar_tabuleiro(ESTADO *e); void movs(ESTADO *e);
 
 void prompt(ESTADO *e, int num_comandos){
     int num = NumJogadas(e), jog = JogadorAtual(e);
-    printf("# %02d PL%d (%d)> ", num_comandos, jog, num);
+    printf("# %02d PL%d (%d)>", num_comandos, jog, num);
 }
 
 int interpretador(ESTADO *e, int num_comandos){
