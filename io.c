@@ -27,6 +27,7 @@ void ler(ESTADO *e, char *filename){
     FILE* file = fopen(filename, "r");
     char line[256], jog1[256], jog2[256];
     int i, num_jog, jogadas = 0;
+    COORDENADA c;
 
     for (i=0; fgets(line, sizeof(line), file); i++){
         if (i < 8) {
@@ -36,18 +37,22 @@ void ler(ESTADO *e, char *filename){
             COORDENADA c1 = {jog1[0] - 'a', jog1[1] - '1'};
             COORDENADA c2 = {jog2[0] - 'a', jog2[1] - '1'};
             JOGADA j = {c1, c2};
-            armazenar_jogada(e, j, num_jog);
+            armazenar_jogada(e, j, num_jog - 1);
             jogadas += 2;
+            armazenar_num_jogadas(e, num_jog);
+            c = c2;
         }
         else if (i>=8 && sscanf(line, "%d: %s %s", &num_jog, jog1, jog2) == 2){
             COORDENADA c1 = {jog1[0] - 'a', jog1[1] - '1'};
             COORDENADA c2 = {-1, 1};
             JOGADA j = {c1, c2};
-            armazenar_jogada(e, j, num_jog);
+            armazenar_jogada(e, j, num_jog - 1);
             jogadas++;
-            armazenar_ultima_jogada(e, c1);
+            armazenar_num_jogadas(e, num_jog - 1);
+            c = c1;
         }
     }
     armazenar_jogador(e, jogadas);
+    atualizar_ultima_jogada(e, c);
     fclose(file);
 }
