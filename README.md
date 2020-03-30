@@ -49,5 +49,7 @@ Grupo 01 do turno PL2 (Laboratório de Algoritmia), composto por:
 
 ### Semana 3 (guião 7):
 Como já se tinha o comando movs a funcionar e os comando gr já estava completo, nesta semana trabalhou-se em otimizar o comando ler.
+
 Na definição da função ler, ignorava-se o tabuleiro dos ficheiros e faziam-se jogadas com as coordenadas dispostas a partir de um estado novo, que tinha acabado de ser inicializado. Esta definição não era muito eficiente, pois para cada vez que o comando ler era chamado, alocava-se um novo espaço na memória.
+
 Criou-se, então, a nova definição dessa função, que lê e armazena no tabuleiro as 8 primeiras linhas do ficheiro e depois faz as atualizações necessárias para que o jogo continue (i.e., último jogador, número de jogadas, jogadas).
