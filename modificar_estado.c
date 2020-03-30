@@ -35,6 +35,6 @@ void armazenar_jogador(ESTADO *e, int num_jogadas){
     else (*e).jogador_atual = 2;
 }
 
-void armazenar_ultima_jogada(ESTADO *e, COORDENADA c){
-    (*e).ultima_jogada = c;
+void armazenar_num_jogadas(ESTADO *e, int num){
+    (*e).num_jogadas = num;
 }
