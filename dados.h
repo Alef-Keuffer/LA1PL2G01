@@ -11,6 +11,8 @@
 #define LINHA 133
 
 typedef enum{
+    UM = '1',
+    DOIS = '2',
     VAZIO = '.',
     BRANCA = '*',
     PRETA = '#'
