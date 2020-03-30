@@ -45,16 +45,16 @@ int interpretador(ESTADO *e, int num_comandos){
 void mostrar_tabuleiro(ESTADO *e) {
     for (int row = 7; row >=0; row--) {
         for (int col = 0; col < 8; col++)
-            if (row == 7 && col == 7) putchar('2');
-            else if (row == 0 && col == 0) putchar('1');
-            else putchar(obter_casa(e, row, col));
+            putchar(obter_casa(e, row, col));
         putchar('\n');
     }
 }
 
 void movs (ESTADO *e) {
     int a, i;
-    if (JogadorAtual(e) == 1) for (a=0, i=1; a<NumJogadas(e); i++, a++) printf("%02d: %c%c %c%c\n", i, obter_subcoordenadas(e, a, 1, COLUNA) +'a', obter_subcoordenadas(e, a, 1, LINHA) +'1', obter_subcoordenadas(e, a, 2, COLUNA) + 'a', obter_subcoordenadas(e, a, 2, LINHA) + '1');
+    if (JogadorAtual(e) == 1)
+        for (a=0, i=1; a<NumJogadas(e); i++, a++)
+            printf("%02d: %c%c %c%c\n", i, obter_subcoordenadas(e, a, 1, COLUNA) +'a', obter_subcoordenadas(e, a, 1, LINHA) +'1', obter_subcoordenadas(e, a, 2, COLUNA) + 'a', obter_subcoordenadas(e, a, 2, LINHA) + '1');
     else{
         for (a=0, i=1; a<NumJogadas(e); i++, a++)  printf("%02d: %c%c %c%c\n", i, obter_subcoordenadas(e, a, 1, COLUNA) +'a', obter_subcoordenadas(e, a, 1, LINHA) +'1', obter_subcoordenadas(e, a, 2, COLUNA) + 'a', obter_subcoordenadas(e, a, 2, LINHA) + '1');
         printf ("%02d: %c%c\n", i, obter_subcoordenadas(e, a, 1, COLUNA) +'a', obter_subcoordenadas(e, a, 1, LINHA) +'1');
