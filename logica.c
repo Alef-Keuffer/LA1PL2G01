@@ -33,7 +33,7 @@ int fim_de_jogo(ESTADO *e){
 
     for(i = -1; i < 2; i++){
         for(j = -1; j < 2; j++){
-            if(obter_casa(e, c.linha + i, c.coluna + j) == VAZIO) num_vazias++;
+            if(c.linha + i >= 0 && c.linha + i <= 7 && c.coluna + j >= 0 && c.coluna + j <= 7 && obter_casa(e, c.linha + i, c.coluna + j) == VAZIO) num_vazias++;
         }
     }
 
