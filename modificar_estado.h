@@ -36,9 +36,34 @@ void atualizar_jogador_atual(ESTADO *e);
 /// \param c é a coordenada do movimento realizado.
 void atualizar_jogadas (ESTADO *e, COORDENADA c);
 
+/// Atualiza o tabuleiro por linhas.
+/// \ingroup subAlpha1
+/// Após o comando ler ser invocado, as casas do tabuleiro são alteradas por linhas.
+/// \param e é o estado do tabuleiro.
+/// \param linha é o número da linha.
+/// \param line é a linha lida do ficheiro.
 void armazenar_linha(ESTADO *e, int linha, const char *line);
+
+/// Armazena jogadas na lista de jogadas.
+/// \ingroup subAlpha1
+/// Após o comando ler ser invocado, as jogadas lidas são armazenadas na lista de jogadas.
+/// \param e é o estado do tabuleiro.
+/// \param jog é a jogada lida.
+/// \param num_jog é o número da jogada.
 void armazenar_jogada(ESTADO *e, JOGADA jog, int num_jog);
+
+/// Armazena o último jogador.
+/// \ingroup subAlpha1
+/// Após o comando ler ser invocado, o último jogador é armazenado conforme com o que foi lido.
+/// \param e é o estado do tabuleiro.
+/// \param num_jogadas é o número de jogadas.
 void armazenar_jogador(ESTADO *e, int num_jogadas);
-void armazenar_ultima_jogada(ESTADO *e, COORDENADA c);
+
+/// Armazena o número de jogadas.
+/// \ingroup subAlpha1
+/// Após o comando ler ser invocado, o número de jogadas lido é armazenado.
+/// \param e é o estado do tabuleiro.
+/// \param num é o número da jogada.
+void armazenar_num_jogadas(ESTADO *e, int num);
 
 #endif //MODIFICAR_ESTADO_H
