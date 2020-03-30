@@ -1,6 +1,6 @@
-#include <stdio.h>
 #include "dados.h"
 #include "acessar_estado.h"
+#include <stdio.h>
 #include "modificar_estado.h"
 
 void gr (ESTADO *e, char *file_path) {
@@ -8,9 +8,7 @@ void gr (ESTADO *e, char *file_path) {
     fPtr = fopen(file_path, "w");
     for (int row = 7; row >=0; row--) {
         for (int col = 0; col < 8; col++)
-            if (row == 7 && col == 7) fprintf(fPtr, "2");
-            else if (row == 0 && col == 0) fprintf(fPtr, "1");
-            else putc(obter_casa(e, row, col), fPtr);
+            putc(obter_casa(e, row, col), fPtr);
         putc('\n', fPtr);
     }
     putc('\n', fPtr);
