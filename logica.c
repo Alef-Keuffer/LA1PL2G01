@@ -6,6 +6,7 @@
 
 // Função que deve ser completada e colocada na camada da lógica do programa
 int jogar(ESTADO *e, COORDENADA c) {
+    printf("jogar %c %d\n", c.coluna+'a', c.linha+1);
     atualizar_tab(e, c);
     atualizar_ultima_jogada(e, c);
     atualizar_jogadas(e, c);
@@ -20,8 +21,7 @@ int jogada_valida(ESTADO *e, COORDENADA c){
     int difLinha = abs(c.linha - ultJog.linha);
     int difColuna = abs(c.coluna - ultJog.coluna);
 
-    if(casa == VAZIO && (difLinha == 0 || difLinha == 1) && (difColuna == 0 || difColuna == 1)) res = 1;
-    else res = 0;
+    res = (casa != PRETA && casa != BRANCA && (difLinha == 0 || difLinha == 1) && (difColuna == 0 || difColuna == 1));
 
     return res;
 }
@@ -33,7 +33,7 @@ int fim_de_jogo(ESTADO *e){
 
     for(i = -1; i < 2; i++){
         for(j = -1; j < 2; j++){
-            if(c.linha + i >= 0 && c.linha + i <= 7 && c.coluna + j >= 0 && c.coluna + j <= 7 && obter_casa(e, c.linha + i, c.coluna + j) == VAZIO) num_vazias++;
+            if(c.linha + i >= 0 && c.linha + i <= 7 && c.coluna + j >= 0 && c.coluna + j <= 7 && obter_casa(e, c.linha + i, c.coluna + j) != PRETA && obter_casa(e, c.linha + i, c.coluna + j) != BRANCA) num_vazias++;
         }
     }
 
