@@ -1,3 +1,4 @@
+#include "acessar_estado.h"
 #include "dados.h"
 
 int obter_casa (ESTADO *e, int row, int col) {
@@ -23,4 +24,11 @@ int NumJogadas(ESTADO *e){
 
 COORDENADA obter_ultimajogada(ESTADO *e){
     return e->ultima_jogada;
+}
+
+COORDENADA obter_coordenada(ESTADO *e, int jogada, int jogador){
+    COORDENADA c;
+    if(jogador == 1) c = (*e).jogadas[jogada].jogador1;
+    else c = (*e).jogadas[jogada].jogador2;
+    return c;
 }
