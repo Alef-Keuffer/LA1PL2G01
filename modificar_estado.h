@@ -66,4 +66,7 @@ void armazenar_jogador(ESTADO *e, int num_jogadas);
 /// \param num é o número da jogada.
 void armazenar_num_jogadas(ESTADO *e, int num);
 
+void limpar_casas(ESTADO *e, int num);
+void colocar_branca(ESTADO *e, COORDENADA c);
+
 #endif //MODIFICAR_ESTADO_H
