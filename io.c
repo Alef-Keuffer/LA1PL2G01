@@ -48,7 +48,7 @@ void ler(ESTADO *e, char *filename){
             c = c1;
         }
     }
-    armazenar_num_jogadas(e, jogadas);
+    novo_num_jogadas(e, jogadas);
     armazenar_jogador(e, jogadas);
     atualizar_ultima_jogada(e, c);
     fclose(file);
