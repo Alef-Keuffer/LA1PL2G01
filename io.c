@@ -25,7 +25,7 @@ void ler(ESTADO *e, char *filename){
     FILE* file = fopen(filename, "r");
     char line[256], jog1[256], jog2[256];
     int i, num_jog, jogadas = 0;
-    COORDENADA c;
+    COORDENADA c = {4,4};
 
     for (i=0; fgets(line, sizeof(line), file); i++){
         if (i < 8) {
