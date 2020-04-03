@@ -36,7 +36,7 @@ void armazenar_jogador(ESTADO *e, int num_jogadas){
 }
 
 void armazenar_num_jogadas(ESTADO *e, int num){
-    (*e).num_jogadas = num;
+    (*e).num_jogadas = num/2;
 }
 
 void limpar_casas(ESTADO *e, int num) {
