@@ -48,7 +48,7 @@ void pos(ESTADO *e, int position){
     int num = NumJogadas(e);
     int i, jog, ultimo = 2;
     COORDENADA ultjogada;
-    for(i = position; i < num; i++)
+    for(i = position; i <= num; i++)
         limpar_casas(e, i);
     if(position == NumJogadas(e) - 1 && JogadorAtual(e) == 2) ultimo = 1;
     ultjogada = obter_coordenada(e, position - 1, ultimo);
