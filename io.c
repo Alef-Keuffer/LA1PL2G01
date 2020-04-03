@@ -37,7 +37,6 @@ void ler(ESTADO *e, char *filename){
             JOGADA j = {c1, c2};
             armazenar_jogada(e, j, num_jog - 1);
             jogadas += 2;
-            armazenar_num_jogadas(e, num_jog);
             c = c2;
         }
         else if (i>=8 && sscanf(line, "%d: %s %s", &num_jog, jog1, jog2) == 2){
@@ -46,10 +45,10 @@ void ler(ESTADO *e, char *filename){
             JOGADA j = {c1, c2};
             armazenar_jogada(e, j, num_jog - 1);
             jogadas++;
-            armazenar_num_jogadas(e, num_jog - 1);
             c = c1;
         }
     }
+    armazenar_num_jogadas(e, jogadas);
     armazenar_jogador(e, jogadas);
     atualizar_ultima_jogada(e, c);
     fclose(file);
