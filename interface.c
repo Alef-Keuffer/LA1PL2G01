@@ -10,13 +10,14 @@
 void mostrar_tabuleiro(ESTADO *e); void movs(ESTADO *e);
 
 void prompt(ESTADO *e, int num_comandos){
-    int num = NumJogadas(e), jog = JogadorAtual(e);
+    int num = NumJogadas(e) + 1, jog = JogadorAtual(e);
     printf("# %02d PL%d (%d)>", num_comandos, jog, num);
 }
 
 int interpretador(ESTADO *e, int num_comandos){
     char linha[BUF_SIZE], filename[BUF_SIZE], command[5];
     char col[2], lin[2];
+    int position;
 
     if(fim_de_jogo(e)) printf("Fim de jogo! O jogador %d venceu.\n", fim_de_jogo(e));
     prompt(e, num_comandos);
@@ -38,6 +39,7 @@ int interpretador(ESTADO *e, int num_comandos){
     if(sscanf(linha, "%*[g]%*[r] %s", filename) == 1) gr(e, filename);
     if(sscanf(linha, "%*[l]%*[e]%*[r] %s", filename) == 1) ler(e, filename);
     if(strlen(linha) == 5 && sscanf(linha, "%*[m]%*[o]%*[v]%*[s]%c", command) == 1) movs(e);
+    if(sscanf(linha, "%*[p]%*[o]%*[s] %d", &position) == 1) pos(e, position);
     num_comandos++;
     return interpretador(e, num_comandos);
 }
