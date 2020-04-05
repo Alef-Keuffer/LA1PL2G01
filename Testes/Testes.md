@@ -30,7 +30,7 @@ Atualizado em 03/04/2020
 
 _A Screenshot apresenta o comando gr que guarda o jogo e o comando ler que retorna o jogo guardado._
 
-<img src="https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Comando%20gr:ler.png" width="351" height=640px>
+<img src="https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Comando%20gr_ler.png" width="351" height=640px>
 
 
 ## Teste Comando _Q_ (quit/exit):
