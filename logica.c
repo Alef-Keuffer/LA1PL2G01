@@ -4,9 +4,11 @@
 #include "dados.h"
 #include "acessar_estado.h"
 #include "interface.h"
+#include "io.h"
 
 // Função que deve ser completada e colocada na camada da lógica do programa
 int jogar(ESTADO *e, COORDENADA c) {
+    printf("jogar %c %d\n", c.coluna+'a', c.linha+1);
     atualizar_tab(e, c);
     atualizar_ultima_jogada(e, c);
     atualizar_jogadas(e, c);
@@ -44,17 +46,24 @@ int fim_de_jogo(ESTADO *e){
     return res;
 }
 
-void pos(ESTADO *e, int position){
-    int num = NumJogadas(e);
-    int i, jog, ultimo = 2;
+void pos(ESTADO *e, int position, int state){
+    int num;
+    int i, ultimo = 2;
     COORDENADA ultjogada;
-    for(i = position; i <= num; i++)
-        limpar_casas(e, i);
-    if(position == NumJogadas(e) - 1 && JogadorAtual(e) == 2) ultimo = 1;
+
+    if(state == 0) gr(e, "ficheiropos");
+    else ler(e, "ficheiropos");
+
+    num = NumJogadas(e);
+    for(i = position; i <= num; i++){
+        if(i < num || JogadorAtual(e) == 2) limpar_casas(e, i);
+    }
+    if(position == NumJogadas(e) + 1 && JogadorAtual(e) == 2) ultimo = 1;
     ultjogada = obter_coordenada(e, position - 1, ultimo);
     colocar_branca(e, ultjogada);
     atualizar_ultima_jogada(e, ultjogada);
     armazenar_jogador(e, ultimo);
-    armazenar_num_jogadas(e, position);
+    if(JogadorAtual(e) == 1) armazenar_num_jogadas(e, position);
+    else armazenar_num_jogadas(e, position - 1);
     mostrar_tabuleiro(e);
 }
