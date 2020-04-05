@@ -41,7 +41,7 @@ void armazenar_num_jogadas(ESTADO *e, int num){
 
 void limpar_casas(ESTADO *e, int num) {
     (*e).tab[(*e).jogadas[num].jogador1.linha][(*e).jogadas[num].jogador1.coluna] = VAZIO;
-    if(num != (*e).num_jogadas)
+    if(num != (*e).num_jogadas || (*e).jogador_atual == 1)
         (*e).tab[(*e).jogadas[num].jogador2.linha][(*e).jogadas[num].jogador2.coluna] = VAZIO;
 }
 
