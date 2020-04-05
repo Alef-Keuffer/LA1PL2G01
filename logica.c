@@ -8,6 +8,7 @@
 
 // Função que deve ser completada e colocada na camada da lógica do programa
 int jogar(ESTADO *e, COORDENADA c) {
+    printf("jogar %c %d\n", c.coluna+'a', c.linha+1);
     atualizar_tab(e, c);
     atualizar_ultima_jogada(e, c);
     atualizar_jogadas(e, c);
@@ -58,7 +59,10 @@ void pos(ESTADO *e, int position, int state){
         if(i < num || JogadorAtual(e) == 2) limpar_casas(e, i);
     }
     if(position == NumJogadas(e) + 1 && JogadorAtual(e) == 2) ultimo = 1;
-    ultjogada = obter_coordenada(e, position - 1, ultimo);
+
+    if(position == 0) ultjogada.linha = ultjogada.coluna = 4;
+    else ultjogada = obter_coordenada(e, position - 1, ultimo);
+    
     colocar_branca(e, ultjogada);
     atualizar_ultima_jogada(e, ultjogada);
     armazenar_jogador(e, ultimo);
