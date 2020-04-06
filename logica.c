@@ -3,6 +3,8 @@
 #include "modificar_estado.h"
 #include "dados.h"
 #include "acessar_estado.h"
+#include "interface.h"
+#include "io.h"
 
 // Função que deve ser completada e colocada na camada da lógica do programa
 int jogar(ESTADO *e, COORDENADA c) {
@@ -41,4 +43,29 @@ int fim_de_jogo(ESTADO *e){
     else res = 0;
 
     return res;
+}
+
+void pos(ESTADO *e, int position, int state){
+    int num;
+    int i, ultimo = 2;
+    COORDENADA ultjogada;
+
+    if(state == 0) gr(e, "ficheiropos");
+    else ler(e, "ficheiropos");
+
+    num = NumJogadas(e);
+    for(i = position; i <= num; i++){
+        if(i < num || JogadorAtual(e) == 2) limpar_casas(e, i);
+    }
+    if(position == NumJogadas(e) + 1 && JogadorAtual(e) == 2) ultimo = 1;
+
+    if(position == 0) ultjogada.linha = ultjogada.coluna = 4;
+    else ultjogada = obter_coordenada(e, position - 1, ultimo);
+    
+    colocar_branca(e, ultjogada);
+    atualizar_ultima_jogada(e, ultjogada);
+    armazenar_jogador(e, ultimo);
+    if(JogadorAtual(e) == 1) armazenar_num_jogadas(e, position);
+    else armazenar_num_jogadas(e, position - 1);
+    mostrar_tabuleiro(e);
 }

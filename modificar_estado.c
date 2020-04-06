@@ -38,3 +38,17 @@ void armazenar_jogador(ESTADO *e, int num_jogadas){
 void armazenar_num_jogadas(ESTADO *e, int num){
     (*e).num_jogadas = num;
 }
+
+void limpar_casas(ESTADO *e, int num) {
+    (*e).tab[(*e).jogadas[num].jogador1.linha][(*e).jogadas[num].jogador1.coluna] = VAZIO;
+    if(num != (*e).num_jogadas || (*e).jogador_atual == 1)
+        (*e).tab[(*e).jogadas[num].jogador2.linha][(*e).jogadas[num].jogador2.coluna] = VAZIO;
+}
+
+void colocar_branca(ESTADO *e, COORDENADA c){
+    (*e).tab[c.linha][c.coluna] = BRANCA;
+}
+
+void novo_num_jogadas(ESTADO *e, int num){
+    (*e).num_jogadas = num/2;
+}
