@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "dados.h"
-#include "logica.h"
-#include "acessar_estado.h"
-#include "io.h"
+#include "Camadas/dados/dados.h"
+#include "Camadas/logica/logica.h"
+#include "Camadas/dados/acessar_estado.h"
+#include "Camadas/logica/io.h"
 
 #define BUF_SIZE 1024
 void mostrar_tabuleiro(ESTADO *e); void movs(ESTADO *e);

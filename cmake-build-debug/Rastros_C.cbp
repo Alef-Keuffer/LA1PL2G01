@@ -90,55 +90,55 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/dados/acessar_estado.c">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/dados/acessar_estado.h">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/dados/dados.c">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/dados/dados.h">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/dados/modificar_estado.c">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/dados/modificar_estado.h">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/interface/interface.c">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/interface/interface.h">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/logica/io.c">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/logica/io.h">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/logica/logica.c">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/logica/logica.h">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/testes/test_simple_commands.c">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/testes/test_simple_commands.h">
+			<Option target="Rastros_C"/>
+		</Unit>
 		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/LICENSE">
 			<Option target="Rastros_C"/>
 		</Unit>
 		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/README.md">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Testes/test_simple_commands.c">
-			<Option target="Rastros_C"/>
-		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Testes/test_simple_commands.h">
-			<Option target="Rastros_C"/>
-		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/acessar_estado.c">
-			<Option target="Rastros_C"/>
-		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/acessar_estado.h">
-			<Option target="Rastros_C"/>
-		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/dados.c">
-			<Option target="Rastros_C"/>
-		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/dados.h">
-			<Option target="Rastros_C"/>
-		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/interface.c">
-			<Option target="Rastros_C"/>
-		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/interface.h">
-			<Option target="Rastros_C"/>
-		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/io.c">
-			<Option target="Rastros_C"/>
-		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/io.h">
-			<Option target="Rastros_C"/>
-		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/logica.c">
-			<Option target="Rastros_C"/>
-		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/logica.h">
-			<Option target="Rastros_C"/>
-		</Unit>
 		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/main.c">
-			<Option target="Rastros_C"/>
-		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/modificar_estado.c">
-			<Option target="Rastros_C"/>
-		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/modificar_estado.h">
 			<Option target="Rastros_C"/>
 		</Unit>
 		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/CMakeLists.txt">

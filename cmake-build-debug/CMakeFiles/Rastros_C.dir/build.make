@@ -56,52 +56,108 @@ include CMakeFiles/Rastros_C.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Rastros_C.dir/flags.make
 
-CMakeFiles/Rastros_C.dir/dados.c.obj: CMakeFiles/Rastros_C.dir/flags.make
-CMakeFiles/Rastros_C.dir/dados.c.obj: CMakeFiles/Rastros_C.dir/includes_C.rsp
-CMakeFiles/Rastros_C.dir/dados.c.obj: ../dados.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Rastros_C.dir/dados.c.obj"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Rastros_C.dir\dados.c.obj   -c C:\Users\alefk\Documents\LA1PL2G1\dados.c
+CMakeFiles/Rastros_C.dir/Camadas/dados/dados.c.obj: CMakeFiles/Rastros_C.dir/flags.make
+CMakeFiles/Rastros_C.dir/Camadas/dados/dados.c.obj: CMakeFiles/Rastros_C.dir/includes_C.rsp
+CMakeFiles/Rastros_C.dir/Camadas/dados/dados.c.obj: ../Camadas/dados/dados.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Rastros_C.dir/Camadas/dados/dados.c.obj"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Rastros_C.dir\Camadas\dados\dados.c.obj   -c C:\Users\alefk\Documents\LA1PL2G1\Camadas\dados\dados.c
 
-CMakeFiles/Rastros_C.dir/dados.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Rastros_C.dir/dados.c.i"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\alefk\Documents\LA1PL2G1\dados.c > CMakeFiles\Rastros_C.dir\dados.c.i
+CMakeFiles/Rastros_C.dir/Camadas/dados/dados.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Rastros_C.dir/Camadas/dados/dados.c.i"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\alefk\Documents\LA1PL2G1\Camadas\dados\dados.c > CMakeFiles\Rastros_C.dir\Camadas\dados\dados.c.i
 
-CMakeFiles/Rastros_C.dir/dados.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Rastros_C.dir/dados.c.s"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\alefk\Documents\LA1PL2G1\dados.c -o CMakeFiles\Rastros_C.dir\dados.c.s
+CMakeFiles/Rastros_C.dir/Camadas/dados/dados.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Rastros_C.dir/Camadas/dados/dados.c.s"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\alefk\Documents\LA1PL2G1\Camadas\dados\dados.c -o CMakeFiles\Rastros_C.dir\Camadas\dados\dados.c.s
 
-CMakeFiles/Rastros_C.dir/interface.c.obj: CMakeFiles/Rastros_C.dir/flags.make
-CMakeFiles/Rastros_C.dir/interface.c.obj: CMakeFiles/Rastros_C.dir/includes_C.rsp
-CMakeFiles/Rastros_C.dir/interface.c.obj: ../interface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Rastros_C.dir/interface.c.obj"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Rastros_C.dir\interface.c.obj   -c C:\Users\alefk\Documents\LA1PL2G1\interface.c
+CMakeFiles/Rastros_C.dir/Camadas/dados/modificar_estado.c.obj: CMakeFiles/Rastros_C.dir/flags.make
+CMakeFiles/Rastros_C.dir/Camadas/dados/modificar_estado.c.obj: CMakeFiles/Rastros_C.dir/includes_C.rsp
+CMakeFiles/Rastros_C.dir/Camadas/dados/modificar_estado.c.obj: ../Camadas/dados/modificar_estado.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Rastros_C.dir/Camadas/dados/modificar_estado.c.obj"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Rastros_C.dir\Camadas\dados\modificar_estado.c.obj   -c C:\Users\alefk\Documents\LA1PL2G1\Camadas\dados\modificar_estado.c
 
-CMakeFiles/Rastros_C.dir/interface.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Rastros_C.dir/interface.c.i"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\alefk\Documents\LA1PL2G1\interface.c > CMakeFiles\Rastros_C.dir\interface.c.i
+CMakeFiles/Rastros_C.dir/Camadas/dados/modificar_estado.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Rastros_C.dir/Camadas/dados/modificar_estado.c.i"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\alefk\Documents\LA1PL2G1\Camadas\dados\modificar_estado.c > CMakeFiles\Rastros_C.dir\Camadas\dados\modificar_estado.c.i
 
-CMakeFiles/Rastros_C.dir/interface.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Rastros_C.dir/interface.c.s"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\alefk\Documents\LA1PL2G1\interface.c -o CMakeFiles\Rastros_C.dir\interface.c.s
+CMakeFiles/Rastros_C.dir/Camadas/dados/modificar_estado.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Rastros_C.dir/Camadas/dados/modificar_estado.c.s"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\alefk\Documents\LA1PL2G1\Camadas\dados\modificar_estado.c -o CMakeFiles\Rastros_C.dir\Camadas\dados\modificar_estado.c.s
 
-CMakeFiles/Rastros_C.dir/logica.c.obj: CMakeFiles/Rastros_C.dir/flags.make
-CMakeFiles/Rastros_C.dir/logica.c.obj: CMakeFiles/Rastros_C.dir/includes_C.rsp
-CMakeFiles/Rastros_C.dir/logica.c.obj: ../logica.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Rastros_C.dir/logica.c.obj"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Rastros_C.dir\logica.c.obj   -c C:\Users\alefk\Documents\LA1PL2G1\logica.c
+CMakeFiles/Rastros_C.dir/Camadas/dados/acessar_estado.c.obj: CMakeFiles/Rastros_C.dir/flags.make
+CMakeFiles/Rastros_C.dir/Camadas/dados/acessar_estado.c.obj: CMakeFiles/Rastros_C.dir/includes_C.rsp
+CMakeFiles/Rastros_C.dir/Camadas/dados/acessar_estado.c.obj: ../Camadas/dados/acessar_estado.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Rastros_C.dir/Camadas/dados/acessar_estado.c.obj"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Rastros_C.dir\Camadas\dados\acessar_estado.c.obj   -c C:\Users\alefk\Documents\LA1PL2G1\Camadas\dados\acessar_estado.c
 
-CMakeFiles/Rastros_C.dir/logica.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Rastros_C.dir/logica.c.i"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\alefk\Documents\LA1PL2G1\logica.c > CMakeFiles\Rastros_C.dir\logica.c.i
+CMakeFiles/Rastros_C.dir/Camadas/dados/acessar_estado.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Rastros_C.dir/Camadas/dados/acessar_estado.c.i"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\alefk\Documents\LA1PL2G1\Camadas\dados\acessar_estado.c > CMakeFiles\Rastros_C.dir\Camadas\dados\acessar_estado.c.i
 
-CMakeFiles/Rastros_C.dir/logica.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Rastros_C.dir/logica.c.s"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\alefk\Documents\LA1PL2G1\logica.c -o CMakeFiles\Rastros_C.dir\logica.c.s
+CMakeFiles/Rastros_C.dir/Camadas/dados/acessar_estado.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Rastros_C.dir/Camadas/dados/acessar_estado.c.s"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\alefk\Documents\LA1PL2G1\Camadas\dados\acessar_estado.c -o CMakeFiles\Rastros_C.dir\Camadas\dados\acessar_estado.c.s
+
+CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj: CMakeFiles/Rastros_C.dir/flags.make
+CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj: CMakeFiles/Rastros_C.dir/includes_C.rsp
+CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj: ../Camadas/interface/interface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Rastros_C.dir\Camadas\interface\interface.c.obj   -c C:\Users\alefk\Documents\LA1PL2G1\Camadas\interface\interface.c
+
+CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.i"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\alefk\Documents\LA1PL2G1\Camadas\interface\interface.c > CMakeFiles\Rastros_C.dir\Camadas\interface\interface.c.i
+
+CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.s"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\alefk\Documents\LA1PL2G1\Camadas\interface\interface.c -o CMakeFiles\Rastros_C.dir\Camadas\interface\interface.c.s
+
+CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj: CMakeFiles/Rastros_C.dir/flags.make
+CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj: CMakeFiles/Rastros_C.dir/includes_C.rsp
+CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj: ../Camadas/logica/logica.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Rastros_C.dir\Camadas\logica\logica.c.obj   -c C:\Users\alefk\Documents\LA1PL2G1\Camadas\logica\logica.c
+
+CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.i"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\alefk\Documents\LA1PL2G1\Camadas\logica\logica.c > CMakeFiles\Rastros_C.dir\Camadas\logica\logica.c.i
+
+CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.s"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\alefk\Documents\LA1PL2G1\Camadas\logica\logica.c -o CMakeFiles\Rastros_C.dir\Camadas\logica\logica.c.s
+
+CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.obj: CMakeFiles/Rastros_C.dir/flags.make
+CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.obj: CMakeFiles/Rastros_C.dir/includes_C.rsp
+CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.obj: ../Camadas/logica/io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.obj"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Rastros_C.dir\Camadas\logica\io.c.obj   -c C:\Users\alefk\Documents\LA1PL2G1\Camadas\logica\io.c
+
+CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.i"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\alefk\Documents\LA1PL2G1\Camadas\logica\io.c > CMakeFiles\Rastros_C.dir\Camadas\logica\io.c.i
+
+CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.s"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\alefk\Documents\LA1PL2G1\Camadas\logica\io.c -o CMakeFiles\Rastros_C.dir\Camadas\logica\io.c.s
+
+CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj: CMakeFiles/Rastros_C.dir/flags.make
+CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj: CMakeFiles/Rastros_C.dir/includes_C.rsp
+CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj: ../Camadas/testes/test_simple_commands.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Rastros_C.dir\Camadas\testes\test_simple_commands.c.obj   -c C:\Users\alefk\Documents\LA1PL2G1\Camadas\testes\test_simple_commands.c
+
+CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.i"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\alefk\Documents\LA1PL2G1\Camadas\testes\test_simple_commands.c > CMakeFiles\Rastros_C.dir\Camadas\testes\test_simple_commands.c.i
+
+CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.s"
+	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\alefk\Documents\LA1PL2G1\Camadas\testes\test_simple_commands.c -o CMakeFiles\Rastros_C.dir\Camadas\testes\test_simple_commands.c.s
 
 CMakeFiles/Rastros_C.dir/main.c.obj: CMakeFiles/Rastros_C.dir/flags.make
 CMakeFiles/Rastros_C.dir/main.c.obj: CMakeFiles/Rastros_C.dir/includes_C.rsp
 CMakeFiles/Rastros_C.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Rastros_C.dir/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Rastros_C.dir/main.c.obj"
 	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Rastros_C.dir\main.c.obj   -c C:\Users\alefk\Documents\LA1PL2G1\main.c
 
 CMakeFiles/Rastros_C.dir/main.c.i: cmake_force
@@ -112,84 +168,28 @@ CMakeFiles/Rastros_C.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Rastros_C.dir/main.c.s"
 	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\alefk\Documents\LA1PL2G1\main.c -o CMakeFiles\Rastros_C.dir\main.c.s
 
-CMakeFiles/Rastros_C.dir/modificar_estado.c.obj: CMakeFiles/Rastros_C.dir/flags.make
-CMakeFiles/Rastros_C.dir/modificar_estado.c.obj: CMakeFiles/Rastros_C.dir/includes_C.rsp
-CMakeFiles/Rastros_C.dir/modificar_estado.c.obj: ../modificar_estado.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Rastros_C.dir/modificar_estado.c.obj"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Rastros_C.dir\modificar_estado.c.obj   -c C:\Users\alefk\Documents\LA1PL2G1\modificar_estado.c
-
-CMakeFiles/Rastros_C.dir/modificar_estado.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Rastros_C.dir/modificar_estado.c.i"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\alefk\Documents\LA1PL2G1\modificar_estado.c > CMakeFiles\Rastros_C.dir\modificar_estado.c.i
-
-CMakeFiles/Rastros_C.dir/modificar_estado.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Rastros_C.dir/modificar_estado.c.s"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\alefk\Documents\LA1PL2G1\modificar_estado.c -o CMakeFiles\Rastros_C.dir\modificar_estado.c.s
-
-CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.obj: CMakeFiles/Rastros_C.dir/flags.make
-CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.obj: CMakeFiles/Rastros_C.dir/includes_C.rsp
-CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.obj: ../Testes/test_simple_commands.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.obj"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Rastros_C.dir\Testes\test_simple_commands.c.obj   -c C:\Users\alefk\Documents\LA1PL2G1\Testes\test_simple_commands.c
-
-CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.i"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\alefk\Documents\LA1PL2G1\Testes\test_simple_commands.c > CMakeFiles\Rastros_C.dir\Testes\test_simple_commands.c.i
-
-CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.s"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\alefk\Documents\LA1PL2G1\Testes\test_simple_commands.c -o CMakeFiles\Rastros_C.dir\Testes\test_simple_commands.c.s
-
-CMakeFiles/Rastros_C.dir/io.c.obj: CMakeFiles/Rastros_C.dir/flags.make
-CMakeFiles/Rastros_C.dir/io.c.obj: CMakeFiles/Rastros_C.dir/includes_C.rsp
-CMakeFiles/Rastros_C.dir/io.c.obj: ../io.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Rastros_C.dir/io.c.obj"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Rastros_C.dir\io.c.obj   -c C:\Users\alefk\Documents\LA1PL2G1\io.c
-
-CMakeFiles/Rastros_C.dir/io.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Rastros_C.dir/io.c.i"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\alefk\Documents\LA1PL2G1\io.c > CMakeFiles\Rastros_C.dir\io.c.i
-
-CMakeFiles/Rastros_C.dir/io.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Rastros_C.dir/io.c.s"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\alefk\Documents\LA1PL2G1\io.c -o CMakeFiles\Rastros_C.dir\io.c.s
-
-CMakeFiles/Rastros_C.dir/acessar_estado.c.obj: CMakeFiles/Rastros_C.dir/flags.make
-CMakeFiles/Rastros_C.dir/acessar_estado.c.obj: CMakeFiles/Rastros_C.dir/includes_C.rsp
-CMakeFiles/Rastros_C.dir/acessar_estado.c.obj: ../acessar_estado.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alefk\Documents\LA1PL2G1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Rastros_C.dir/acessar_estado.c.obj"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Rastros_C.dir\acessar_estado.c.obj   -c C:\Users\alefk\Documents\LA1PL2G1\acessar_estado.c
-
-CMakeFiles/Rastros_C.dir/acessar_estado.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Rastros_C.dir/acessar_estado.c.i"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\alefk\Documents\LA1PL2G1\acessar_estado.c > CMakeFiles\Rastros_C.dir\acessar_estado.c.i
-
-CMakeFiles/Rastros_C.dir/acessar_estado.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Rastros_C.dir/acessar_estado.c.s"
-	C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\alefk\Documents\LA1PL2G1\acessar_estado.c -o CMakeFiles\Rastros_C.dir\acessar_estado.c.s
-
 # Object files for target Rastros_C
 Rastros_C_OBJECTS = \
-"CMakeFiles/Rastros_C.dir/dados.c.obj" \
-"CMakeFiles/Rastros_C.dir/interface.c.obj" \
-"CMakeFiles/Rastros_C.dir/logica.c.obj" \
-"CMakeFiles/Rastros_C.dir/main.c.obj" \
-"CMakeFiles/Rastros_C.dir/modificar_estado.c.obj" \
-"CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.obj" \
-"CMakeFiles/Rastros_C.dir/io.c.obj" \
-"CMakeFiles/Rastros_C.dir/acessar_estado.c.obj"
+"CMakeFiles/Rastros_C.dir/Camadas/dados/dados.c.obj" \
+"CMakeFiles/Rastros_C.dir/Camadas/dados/modificar_estado.c.obj" \
+"CMakeFiles/Rastros_C.dir/Camadas/dados/acessar_estado.c.obj" \
+"CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj" \
+"CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj" \
+"CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.obj" \
+"CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj" \
+"CMakeFiles/Rastros_C.dir/main.c.obj"
 
 # External object files for target Rastros_C
 Rastros_C_EXTERNAL_OBJECTS =
 
-Rastros_C.exe: CMakeFiles/Rastros_C.dir/dados.c.obj
-Rastros_C.exe: CMakeFiles/Rastros_C.dir/interface.c.obj
-Rastros_C.exe: CMakeFiles/Rastros_C.dir/logica.c.obj
+Rastros_C.exe: CMakeFiles/Rastros_C.dir/Camadas/dados/dados.c.obj
+Rastros_C.exe: CMakeFiles/Rastros_C.dir/Camadas/dados/modificar_estado.c.obj
+Rastros_C.exe: CMakeFiles/Rastros_C.dir/Camadas/dados/acessar_estado.c.obj
+Rastros_C.exe: CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj
+Rastros_C.exe: CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj
+Rastros_C.exe: CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.obj
+Rastros_C.exe: CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj
 Rastros_C.exe: CMakeFiles/Rastros_C.dir/main.c.obj
-Rastros_C.exe: CMakeFiles/Rastros_C.dir/modificar_estado.c.obj
-Rastros_C.exe: CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.obj
-Rastros_C.exe: CMakeFiles/Rastros_C.dir/io.c.obj
-Rastros_C.exe: CMakeFiles/Rastros_C.dir/acessar_estado.c.obj
 Rastros_C.exe: CMakeFiles/Rastros_C.dir/build.make
 Rastros_C.exe: CMakeFiles/Rastros_C.dir/linklibs.rsp
 Rastros_C.exe: CMakeFiles/Rastros_C.dir/objects1.rsp

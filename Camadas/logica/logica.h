@@ -1,6 +1,6 @@
 #ifndef RASTROS_LOGICA_H
 #define RASTROS_LOGICA_H
-#include "dados.h"
+#include "Camadas/dados/dados.h"
 
 int jogar(ESTADO *e, COORDENADA c);
 int jogada_valida(ESTADO *e, COORDENADA c);

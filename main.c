@@ -1,6 +1,6 @@
-#include "dados.h"
-#include "interface.h"
-#include <testes/test_simple_commands.h>
+#include "Camadas/dados/dados.h"
+#include "Camadas/interface/interface.h"
+#include <Camadas/testes/test_simple_commands.h>
 int main() {
     test_simple_commands();
     int num_comandos = 0, state = 0;

@@ -1,7 +1,7 @@
-#include "dados.h"
-#include "acessar_estado.h"
+#include "Camadas/dados/dados.h"
+#include "Camadas/dados/acessar_estado.h"
 #include <stdio.h>
-#include "modificar_estado.h"
+#include "Camadas/dados/modificar_estado.h"
 
 void gr (ESTADO *e, char *file_path) {
     FILE * fPtr;

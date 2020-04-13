@@ -122,167 +122,194 @@ Rastros_C/fast:
 	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/build
 .PHONY : Rastros_C/fast
 
-Testes/test_simple_commands.obj: Testes/test_simple_commands.c.obj
+Camadas/dados/acessar_estado.obj: Camadas/dados/acessar_estado.c.obj
 
-.PHONY : Testes/test_simple_commands.obj
-
-# target to build an object file
-Testes/test_simple_commands.c.obj:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.obj
-.PHONY : Testes/test_simple_commands.c.obj
-
-Testes/test_simple_commands.i: Testes/test_simple_commands.c.i
-
-.PHONY : Testes/test_simple_commands.i
-
-# target to preprocess a source file
-Testes/test_simple_commands.c.i:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.i
-.PHONY : Testes/test_simple_commands.c.i
-
-Testes/test_simple_commands.s: Testes/test_simple_commands.c.s
-
-.PHONY : Testes/test_simple_commands.s
-
-# target to generate assembly for a file
-Testes/test_simple_commands.c.s:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.s
-.PHONY : Testes/test_simple_commands.c.s
-
-acessar_estado.obj: acessar_estado.c.obj
-
-.PHONY : acessar_estado.obj
+.PHONY : Camadas/dados/acessar_estado.obj
 
 # target to build an object file
-acessar_estado.c.obj:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/acessar_estado.c.obj
-.PHONY : acessar_estado.c.obj
+Camadas/dados/acessar_estado.c.obj:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/dados/acessar_estado.c.obj
+.PHONY : Camadas/dados/acessar_estado.c.obj
 
-acessar_estado.i: acessar_estado.c.i
+Camadas/dados/acessar_estado.i: Camadas/dados/acessar_estado.c.i
 
-.PHONY : acessar_estado.i
+.PHONY : Camadas/dados/acessar_estado.i
 
 # target to preprocess a source file
-acessar_estado.c.i:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/acessar_estado.c.i
-.PHONY : acessar_estado.c.i
+Camadas/dados/acessar_estado.c.i:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/dados/acessar_estado.c.i
+.PHONY : Camadas/dados/acessar_estado.c.i
 
-acessar_estado.s: acessar_estado.c.s
+Camadas/dados/acessar_estado.s: Camadas/dados/acessar_estado.c.s
 
-.PHONY : acessar_estado.s
+.PHONY : Camadas/dados/acessar_estado.s
 
 # target to generate assembly for a file
-acessar_estado.c.s:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/acessar_estado.c.s
-.PHONY : acessar_estado.c.s
+Camadas/dados/acessar_estado.c.s:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/dados/acessar_estado.c.s
+.PHONY : Camadas/dados/acessar_estado.c.s
 
-dados.obj: dados.c.obj
+Camadas/dados/dados.obj: Camadas/dados/dados.c.obj
 
-.PHONY : dados.obj
+.PHONY : Camadas/dados/dados.obj
 
 # target to build an object file
-dados.c.obj:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/dados.c.obj
-.PHONY : dados.c.obj
+Camadas/dados/dados.c.obj:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/dados/dados.c.obj
+.PHONY : Camadas/dados/dados.c.obj
 
-dados.i: dados.c.i
+Camadas/dados/dados.i: Camadas/dados/dados.c.i
 
-.PHONY : dados.i
+.PHONY : Camadas/dados/dados.i
 
 # target to preprocess a source file
-dados.c.i:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/dados.c.i
-.PHONY : dados.c.i
+Camadas/dados/dados.c.i:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/dados/dados.c.i
+.PHONY : Camadas/dados/dados.c.i
 
-dados.s: dados.c.s
+Camadas/dados/dados.s: Camadas/dados/dados.c.s
 
-.PHONY : dados.s
+.PHONY : Camadas/dados/dados.s
 
 # target to generate assembly for a file
-dados.c.s:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/dados.c.s
-.PHONY : dados.c.s
+Camadas/dados/dados.c.s:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/dados/dados.c.s
+.PHONY : Camadas/dados/dados.c.s
 
-interface.obj: interface.c.obj
+Camadas/dados/modificar_estado.obj: Camadas/dados/modificar_estado.c.obj
 
-.PHONY : interface.obj
+.PHONY : Camadas/dados/modificar_estado.obj
 
 # target to build an object file
-interface.c.obj:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/interface.c.obj
-.PHONY : interface.c.obj
+Camadas/dados/modificar_estado.c.obj:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/dados/modificar_estado.c.obj
+.PHONY : Camadas/dados/modificar_estado.c.obj
 
-interface.i: interface.c.i
+Camadas/dados/modificar_estado.i: Camadas/dados/modificar_estado.c.i
 
-.PHONY : interface.i
+.PHONY : Camadas/dados/modificar_estado.i
 
 # target to preprocess a source file
-interface.c.i:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/interface.c.i
-.PHONY : interface.c.i
+Camadas/dados/modificar_estado.c.i:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/dados/modificar_estado.c.i
+.PHONY : Camadas/dados/modificar_estado.c.i
 
-interface.s: interface.c.s
+Camadas/dados/modificar_estado.s: Camadas/dados/modificar_estado.c.s
 
-.PHONY : interface.s
+.PHONY : Camadas/dados/modificar_estado.s
 
 # target to generate assembly for a file
-interface.c.s:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/interface.c.s
-.PHONY : interface.c.s
+Camadas/dados/modificar_estado.c.s:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/dados/modificar_estado.c.s
+.PHONY : Camadas/dados/modificar_estado.c.s
 
-io.obj: io.c.obj
+Camadas/interface/interface.obj: Camadas/interface/interface.c.obj
 
-.PHONY : io.obj
+.PHONY : Camadas/interface/interface.obj
 
 # target to build an object file
-io.c.obj:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/io.c.obj
-.PHONY : io.c.obj
+Camadas/interface/interface.c.obj:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj
+.PHONY : Camadas/interface/interface.c.obj
 
-io.i: io.c.i
+Camadas/interface/interface.i: Camadas/interface/interface.c.i
 
-.PHONY : io.i
+.PHONY : Camadas/interface/interface.i
 
 # target to preprocess a source file
-io.c.i:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/io.c.i
-.PHONY : io.c.i
+Camadas/interface/interface.c.i:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.i
+.PHONY : Camadas/interface/interface.c.i
 
-io.s: io.c.s
+Camadas/interface/interface.s: Camadas/interface/interface.c.s
 
-.PHONY : io.s
+.PHONY : Camadas/interface/interface.s
 
 # target to generate assembly for a file
-io.c.s:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/io.c.s
-.PHONY : io.c.s
+Camadas/interface/interface.c.s:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.s
+.PHONY : Camadas/interface/interface.c.s
 
-logica.obj: logica.c.obj
+Camadas/logica/io.obj: Camadas/logica/io.c.obj
 
-.PHONY : logica.obj
+.PHONY : Camadas/logica/io.obj
 
 # target to build an object file
-logica.c.obj:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/logica.c.obj
-.PHONY : logica.c.obj
+Camadas/logica/io.c.obj:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.obj
+.PHONY : Camadas/logica/io.c.obj
 
-logica.i: logica.c.i
+Camadas/logica/io.i: Camadas/logica/io.c.i
 
-.PHONY : logica.i
+.PHONY : Camadas/logica/io.i
 
 # target to preprocess a source file
-logica.c.i:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/logica.c.i
-.PHONY : logica.c.i
+Camadas/logica/io.c.i:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.i
+.PHONY : Camadas/logica/io.c.i
 
-logica.s: logica.c.s
+Camadas/logica/io.s: Camadas/logica/io.c.s
 
-.PHONY : logica.s
+.PHONY : Camadas/logica/io.s
 
 # target to generate assembly for a file
-logica.c.s:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/logica.c.s
-.PHONY : logica.c.s
+Camadas/logica/io.c.s:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.s
+.PHONY : Camadas/logica/io.c.s
+
+Camadas/logica/logica.obj: Camadas/logica/logica.c.obj
+
+.PHONY : Camadas/logica/logica.obj
+
+# target to build an object file
+Camadas/logica/logica.c.obj:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj
+.PHONY : Camadas/logica/logica.c.obj
+
+Camadas/logica/logica.i: Camadas/logica/logica.c.i
+
+.PHONY : Camadas/logica/logica.i
+
+# target to preprocess a source file
+Camadas/logica/logica.c.i:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.i
+.PHONY : Camadas/logica/logica.c.i
+
+Camadas/logica/logica.s: Camadas/logica/logica.c.s
+
+.PHONY : Camadas/logica/logica.s
+
+# target to generate assembly for a file
+Camadas/logica/logica.c.s:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.s
+.PHONY : Camadas/logica/logica.c.s
+
+Camadas/testes/test_simple_commands.obj: Camadas/testes/test_simple_commands.c.obj
+
+.PHONY : Camadas/testes/test_simple_commands.obj
+
+# target to build an object file
+Camadas/testes/test_simple_commands.c.obj:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj
+.PHONY : Camadas/testes/test_simple_commands.c.obj
+
+Camadas/testes/test_simple_commands.i: Camadas/testes/test_simple_commands.c.i
+
+.PHONY : Camadas/testes/test_simple_commands.i
+
+# target to preprocess a source file
+Camadas/testes/test_simple_commands.c.i:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.i
+.PHONY : Camadas/testes/test_simple_commands.c.i
+
+Camadas/testes/test_simple_commands.s: Camadas/testes/test_simple_commands.c.s
+
+.PHONY : Camadas/testes/test_simple_commands.s
+
+# target to generate assembly for a file
+Camadas/testes/test_simple_commands.c.s:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.s
+.PHONY : Camadas/testes/test_simple_commands.c.s
 
 main.obj: main.c.obj
 
@@ -311,33 +338,6 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/main.c.s
 .PHONY : main.c.s
 
-modificar_estado.obj: modificar_estado.c.obj
-
-.PHONY : modificar_estado.obj
-
-# target to build an object file
-modificar_estado.c.obj:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/modificar_estado.c.obj
-.PHONY : modificar_estado.c.obj
-
-modificar_estado.i: modificar_estado.c.i
-
-.PHONY : modificar_estado.i
-
-# target to preprocess a source file
-modificar_estado.c.i:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/modificar_estado.c.i
-.PHONY : modificar_estado.c.i
-
-modificar_estado.s: modificar_estado.c.s
-
-.PHONY : modificar_estado.s
-
-# target to generate assembly for a file
-modificar_estado.c.s:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/modificar_estado.c.s
-.PHONY : modificar_estado.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -347,30 +347,30 @@ help:
 	@echo ... Rastros_C
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Testes/test_simple_commands.obj
-	@echo ... Testes/test_simple_commands.i
-	@echo ... Testes/test_simple_commands.s
-	@echo ... acessar_estado.obj
-	@echo ... acessar_estado.i
-	@echo ... acessar_estado.s
-	@echo ... dados.obj
-	@echo ... dados.i
-	@echo ... dados.s
-	@echo ... interface.obj
-	@echo ... interface.i
-	@echo ... interface.s
-	@echo ... io.obj
-	@echo ... io.i
-	@echo ... io.s
-	@echo ... logica.obj
-	@echo ... logica.i
-	@echo ... logica.s
+	@echo ... Camadas/dados/acessar_estado.obj
+	@echo ... Camadas/dados/acessar_estado.i
+	@echo ... Camadas/dados/acessar_estado.s
+	@echo ... Camadas/dados/dados.obj
+	@echo ... Camadas/dados/dados.i
+	@echo ... Camadas/dados/dados.s
+	@echo ... Camadas/dados/modificar_estado.obj
+	@echo ... Camadas/dados/modificar_estado.i
+	@echo ... Camadas/dados/modificar_estado.s
+	@echo ... Camadas/interface/interface.obj
+	@echo ... Camadas/interface/interface.i
+	@echo ... Camadas/interface/interface.s
+	@echo ... Camadas/logica/io.obj
+	@echo ... Camadas/logica/io.i
+	@echo ... Camadas/logica/io.s
+	@echo ... Camadas/logica/logica.obj
+	@echo ... Camadas/logica/logica.i
+	@echo ... Camadas/logica/logica.s
+	@echo ... Camadas/testes/test_simple_commands.obj
+	@echo ... Camadas/testes/test_simple_commands.i
+	@echo ... Camadas/testes/test_simple_commands.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... modificar_estado.obj
-	@echo ... modificar_estado.i
-	@echo ... modificar_estado.s
 .PHONY : help
 
 

@@ -1,6 +1,6 @@
 #ifndef RASTROS_INTERFACE_H
 #define RASTROS_INTERFACE_H
-#include "dados.h"
+#include "Camadas/dados/dados.h"
 
 void mostrar_tabuleiro(ESTADO *e);
 void prompt(ESTADO *e, int num_comandos);

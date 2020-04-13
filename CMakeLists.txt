@@ -6,16 +6,24 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(Rastros_C
-    dados.c
-    dados.h
-    interface.c
-    interface.h
-    LICENSE
-    logica.c
-    logica.h
+        Camadas/dados/dados.c
+        Camadas/dados/dados.h
+        Camadas/dados/modificar_estado.c
+        Camadas/dados/modificar_estado.h
+        Camadas/dados/acessar_estado.c
+        Camadas/dados/acessar_estado.h
+
+        Camadas/interface/interface.c
+        Camadas/interface/interface.h
+
+        Camadas/logica/logica.c
+        Camadas/logica/logica.h
+        Camadas/logica/io.c
+        Camadas/logica/io.h
+
+        Camadas/testes/test_simple_commands.c
+        Camadas/testes/test_simple_commands.h
+
     main.c
-    modificar_estado.c
-    modificar_estado.h
-    testes/test_simple_commands.c
-    testes/test_simple_commands.h
-    README.md io.c io.h acessar_estado.c acessar_estado.h)
+    LICENSE
+    README.md)

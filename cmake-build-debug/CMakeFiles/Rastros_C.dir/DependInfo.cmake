@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/alefk/Documents/LA1PL2G1/Testes/test_simple_commands.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.obj"
-  "C:/Users/alefk/Documents/LA1PL2G1/acessar_estado.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/acessar_estado.c.obj"
-  "C:/Users/alefk/Documents/LA1PL2G1/dados.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/dados.c.obj"
-  "C:/Users/alefk/Documents/LA1PL2G1/interface.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/interface.c.obj"
-  "C:/Users/alefk/Documents/LA1PL2G1/io.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/io.c.obj"
-  "C:/Users/alefk/Documents/LA1PL2G1/logica.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/logica.c.obj"
+  "C:/Users/alefk/Documents/LA1PL2G1/Camadas/dados/acessar_estado.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/Camadas/dados/acessar_estado.c.obj"
+  "C:/Users/alefk/Documents/LA1PL2G1/Camadas/dados/dados.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/Camadas/dados/dados.c.obj"
+  "C:/Users/alefk/Documents/LA1PL2G1/Camadas/dados/modificar_estado.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/Camadas/dados/modificar_estado.c.obj"
+  "C:/Users/alefk/Documents/LA1PL2G1/Camadas/interface/interface.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj"
+  "C:/Users/alefk/Documents/LA1PL2G1/Camadas/logica/io.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.obj"
+  "C:/Users/alefk/Documents/LA1PL2G1/Camadas/logica/logica.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj"
+  "C:/Users/alefk/Documents/LA1PL2G1/Camadas/testes/test_simple_commands.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj"
   "C:/Users/alefk/Documents/LA1PL2G1/main.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/main.c.obj"
-  "C:/Users/alefk/Documents/LA1PL2G1/modificar_estado.c" "C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug/CMakeFiles/Rastros_C.dir/modificar_estado.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

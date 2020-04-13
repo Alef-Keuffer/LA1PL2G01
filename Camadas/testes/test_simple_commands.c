@@ -1,9 +1,8 @@
-#include "logica.h"
-#include "dados.h"
+#include "Camadas/logica/logica.h"
+#include "Camadas/dados/dados.h"
 #include <assert.h>
-#include "io.h"
-#include <stdio.h>
-#include "interface.h"
+#include "Camadas/logica/io.h"
+
 void commands_winner_is_player1(){
     ESTADO *e = inicializar_estado();
     COORDENADA coord1 =  {'c'-'a','3' -'1'};

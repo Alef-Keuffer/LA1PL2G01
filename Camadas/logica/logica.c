@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
-#include "modificar_estado.h"
-#include "dados.h"
-#include "acessar_estado.h"
-#include "interface.h"
+#include "Camadas/dados/modificar_estado.h"
+#include "Camadas/dados/dados.h"
+#include "Camadas/dados/acessar_estado.h"
+#include "Camadas/interface/interface.h"
 #include "io.h"
 
 // Função que deve ser completada e colocada na camada da lógica do programa
