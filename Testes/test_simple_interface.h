@@ -1,0 +1,5 @@
+#ifndef RASTROS_C_TEST_SIMPLE_INTERFACE_H
+#define RASTROS_C_TEST_SIMPLE_INTERFACE_H
+int test_simple_interface();
+
+#endif //RASTROS_C_TEST_SIMPLE_INTERFACE_H

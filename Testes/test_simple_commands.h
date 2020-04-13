@@ -1,0 +1,4 @@
+#ifndef RASTROS_C_TEST_SIMPLE_COMMANDS_H
+#define RASTROS_C_TEST_SIMPLE_COMMANDS_H
+void test_simple_commands();
+#endif //RASTROS_C_TEST_SIMPLE_COMMANDS_H

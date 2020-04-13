@@ -16,4 +16,6 @@ add_executable(Rastros_C
     main.c
     modificar_estado.c
     modificar_estado.h
+    testes/test_simple_commands.c
+    testes/test_simple_commands.h
     README.md io.c io.h acessar_estado.c acessar_estado.h)

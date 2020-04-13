@@ -96,6 +96,12 @@
 		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/README.md">
 			<Option target="Rastros_C"/>
 		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Testes/test_simple_commands.c">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Testes/test_simple_commands.h">
+			<Option target="Rastros_C"/>
+		</Unit>
 		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/acessar_estado.c">
 			<Option target="Rastros_C"/>
 		</Unit>

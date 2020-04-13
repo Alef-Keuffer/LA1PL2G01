@@ -122,6 +122,33 @@ Rastros_C/fast:
 	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/build
 .PHONY : Rastros_C/fast
 
+Testes/test_simple_commands.obj: Testes/test_simple_commands.c.obj
+
+.PHONY : Testes/test_simple_commands.obj
+
+# target to build an object file
+Testes/test_simple_commands.c.obj:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.obj
+.PHONY : Testes/test_simple_commands.c.obj
+
+Testes/test_simple_commands.i: Testes/test_simple_commands.c.i
+
+.PHONY : Testes/test_simple_commands.i
+
+# target to preprocess a source file
+Testes/test_simple_commands.c.i:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.i
+.PHONY : Testes/test_simple_commands.c.i
+
+Testes/test_simple_commands.s: Testes/test_simple_commands.c.s
+
+.PHONY : Testes/test_simple_commands.s
+
+# target to generate assembly for a file
+Testes/test_simple_commands.c.s:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Testes/test_simple_commands.c.s
+.PHONY : Testes/test_simple_commands.c.s
+
 acessar_estado.obj: acessar_estado.c.obj
 
 .PHONY : acessar_estado.obj
@@ -320,6 +347,9 @@ help:
 	@echo ... Rastros_C
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Testes/test_simple_commands.obj
+	@echo ... Testes/test_simple_commands.i
+	@echo ... Testes/test_simple_commands.s
 	@echo ... acessar_estado.obj
 	@echo ... acessar_estado.i
 	@echo ... acessar_estado.s

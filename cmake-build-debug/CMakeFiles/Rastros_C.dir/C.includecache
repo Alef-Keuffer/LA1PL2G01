@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/alefk/Documents/LA1PL2G1/acessar_estado.h
+../dados.h
 
-C:/Users/alefk/Documents/LA1PL2G1/dados.h
+../interface.h
+dados.h
+../dados.h
 
-C:/Users/alefk/Documents/LA1PL2G1/interface.c
+../io.h
+dados.h
+../dados.h
+
+../logica.h
+dados.h
+../dados.h
+
+C:/Users/alefk/Documents/LA1PL2G1/Testes/test_simple_commands.c
+logica.h
+C:/Users/alefk/Documents/LA1PL2G1/Testes/logica.h
+dados.h
+C:/Users/alefk/Documents/LA1PL2G1/Testes/dados.h
+assert.h
+-
+io.h
+C:/Users/alefk/Documents/LA1PL2G1/Testes/io.h
 stdio.h
 -
-stdlib.h
--
-string.h
--
-dados.h
-C:/Users/alefk/Documents/LA1PL2G1/dados.h
-logica.h
-C:/Users/alefk/Documents/LA1PL2G1/logica.h
-acessar_estado.h
-C:/Users/alefk/Documents/LA1PL2G1/acessar_estado.h
-io.h
-C:/Users/alefk/Documents/LA1PL2G1/io.h
-
-C:/Users/alefk/Documents/LA1PL2G1/io.h
-dados.h
-C:/Users/alefk/Documents/LA1PL2G1/dados.h
-
-C:/Users/alefk/Documents/LA1PL2G1/logica.h
-dados.h
-C:/Users/alefk/Documents/LA1PL2G1/dados.h
+interface.h
+C:/Users/alefk/Documents/LA1PL2G1/Testes/interface.h
 
