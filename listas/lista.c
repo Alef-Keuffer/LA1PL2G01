@@ -56,10 +56,7 @@ LISTA remove_cabeca(LISTA L)
 }
 
 // Devolve verdareiro se a lista é vazia
-int lista_esta_vazia(LISTA L)
-{
-    if (L == NULL) {
-        printf("Lista Vazia.");
-    } else printf("Lista Não vazia.");
+int lista_esta_vazia(LISTA L){
+    return (L == NULL);
 }
 
