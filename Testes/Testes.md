@@ -62,7 +62,7 @@ Atualizado em 03/04/2020
 
 _A Screenshot apresenta o comando pos que retorna o jogo num determinado estado._
 
-//<img src="https://github.com/Alef-Keuffer/LA1PL2G1/link-da-screen.png" width="1" height=1px>
+<img src="https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Comando%20pos.png" width="143" height=674px>
 
 
 ## Teste Erros:
