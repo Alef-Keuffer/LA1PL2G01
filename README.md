@@ -54,3 +54,15 @@ Como já se tinha o comando movs a funcionar e os comando gr já estava completo
 Na definição da função ler, ignorava-se o tabuleiro dos ficheiros e faziam-se jogadas com as coordenadas dispostas a partir de um estado novo, que tinha acabado de ser inicializado. Esta definição não era muito eficiente, pois para cada vez que o comando ler era chamado, alocava-se um novo espaço na memória.
 
 Criou-se, então, a nova definição dessa função, que lê e armazena no tabuleiro as 8 primeiras linhas do ficheiro e depois faz as atualizações necessárias para que o jogo continue (i.e., último jogador, número de jogadas, jogadas).
+
+### Semana 4 (guião 8):
+Foi implementado o comando pos, este comando deve permitir ao utilizador aceder a uma jogada anterior. De início tivemos problemas com jogas específicas, entretanto ja solucionado.
+
+Nesta semana fizemos todas as alterações necessárias para o projeto, acrescentamos screenshots dos comandos implementados até a data.
+
+Foi também feita uma reorganização das camadas e seus módulos.
+
+### Semana 5 (guião 9):
+Foi criado um módulo independente para as funções genéricas de listas ligadas/encadeadas.
+
+Implementação do comando jog, a equipa ainda esta por decidir a forma mais eficaz, em desenvolvimento.
