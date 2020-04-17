@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <math.h>
-#include "modificar_estado.h"
-#include "dados.h"
-#include "acessar_estado.h"
-#include "interface.h"
+#include "Camadas/dados/modificar_estado.h"
+#include "Camadas/dados/dados.h"
+#include "Camadas/dados/acessar_estado.h"
+#include "Camadas/interface/interface.h"
 #include "io.h"
 
 int ply = 0;
-int maxPly = 0;
+int maxPly = 8;
 
 int jogar(ESTADO *e, COORDENADA c) {
     atualizar_tab(e, c);
@@ -111,8 +111,6 @@ int minMax(ESTADO *e){
     int index, i, j;
     COORDENADA c = obter_ultimajogada(e);
 
-    if(ply > maxPly) maxPly = ply;
-
     if(ply > 0){
         score = avaliar_vitoria(e);
         if(score != 0) return score;
@@ -130,7 +128,7 @@ int minMax(ESTADO *e){
         }
     }
 
-    for(index = 0; index < moveCount; index++){
+    for(index = 0; index < moveCount && ply < maxPly; index++){
         move = moveList[index];
         jogar(e, move);
         ply++;
@@ -145,7 +143,8 @@ int minMax(ESTADO *e){
 
     if(moveCount == 0) score = 0;
 
-    if(ply != 0) return bestScore;
+    if(ply != 0 && ply < maxPly) return bestScore;
+    else if(ply >= maxPly) return 0;
     else return coord_to_int(bestMove);
 }
 
@@ -153,7 +152,7 @@ void jog(ESTADO *e){
     int x;
     COORDENADA c;
 
-    ply = maxPly = 0;
+    ply = 0;
     x = minMax(e);
     c = int_to_coord(x);
     jogar(e, c);
