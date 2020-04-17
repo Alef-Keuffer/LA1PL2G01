@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "dados.h"
-#include "logica.h"
-#include "acessar_estado.h"
-#include "io.h"
+#include "Camadas/dados/dados.h"
+#include "Camadas/logica/logica.h"
+#include "Camadas/dados/acessar_estado.h"
+#include "Camadas/logica/io.h"
 
 #define BUF_SIZE 1024
 void mostrar_tabuleiro(ESTADO *e); void movs(ESTADO *e);
@@ -47,7 +47,10 @@ int interpretador(ESTADO *e, int num_comandos, int state){
         pos(e, position, state);
         state = 1;
     }
-    if(strlen(linha) == 4 && sscanf(linha, "%*[j]%*[o]%*[g]%c", command) == 1) jog(e);
+    if(strlen(linha) == 4 && sscanf(linha, "%*[j]%*[o]%*[g]%c", command) == 1){
+        jog(e);
+        mostrar_tabuleiro(e);
+    }
     num_comandos++;
     return interpretador(e, num_comandos, state);
 }
