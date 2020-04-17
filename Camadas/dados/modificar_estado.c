@@ -52,3 +52,18 @@ void colocar_branca(ESTADO *e, COORDENADA c){
 void novo_num_jogadas(ESTADO *e, int num){
     (*e).num_jogadas = num/2;
 }
+
+void branca_para_vazia(ESTADO *e){
+    COORDENADA c = e->ultima_jogada;
+    e->tab[c.linha][c.coluna] = VAZIO;
+}
+
+void nova_ultjogada(ESTADO *e){
+    int num = e->num_jogadas - 1;
+    if(e->jogador_atual == 1) e->ultima_jogada = e->jogadas[num].jogador1;
+    else e->ultima_jogada = e->jogadas[num].jogador2;
+}
+
+void modificar_numjogadas(ESTADO *e){
+    if(e->jogador_atual == 1) e->num_jogadas--;
+}
