@@ -69,5 +69,8 @@ void armazenar_num_jogadas(ESTADO *e, int num);
 void limpar_casas(ESTADO *e, int num);
 void colocar_branca(ESTADO *e, COORDENADA c);
 void novo_num_jogadas(ESTADO *e, int num);
+void branca_para_vazia(ESTADO *e);
+void nova_ultjogada(ESTADO *e);
+void modificar_numjogadas(ESTADO *e);
 
 #endif //MODIFICAR_ESTADO_H

@@ -16,7 +16,7 @@ void prompt(ESTADO *e, int num_comandos){
 
 int interpretador(ESTADO *e, int num_comandos, int state){
     char linha[BUF_SIZE], filename[BUF_SIZE], command[5];
-    char col[2], lin[2];
+    char col[2], lin[2], *str1, *str2, *str3;
     int position;
 
     if(fim_de_jogo(e)) printf("Fim de jogo! O jogador %d venceu.\n", fim_de_jogo(e));
@@ -46,6 +46,10 @@ int interpretador(ESTADO *e, int num_comandos, int state){
     if(sscanf(linha, "%*[p]%*[o]%*[s] %d", &position) == 1) {
         pos(e, position, state);
         state = 1;
+    }
+    if(strlen(linha) == 4 && sscanf(linha, "%*[j]%*[o]%*[g]%c", command) == 1){
+        jog(e);
+        mostrar_tabuleiro(e);
     }
     num_comandos++;
     return interpretador(e, num_comandos, state);
