@@ -65,4 +65,6 @@ Foi também feita uma reorganização das camadas e seus módulos.
 ### Semana 5 (guião 9):
 Foi criado um módulo independente para as funções genéricas de listas ligadas/encadeadas.
 
-Implementação do comando jog, a equipa ainda esta por decidir a forma mais eficaz, em desenvolvimento.
+Implementação do comando jog. Foi utilizada a heurística Minimax para a implementação deste comando.
+
+Ajustes e atualização nas camadas e nos módulos.
