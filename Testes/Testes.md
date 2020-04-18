@@ -65,6 +65,14 @@ _A Screenshot apresenta o comando pos que retorna o jogo num determinado estado.
 <img src="https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Comando%20pos.png" width="143" height=674px>
 
 
+## Teste Comando _jog_
+Atualizado em 18/04/2020
+
+_A Screenshot apresenta o comando jog que retorna uma jogada com a Heurística Minimax._
+
+<img src="https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Comando%20jog.png" width="128" height=666px>
+
+
 ## Teste Erros:
 Atualizado em 03/04/2020
 
