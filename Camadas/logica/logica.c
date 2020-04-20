@@ -108,8 +108,9 @@ int minMax(ESTADO *e){
     int score = -2;
     COORDENADA bestMove = {-1, -1};
     COORDENADA move;
-    int index, i, j;
+    int index, i, j, dist, lose = 0, distMin = 20;
     COORDENADA c = obter_ultimajogada(e);
+    COORDENADA fim1 = {0, 0}, fim2 = {7, 7};
 
     if(ply > 0){
         score = avaliar_vitoria(e);
@@ -137,11 +138,22 @@ int minMax(ESTADO *e){
             bestScore = score;
             bestMove = move;
         }
+        if(score == -1) lose = 1;
         desfazer_ultjogada(e);
         ply--;
     }
 
-    if(moveCount == 0) score = 0;
+    if(ply == 0 && bestScore == 0 & lose == 0){
+        for(index = 0; index < moveCount; index++){
+            move = moveList[index];
+            if(JogadorAtual(e) == 1) dist = abs(move.linha - fim1.linha) + abs(move.coluna - fim1.coluna);
+            else dist = abs(move.linha - fim2.linha) + abs(move.coluna - fim2.coluna);
+            if(dist <= distMin){
+                distMin = dist;
+                bestMove = move;
+            }
+        }
+    }
 
     if(ply != 0 && ply < maxPly) return bestScore;
     else if(ply >= maxPly) return 0;
