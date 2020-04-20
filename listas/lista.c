@@ -8,33 +8,24 @@
 // Cria uma lista vazia
 LISTA criar_lista()
 {
-    LISTA *L = (LISTA*) malloc(sizeof(LISTA));
-    if(L != NULL) *L = NULL;
-    return L;
+    return NULL;
 }
 
 // Insere um valor na cabeça da lista
 LISTA insere_cabeca(LISTA L, void *valor)
 {
-    if(L == NULL) return 0;
-    struct nodo *no = (struct nodo*) malloc(sizeof(struct nodo));
-    if(no == NULL) return 0;
-    no -> valor = valor;
-    no -> proximo = L;
-    L = no;
-    return L;
+    LISTA r = malloc(sizeof(struct nodo));
+    r->valor = valor;
+    r->proximo = L
+    return r;
 }
 
 // Devolve a cabeça da lista
 void *devolve_cabeca(LISTA L)
 {
-    if (L == NULL) {
-        printf("Lista Vazia.");
-    }
-    else{
-    struct nodo *no = L;
-    L = no -> proximo;
-    }
+    void *x = NULL;
+    if(L != NULL) x = L->valor;
+    return x;
 }
 
 // Devolve a cauda da lista
@@ -48,9 +39,9 @@ LISTA proximo(LISTA L)
 // Remove a cabeça da lista (libertando o espaço ocupado) e devolve a cauda
 LISTA remove_cabeca(LISTA L)
 {
-    if (L == NULL) return 0;
-    struct nodo *no = L;
-    L = no -> proximo;
+    if (L == NULL) return NULL;
+    LISTA no = L;
+    L = L->proximo;
     free(no);
     return L;
 }
