@@ -49,22 +49,24 @@ Grupo 01 do turno PL2 (Laboratório de Algoritmia), composto por:
 **Nota:** também foram adicionadas, por ambos integrantes, funções que acessam as informações contidas no estado e que serão usadas por todo o programa. Tais funções se encontram no módulo "acessar_estado".
 
 ### Semana 3 (guião 7):
-Como já se tinha o comando movs a funcionar e os comando gr já estava completo, nesta semana trabalhou-se em otimizar o comando ler.
+Como já se tinha o comando movs a funcionar e o comando gr já estava completo, nesta semana trabalhou-se em otimizar o comando ler.
 
 Na definição da função ler, ignorava-se o tabuleiro dos ficheiros e faziam-se jogadas com as coordenadas dispostas a partir de um estado novo, que tinha acabado de ser inicializado. Esta definição não era muito eficiente, pois para cada vez que o comando ler era chamado, alocava-se um novo espaço na memória.
 
 Criou-se, então, a nova definição dessa função, que lê e armazena no tabuleiro as 8 primeiras linhas do ficheiro e depois faz as atualizações necessárias para que o jogo continue (i.e., último jogador, número de jogadas, jogadas).
 
 ### Semana 4 (guião 8):
-Foi implementado o comando pos, este comando deve permitir ao utilizador aceder a uma jogada anterior. De início tivemos problemas com jogas específicas, entretanto ja solucionado.
+ * *Implementação do comando pos*, que permite que o usuário aceda a jogadas anteriores. É possível realizar o comando *pos* consecutivamente até que uma nova jogada seja feita ou seja realizada a leitura de um novo tabuleiro.
 
-Nesta semana fizemos todas as alterações necessárias para o projeto, acrescentamos screenshots dos comandos implementados até a data.
+ * *Alterações necessárias*, conforme sugerido pelo professor. 
+ 
+ * *Adição de screenshots das funcionalidades do programa*.
 
-Foi também feita uma reorganização das camadas e seus módulos.
+ * *Reorganização das camadas e seus módulos*.
 
 ### Semana 5 (guião 9):
-Foi criado um módulo independente para as funções genéricas de listas ligadas/encadeadas.
+ * *Criação do módulo independente para as funções genéricas de listas ligadas/encadeadas.*
 
-Implementação do comando jog. Foi utilizada a heurística Minimax para a implementação deste comando.
+ * *Implementação do comando jog*: Foi utilizada a heurística Minimax para a implementação deste comando. Através de uma função recursiva, o computador prevê até 8 jogadas à frente e verifica qual das jogadas possíveis tem o melhor *score* (é atribuído -1 quando em alguma jogada seguinte o jogador adversário ganha o jogo, 1 quando o jogador atual ganha o jogo e 0 quando o jogo não chegou ao fim).
 
-Ajustes e atualização nas camadas e nos módulos.
+ * *Ajustes e atualização nas camadas e nos módulos.*
