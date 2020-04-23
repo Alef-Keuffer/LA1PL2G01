@@ -23,6 +23,7 @@ void gr (ESTADO *e, char *file_path) {
 
 void ler(ESTADO *e, char *filename){
     FILE* file = fopen(filename, "r");
+    if(file == NULL) return;
     char line[256], jog1[256], jog2[256];
     int i, num_jog, jogadas = 0;
     COORDENADA c = {4,4};
