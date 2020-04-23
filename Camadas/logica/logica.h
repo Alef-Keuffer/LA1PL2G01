@@ -11,6 +11,8 @@ COORDENADA int_to_coord(int x);
 int avaliar_vitoria(ESTADO *e);
 int desfazer_ultjogada(ESTADO *e);
 int minMax(ESTADO *e);
+int randomJog(ESTADO *e);
 void jog(ESTADO *e);
+void jog2(ESTADO *e);
 
 #endif //RASTROS_LOGICA_H
