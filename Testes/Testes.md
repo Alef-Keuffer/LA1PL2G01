@@ -73,6 +73,14 @@ _A Screenshot apresenta o comando jog que retorna uma jogada com a Heurística M
 <img src="https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Comando%20jog.png" width="128" height=666px>
 
 
+## Teste Comando _jog2_
+Atualizado em 23/04/2020
+
+_A Screenshot apresenta o comando jog2 que retorna uma jogada Aleatória._
+
+<img src="https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Comando%20jog2.png" width="129" height=680px>
+
+
 ## Teste Erros:
 Atualizado em 03/04/2020
 
