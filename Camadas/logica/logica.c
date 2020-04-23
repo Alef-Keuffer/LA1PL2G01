@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
+#include <time.h>
 #include "Camadas/dados/modificar_estado.h"
 #include "Camadas/dados/dados.h"
 #include "Camadas/dados/acessar_estado.h"
@@ -176,8 +178,7 @@ COORDENADA randomJog (ESTADO *e)
   COORDENADA c = obter_ultimajogada(e);
   COORDENADA moveList[8];
   int moveCount = 0;
-  COORDENADA move;
-  int i, j, index = 0;
+  int i, j;
 
     for(i = -1; i <= 1 ; i++)
     {
@@ -195,7 +196,7 @@ COORDENADA randomJog (ESTADO *e)
   }
   int n;
   srand(time(NULL));
-    n = (rand() % (moveCount - 0)) + 0;
+    n = (rand() % (moveCount));
 
   return moveList[n];
 }
