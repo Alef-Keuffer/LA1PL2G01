@@ -169,3 +169,41 @@ void jog(ESTADO *e){
     c = int_to_coord(x);
     jogar(e, c);
 }
+
+/*Função aux ao comando Jog2*/
+COORDENADA randomJog (ESTADO *e) 
+{
+  COORDENADA c = obter_ultimajogada(e);
+  COORDENADA moveList[8];
+  int moveCount = 0;
+  COORDENADA move;
+  int i, j, index = 0;
+
+    for(i = -1; i <= 1 ; i++)
+    {
+      for(j = -1; j <= 1 ; j++)
+      {
+        int row = c.linha + i;
+        int col = c.coluna + j;
+          if(row >= 0 && row <= 7 && col >= 0 && col <= 7 && (obter_casa(e, row, col) == VAZIO || obter_casa(e, row, col) == UM || obter_casa(e, row, col) == DOIS))
+            {
+            moveList[moveCount].linha = row;
+            moveList[moveCount].coluna = col;
+            moveCount++;
+            }
+    }
+  }
+  int n;
+  srand(time(NULL));
+    n = (rand() % (moveCount - 0)) + 0;
+
+  return moveList[n];
+}
+
+/*Comando Jog2 que faz uma jogada aleatória.*/
+void jog2(ESTADO *e)
+{
+  COORDENADA c;
+  c = randomJog (e);
+  jogar(e, c);
+}
