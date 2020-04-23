@@ -70,3 +70,13 @@ Criou-se, então, a nova definição dessa função, que lê e armazena no tabul
  * *Implementação do comando jog*: Foi utilizada a heurística Minimax para a implementação deste comando. Através de uma função recursiva, o computador prevê até 8 jogadas à frente e verifica qual das jogadas possíveis tem o melhor *score* (é atribuído -1 quando em alguma jogada seguinte o jogador adversário ganha o jogo, 1 quando o jogador atual ganha o jogo e 0 quando o jogo não chegou ao fim).
 
  * *Ajustes e atualização nas camadas e nos módulos.*
+
+### Semana 6 (guião 10):
+* *Implementação do comando jog2*: Esta a ser implementado o comando jog2. Neste comando optamos por utilizar a heurística de jogadas Aleatórias, onde a peça analiza as casas vizinhas VAZIAS e faz o movimento para uma qualquer.
+
+* *Implementação do Bot*: Foi implementado um novo main "mainBot.c" para a execução desta tarefa.
+
+* *Atualização da Documentation com a Doxygen*: Esta a ser feita uma atualização nos ficheiros de documentação.
+
+* *Atualização da Camada Testes*: O módulo testes esta a ser atualizado para os novos comandos.
+
