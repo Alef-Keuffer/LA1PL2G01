@@ -72,7 +72,7 @@ Criou-se, então, a nova definição dessa função, que lê e armazena no tabul
  * *Ajustes e atualização nas camadas e nos módulos.*
 
 ### Semana 6 (guião 10):
-* *Implementação do comando jog2*: Esta a ser implementado o comando jog2. Neste comando optamos por utilizar a heurística de jogadas Aleatórias, onde a peça analiza as casas vizinhas VAZIAS e faz o movimento para uma qualquer.
+* *Implementação do comando jog2*: Implementação do comando jog2. Neste comando optamos por utilizar a heurística de jogadas Aleatórias, onde a peça analiza as casas vizinhas VAZIAS e faz o movimento para uma qualquer.
 
 * *Implementação do Bot*: Foi implementado um novo main "mainBot.c" para a execução desta tarefa.
 
@@ -80,3 +80,24 @@ Criou-se, então, a nova definição dessa função, que lê e armazena no tabul
 
 * *Atualização da Camada Testes*: O módulo testes esta a ser atualizado para os novos comandos.
 
+### Semana 7 (guião Final) - Sprint Backlog:
+
+|    História    |    Tarefas    |  Status/Obs.  |
+|  ---  |  ---  |  ---  |
+|    Documentação    |  Verificar se todas as estruturas de dados e Macros estão documentadas.  |    |
+|    |    |    |
+|  Modularidade e legibilidade  |  Funções que caibam no ecrã.  |    |
+|    |  Funçnoes aux com nome sugestivo.  |    |
+|    |  NÃO aceder diretamente o módulo dados.  |    |
+|    |  Estrutura em módulos estanques.  |    |
+|    |  NÃO utilizar variaveis globais.  |    |
+|    |  NÃO misturar a camada interface com o resto.  |    |
+|    |  NÃO misturar a camada dados com o resto.  |    |
+|    |    |    |
+|  Deteção dos fins de jogo  |  O projeto deverá detetar todas as instâncias de fim de jogo.  |    |
+|    |    |    |
+|  Compilar sem warnings  |  Compilar sem warnings com o comando: -std=gnu11 -Wall -Wextra -pedantic-errors -O no gcc.  |    |
+|    |    |    |
+|  Bot  |  Entrega do Bot finalizado através da BB.  |
+|    |    |
+|  Projeto  |  Entrega do Projeto finalizado através da BB com a seguinte definição: la1PL2G01.zip.  |
