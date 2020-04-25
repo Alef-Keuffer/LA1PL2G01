@@ -6,10 +6,6 @@
 #include "Camadas/dados/dados.h"
 #include "Camadas/dados/acessar_estado.h"
 #include "Camadas/interface/interface.h"
-#include "io.h"
-
-int ply = 0;
-int maxPly = 8;
 
 int jogar(ESTADO *e, COORDENADA c) {
     atualizar_tab(e, c);
@@ -49,6 +45,14 @@ int fim_de_jogo(ESTADO *e){
     return res;
 }
 
+void movs(ESTADO *e, FILE *file){
+    int a, i;
+    for (a=0, i=1; a<NumJogadas(e); i++, a++)
+        imprime_movs1(file, i, obter_subcoordenadas(e, a, 1, COLUNA) +'a', obter_subcoordenadas(e, a, 1, LINHA) +'1', obter_subcoordenadas(e, a, 2, COLUNA) + 'a', obter_subcoordenadas(e, a, 2, LINHA) + '1');
+
+    if(JogadorAtual(e) == 2) imprime_movs2(file, i, obter_subcoordenadas(e, a, 1, COLUNA) +'a', obter_subcoordenadas(e, a, 1, LINHA) +'1');
+}
+
 void pos(ESTADO *e, int position, int state){
     int num;
     int i, ultimo = 2;
@@ -71,7 +75,6 @@ void pos(ESTADO *e, int position, int state){
     armazenar_jogador(e, ultimo);
     if(JogadorAtual(e) == 1) armazenar_num_jogadas(e, position);
     else armazenar_num_jogadas(e, position - 1);
-    mostrar_tabuleiro(e);
 }
 
 int coord_to_int(COORDENADA c){
@@ -103,22 +106,8 @@ int desfazer_ultjogada(ESTADO *e){
     return 1;
 }
 
-int minMax(ESTADO *e){
-    COORDENADA moveList[8];
-    int moveCount = 0;
-    int bestScore = -2;
-    int score = -2;
-    COORDENADA bestMove = {-1, -1};
-    COORDENADA move;
-    int index, i, j, dist, lose = 0, distMin = 20;
-    COORDENADA c = obter_ultimajogada(e);
-    COORDENADA fim1 = {0, 0}, fim2 = {7, 7};
-
-    if(ply > 0){
-        score = avaliar_vitoria(e);
-        if(score != 0) return score;
-    }
-
+int array_jogadaspossiveis(ESTADO *e, COORDENADA c, COORDENADA moveList[]){
+    int i, j, moveCount = 0;
     for(i = -1; i < 2; i++){
         for(j = -1; j < 2; j++){
             int row = c.linha + i;
@@ -130,35 +119,59 @@ int minMax(ESTADO *e){
             }
         }
     }
+    return moveCount;
+}
 
-    for(index = 0; index < moveCount && ply < maxPly; index++){
+COORDENADA maisproximaFim(ESTADO *e, COORDENADA moveList[], int moveCount){
+    int index, dist, distMin = 20;
+    COORDENADA move, bestMove, fim1 = {0, 0}, fim2 = {7, 7};
+    for(index = 0; index < moveCount; index++){
+        move = moveList[index];
+        if(JogadorAtual(e) == 1) dist = abs(move.linha - fim1.linha) + abs(move.coluna - fim1.coluna);
+        else dist = abs(move.linha - fim2.linha) + abs(move.coluna - fim2.coluna);
+        if(dist <= distMin){
+            distMin = dist;
+            bestMove = move;
+        }
+    }
+    return bestMove;
+}
+
+int minMax(ESTADO *e, int profundidade){
+    COORDENADA moveList[8];
+    int moveCount = 0;
+    int bestScore = -2;
+    int score = -2;
+    COORDENADA bestMove = {-1, -1};
+    COORDENADA move;
+    int index, lose = 0;
+    COORDENADA c = obter_ultimajogada(e);
+
+    if(profundidade > 0){
+        score = avaliar_vitoria(e);
+        if(score != 0) return score;
+    }
+
+    moveCount = array_jogadaspossiveis(e, c, moveList);
+
+    for(index = 0; index < moveCount && profundidade < 8; index++){
         move = moveList[index];
         jogar(e, move);
-        ply++;
-        score = -minMax(e);
+        profundidade++;
+        score = -minMax(e, profundidade);
         if(score > bestScore){
             bestScore = score;
             bestMove = move;
         }
         if(score == -1) lose = 1;
         desfazer_ultjogada(e);
-        ply--;
+        profundidade--;
     }
 
-    if(ply == 0 && bestScore == 0 & lose == 0){
-        for(index = 0; index < moveCount; index++){
-            move = moveList[index];
-            if(JogadorAtual(e) == 1) dist = abs(move.linha - fim1.linha) + abs(move.coluna - fim1.coluna);
-            else dist = abs(move.linha - fim2.linha) + abs(move.coluna - fim2.coluna);
-            if(dist <= distMin){
-                distMin = dist;
-                bestMove = move;
-            }
-        }
-    }
+    if(profundidade == 0 && bestScore == 0 && lose == 0) bestMove = maisproximaFim(e, moveList, moveCount);
 
-    if(ply != 0 && ply < maxPly) return bestScore;
-    else if(ply >= maxPly) return 0;
+    if(profundidade != 0 && profundidade < 8) return bestScore;
+    else if(profundidade >= 8) return 0;
     else return coord_to_int(bestMove);
 }
 
@@ -166,45 +179,30 @@ void jog(ESTADO *e){
     int x;
     COORDENADA c;
 
-    ply = 0;
-    x = minMax(e);
+    x = minMax(e, 0);
     c = int_to_coord(x);
     jogar(e, c);
 }
 
 /*Função aux ao comando Jog2*/
-COORDENADA randomJog (ESTADO *e) 
+COORDENADA randomJog (ESTADO *e)
 {
-  COORDENADA c = obter_ultimajogada(e);
-  COORDENADA moveList[8];
-  int moveCount = 0;
-  int i, j;
+    COORDENADA c = obter_ultimajogada(e);
+    COORDENADA moveList[8];
+    int moveCount = 0;
 
-    for(i = -1; i <= 1 ; i++)
-    {
-      for(j = -1; j <= 1 ; j++)
-      {
-        int row = c.linha + i;
-        int col = c.coluna + j;
-          if(row >= 0 && row <= 7 && col >= 0 && col <= 7 && (obter_casa(e, row, col) == VAZIO || obter_casa(e, row, col) == UM || obter_casa(e, row, col) == DOIS))
-            {
-            moveList[moveCount].linha = row;
-            moveList[moveCount].coluna = col;
-            moveCount++;
-            }
-    }
-  }
-  int n;
-  srand(time(NULL));
+    moveCount = array_jogadaspossiveis(e, c, moveList);
+    int n;
+    srand(time(NULL));
     n = (rand() % (moveCount));
 
-  return moveList[n];
+    return moveList[n];
 }
 
 /*Comando Jog2 que faz uma jogada aleatória.*/
 void jog2(ESTADO *e)
 {
-  COORDENADA c;
-  c = randomJog (e);
-  jogar(e, c);
+    COORDENADA c;
+    c = randomJog (e);
+    jogar(e, c);
 }
