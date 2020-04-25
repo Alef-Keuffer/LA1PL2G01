@@ -51,6 +51,10 @@ int interpretador(ESTADO *e, int num_comandos, int state){
         jog(e);
         mostrar_tabuleiro(e);
     }
+    if(strlen(linha) == 5 && sscanf(linha, "%*[j]%*[o]%*[g]%c", command) == 1){
+        jog2(e);
+        mostrar_tabuleiro(e);
+    }
     num_comandos++;
     return interpretador(e, num_comandos, state);
 }
