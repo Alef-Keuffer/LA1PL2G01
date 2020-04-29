@@ -36,13 +36,14 @@ void atualizar_jogador_atual(ESTADO *e);
 /// \param c é a coordenada do movimento realizado.
 void atualizar_jogadas (ESTADO *e, COORDENADA c);
 
-/// Atualiza o tabuleiro por linhas.
+/// Atualiza a casa do tabuleiro pela casa lida.
 /// \ingroup subAlpha1
-/// Após o comando ler ser invocado, as casas do tabuleiro são alteradas por linhas.
+/// Após o comando ler ser invocado, as casas do tabuleiro são alteradas.
 /// \param e é o estado do tabuleiro.
-/// \param linha é o número da linha.
-/// \param line é a linha lida do ficheiro.
-void armazenar_linha(ESTADO *e, int linha, const char *line);
+/// \param row é a linha.
+/// \param col é a coluna.
+/// \param casa é a casa lida.
+void armazenar_casa(ESTADO *e, int row, int col, const char casa);
 
 /// Armazena jogadas na lista de jogadas.
 /// \ingroup subAlpha1
