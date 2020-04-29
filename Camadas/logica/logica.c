@@ -1,11 +1,4 @@
-#include <stdio.h>
-#include <math.h>
-#include <stdlib.h>
-#include <time.h>
-#include "Camadas/dados/modificar_estado.h"
-#include "Camadas/dados/dados.h"
-#include "Camadas/dados/acessar_estado.h"
-#include "Camadas/interface/interface.h"
+#include "logica.h"
 
 int jogar(ESTADO *e, COORDENADA c) {
     atualizar_tab(e, c);
@@ -25,6 +18,20 @@ int jogada_valida(ESTADO *e, COORDENADA c){
     res = (casa != PRETA && casa != BRANCA && (difLinha == 0 || difLinha == 1) && (difColuna == 0 || difColuna == 1));
 
     return res;
+}
+
+void mostrar_tabuleiro(ESTADO *e, FILE *file){
+    for(int row = 7; row >=0; row--){
+        for(int col = 0; col < 8; col++){
+            imprimir_char((obter_casa(e, row, col)), file);
+        }
+        imprimir_char('\n', file);
+    }
+}
+
+void prompt(ESTADO *e, int num_comandos){
+    int num = NumJogadas(e) + 1, jog = JogadorAtual(e);
+    imprimir_prompt(num_comandos, jog, num);
 }
 
 int fim_de_jogo(ESTADO *e){
@@ -77,26 +84,6 @@ void pos(ESTADO *e, int position, int state){
     else armazenar_num_jogadas(e, position - 1);
 }
 
-int coord_to_int(COORDENADA c){
-    int x;
-    x = c.linha * 10 + c.coluna;
-    return x;
-}
-
-COORDENADA int_to_coord(int x){
-    COORDENADA c;
-    c.linha = x/10;
-    c.coluna = x % 10;
-    return c;
-}
-
-int avaliar_vitoria(ESTADO *e){
-    int res = 0;
-    if(JogadorAtual(e) == fim_de_jogo(e)) res = 1;
-    else if(fim_de_jogo(e) != 0) res = -1;
-    return res;
-}
-
 int desfazer_ultjogada(ESTADO *e){
     branca_para_vazia(e);
     nova_ultjogada(e);
@@ -104,37 +91,6 @@ int desfazer_ultjogada(ESTADO *e){
     modificar_numjogadas(e);
     atualizar_jogador_atual(e);
     return 1;
-}
-
-int array_jogadaspossiveis(ESTADO *e, COORDENADA c, COORDENADA moveList[]){
-    int i, j, moveCount = 0;
-    for(i = -1; i < 2; i++){
-        for(j = -1; j < 2; j++){
-            int row = c.linha + i;
-            int col = c.coluna + j;
-            if(row >= 0 && row <= 7 && col >= 0 && col <= 7 && (obter_casa(e, row, col) == VAZIO || obter_casa(e, row, col) == UM || obter_casa(e, row, col) == DOIS)) {
-                moveList[moveCount].linha = row;
-                moveList[moveCount].coluna = col;
-                moveCount++;
-            }
-        }
-    }
-    return moveCount;
-}
-
-COORDENADA maisproximaFim(ESTADO *e, COORDENADA moveList[], int moveCount){
-    int index, dist, distMin = 20;
-    COORDENADA move, bestMove, fim1 = {0, 0}, fim2 = {7, 7};
-    for(index = 0; index < moveCount; index++){
-        move = moveList[index];
-        if(JogadorAtual(e) == 1) dist = abs(move.linha - fim1.linha) + abs(move.coluna - fim1.coluna);
-        else dist = abs(move.linha - fim2.linha) + abs(move.coluna - fim2.coluna);
-        if(dist <= distMin){
-            distMin = dist;
-            bestMove = move;
-        }
-    }
-    return bestMove;
 }
 
 int minMax(ESTADO *e, int profundidade){
@@ -189,7 +145,7 @@ COORDENADA randomJog (ESTADO *e)
 {
     COORDENADA c = obter_ultimajogada(e);
     COORDENADA moveList[8];
-    int moveCount = 0;
+    int moveCount;
 
     moveCount = array_jogadaspossiveis(e, c, moveList);
     int n;
