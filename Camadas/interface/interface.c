@@ -66,7 +66,7 @@ void imprime_movs1(FILE *file, int i, int c1, int r1, int c2, int r2){
     else fprintf(file, "%02d: %c%c %c%c\n", i, c1, r1, c2, r2);
 }
 
-void imprime_movs2(FILE *file, int i, char c1, char r1){
+void imprime_movs2(FILE *file, int i, int c1, int r1){
     if(file == NULL) fprintf(stdout, "%02d: %c%c\n", i, c1, r1);
     else fprintf(file, "%02d: %c%c\n", i, c1, r1);
 }
