@@ -1,5 +1,4 @@
-#include "dados.h"
-#include <math.h>
+#include "modificar_estado.h"
 
 void atualizar_tab(ESTADO *e, COORDENADA c){
     (*e).tab[(*e).ultima_jogada.linha][(*e).ultima_jogada.coluna] = PRETA;
@@ -20,10 +19,8 @@ void atualizar_jogador_atual(ESTADO *e){
     else (*e).jogador_atual = 1;
 }
 
-void armazenar_linha(ESTADO *e, int linha, const char *line){
-    int i;
-    for(i = 0; i < 8; i++)
-        (*e).tab[abs(linha - 7)][i] = line[i];
+void armazenar_casa(ESTADO *e, int row, int col, const char casa){
+    e->tab[row][col] = casa;
 }
 
 void armazenar_jogada(ESTADO *e, JOGADA jog, int num_jog){
