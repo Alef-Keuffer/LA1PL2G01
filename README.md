@@ -12,14 +12,15 @@ Grupo 01 do turno PL2 (Laboratório de Algoritmia), composto por:
 
 ## Estruturação do programa
 ### Camada de dados
- * acessar_estado
  * dados
+ * acessar_estado
  * modificar_estado
 ### Lógica do programa
- * io
  * logica
+ * auxiliares
 ### Camada de interface
  * interface
+ * io
 
 ## Progresso por semanas
 ### Semana 1 (guião 5):
