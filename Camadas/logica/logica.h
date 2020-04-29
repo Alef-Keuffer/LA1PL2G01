@@ -1,21 +1,27 @@
 #ifndef RASTROS_LOGICA_H
 #define RASTROS_LOGICA_H
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+#include <time.h>
+#include "Camadas/dados/modificar_estado.h"
 #include "Camadas/dados/dados.h"
+#include "Camadas/dados/acessar_estado.h"
+#include "Camadas/interface/interface.h"
+#include "Camadas/interface/io.h"
+#include "auxiliares.h"
 
 int jogar(ESTADO *e, COORDENADA c);
 int jogada_valida(ESTADO *e, COORDENADA c);
+void mostrar_tabuleiro(ESTADO *e, FILE *file);
+void prompt(ESTADO *e, int num_comandos);
 int fim_de_jogo(ESTADO *e);
 void pos(ESTADO *e, int position, int state);
 void movs(ESTADO *e, FILE *file);
-int coord_to_int(COORDENADA c);
-COORDENADA int_to_coord(int x);
-int avaliar_vitoria(ESTADO *e);
 int desfazer_ultjogada(ESTADO *e);
-int minMax(ESTADO *e);
-int randomJog(ESTADO *e);
+int minMax(ESTADO *e, int profundidade);
+COORDENADA randomJog(ESTADO *e);
 void jog(ESTADO *e);
 void jog2(ESTADO *e);
-int array_jogadaspossiveis(ESTADO *e, COORDENADA c, COORDENADA moveList[]);
-COORDENADA maisproximaFim(ESTADO *e, COORDENADA moveList[], int moveCount);
 
 #endif //RASTROS_LOGICA_H
