@@ -1,4 +1,4 @@
 var dados_8c =
 [
-    [ "inicializar_estado", "dados_8c.html#a7e0c7e26fb685d9ab501e19b05e6954f", null ]
+    [ "inicializar_estado", "group__sub_alpha3.html#ga7e0c7e26fb685d9ab501e19b05e6954f", null ]
 ];

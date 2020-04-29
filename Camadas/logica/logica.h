@@ -1,3 +1,9 @@
+/// @defgroup groupAlpha2 Lógica
+/// @defgroup sub1Alpha2 Lógica
+/// @ingroup groupAlpha2
+/// @defgroup sub2Alpha2 Auxiliares
+/// @ingroup groupAlpha2
+
 #ifndef RASTROS_LOGICA_H
 #define RASTROS_LOGICA_H
 #include <stdio.h>

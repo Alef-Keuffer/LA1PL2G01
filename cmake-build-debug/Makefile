@@ -230,32 +230,59 @@ Camadas/interface/interface.c.s:
 	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.s
 .PHONY : Camadas/interface/interface.c.s
 
-Camadas/logica/io.obj: Camadas/logica/io.c.obj
+Camadas/interface/io.obj: Camadas/interface/io.c.obj
 
-.PHONY : Camadas/logica/io.obj
+.PHONY : Camadas/interface/io.obj
 
 # target to build an object file
-Camadas/logica/io.c.obj:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.obj
-.PHONY : Camadas/logica/io.c.obj
+Camadas/interface/io.c.obj:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/interface/io.c.obj
+.PHONY : Camadas/interface/io.c.obj
 
-Camadas/logica/io.i: Camadas/logica/io.c.i
+Camadas/interface/io.i: Camadas/interface/io.c.i
 
-.PHONY : Camadas/logica/io.i
+.PHONY : Camadas/interface/io.i
 
 # target to preprocess a source file
-Camadas/logica/io.c.i:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.i
-.PHONY : Camadas/logica/io.c.i
+Camadas/interface/io.c.i:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/interface/io.c.i
+.PHONY : Camadas/interface/io.c.i
 
-Camadas/logica/io.s: Camadas/logica/io.c.s
+Camadas/interface/io.s: Camadas/interface/io.c.s
 
-.PHONY : Camadas/logica/io.s
+.PHONY : Camadas/interface/io.s
 
 # target to generate assembly for a file
-Camadas/logica/io.c.s:
-	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.s
-.PHONY : Camadas/logica/io.c.s
+Camadas/interface/io.c.s:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/interface/io.c.s
+.PHONY : Camadas/interface/io.c.s
+
+Camadas/logica/auxiliares.obj: Camadas/logica/auxiliares.c.obj
+
+.PHONY : Camadas/logica/auxiliares.obj
+
+# target to build an object file
+Camadas/logica/auxiliares.c.obj:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/logica/auxiliares.c.obj
+.PHONY : Camadas/logica/auxiliares.c.obj
+
+Camadas/logica/auxiliares.i: Camadas/logica/auxiliares.c.i
+
+.PHONY : Camadas/logica/auxiliares.i
+
+# target to preprocess a source file
+Camadas/logica/auxiliares.c.i:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/logica/auxiliares.c.i
+.PHONY : Camadas/logica/auxiliares.c.i
+
+Camadas/logica/auxiliares.s: Camadas/logica/auxiliares.c.s
+
+.PHONY : Camadas/logica/auxiliares.s
+
+# target to generate assembly for a file
+Camadas/logica/auxiliares.c.s:
+	$(MAKE) -f CMakeFiles\Rastros_C.dir\build.make CMakeFiles/Rastros_C.dir/Camadas/logica/auxiliares.c.s
+.PHONY : Camadas/logica/auxiliares.c.s
 
 Camadas/logica/logica.obj: Camadas/logica/logica.c.obj
 
@@ -359,9 +386,12 @@ help:
 	@echo ... Camadas/interface/interface.obj
 	@echo ... Camadas/interface/interface.i
 	@echo ... Camadas/interface/interface.s
-	@echo ... Camadas/logica/io.obj
-	@echo ... Camadas/logica/io.i
-	@echo ... Camadas/logica/io.s
+	@echo ... Camadas/interface/io.obj
+	@echo ... Camadas/interface/io.i
+	@echo ... Camadas/interface/io.s
+	@echo ... Camadas/logica/auxiliares.obj
+	@echo ... Camadas/logica/auxiliares.i
+	@echo ... Camadas/logica/auxiliares.s
 	@echo ... Camadas/logica/logica.obj
 	@echo ... Camadas/logica/logica.i
 	@echo ... Camadas/logica/logica.s

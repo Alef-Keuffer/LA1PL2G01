@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['wl_355',['Wl',['../link_8txt.html#af8d2b6a4b7c3f6d1a0ba4bdd6302b7fc',1,'link.txt']]]
+  ['valor_477',['valor',['../structnodo.html#ac78f1a082a695595f0d3ed32cead97f4',1,'nodo']]],
+  ['version_478',['version',['../link_8txt.html#a50c2d669e78e145e92d13e6cf9065989',1,'link.txt']]]
 ];

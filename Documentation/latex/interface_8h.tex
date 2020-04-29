@@ -1,41 +1,56 @@
-\hypertarget{interface_8h}{}\doxysection{C\+:/\+Users/alefk/\+Documents/\+L\+A1\+P\+L2\+G1/interface.h File Reference}
-\label{interface_8h}\index{C:/Users/alefk/Documents/LA1PL2G1/interface.h@{C:/Users/alefk/Documents/LA1PL2G1/interface.h}}
-{\ttfamily \#include \char`\"{}dados.\+h\char`\"{}}\newline
+\hypertarget{interface_8h}{}\doxysection{Camadas/interface/interface.h File Reference}
+\label{interface_8h}\index{Camadas/interface/interface.h@{Camadas/interface/interface.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Camadas/dados/dados.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Camadas/logica/logica.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Camadas/interface/io.\+h\char`\"{}}\newline
 \doxysubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-void \mbox{\hyperlink{interface_8h_aa0b6c1689e60ac852a73d67e066c1df5}{mostrar\+\_\+tabuleiro}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
+void \mbox{\hyperlink{group__sub1_alpha1_gaa8380036eb143858dab4bfad8b780adc}{imprimir\+\_\+prompt}} (\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} num\+\_\+comandos, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{logica_8h_a9dfbc982d23a619e36575d8e7ec8e41c}{jog}}, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} num)
+\begin{DoxyCompactList}\small\item\em Coloca no ecrã um prompt. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_8h_aa667396d13cd8ece035aad8ce0d8dafa}{mensagem\+\_\+fimdejogo}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
 \item 
-void \mbox{\hyperlink{interface_8h_afb7d37204f937c5a75d647c6537ef22a}{prompt}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} num\+\_\+comandos)
+\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{interface_8h_adcd0ed74fee6ab3cae6d67e5ddadb270}{interpretador}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} num\+\_\+comandos, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} state)
 \item 
-\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{interface_8h_a09e1b485b52ec5a91822a805f73d4488}{interpretador}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} num\+\_\+comandos)
+void \mbox{\hyperlink{interface_8h_ad0fb7f53028d4e76c9703fa4f7f82cbd}{imprimir\+\_\+char}} (\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} c, F\+I\+LE $\ast$file)
 \item 
-void \mbox{\hyperlink{interface_8h_a8d63019a8176de612e33bf8c72121760}{movs}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
+void \mbox{\hyperlink{interface_8h_a805702ffaf6ccf788b5819f4c8bd5029}{imprime\+\_\+movs1}} (F\+I\+LE $\ast$file, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} i, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} c1, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} r1, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} c2, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} r2)
+\item 
+void \mbox{\hyperlink{interface_8h_af20e0f95f5d99e3d0dbf4df0ad6518e3}{imprime\+\_\+movs2}} (F\+I\+LE $\ast$file, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} i, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} c1, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} r1)
 \end{DoxyCompactItemize}
 
 
 \doxysubsection{Function Documentation}
-\mbox{\Hypertarget{interface_8h_a09e1b485b52ec5a91822a805f73d4488}\label{interface_8h_a09e1b485b52ec5a91822a805f73d4488}} 
+\mbox{\Hypertarget{interface_8h_a805702ffaf6ccf788b5819f4c8bd5029}\label{interface_8h_a805702ffaf6ccf788b5819f4c8bd5029}} 
+\index{interface.h@{interface.h}!imprime\_movs1@{imprime\_movs1}}
+\index{imprime\_movs1@{imprime\_movs1}!interface.h@{interface.h}}
+\doxysubsubsection{\texorpdfstring{imprime\_movs1()}{imprime\_movs1()}}
+{\footnotesize\ttfamily void imprime\+\_\+movs1 (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{i,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{c1,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{r1,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{c2,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{r2 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interface_8h_af20e0f95f5d99e3d0dbf4df0ad6518e3}\label{interface_8h_af20e0f95f5d99e3d0dbf4df0ad6518e3}} 
+\index{interface.h@{interface.h}!imprime\_movs2@{imprime\_movs2}}
+\index{imprime\_movs2@{imprime\_movs2}!interface.h@{interface.h}}
+\doxysubsubsection{\texorpdfstring{imprime\_movs2()}{imprime\_movs2()}}
+{\footnotesize\ttfamily void imprime\+\_\+movs2 (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{i,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{c1,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{r1 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interface_8h_ad0fb7f53028d4e76c9703fa4f7f82cbd}\label{interface_8h_ad0fb7f53028d4e76c9703fa4f7f82cbd}} 
+\index{interface.h@{interface.h}!imprimir\_char@{imprimir\_char}}
+\index{imprimir\_char@{imprimir\_char}!interface.h@{interface.h}}
+\doxysubsubsection{\texorpdfstring{imprimir\_char()}{imprimir\_char()}}
+{\footnotesize\ttfamily void imprimir\+\_\+char (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{c,  }\item[{F\+I\+LE $\ast$}]{file }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interface_8h_adcd0ed74fee6ab3cae6d67e5ddadb270}\label{interface_8h_adcd0ed74fee6ab3cae6d67e5ddadb270}} 
 \index{interface.h@{interface.h}!interpretador@{interpretador}}
 \index{interpretador@{interpretador}!interface.h@{interface.h}}
 \doxysubsubsection{\texorpdfstring{interpretador()}{interpretador()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} interpretador (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{num\+\_\+comandos }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} interpretador (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{num\+\_\+comandos,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{state }\end{DoxyParamCaption})}
 
-\mbox{\Hypertarget{interface_8h_aa0b6c1689e60ac852a73d67e066c1df5}\label{interface_8h_aa0b6c1689e60ac852a73d67e066c1df5}} 
-\index{interface.h@{interface.h}!mostrar\_tabuleiro@{mostrar\_tabuleiro}}
-\index{mostrar\_tabuleiro@{mostrar\_tabuleiro}!interface.h@{interface.h}}
-\doxysubsubsection{\texorpdfstring{mostrar\_tabuleiro()}{mostrar\_tabuleiro()}}
-{\footnotesize\ttfamily void mostrar\+\_\+tabuleiro (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
-
-\mbox{\Hypertarget{interface_8h_a8d63019a8176de612e33bf8c72121760}\label{interface_8h_a8d63019a8176de612e33bf8c72121760}} 
-\index{interface.h@{interface.h}!movs@{movs}}
-\index{movs@{movs}!interface.h@{interface.h}}
-\doxysubsubsection{\texorpdfstring{movs()}{movs()}}
-{\footnotesize\ttfamily void movs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
-
-\mbox{\Hypertarget{interface_8h_afb7d37204f937c5a75d647c6537ef22a}\label{interface_8h_afb7d37204f937c5a75d647c6537ef22a}} 
-\index{interface.h@{interface.h}!prompt@{prompt}}
-\index{prompt@{prompt}!interface.h@{interface.h}}
-\doxysubsubsection{\texorpdfstring{prompt()}{prompt()}}
-{\footnotesize\ttfamily void prompt (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{num\+\_\+comandos }\end{DoxyParamCaption})}
+\mbox{\Hypertarget{interface_8h_aa667396d13cd8ece035aad8ce0d8dafa}\label{interface_8h_aa667396d13cd8ece035aad8ce0d8dafa}} 
+\index{interface.h@{interface.h}!mensagem\_fimdejogo@{mensagem\_fimdejogo}}
+\index{mensagem\_fimdejogo@{mensagem\_fimdejogo}!interface.h@{interface.h}}
+\doxysubsubsection{\texorpdfstring{mensagem\_fimdejogo()}{mensagem\_fimdejogo()}}
+{\footnotesize\ttfamily void mensagem\+\_\+fimdejogo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
 

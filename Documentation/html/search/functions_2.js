@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fim_5fde_5fjogo_225',['fim_de_jogo',['../logica_8c.html#a9a0ae8b2e0ca2ed4b5fdd4145a742791',1,'fim_de_jogo(ESTADO *e):&#160;logica.c'],['../logica_8h.html#a9a0ae8b2e0ca2ed4b5fdd4145a742791',1,'fim_de_jogo(ESTADO *e):&#160;logica.c']]]
+  ['branca_5fpara_5fvazia_309',['branca_para_vazia',['../modificar__estado_8c.html#a82e1af1f85e70a85fd135884853b818e',1,'branca_para_vazia(ESTADO *e):&#160;modificar_estado.c'],['../modificar__estado_8h.html#a82e1af1f85e70a85fd135884853b818e',1,'branca_para_vazia(ESTADO *e):&#160;modificar_estado.c']]]
 ];

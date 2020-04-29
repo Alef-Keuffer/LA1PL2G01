@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['acessar_20dados_373',['Acessar dados',['../group__sub_alpha2.html',1,'']]]
+  ['auxiliares_501',['Auxiliares',['../group__sub2_alpha2.html',1,'']]],
+  ['acessar_20dados_502',['Acessar dados',['../group__sub_alpha2.html',1,'']]]
 ];

@@ -1,7 +1,7 @@
 #include "Camadas/logica/logica.h"
 #include "Camadas/dados/dados.h"
 #include <assert.h>
-#include "Camadas/logica/io.h"
+#include "Camadas/interface/io.h"
 
 void commands_winner_is_player1(){
     ESTADO *e = inicializar_estado();

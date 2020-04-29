@@ -114,10 +114,16 @@
 		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/interface/interface.h">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/logica/io.c">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/interface/io.c">
 			<Option target="Rastros_C"/>
 		</Unit>
-		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/logica/io.h">
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/interface/io.h">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/logica/auxiliares.c">
+			<Option target="Rastros_C"/>
+		</Unit>
+		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/logica/auxiliares.h">
 			<Option target="Rastros_C"/>
 		</Unit>
 		<Unit filename="C:/Users/alefk/Documents/LA1PL2G1/Camadas/logica/logica.c">

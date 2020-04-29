@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>LA1PL2G1: C:/Users/alefk/Documents/LA1PL2G1/io.h File Reference</title>
+<title>My Project: Camadas/interface/io.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,9 +30,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">LA1PL2G1
+   <div id="projectname">My Project
    </div>
-   <div id="projectbrief">Jogo Rastros em C</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -95,10 +94,13 @@ $(document).ready(function(){initNavTree('io_8h.html',''); initResizable(); });
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">C:/Users/alefk/Documents/LA1PL2G1/io.h File Reference</div>  </div>
+<div class="title">io.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="dados_8h_source.html">dados.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="dados_8h_source.html">Camadas/dados/dados.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="logica_8h_source.html">Camadas/logica/logica.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="auxiliares_8h_source.html">Camadas/logica/auxiliares.h</a>&quot;</code><br />
 </div>
 <p><a href="io_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -106,8 +108,8 @@ $(document).ready(function(){initNavTree('io_8h.html',''); initResizable(); });
 Functions</h2></td></tr>
 <tr class="memitem:a23a23b7826b87285db7e15c4bdbd7897"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="io_8h.html#a23a23b7826b87285db7e15c4bdbd7897">gr</a> (<a class="el" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e, <a class="el" href="_c_make_cache_8txt.html#afe71f11dacb15682cdc012f7208e6e09">char</a> *file_path)</td></tr>
 <tr class="separator:a23a23b7826b87285db7e15c4bdbd7897"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aaeebe5b96daed103222f9df90055be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="io_8h.html#a5aaeebe5b96daed103222f9df90055be">ler</a> (<a class="el" href="_c_make_cache_8txt.html#afe71f11dacb15682cdc012f7208e6e09">char</a> *filename)</td></tr>
-<tr class="separator:a5aaeebe5b96daed103222f9df90055be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab184b82fd763449103d10b56b797c537"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="io_8h.html#ab184b82fd763449103d10b56b797c537">ler</a> (<a class="el" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e, <a class="el" href="_c_make_cache_8txt.html#afe71f11dacb15682cdc012f7208e6e09">char</a> *filename)</td></tr>
+<tr class="separator:ab184b82fd763449103d10b56b797c537"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a23a23b7826b87285db7e15c4bdbd7897"></a>
@@ -138,8 +140,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5aaeebe5b96daed103222f9df90055be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5aaeebe5b96daed103222f9df90055be">&#9670;&nbsp;</a></span>ler()</h2>
+<a id="ab184b82fd763449103d10b56b797c537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab184b82fd763449103d10b56b797c537">&#9670;&nbsp;</a></span>ler()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -147,9 +149,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void ler </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="_c_make_cache_8txt.html#afe71f11dacb15682cdc012f7208e6e09">char</a> *&#160;</td>
-          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_e_s_t_a_d_o.html">ESTADO</a> *&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="_c_make_cache_8txt.html#afe71f11dacb15682cdc012f7208e6e09">char</a> *&#160;</td>
+          <td class="paramname"><em>filename</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -161,7 +173,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="io_8h.html">io.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5f48bbbdf6cf9132fc4204b556e52c6e.html">Camadas</a></li><li class="navelem"><a class="el" href="dir_46693151be61b54de19ce420b97749e1.html">interface</a></li><li class="navelem"><a class="el" href="io_8h.html">io.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

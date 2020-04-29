@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['preta_359',['PRETA',['../dados_8h.html#aba91601f16d4c485b2d9b8c429f27039a007278eb3827d19891b47cdd3ac8846d',1,'dados.h']]]
+  ['dois_485',['DOIS',['../dados_8h.html#aba91601f16d4c485b2d9b8c429f27039a2bf153109d0c8b96e61bc18d5be7c5da',1,'dados.h']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tab_352',['tab',['../struct_e_s_t_a_d_o.html#aed8344f36fab192f3db826ac0e8f6886',1,'ESTADO']]]
+  ['proximo_474',['proximo',['../structnodo.html#a03f1eceb28ca4022ecc73589b6ca39d9',1,'nodo']]]
 ];

@@ -20,7 +20,6 @@ void atualizar_ultima_jogada(ESTADO *e, COORDENADA c);
 /// \ingroup subAlpha1
 /// Após movimento de jogador 2, soma-se 1 à (*e)_num_jogadas
 /// \param e é o estado do tabuleiro.
-/// \param c é a coordenada do movimento realizado.
 void atualizar_num_jogadas(ESTADO *e);
 
 /// Atualiza o jogador atual.

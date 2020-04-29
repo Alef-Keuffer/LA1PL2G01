@@ -3,6 +3,8 @@
 /// @ingroup groupAlpha
 /// @defgroup subAlpha2 Acessar dados
 /// @ingroup groupAlpha
+/// @defgroup subAlpha3 Dados
+/// @ingroup groupAlpha
 
 #ifndef DADOS_H_
 #define DADOS_H_
@@ -35,6 +37,10 @@ typedef struct {
     int jogador_atual;
 } ESTADO;
 
+/// Inicializa o tabuleiro
+/// \ingroup subAlpha3
+/// Cria o apontador "e" do tipo ESTADO. Determina que o jogador atual é o jogador 1. Determina que o número de jogadas é 0. Monta o tabuleiro determinando o estado (VAZIA, UM, DOIS, PRETA, BRANCA) de cada casa.
+/// \return o apontador para um endereço de um estado
 ESTADO *inicializar_estado();
 
 #endif

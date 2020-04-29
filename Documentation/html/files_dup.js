@@ -1,18 +1,10 @@
 var files_dup =
 [
+    [ "Camadas", "dir_5f48bbbdf6cf9132fc4204b556e52c6e.html", "dir_5f48bbbdf6cf9132fc4204b556e52c6e" ],
     [ "cmake-build-debug", "dir_95e29a8b8ee7c54052c171a88bb95675.html", "dir_95e29a8b8ee7c54052c171a88bb95675" ],
     [ "Documentation", "dir_f9dfd35b172a0e2036ace76497fb239b.html", "dir_f9dfd35b172a0e2036ace76497fb239b" ],
-    [ "acessar_estado.c", "acessar__estado_8c.html", "acessar__estado_8c" ],
-    [ "acessar_estado.h", "acessar__estado_8h.html", "acessar__estado_8h" ],
-    [ "dados.c", "dados_8c.html", "dados_8c" ],
-    [ "dados.h", "dados_8h.html", "dados_8h" ],
-    [ "interface.c", "interface_8c.html", "interface_8c" ],
-    [ "interface.h", "interface_8h.html", "interface_8h" ],
-    [ "io.c", "io_8c.html", "io_8c" ],
-    [ "io.h", "io_8h.html", "io_8h" ],
-    [ "logica.c", "logica_8c.html", "logica_8c" ],
-    [ "logica.h", "logica_8h.html", "logica_8h" ],
+    [ "listas", "dir_c95515bf5b3b9d60c756cf5ef2bbb78b.html", "dir_c95515bf5b3b9d60c756cf5ef2bbb78b" ],
+    [ "Testes", "dir_59c25d53ef7c41a6d022020f2a10f793.html", null ],
     [ "main.c", "main_8c.html", "main_8c" ],
-    [ "modificar_estado.c", "modificar__estado_8c.html", "modificar__estado_8c" ],
-    [ "modificar_estado.h", "modificar__estado_8h.html", "modificar__estado_8h" ]
+    [ "mainlista.c", "mainlista_8c.html", "mainlista_8c" ]
 ];

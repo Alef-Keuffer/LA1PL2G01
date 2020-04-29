@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>LA1PL2G1: C:/Users/alefk/Documents/LA1PL2G1/logica.h Source File</title>
+<title>My Project: Camadas/logica/logica.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,9 +30,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">LA1PL2G1
+   <div id="projectname">My Project
    </div>
-   <div id="projectbrief">Jogo Rastros em C</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -93,31 +92,63 @@ $(document).ready(function(){initNavTree('logica_8h_source.html',''); initResiza
 
 <div class="header">
   <div class="headertitle">
-<div class="title">C:/Users/alefk/Documents/LA1PL2G1/logica.h</div>  </div>
+<div class="title">logica.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="logica_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef LOGICA_H_</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define LOGICA_H_</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="dados_8h.html">dados.h</a>&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordtype">int</span> <a class="code" href="logica_8h.html#ac313d7e553b1e2b5f266acb9bfff8141">jogar</a>(<a class="code" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e, <a class="code" href="struct_c_o_o_r_d_e_n_a_d_a.html">COORDENADA</a> c);</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keywordtype">int</span> <a class="code" href="logica_8h.html#ab1160bacb55fe9977b2a60e615c2e627">jogada_valida</a>(<a class="code" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e, <a class="code" href="struct_c_o_o_r_d_e_n_a_d_a.html">COORDENADA</a> c);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keywordtype">int</span> <a class="code" href="logica_8h.html#a9a0ae8b2e0ca2ed4b5fdd4145a742791">fim_de_jogo</a>(<a class="code" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#endif</span></div>
+<a href="logica_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef RASTROS_LOGICA_H</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define RASTROS_LOGICA_H</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;math.h&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;time.h&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="modificar__estado_8h.html">Camadas/dados/modificar_estado.h</a>&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="dados_8h.html">Camadas/dados/dados.h</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="acessar__estado_8h.html">Camadas/dados/acessar_estado.h</a>&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="interface_8h.html">Camadas/interface/interface.h</a>&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="io_8h.html">Camadas/interface/io.h</a>&quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="auxiliares_8h.html">auxiliares.h</a>&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordtype">int</span> <a class="code" href="logica_8h.html#ac313d7e553b1e2b5f266acb9bfff8141">jogar</a>(<a class="code" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e, <a class="code" href="struct_c_o_o_r_d_e_n_a_d_a.html">COORDENADA</a> c);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keywordtype">int</span> <a class="code" href="logica_8h.html#ab1160bacb55fe9977b2a60e615c2e627">jogada_valida</a>(<a class="code" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e, <a class="code" href="struct_c_o_o_r_d_e_n_a_d_a.html">COORDENADA</a> c);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordtype">void</span> <a class="code" href="logica_8h.html#a33aa2b1fccaee5b1c1707d92f6ddc6f7">mostrar_tabuleiro</a>(<a class="code" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e, FILE *file);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keywordtype">void</span> <a class="code" href="logica_8h.html#afb7d37204f937c5a75d647c6537ef22a">prompt</a>(<a class="code" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e, <span class="keywordtype">int</span> num_comandos);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordtype">int</span> <a class="code" href="logica_8h.html#a9a0ae8b2e0ca2ed4b5fdd4145a742791">fim_de_jogo</a>(<a class="code" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">void</span> <a class="code" href="logica_8h.html#a8a79a457a813dff34cfcdd48ac2c941c">pos</a>(<a class="code" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e, <span class="keywordtype">int</span> position, <span class="keywordtype">int</span> state);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">void</span> <a class="code" href="logica_8h.html#a893b15b1044151de83eb9b01817dcdc0">movs</a>(<a class="code" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e, FILE *file);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keywordtype">int</span> <a class="code" href="logica_8h.html#ab39d4dc63e6d2693c1db926f53cba16d">desfazer_ultjogada</a>(<a class="code" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">int</span> <a class="code" href="logica_8h.html#a85768460d2d874c166cfdfb78c21b5aa">minMax</a>(<a class="code" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e, <span class="keywordtype">int</span> profundidade);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<a class="code" href="struct_c_o_o_r_d_e_n_a_d_a.html">COORDENADA</a> <a class="code" href="logica_8h.html#a636e9e396c3d409d5f71bf3020268d0b">randomJog</a>(<a class="code" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordtype">void</span> <a class="code" href="logica_8h.html#a9dfbc982d23a619e36575d8e7ec8e41c">jog</a>(<a class="code" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">void</span> <a class="code" href="logica_8h.html#a75a3c6feb2f2ec713f96559558b136d0">jog2</a>(<a class="code" href="struct_e_s_t_a_d_o.html">ESTADO</a> *e);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#endif //RASTROS_LOGICA_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="astruct_c_o_o_r_d_e_n_a_d_a_html"><div class="ttname"><a href="struct_c_o_o_r_d_e_n_a_d_a.html">COORDENADA</a></div><div class="ttdef"><b>Definition:</b> dados.h:19</div></div>
-<div class="ttc" id="alogica_8h_html_a9a0ae8b2e0ca2ed4b5fdd4145a742791"><div class="ttname"><a href="logica_8h.html#a9a0ae8b2e0ca2ed4b5fdd4145a742791">fim_de_jogo</a></div><div class="ttdeci">int fim_de_jogo(ESTADO *e)</div><div class="ttdef"><b>Definition:</b> logica.c:29</div></div>
+<div class="ttc" id="astruct_c_o_o_r_d_e_n_a_d_a_html"><div class="ttname"><a href="struct_c_o_o_r_d_e_n_a_d_a.html">COORDENADA</a></div><div class="ttdef"><b>Definition:</b> dados.h:23</div></div>
+<div class="ttc" id="alogica_8h_html_a33aa2b1fccaee5b1c1707d92f6ddc6f7"><div class="ttname"><a href="logica_8h.html#a33aa2b1fccaee5b1c1707d92f6ddc6f7">mostrar_tabuleiro</a></div><div class="ttdeci">void mostrar_tabuleiro(ESTADO *e, FILE *file)</div><div class="ttdef"><b>Definition:</b> logica.c:23</div></div>
+<div class="ttc" id="alogica_8h_html_ab39d4dc63e6d2693c1db926f53cba16d"><div class="ttname"><a href="logica_8h.html#ab39d4dc63e6d2693c1db926f53cba16d">desfazer_ultjogada</a></div><div class="ttdeci">int desfazer_ultjogada(ESTADO *e)</div><div class="ttdef"><b>Definition:</b> logica.c:87</div></div>
+<div class="ttc" id="alogica_8h_html_a9a0ae8b2e0ca2ed4b5fdd4145a742791"><div class="ttname"><a href="logica_8h.html#a9a0ae8b2e0ca2ed4b5fdd4145a742791">fim_de_jogo</a></div><div class="ttdeci">int fim_de_jogo(ESTADO *e)</div><div class="ttdef"><b>Definition:</b> logica.c:37</div></div>
+<div class="ttc" id="alogica_8h_html_a75a3c6feb2f2ec713f96559558b136d0"><div class="ttname"><a href="logica_8h.html#a75a3c6feb2f2ec713f96559558b136d0">jog2</a></div><div class="ttdeci">void jog2(ESTADO *e)</div><div class="ttdef"><b>Definition:</b> logica.c:159</div></div>
 <div class="ttc" id="adados_8h_html"><div class="ttname"><a href="dados_8h.html">dados.h</a></div></div>
-<div class="ttc" id="alogica_8h_html_ac313d7e553b1e2b5f266acb9bfff8141"><div class="ttname"><a href="logica_8h.html#ac313d7e553b1e2b5f266acb9bfff8141">jogar</a></div><div class="ttdeci">int jogar(ESTADO *e, COORDENADA c)</div><div class="ttdef"><b>Definition:</b> logica.c:8</div></div>
-<div class="ttc" id="astruct_e_s_t_a_d_o_html"><div class="ttname"><a href="struct_e_s_t_a_d_o.html">ESTADO</a></div><div class="ttdef"><b>Definition:</b> dados.h:28</div></div>
-<div class="ttc" id="alogica_8h_html_ab1160bacb55fe9977b2a60e615c2e627"><div class="ttname"><a href="logica_8h.html#ab1160bacb55fe9977b2a60e615c2e627">jogada_valida</a></div><div class="ttdeci">int jogada_valida(ESTADO *e, COORDENADA c)</div><div class="ttdef"><b>Definition:</b> logica.c:17</div></div>
+<div class="ttc" id="alogica_8h_html_afb7d37204f937c5a75d647c6537ef22a"><div class="ttname"><a href="logica_8h.html#afb7d37204f937c5a75d647c6537ef22a">prompt</a></div><div class="ttdeci">void prompt(ESTADO *e, int num_comandos)</div><div class="ttdef"><b>Definition:</b> logica.c:32</div></div>
+<div class="ttc" id="alogica_8h_html_ac313d7e553b1e2b5f266acb9bfff8141"><div class="ttname"><a href="logica_8h.html#ac313d7e553b1e2b5f266acb9bfff8141">jogar</a></div><div class="ttdeci">int jogar(ESTADO *e, COORDENADA c)</div><div class="ttdef"><b>Definition:</b> logica.c:3</div></div>
+<div class="ttc" id="alogica_8h_html_a85768460d2d874c166cfdfb78c21b5aa"><div class="ttname"><a href="logica_8h.html#a85768460d2d874c166cfdfb78c21b5aa">minMax</a></div><div class="ttdeci">int minMax(ESTADO *e, int profundidade)</div><div class="ttdef"><b>Definition:</b> logica.c:96</div></div>
+<div class="ttc" id="astruct_e_s_t_a_d_o_html"><div class="ttname"><a href="struct_e_s_t_a_d_o.html">ESTADO</a></div><div class="ttdef"><b>Definition:</b> dados.h:32</div></div>
+<div class="ttc" id="alogica_8h_html_a893b15b1044151de83eb9b01817dcdc0"><div class="ttname"><a href="logica_8h.html#a893b15b1044151de83eb9b01817dcdc0">movs</a></div><div class="ttdeci">void movs(ESTADO *e, FILE *file)</div><div class="ttdef"><b>Definition:</b> logica.c:55</div></div>
+<div class="ttc" id="ainterface_8h_html"><div class="ttname"><a href="interface_8h.html">interface.h</a></div></div>
+<div class="ttc" id="amodificar__estado_8h_html"><div class="ttname"><a href="modificar__estado_8h.html">modificar_estado.h</a></div></div>
+<div class="ttc" id="alogica_8h_html_a636e9e396c3d409d5f71bf3020268d0b"><div class="ttname"><a href="logica_8h.html#a636e9e396c3d409d5f71bf3020268d0b">randomJog</a></div><div class="ttdeci">COORDENADA randomJog(ESTADO *e)</div><div class="ttdef"><b>Definition:</b> logica.c:144</div></div>
+<div class="ttc" id="alogica_8h_html_a8a79a457a813dff34cfcdd48ac2c941c"><div class="ttname"><a href="logica_8h.html#a8a79a457a813dff34cfcdd48ac2c941c">pos</a></div><div class="ttdeci">void pos(ESTADO *e, int position, int state)</div><div class="ttdef"><b>Definition:</b> logica.c:63</div></div>
+<div class="ttc" id="alogica_8h_html_a9dfbc982d23a619e36575d8e7ec8e41c"><div class="ttname"><a href="logica_8h.html#a9dfbc982d23a619e36575d8e7ec8e41c">jog</a></div><div class="ttdeci">void jog(ESTADO *e)</div><div class="ttdef"><b>Definition:</b> logica.c:134</div></div>
+<div class="ttc" id="aio_8h_html"><div class="ttname"><a href="io_8h.html">io.h</a></div></div>
+<div class="ttc" id="alogica_8h_html_ab1160bacb55fe9977b2a60e615c2e627"><div class="ttname"><a href="logica_8h.html#ab1160bacb55fe9977b2a60e615c2e627">jogada_valida</a></div><div class="ttdeci">int jogada_valida(ESTADO *e, COORDENADA c)</div><div class="ttdef"><b>Definition:</b> logica.c:12</div></div>
+<div class="ttc" id="aauxiliares_8h_html"><div class="ttname"><a href="auxiliares_8h.html">auxiliares.h</a></div></div>
+<div class="ttc" id="aacessar__estado_8h_html"><div class="ttname"><a href="acessar__estado_8h.html">acessar_estado.h</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="logica_8h.html">logica.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5f48bbbdf6cf9132fc4204b556e52c6e.html">Camadas</a></li><li class="navelem"><a class="el" href="dir_a57d4b84e5fba657f628dc88078b5032.html">logica</a></li><li class="navelem"><a class="el" href="logica_8h.html">logica.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

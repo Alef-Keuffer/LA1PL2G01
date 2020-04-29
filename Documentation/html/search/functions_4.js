@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['inicializar_5festado_227',['inicializar_estado',['../dados_8c.html#a7e0c7e26fb685d9ab501e19b05e6954f',1,'inicializar_estado():&#160;dados.c'],['../dados_8h.html#a7e0c7e26fb685d9ab501e19b05e6954f',1,'inicializar_estado():&#160;dados.c']]],
-  ['interpretador_228',['interpretador',['../interface_8c.html#a09e1b485b52ec5a91822a805f73d4488',1,'interpretador(ESTADO *e, int num_comandos):&#160;interface.c'],['../interface_8h.html#a09e1b485b52ec5a91822a805f73d4488',1,'interpretador(ESTADO *e, int num_comandos):&#160;interface.c']]]
+  ['desfazer_5fultjogada_318',['desfazer_ultjogada',['../logica_8c.html#ab39d4dc63e6d2693c1db926f53cba16d',1,'desfazer_ultjogada(ESTADO *e):&#160;logica.c'],['../logica_8h.html#ab39d4dc63e6d2693c1db926f53cba16d',1,'desfazer_ultjogada(ESTADO *e):&#160;logica.c']]],
+  ['devolve_5fcabeca_319',['devolve_cabeca',['../lista_8c.html#abfcb205f3eb670157be0d1221021714b',1,'devolve_cabeca(LISTA L):&#160;lista.c'],['../lista_8h.html#abfcb205f3eb670157be0d1221021714b',1,'devolve_cabeca(LISTA L):&#160;lista.c']]]
 ];

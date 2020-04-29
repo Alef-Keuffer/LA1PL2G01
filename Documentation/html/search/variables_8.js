@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['version_354',['version',['../link_8txt.html#a50c2d669e78e145e92d13e6cf9065989',1,'link.txt']]]
+  ['ultima_5fjogada_476',['ultima_jogada',['../struct_e_s_t_a_d_o.html#a88f042640b66b99525b1c9d830893177',1,'ESTADO']]]
 ];
