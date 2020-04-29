@@ -1,5 +1,4 @@
 #include "acessar_estado.h"
-#include "dados.h"
 
 int obter_casa (ESTADO *e, int row, int col) {
     return (*e).tab[row][col];
