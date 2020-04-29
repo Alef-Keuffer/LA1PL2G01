@@ -1,9 +1,9 @@
 #ifndef RASTROS_AUXILIARES_H
 #define RASTROS_AUXILIARES_H
 #include <math.h>
-#include "dados.h"
-#include "modificar_estado.h"
-#include "acessar_estado.h"
+#include "Camadas/dados/dados.h"
+#include "Camadas/dados/modificar_estado.h"
+#include "Camadas/dados/acessar_estado.h"
 #include "logica.h"
 
 void ler_linha(ESTADO *e, int linha, const char *line);
