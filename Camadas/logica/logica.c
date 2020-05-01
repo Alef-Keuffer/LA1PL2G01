@@ -1,12 +1,11 @@
 #include "logica.h"
 
-int jogar(ESTADO *e, COORDENADA c) {
+void jogar(ESTADO *e, COORDENADA c) {
     atualizar_tab(e, c);
     atualizar_ultima_jogada(e, c);
     atualizar_jogadas(e, c);
     atualizar_num_jogadas(e);
     atualizar_jogador_atual(e);
-    return 1;
 }
 
 int jogada_valida(ESTADO *e, COORDENADA c){

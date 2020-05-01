@@ -13,27 +13,61 @@ CMakeFiles/Rastros_C.dir/Camadas/dados/modificar_estado.c.obj: ../Camadas/dados/
 
 CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj: ../Camadas/dados/acessar_estado.h
 CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj: ../Camadas/dados/dados.h
-CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj: ../Camadas/logica/io.h
+CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj: ../Camadas/dados/modificar_estado.h
+CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj: ../Camadas/interface/interface.h
+CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj: ../Camadas/interface/io.h
+CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj: ../Camadas/logica/auxiliares.h
 CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj: ../Camadas/logica/logica.h
 CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj: ../Camadas/interface/interface.c
+CMakeFiles/Rastros_C.dir/Camadas/interface/interface.c.obj: ../Camadas/interface/interface.h
 
-CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.obj: ../Camadas/dados/acessar_estado.h
-CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.obj: ../Camadas/dados/dados.h
-CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.obj: ../Camadas/dados/modificar_estado.h
-CMakeFiles/Rastros_C.dir/Camadas/logica/io.c.obj: ../Camadas/logica/io.c
+CMakeFiles/Rastros_C.dir/Camadas/interface/io.c.obj: ../Camadas/dados/acessar_estado.h
+CMakeFiles/Rastros_C.dir/Camadas/interface/io.c.obj: ../Camadas/dados/dados.h
+CMakeFiles/Rastros_C.dir/Camadas/interface/io.c.obj: ../Camadas/dados/modificar_estado.h
+CMakeFiles/Rastros_C.dir/Camadas/interface/io.c.obj: ../Camadas/interface/interface.h
+CMakeFiles/Rastros_C.dir/Camadas/interface/io.c.obj: ../Camadas/interface/io.h
+CMakeFiles/Rastros_C.dir/Camadas/interface/io.c.obj: ../Camadas/logica/auxiliares.h
+CMakeFiles/Rastros_C.dir/Camadas/interface/io.c.obj: ../Camadas/logica/logica.h
+CMakeFiles/Rastros_C.dir/Camadas/interface/io.c.obj: ../Camadas/interface/io.c
+CMakeFiles/Rastros_C.dir/Camadas/interface/io.c.obj: ../Camadas/interface/io.h
+
+CMakeFiles/Rastros_C.dir/Camadas/logica/auxiliares.c.obj: ../Camadas/dados/acessar_estado.h
+CMakeFiles/Rastros_C.dir/Camadas/logica/auxiliares.c.obj: ../Camadas/dados/dados.h
+CMakeFiles/Rastros_C.dir/Camadas/logica/auxiliares.c.obj: ../Camadas/dados/modificar_estado.h
+CMakeFiles/Rastros_C.dir/Camadas/logica/auxiliares.c.obj: ../Camadas/interface/interface.h
+CMakeFiles/Rastros_C.dir/Camadas/logica/auxiliares.c.obj: ../Camadas/interface/io.h
+CMakeFiles/Rastros_C.dir/Camadas/logica/auxiliares.c.obj: ../Camadas/logica/auxiliares.h
+CMakeFiles/Rastros_C.dir/Camadas/logica/auxiliares.c.obj: ../Camadas/logica/logica.h
+CMakeFiles/Rastros_C.dir/Camadas/logica/auxiliares.c.obj: ../Camadas/logica/auxiliares.c
+CMakeFiles/Rastros_C.dir/Camadas/logica/auxiliares.c.obj: ../Camadas/logica/auxiliares.h
+CMakeFiles/Rastros_C.dir/Camadas/logica/auxiliares.c.obj: ../Camadas/logica/logica.h
 
 CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj: ../Camadas/dados/acessar_estado.h
 CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj: ../Camadas/dados/dados.h
 CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj: ../Camadas/dados/modificar_estado.h
 CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj: ../Camadas/interface/interface.h
-CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj: ../Camadas/logica/io.h
+CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj: ../Camadas/interface/io.h
+CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj: ../Camadas/logica/auxiliares.h
+CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj: ../Camadas/logica/logica.h
+CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj: ../Camadas/logica/auxiliares.h
 CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj: ../Camadas/logica/logica.c
+CMakeFiles/Rastros_C.dir/Camadas/logica/logica.c.obj: ../Camadas/logica/logica.h
 
+CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj: ../Camadas/dados/acessar_estado.h
 CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj: ../Camadas/dados/dados.h
-CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj: ../Camadas/logica/io.h
+CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj: ../Camadas/dados/modificar_estado.h
+CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj: ../Camadas/interface/interface.h
+CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj: ../Camadas/interface/io.h
+CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj: ../Camadas/logica/auxiliares.h
 CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj: ../Camadas/logica/logica.h
 CMakeFiles/Rastros_C.dir/Camadas/testes/test_simple_commands.c.obj: ../Camadas/testes/test_simple_commands.c
 
+CMakeFiles/Rastros_C.dir/main.c.obj: ../Camadas/dados/acessar_estado.h
+CMakeFiles/Rastros_C.dir/main.c.obj: ../Camadas/dados/dados.h
+CMakeFiles/Rastros_C.dir/main.c.obj: ../Camadas/dados/modificar_estado.h
+CMakeFiles/Rastros_C.dir/main.c.obj: ../Camadas/interface/io.h
+CMakeFiles/Rastros_C.dir/main.c.obj: ../Camadas/logica/auxiliares.h
+CMakeFiles/Rastros_C.dir/main.c.obj: ../Camadas/logica/logica.h
 CMakeFiles/Rastros_C.dir/main.c.obj: ../Camadas/testes/test_simple_commands.h
 CMakeFiles/Rastros_C.dir/main.c.obj: ../Camadas/dados/dados.h
 CMakeFiles/Rastros_C.dir/main.c.obj: ../Camadas/interface/interface.h

@@ -87,7 +87,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_c_make_c_compiler_id_8c.html",
-"md__r_e_a_d_m_e.html#autotoc_md12"
+"md__r_e_a_d_m_e.html#autotoc_md1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

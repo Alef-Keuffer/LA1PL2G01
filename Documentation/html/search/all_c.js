@@ -10,7 +10,7 @@ var searchData=
   ['modificar_5festado_2ec_210',['modificar_estado.c',['../modificar__estado_8c.html',1,'']]],
   ['modificar_5festado_2eh_211',['modificar_estado.h',['../modificar__estado_8h.html',1,'']]],
   ['modificar_5fnumjogadas_212',['modificar_numjogadas',['../modificar__estado_8c.html#a8eaf691dc7ba2309966cb8a095c6a3bf',1,'modificar_numjogadas(ESTADO *e):&#160;modificar_estado.c'],['../modificar__estado_8h.html#a8eaf691dc7ba2309966cb8a095c6a3bf',1,'modificar_numjogadas(ESTADO *e):&#160;modificar_estado.c']]],
-  ['mostrar_5ftabuleiro_213',['mostrar_tabuleiro',['../logica_8c.html#a33aa2b1fccaee5b1c1707d92f6ddc6f7',1,'mostrar_tabuleiro(ESTADO *e, FILE *file):&#160;logica.c'],['../logica_8h.html#a33aa2b1fccaee5b1c1707d92f6ddc6f7',1,'mostrar_tabuleiro(ESTADO *e, FILE *file):&#160;logica.c']]],
+  ['mostrar_5ftabuleiro_213',['mostrar_tabuleiro',['../group__sub1_alpha2.html#ga33aa2b1fccaee5b1c1707d92f6ddc6f7',1,'mostrar_tabuleiro(ESTADO *e, FILE *file):&#160;logica.c'],['../group__sub1_alpha2.html#ga33aa2b1fccaee5b1c1707d92f6ddc6f7',1,'mostrar_tabuleiro(ESTADO *e, FILE *file):&#160;logica.c']]],
   ['movs_214',['movs',['../logica_8c.html#a893b15b1044151de83eb9b01817dcdc0',1,'movs(ESTADO *e, FILE *file):&#160;logica.c'],['../logica_8h.html#a893b15b1044151de83eb9b01817dcdc0',1,'movs(ESTADO *e, FILE *file):&#160;logica.c']]],
   ['modificar_20dados_215',['Modificar dados',['../group__sub_alpha1.html',1,'']]]
 ];
