@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_a57d4b84e5fba657f628dc88078b5032" kind="dir">
+    <compoundname>Camadas/logica</compoundname>
+    <innerfile refid="auxiliares_8c">auxiliares.c</innerfile>
+    <innerfile refid="auxiliares_8h">auxiliares.h</innerfile>
+    <innerfile refid="logica_8c">logica.c</innerfile>
+    <innerfile refid="logica_8h">logica.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Camadas/logica/"/>
+  </compounddef>
+</doxygen>

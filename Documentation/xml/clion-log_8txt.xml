@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="clion-log_8txt" kind="file" language="C++">
+    <compoundname>clion-log.txt</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="stringliteral">&quot;C:\Program<sp/>Files\JetBrains\CLion<sp/>2019.3.3\bin\cmake\win\bin\cmake.exe&quot;</highlight><highlight class="normal"><sp/>-DCMAKE_BUILD_TYPE=Debug<sp/></highlight><highlight class="stringliteral">&quot;-DCMAKE_C_COMPILER=C:/Program<sp/>Files/Haskell<sp/>Platform/8.6.5/mingw/bin/gcc.exe&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;-DCMAKE_CXX_COMPILER=C:/Program<sp/>Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe&quot;</highlight><highlight class="normal"><sp/>-G<sp/></highlight><highlight class="stringliteral">&quot;CodeBlocks<sp/>-<sp/>MinGW<sp/>Makefiles&quot;</highlight><highlight class="normal"><sp/>C:\Users\alefk\Documents\LA1PL2G1</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">--<sp/>Configuring<sp/>done</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">--<sp/>Generating<sp/>done</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">--<sp/>Build<sp/>files<sp/>have<sp/>been<sp/>written<sp/>to:<sp/>C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug</highlight></codeline>
+    </programlisting>
+    <location file="cmake-build-debug/CMakeFiles/clion-log.txt"/>
+  </compounddef>
+</doxygen>

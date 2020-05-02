@@ -1,0 +1,642 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="modificar__estado_8h" kind="file" language="C++">
+    <compoundname>modificar_estado.h</compoundname>
+    <includes refid="dados_8h" local="yes">dados.h</includes>
+    <includedby refid="modificar__estado_8c" local="yes">Camadas/dados/modificar_estado.c</includedby>
+    <includedby refid="logica_8h" local="yes">Camadas/logica/logica.h</includedby>
+    <includedby refid="auxiliares_8h" local="yes">Camadas/logica/auxiliares.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>dados.h</label>
+        <link refid="dados_8h"/>
+      </node>
+      <node id="1">
+        <label>Camadas/dados/modificar_estado.h</label>
+        <link refid="modificar__estado_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="12">
+        <label>Camadas/logica/auxiliares.c</label>
+        <link refid="auxiliares_8c"/>
+      </node>
+      <node id="11">
+        <label>Camadas/logica/auxiliares.h</label>
+        <link refid="auxiliares_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Camadas/logica/logica.c</label>
+        <link refid="logica_8c"/>
+      </node>
+      <node id="3">
+        <label>Camadas/logica/logica.h</label>
+        <link refid="logica_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Camadas/interface/io.c</label>
+        <link refid="io_8c"/>
+      </node>
+      <node id="8">
+        <label>Camadas/interface/io.h</label>
+        <link refid="io_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Camadas/testes/test_simple_interface.c</label>
+        <link refid="test__simple__interface_8c"/>
+      </node>
+      <node id="5">
+        <label>Camadas/interface/interface.c</label>
+        <link refid="interface_8c"/>
+      </node>
+      <node id="4">
+        <label>Camadas/interface/interface.h</label>
+        <link refid="interface_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Camadas/testes/test_simple_commands.c</label>
+        <link refid="test__simple__commands_8c"/>
+      </node>
+      <node id="2">
+        <label>Camadas/dados/modificar_estado.c</label>
+        <link refid="modificar__estado_8c"/>
+      </node>
+      <node id="1">
+        <label>Camadas/dados/modificar_estado.h</label>
+        <link refid="modificar__estado_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__sub_alpha1_1ga4069ee1a3c9975d368b648b5fbff1c5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void atualizar_tab</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>atualizar_tab</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Coloca a peça branca na casa jogada e preta na posição anterior. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coordenada do movimento realizado. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="10" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="3" bodyend="6" declfile="Camadas/dados/modificar_estado.h" declline="10" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1gaebf2419cf55feca531ac70958169e398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void atualizar_ultima_jogada</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>atualizar_ultima_jogada</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Atualiza a última jogada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Coloca as coordenadas do movimento feito em (*e).ultima_jogada. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coordenada do movimento realizado. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="17" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="7" bodyend="9" declfile="Camadas/dados/modificar_estado.h" declline="17" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1ga75ab770a26c3ee2a5bc4758d7c625c97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void atualizar_num_jogadas</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>atualizar_num_jogadas</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Atualiza o contador de jogadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Após movimento de jogador 2, soma-se 1 à (*e)_num_jogadas <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="23" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="10" bodyend="12" declfile="Camadas/dados/modificar_estado.h" declline="23" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1ga63bad4a4c76df6c152ef23210eeb5cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void atualizar_jogador_atual</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>atualizar_jogador_atual</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Atualiza o jogador atual. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Após movimento de um jogador, coloca-se o outro jogador em (*e).jogador_atual <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="29" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="17" bodyend="20" declfile="Camadas/dados/modificar_estado.h" declline="29" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1ga0ee843b08fd54f63fb85b3f9d376d328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void atualizar_jogadas</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>atualizar_jogadas</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Atualiza a lista de jogadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Após movimento de jogador, as coordenadas do movimento são salvas. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coordenada do movimento realizado. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="36" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="13" bodyend="16" declfile="Camadas/dados/modificar_estado.h" declline="36" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1ga6651cdac009bec76f77dacafed099b49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void armazenar_casa</definition>
+        <argsstring>(ESTADO *e, int row, int col, const char casa)</argsstring>
+        <name>armazenar_casa</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type>const <ref refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kindref="member">char</ref></type>
+          <declname>casa</declname>
+        </param>
+        <briefdescription>
+<para>Atualiza a casa do tabuleiro pela casa lida. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Após o comando ler ser invocado, as casas do tabuleiro são alteradas. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a linha. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>col</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coluna. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>casa</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a casa lida. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="45" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="22" bodyend="24" declfile="Camadas/dados/modificar_estado.h" declline="45" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1gac4765d785b89565edc1e376a9263a644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void armazenar_jogada</definition>
+        <argsstring>(ESTADO *e, JOGADA jog, int num_jog)</argsstring>
+        <name>armazenar_jogada</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_j_o_g_a_d_a" kindref="compound">JOGADA</ref></type>
+          <declname>jog</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>num_jog</declname>
+        </param>
+        <briefdescription>
+<para>Armazena jogadas na lista de jogadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Após o comando ler ser invocado, as jogadas lidas são armazenadas na lista de jogadas. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jog</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a jogada lida. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num_jog</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o número da jogada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="53" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="26" bodyend="28" declfile="Camadas/dados/modificar_estado.h" declline="53" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1ga57b5b121c3fbc5f4957459edb5870106" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void armazenar_jogador</definition>
+        <argsstring>(ESTADO *e, int num_jogadas)</argsstring>
+        <name>armazenar_jogador</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>num_jogadas</declname>
+        </param>
+        <briefdescription>
+<para>Armazena o último jogador. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Após o comando ler ser invocado, o último jogador é armazenado conforme com o que foi lido. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num_jogadas</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o número de jogadas. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="60" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="30" bodyend="33" declfile="Camadas/dados/modificar_estado.h" declline="60" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1ga94991a9b91ee973d95184163f299048b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void armazenar_num_jogadas</definition>
+        <argsstring>(ESTADO *e, int num)</argsstring>
+        <name>armazenar_num_jogadas</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+<para>Armazena o número de jogadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Após o comando ler ser invocado, o número de jogadas lido é armazenado. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o número da jogada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="67" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="35" bodyend="37" declfile="Camadas/dados/modificar_estado.h" declline="67" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="modificar__estado_8h_1a93688e7a4c41ec22376045924a90fab0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void limpar_casas</definition>
+        <argsstring>(ESTADO *e, int num)</argsstring>
+        <name>limpar_casas</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="69" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="39" bodyend="51" declfile="Camadas/dados/modificar_estado.h" declline="69" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="modificar__estado_8h_1a300f4b3aa4522aaafb5352d55e9979da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void colocar_branca</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>colocar_branca</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="70" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="53" bodyend="55" declfile="Camadas/dados/modificar_estado.h" declline="70" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="modificar__estado_8h_1aecb95caa1aefce115b9dbb899fbdb642" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void novo_num_jogadas</definition>
+        <argsstring>(ESTADO *e, int num)</argsstring>
+        <name>novo_num_jogadas</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="71" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="57" bodyend="59" declfile="Camadas/dados/modificar_estado.h" declline="71" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="modificar__estado_8h_1a82e1af1f85e70a85fd135884853b818e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void branca_para_vazia</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>branca_para_vazia</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="72" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="61" bodyend="66" declfile="Camadas/dados/modificar_estado.h" declline="72" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="modificar__estado_8h_1a94259f2b53573c4f1ad12be8e6ca1c10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nova_ultjogada</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>nova_ultjogada</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="73" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="68" bodyend="76" declfile="Camadas/dados/modificar_estado.h" declline="73" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="modificar__estado_8h_1a8eaf691dc7ba2309966cb8a095c6a3bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void modificar_numjogadas</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>modificar_numjogadas</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="74" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="78" bodyend="80" declfile="Camadas/dados/modificar_estado.h" declline="74" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>MODIFICAR_ESTADO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MODIFICAR_ESTADO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dados_8h" kindref="compound">dados.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub_alpha1_1ga4069ee1a3c9975d368b648b5fbff1c5c" kindref="member">atualizar_tab</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub_alpha1_1gaebf2419cf55feca531ac70958169e398" kindref="member">atualizar_ultima_jogada</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub_alpha1_1ga75ab770a26c3ee2a5bc4758d7c625c97" kindref="member">atualizar_num_jogadas</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub_alpha1_1ga63bad4a4c76df6c152ef23210eeb5cf2" kindref="member">atualizar_jogador_atual</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub_alpha1_1ga0ee843b08fd54f63fb85b3f9d376d328" kindref="member">atualizar_jogadas</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub_alpha1_1ga6651cdac009bec76f77dacafed099b49" kindref="member">armazenar_casa</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>casa);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub_alpha1_1gac4765d785b89565edc1e376a9263a644" kindref="member">armazenar_jogada</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="struct_j_o_g_a_d_a" kindref="compound">JOGADA</ref><sp/><ref refid="logica_8c_1a9dfbc982d23a619e36575d8e7ec8e41c" kindref="member">jog</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_jog);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub_alpha1_1ga57b5b121c3fbc5f4957459edb5870106" kindref="member">armazenar_jogador</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_jogadas);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub_alpha1_1ga94991a9b91ee973d95184163f299048b" kindref="member">armazenar_num_jogadas</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="modificar__estado_8h_1a93688e7a4c41ec22376045924a90fab0" kindref="member">limpar_casas</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="modificar__estado_8h_1a300f4b3aa4522aaafb5352d55e9979da" kindref="member">colocar_branca</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="modificar__estado_8h_1aecb95caa1aefce115b9dbb899fbdb642" kindref="member">novo_num_jogadas</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="modificar__estado_8h_1a82e1af1f85e70a85fd135884853b818e" kindref="member">branca_para_vazia</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="modificar__estado_8h_1a94259f2b53573c4f1ad12be8e6ca1c10" kindref="member">nova_ultjogada</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="modificar__estado_8h_1a8eaf691dc7ba2309966cb8a095c6a3bf" kindref="member">modificar_numjogadas</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//MODIFICAR_ESTADO_H</highlight></codeline>
+    </programlisting>
+    <location file="Camadas/dados/modificar_estado.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="group__sub_alpha1" kind="group">
+    <compoundname>subAlpha1</compoundname>
+    <title>Modificar dados</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__sub_alpha1_1ga4069ee1a3c9975d368b648b5fbff1c5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void atualizar_tab</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>atualizar_tab</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Coloca a peça branca na casa jogada e preta na posição anterior. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coordenada do movimento realizado. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="10" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="3" bodyend="6" declfile="Camadas/dados/modificar_estado.h" declline="10" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1gaebf2419cf55feca531ac70958169e398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void atualizar_ultima_jogada</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>atualizar_ultima_jogada</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Atualiza a última jogada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Coloca as coordenadas do movimento feito em (*e).ultima_jogada. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coordenada do movimento realizado. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="17" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="7" bodyend="9" declfile="Camadas/dados/modificar_estado.h" declline="17" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1ga75ab770a26c3ee2a5bc4758d7c625c97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void atualizar_num_jogadas</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>atualizar_num_jogadas</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Atualiza o contador de jogadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Após movimento de jogador 2, soma-se 1 à (*e)_num_jogadas <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="23" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="10" bodyend="12" declfile="Camadas/dados/modificar_estado.h" declline="23" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1ga63bad4a4c76df6c152ef23210eeb5cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void atualizar_jogador_atual</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>atualizar_jogador_atual</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Atualiza o jogador atual. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Após movimento de um jogador, coloca-se o outro jogador em (*e).jogador_atual <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="29" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="17" bodyend="20" declfile="Camadas/dados/modificar_estado.h" declline="29" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1ga0ee843b08fd54f63fb85b3f9d376d328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void atualizar_jogadas</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>atualizar_jogadas</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Atualiza a lista de jogadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Após movimento de jogador, as coordenadas do movimento são salvas. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coordenada do movimento realizado. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="36" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="13" bodyend="16" declfile="Camadas/dados/modificar_estado.h" declline="36" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1ga6651cdac009bec76f77dacafed099b49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void armazenar_casa</definition>
+        <argsstring>(ESTADO *e, int row, int col, const char casa)</argsstring>
+        <name>armazenar_casa</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type>const <ref refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kindref="member">char</ref></type>
+          <declname>casa</declname>
+        </param>
+        <briefdescription>
+<para>Atualiza a casa do tabuleiro pela casa lida. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Após o comando ler ser invocado, as casas do tabuleiro são alteradas. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a linha. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>col</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coluna. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>casa</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a casa lida. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="45" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="22" bodyend="24" declfile="Camadas/dados/modificar_estado.h" declline="45" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1gac4765d785b89565edc1e376a9263a644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void armazenar_jogada</definition>
+        <argsstring>(ESTADO *e, JOGADA jog, int num_jog)</argsstring>
+        <name>armazenar_jogada</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_j_o_g_a_d_a" kindref="compound">JOGADA</ref></type>
+          <declname>jog</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>num_jog</declname>
+        </param>
+        <briefdescription>
+<para>Armazena jogadas na lista de jogadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Após o comando ler ser invocado, as jogadas lidas são armazenadas na lista de jogadas. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jog</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a jogada lida. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num_jog</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o número da jogada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="53" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="26" bodyend="28" declfile="Camadas/dados/modificar_estado.h" declline="53" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1ga57b5b121c3fbc5f4957459edb5870106" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void armazenar_jogador</definition>
+        <argsstring>(ESTADO *e, int num_jogadas)</argsstring>
+        <name>armazenar_jogador</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>num_jogadas</declname>
+        </param>
+        <briefdescription>
+<para>Armazena o último jogador. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Após o comando ler ser invocado, o último jogador é armazenado conforme com o que foi lido. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num_jogadas</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o número de jogadas. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="60" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="30" bodyend="33" declfile="Camadas/dados/modificar_estado.h" declline="60" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1ga94991a9b91ee973d95184163f299048b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void armazenar_num_jogadas</definition>
+        <argsstring>(ESTADO *e, int num)</argsstring>
+        <name>armazenar_num_jogadas</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+<para>Armazena o número de jogadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Após o comando ler ser invocado, o número de jogadas lido é armazenado. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o número da jogada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/dados/modificar_estado.h" line="67" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="35" bodyend="37" declfile="Camadas/dados/modificar_estado.h" declline="67" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="subsytem1_8md" kind="file" language="Markdown">
+    <compoundname>subsytem1.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">@page<sp/>subsystem1<sp/>Título</highlight></codeline>
+<codeline><highlight class="normal">@tableofcontents</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">vazia<sp/>por<sp/>enquanto.</highlight></codeline>
+    </programlisting>
+    <location file="Documentation/doc_pages/subsytem1.md"/>
+  </compounddef>
+</doxygen>

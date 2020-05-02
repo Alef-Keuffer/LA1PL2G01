@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="group__group_alpha2" kind="group">
+    <compoundname>groupAlpha2</compoundname>
+    <title>Lógica</title>
+    <innergroup refid="group__sub1_alpha2">Lógica</innergroup>
+    <innergroup refid="group__sub2_alpha2">Auxiliares</innergroup>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

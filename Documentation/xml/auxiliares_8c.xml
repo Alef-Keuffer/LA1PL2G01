@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="auxiliares_8c" kind="file" language="C++">
+    <compoundname>auxiliares.c</compoundname>
+    <includes refid="auxiliares_8h" local="yes">auxiliares.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Camadas/logica/auxiliares.c</label>
+        <link refid="auxiliares_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>auxiliares.h</label>
+        <link refid="auxiliares_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>stdlib.h</label>
+      </node>
+      <node id="7">
+        <label>logica.h</label>
+        <link refid="logica_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Camadas/interface/io.h</label>
+        <link refid="io_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Camadas/interface/interface.h</label>
+        <link refid="interface_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>string.h</label>
+      </node>
+      <node id="4">
+        <label>Camadas/dados/dados.h</label>
+        <link refid="dados_8h"/>
+      </node>
+      <node id="6">
+        <label>Camadas/dados/acessar_estado.h</label>
+        <link refid="acessar__estado_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>time.h</label>
+      </node>
+      <node id="3">
+        <label>math.h</label>
+      </node>
+      <node id="5">
+        <label>Camadas/dados/modificar_estado.h</label>
+        <link refid="modificar__estado_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="auxiliares_8c_1a6d18e8736a024c1ed08ce90900fcdf36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ler_linha</definition>
+        <argsstring>(ESTADO *e, int linha, const char *line)</argsstring>
+        <name>ler_linha</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>linha</declname>
+        </param>
+        <param>
+          <type>const <ref refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kindref="member">char</ref> *</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/auxiliares.c" line="3" column="6" bodyfile="Camadas/logica/auxiliares.c" bodystart="3" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliares_8c_1a7a58dae24162814a0972c47febd9be69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ler_jogada</definition>
+        <argsstring>(ESTADO *e, JOGADA jog, int numjog)</argsstring>
+        <name>ler_jogada</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_j_o_g_a_d_a" kindref="compound">JOGADA</ref></type>
+          <declname>jog</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>numjog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/auxiliares.c" line="10" column="6" bodyfile="Camadas/logica/auxiliares.c" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliares_8c_1a5431e0cd098dba18d4a02e7be69808a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ler_restante</definition>
+        <argsstring>(ESTADO *e, int jogadas, COORDENADA c)</argsstring>
+        <name>ler_restante</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>jogadas</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/auxiliares.c" line="14" column="6" bodyfile="Camadas/logica/auxiliares.c" bodystart="14" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliares_8c_1a2ee045374bae731d9f870cc7af3fbdfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int coord_to_int</definition>
+        <argsstring>(COORDENADA c)</argsstring>
+        <name>coord_to_int</name>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/auxiliares.c" line="20" column="5" bodyfile="Camadas/logica/auxiliares.c" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliares_8c_1a82a76985bb1f38602fa46ca450a2ec40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+        <definition>COORDENADA int_to_coord</definition>
+        <argsstring>(int x)</argsstring>
+        <name>int_to_coord</name>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/auxiliares.c" line="26" column="12" bodyfile="Camadas/logica/auxiliares.c" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliares_8c_1a5e60f2c9b94bab3f57c83c2635cf7c1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int avaliar_vitoria</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>avaliar_vitoria</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/auxiliares.c" line="33" column="5" bodyfile="Camadas/logica/auxiliares.c" bodystart="33" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliares_8c_1a6c309b38237d3442ab40beb24315af56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int array_jogadaspossiveis</definition>
+        <argsstring>(ESTADO *e, COORDENADA c, COORDENADA moveList[])</argsstring>
+        <name>array_jogadaspossiveis</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>moveList</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/auxiliares.c" line="40" column="5" bodyfile="Camadas/logica/auxiliares.c" bodystart="40" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliares_8c_1a8b30ef7dcb6d352d3c9f7e6db25f0203" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+        <definition>COORDENADA maisproximaFim</definition>
+        <argsstring>(ESTADO *e, COORDENADA moveList[], int moveCount)</argsstring>
+        <name>maisproximaFim</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>moveList</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>moveCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/auxiliares.c" line="56" column="12" bodyfile="Camadas/logica/auxiliares.c" bodystart="56" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="auxiliares_8h" kindref="compound">auxiliares.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="auxiliares_8c_1a6d18e8736a024c1ed08ce90900fcdf36" kindref="member">ler_linha</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>linha,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*line){</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row<sp/>=<sp/>abs(linha<sp/>-<sp/>7);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>8;<sp/>i++)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__sub_alpha1_1ga6651cdac009bec76f77dacafed099b49" kindref="member">armazenar_casa</ref>(e,<sp/>row,<sp/>i,<sp/>line[i]);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="auxiliares_8c_1a7a58dae24162814a0972c47febd9be69" kindref="member">ler_jogada</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="struct_j_o_g_a_d_a" kindref="compound">JOGADA</ref><sp/><ref refid="logica_8c_1a9dfbc982d23a619e36575d8e7ec8e41c" kindref="member">jog</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numjog){</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub_alpha1_1gac4765d785b89565edc1e376a9263a644" kindref="member">armazenar_jogada</ref>(e,<sp/><ref refid="logica_8c_1a9dfbc982d23a619e36575d8e7ec8e41c" kindref="member">jog</ref>,<sp/>numjog);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="auxiliares_8c_1a5431e0cd098dba18d4a02e7be69808a2" kindref="member">ler_restante</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogadas,<sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c){</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="modificar__estado_8c_1aecb95caa1aefce115b9dbb899fbdb642" kindref="member">novo_num_jogadas</ref>(e,<sp/>jogadas);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub_alpha1_1ga57b5b121c3fbc5f4957459edb5870106" kindref="member">armazenar_jogador</ref>(e,<sp/>jogadas);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub_alpha1_1gaebf2419cf55feca531ac70958169e398" kindref="member">atualizar_ultima_jogada</ref>(e,<sp/>c);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliares_8c_1a2ee045374bae731d9f870cc7af3fbdfa" kindref="member">coord_to_int</ref>(<ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c){</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/>c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" kindref="member">linha</ref><sp/>*<sp/>10<sp/>+<sp/>c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1a4a2f44649af1dfbf8d13141d5a336455" kindref="member">coluna</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/><ref refid="auxiliares_8c_1a82a76985bb1f38602fa46ca450a2ec40" kindref="member">int_to_coord</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x){</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" kindref="member">linha</ref><sp/>=<sp/>x/10;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1a4a2f44649af1dfbf8d13141d5a336455" kindref="member">coluna</ref><sp/>=<sp/>x<sp/>%<sp/>10;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>c;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliares_8c_1a5e60f2c9b94bab3f57c83c2635cf7c1c" kindref="member">avaliar_vitoria</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e){</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>res<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="group__sub_alpha2_1ga996b7cbab9689ba24980590d140ef7de" kindref="member">JogadorAtual</ref>(e)<sp/>==<sp/><ref refid="logica_8c_1a9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo</ref>(e))<sp/>res<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="logica_8c_1a9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo</ref>(e)<sp/>!=<sp/>0)<sp/>res<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliares_8c_1a6c309b38237d3442ab40beb24315af56" kindref="member">array_jogadaspossiveis</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c,<sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>moveList[]){</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>j,<sp/>moveCount<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i<sp/>=<sp/>-1;<sp/>i<sp/>&lt;<sp/>2;<sp/>i++){</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(j<sp/>=<sp/>-1;<sp/>j<sp/>&lt;<sp/>2;<sp/>j++){</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row<sp/>=<sp/>c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" kindref="member">linha</ref><sp/>+<sp/>i;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col<sp/>=<sp/>c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1a4a2f44649af1dfbf8d13141d5a336455" kindref="member">coluna</ref><sp/>+<sp/>j;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(row<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>row<sp/>&lt;=<sp/>7<sp/>&amp;&amp;<sp/>col<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>col<sp/>&lt;=<sp/>7<sp/>&amp;&amp;<sp/>(<ref refid="group__sub_alpha2_1ga3db658c95db4d69986c78b16a7c6aa45" kindref="member">obter_casa</ref>(e,<sp/>row,<sp/>col)<sp/>==<sp/><ref refid="dados_8h_1aba91601f16d4c485b2d9b8c429f27039abc711f491a56ec7af7a688be508c5113" kindref="member">VAZIO</ref><sp/>||<sp/><ref refid="group__sub_alpha2_1ga3db658c95db4d69986c78b16a7c6aa45" kindref="member">obter_casa</ref>(e,<sp/>row,<sp/>col)<sp/>==<sp/><ref refid="dados_8h_1aba91601f16d4c485b2d9b8c429f27039ab620e38b0268bee43c7e9a88bd6e73fa" kindref="member">UM</ref><sp/>||<sp/><ref refid="group__sub_alpha2_1ga3db658c95db4d69986c78b16a7c6aa45" kindref="member">obter_casa</ref>(e,<sp/>row,<sp/>col)<sp/>==<sp/><ref refid="dados_8h_1aba91601f16d4c485b2d9b8c429f27039a2bf153109d0c8b96e61bc18d5be7c5da" kindref="member">DOIS</ref>))<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>moveList[moveCount].<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" kindref="member">linha</ref><sp/>=<sp/>row;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>moveList[moveCount].<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1a4a2f44649af1dfbf8d13141d5a336455" kindref="member">coluna</ref><sp/>=<sp/>col;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>moveCount++;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>moveCount;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/><ref refid="auxiliares_8c_1a8b30ef7dcb6d352d3c9f7e6db25f0203" kindref="member">maisproximaFim</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>moveList[],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>moveCount){</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/>dist,<sp/>distMin<sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>move,<sp/>bestMove,<sp/>fim1<sp/>=<sp/>{0,<sp/>0},<sp/>fim2<sp/>=<sp/>{7,<sp/>7};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(index<sp/>=<sp/>0;<sp/>index<sp/>&lt;<sp/>moveCount;<sp/>index++){</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>move<sp/>=<sp/>moveList[index];</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="group__sub_alpha2_1ga996b7cbab9689ba24980590d140ef7de" kindref="member">JogadorAtual</ref>(e)<sp/>==<sp/>1)<sp/>dist<sp/>=<sp/>abs(move.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" kindref="member">linha</ref><sp/>-<sp/>fim1.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" kindref="member">linha</ref>)<sp/>+<sp/>abs(move.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1a4a2f44649af1dfbf8d13141d5a336455" kindref="member">coluna</ref><sp/>-<sp/>fim1.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1a4a2f44649af1dfbf8d13141d5a336455" kindref="member">coluna</ref>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>dist<sp/>=<sp/>abs(move.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" kindref="member">linha</ref><sp/>-<sp/>fim2.linha)<sp/>+<sp/>abs(move.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1a4a2f44649af1dfbf8d13141d5a336455" kindref="member">coluna</ref><sp/>-<sp/>fim2.coluna);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(dist<sp/>&lt;=<sp/>distMin){</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>distMin<sp/>=<sp/>dist;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bestMove<sp/>=<sp/>move;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bestMove;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Camadas/logica/auxiliares.c"/>
+  </compounddef>
+</doxygen>

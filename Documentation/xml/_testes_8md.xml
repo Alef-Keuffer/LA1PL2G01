@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_testes_8md" kind="file" language="Markdown">
+    <compoundname>Testes.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Testes<sp/>do<sp/>Projeto<sp/>Rastros</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Teste<sp/>Vencedor<sp/>1:</highlight></codeline>
+<codeline><highlight class="normal">Atualizado<sp/>em<sp/>03/04/2020.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">_A<sp/>Screenshot<sp/>apresenta<sp/>o<sp/>jogo<sp/>na<sp/>situação<sp/>onde<sp/>o<sp/>Jogador<sp/>1<sp/>é<sp/>o<sp/>Vencedor._</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;img<sp/>src=&quot;https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Jogador%201.png&quot;<sp/>width=&quot;276&quot;<sp/>height=615px&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Teste<sp/>Vencedor<sp/>2:</highlight></codeline>
+<codeline><highlight class="normal">Atualizado<sp/>em<sp/>03/04/2020</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">_A<sp/>Screenshot<sp/>apresenta<sp/>o<sp/>jogo<sp/>na<sp/>situação<sp/>onde<sp/>o<sp/>Jogador<sp/>2<sp/>é<sp/>o<sp/>Vencedor_</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;img<sp/>src=&quot;https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Jogador%202.png&quot;<sp/>width=&quot;239&quot;<sp/>height=610px&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Teste<sp/>Jogada<sp/>Impossível:</highlight></codeline>
+<codeline><highlight class="normal">Atualizado<sp/>em<sp/>03/04/2020</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">_A<sp/>Screenshot<sp/>apresenta<sp/>o<sp/>jogo<sp/>na<sp/>situação<sp/>onde<sp/>o<sp/>Jogador<sp/>faz<sp/>uma<sp/>jogada<sp/>impossível._</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;img<sp/>src=&quot;https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Jogada%20Invalida.png&quot;<sp/>width=&quot;249&quot;<sp/>height=274px&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Teste<sp/>Comando<sp/>_gr_/_ler_:</highlight></codeline>
+<codeline><highlight class="normal">Atualizado<sp/>em<sp/>03/04/2020</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">_A<sp/>Screenshot<sp/>apresenta<sp/>o<sp/>comando<sp/>gr<sp/>que<sp/>guarda<sp/>o<sp/>jogo<sp/>e<sp/>o<sp/>comando<sp/>ler<sp/>que<sp/>retorna<sp/>o<sp/>jogo<sp/>guardado._</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;img<sp/>src=&quot;https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Comando%20gr_ler.png&quot;<sp/>width=&quot;351&quot;<sp/>height=640px&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Teste<sp/>Comando<sp/>_Q_<sp/>(quit/exit):</highlight></codeline>
+<codeline><highlight class="normal">Atualizado<sp/>em<sp/>03/04/2020</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">_A<sp/>Screenshot<sp/>apresenta<sp/>o<sp/>comando<sp/>Q<sp/>que<sp/>termina<sp/>a<sp/>partida._</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;img<sp/>src=&quot;https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Comando%20Q%20(quit).png&quot;<sp/>width=&quot;251&quot;<sp/>height=601px&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Teste<sp/>Comando<sp/>_movs_:</highlight></codeline>
+<codeline><highlight class="normal">Atualizado<sp/>em<sp/>03/04/2020</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">_A<sp/>Screenshot<sp/>apresenta<sp/>o<sp/>comando<sp/>movs<sp/>que<sp/>imprime<sp/>as<sp/>jogadas<sp/>que<sp/>foram<sp/>feitas._</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;img<sp/>src=&quot;https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Comando%20Movs.png&quot;<sp/>width=&quot;168&quot;<sp/>height=626px&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Teste<sp/>Tabuleiros<sp/>Propostos:</highlight></codeline>
+<codeline><highlight class="normal">Atualizado<sp/>em<sp/>03/04/2020</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">_A<sp/>Screenshot<sp/>apresenta<sp/>os<sp/>testes<sp/>dos<sp/>3<sp/>tabuleiros<sp/>propostos<sp/>pelo<sp/>guião<sp/>7._</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;img<sp/>src=&quot;https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/3%20Tabuleiros.png&quot;<sp/>width=&quot;&quot;<sp/>height=615px&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Teste<sp/>Comando<sp/>_pos_</highlight></codeline>
+<codeline><highlight class="normal">Atualizado<sp/>em<sp/>03/04/2020</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">_A<sp/>Screenshot<sp/>apresenta<sp/>o<sp/>comando<sp/>pos<sp/>que<sp/>retorna<sp/>o<sp/>jogo<sp/>num<sp/>determinado<sp/>estado._</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;img<sp/>src=&quot;https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Comando%20pos.png&quot;<sp/>width=&quot;143&quot;<sp/>height=674px&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Teste<sp/>Comando<sp/>_jog_</highlight></codeline>
+<codeline><highlight class="normal">Atualizado<sp/>em<sp/>18/04/2020</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">_A<sp/>Screenshot<sp/>apresenta<sp/>o<sp/>comando<sp/>jog<sp/>que<sp/>retorna<sp/>uma<sp/>jogada<sp/>com<sp/>a<sp/>Heurística<sp/>Minimax._</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;img<sp/>src=&quot;https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Comando%20jog.png&quot;<sp/>width=&quot;128&quot;<sp/>height=666px&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Teste<sp/>Comando<sp/>_jog2_</highlight></codeline>
+<codeline><highlight class="normal">Atualizado<sp/>em<sp/>23/04/2020</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">_A<sp/>Screenshot<sp/>apresenta<sp/>o<sp/>comando<sp/>jog2<sp/>que<sp/>retorna<sp/>uma<sp/>jogada<sp/>Aleatória._</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;img<sp/>src=&quot;https://github.com/Alef-Keuffer/LA1PL2G1/blob/master/Testes/Screens/Comando%20jog2.png&quot;<sp/>width=&quot;129&quot;<sp/>height=680px&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Teste<sp/>Erros:</highlight></codeline>
+<codeline><highlight class="normal">Atualizado<sp/>em<sp/>03/04/2020</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">_As<sp/>Screenshots<sp/>abaixo<sp/>apresentam<sp/>os<sp/>erros<sp/>encontrados<sp/>no<sp/>projeto<sp/>até<sp/>a<sp/>data<sp/>acima._</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//&lt;img<sp/>src=&quot;https://github.com/Alef-Keuffer/LA1PL2G1/link-da-screen.png&quot;<sp/>width=&quot;1&quot;<sp/>height=1px&gt;</highlight></codeline>
+    </programlisting>
+    <location file="Testes/Testes.md"/>
+  </compounddef>
+</doxygen>

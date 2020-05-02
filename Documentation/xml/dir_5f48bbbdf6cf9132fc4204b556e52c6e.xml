@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_5f48bbbdf6cf9132fc4204b556e52c6e" kind="dir">
+    <compoundname>Camadas</compoundname>
+    <innerdir refid="dir_340b1ddc1f593d39d2cae672ee24fe41">Camadas/dados</innerdir>
+    <innerdir refid="dir_46693151be61b54de19ce420b97749e1">Camadas/interface</innerdir>
+    <innerdir refid="dir_a57d4b84e5fba657f628dc88078b5032">Camadas/logica</innerdir>
+    <innerdir refid="dir_8ef0dc86b5bba6eb5abd44be31a3f828">Camadas/testes</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Camadas/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="logica_8h" kind="file" language="C++">
+    <compoundname>logica.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">time.h</includes>
+    <includes refid="modificar__estado_8h" local="yes">Camadas/dados/modificar_estado.h</includes>
+    <includes refid="dados_8h" local="yes">Camadas/dados/dados.h</includes>
+    <includes refid="acessar__estado_8h" local="yes">Camadas/dados/acessar_estado.h</includes>
+    <includes refid="interface_8h" local="yes">Camadas/interface/interface.h</includes>
+    <includes refid="io_8h" local="yes">Camadas/interface/io.h</includes>
+    <includes refid="auxiliares_8h" local="yes">auxiliares.h</includes>
+    <includedby refid="interface_8h" local="yes">Camadas/interface/interface.h</includedby>
+    <includedby refid="io_8h" local="yes">Camadas/interface/io.h</includedby>
+    <includedby refid="auxiliares_8h" local="yes">Camadas/logica/auxiliares.h</includedby>
+    <includedby refid="logica_8c" local="yes">Camadas/logica/logica.c</includedby>
+    <includedby refid="test__simple__commands_8c" local="yes">Camadas/testes/test_simple_commands.c</includedby>
+    <includedby refid="test__simple__interface_8c" local="yes">Camadas/testes/test_simple_interface.c</includedby>
+    <incdepgraph>
+      <node id="12">
+        <label>Camadas/logica/auxiliares.h</label>
+        <link refid="auxiliares_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1">
+        <label>Camadas/logica/logica.h</label>
+        <link refid="logica_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Camadas/interface/io.h</label>
+        <link refid="io_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Camadas/interface/interface.h</label>
+        <link refid="interface_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>string.h</label>
+      </node>
+      <node id="7">
+        <label>dados.h</label>
+        <link refid="dados_8h"/>
+      </node>
+      <node id="8">
+        <label>Camadas/dados/acessar_estado.h</label>
+        <link refid="acessar__estado_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>time.h</label>
+      </node>
+      <node id="3">
+        <label>math.h</label>
+      </node>
+      <node id="6">
+        <label>Camadas/dados/modificar_estado.h</label>
+        <link refid="modificar__estado_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="10">
+        <label>Camadas/logica/auxiliares.c</label>
+        <link refid="auxiliares_8c"/>
+      </node>
+      <node id="9">
+        <label>Camadas/logica/auxiliares.h</label>
+        <link refid="auxiliares_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Camadas/logica/logica.c</label>
+        <link refid="logica_8c"/>
+      </node>
+      <node id="1">
+        <label>Camadas/logica/logica.h</label>
+        <link refid="logica_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Camadas/interface/io.c</label>
+        <link refid="io_8c"/>
+      </node>
+      <node id="6">
+        <label>Camadas/interface/io.h</label>
+        <link refid="io_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Camadas/testes/test_simple_interface.c</label>
+        <link refid="test__simple__interface_8c"/>
+      </node>
+      <node id="3">
+        <label>Camadas/interface/interface.c</label>
+        <link refid="interface_8c"/>
+      </node>
+      <node id="2">
+        <label>Camadas/interface/interface.h</label>
+        <link refid="interface_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Camadas/testes/test_simple_commands.c</label>
+        <link refid="test__simple__commands_8c"/>
+      </node>
+      <node id="5">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__sub1_alpha2_1ga4e68d436fd02312dbf25a0876e6fcc29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jogar</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>jogar</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>É realizada quando uma coordenada é colocada no prompt e enter é pressionado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Primeiro a função atualiza a casa, ou seja, faz a casa da peça ser PRETA e faz a casa da coordenada inserida ser BRANCA. Depois atualiza a última jogada para ser a coordenada inserida. Após isso, salva a coordenada inserida no histórico de jogadas do jogador que inseriu a coordenada. Em seguida incrementa o número de jogadas. Finalmente, atualiza o jogador atual, ou seja, determina o jogador atual para 1 ou para 2. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coordenada que foi inserida </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/logica.h" line="25" column="6" bodyfile="Camadas/logica/logica.c" bodystart="3" bodyend="9" declfile="Camadas/logica/logica.h" declline="25" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub1_alpha2_1gab1160bacb55fe9977b2a60e615c2e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int jogada_valida</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>jogada_valida</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Avalia se a coordenada recebida corresponde a um movimento válido. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coordenada que corresponde a um movimento. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>é 1 ou 0 dependendo se a coordenada recebida for válida ou não </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/logica.h" line="32" column="5" bodyfile="Camadas/logica/logica.c" bodystart="11" bodyend="20" declfile="Camadas/logica/logica.h" declline="32" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub1_alpha2_1ga33aa2b1fccaee5b1c1707d92f6ddc6f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mostrar_tabuleiro</definition>
+        <argsstring>(ESTADO *e, FILE *file)</argsstring>
+        <name>mostrar_tabuleiro</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>Essa função é usada para imprimir o tabuleiro, seja no ecrã ou em um fiheiro para ser salvo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o que permite determinar se estamos imprimindo para o ecrã ou para um ficheito. Se for NULL é para o ecrã. Se for um file pointer é para um ficheiro. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/logica.h" line="38" column="6" bodyfile="Camadas/logica/logica.c" bodystart="22" bodyend="29" declfile="Camadas/logica/logica.h" declline="38" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="logica_8h_1afb7d37204f937c5a75d647c6537ef22a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void prompt</definition>
+        <argsstring>(ESTADO *e, int num_comandos)</argsstring>
+        <name>prompt</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>num_comandos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/logica.h" line="40" column="6" bodyfile="Camadas/logica/logica.c" bodystart="31" bodyend="34" declfile="Camadas/logica/logica.h" declline="40" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="logica_8h_1a9a0ae8b2e0ca2ed4b5fdd4145a742791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int fim_de_jogo</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>fim_de_jogo</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/logica.h" line="41" column="5" bodyfile="Camadas/logica/logica.c" bodystart="36" bodyend="52" declfile="Camadas/logica/logica.h" declline="41" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="logica_8h_1a8a79a457a813dff34cfcdd48ac2c941c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void pos</definition>
+        <argsstring>(ESTADO *e, int position, int state)</argsstring>
+        <name>pos</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/logica.h" line="42" column="6" bodyfile="Camadas/logica/logica.c" bodystart="62" bodyend="84" declfile="Camadas/logica/logica.h" declline="42" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="logica_8h_1a893b15b1044151de83eb9b01817dcdc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void movs</definition>
+        <argsstring>(ESTADO *e, FILE *file)</argsstring>
+        <name>movs</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/logica.h" line="43" column="6" bodyfile="Camadas/logica/logica.c" bodystart="54" bodyend="60" declfile="Camadas/logica/logica.h" declline="43" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="logica_8h_1ab39d4dc63e6d2693c1db926f53cba16d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int desfazer_ultjogada</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>desfazer_ultjogada</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/logica.h" line="44" column="5" bodyfile="Camadas/logica/logica.c" bodystart="86" bodyend="93" declfile="Camadas/logica/logica.h" declline="44" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="logica_8h_1a85768460d2d874c166cfdfb78c21b5aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int minMax</definition>
+        <argsstring>(ESTADO *e, int profundidade)</argsstring>
+        <name>minMax</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>profundidade</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/logica.h" line="45" column="5" bodyfile="Camadas/logica/logica.c" bodystart="95" bodyend="131" declfile="Camadas/logica/logica.h" declline="45" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="logica_8h_1a636e9e396c3d409d5f71bf3020268d0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+        <definition>COORDENADA randomJog</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>randomJog</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/logica.h" line="46" column="12" bodyfile="Camadas/logica/logica.c" bodystart="143" bodyend="155" declfile="Camadas/logica/logica.h" declline="46" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="logica_8h_1a9dfbc982d23a619e36575d8e7ec8e41c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jog</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>jog</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/logica.h" line="47" column="6" bodyfile="Camadas/logica/logica.c" bodystart="133" bodyend="140" declfile="Camadas/logica/logica.h" declline="47" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="logica_8h_1a75a3c6feb2f2ec713f96559558b136d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jog2</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>jog2</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/logica.h" line="48" column="6" bodyfile="Camadas/logica/logica.c" bodystart="158" bodyend="163" declfile="Camadas/logica/logica.h" declline="48" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>RASTROS_LOGICA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RASTROS_LOGICA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="modificar__estado_8h" kindref="compound">Camadas/dados/modificar_estado.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dados_8h" kindref="compound">Camadas/dados/dados.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="acessar__estado_8h" kindref="compound">Camadas/dados/acessar_estado.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="interface_8h" kindref="compound">Camadas/interface/interface.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="io_8h" kindref="compound">Camadas/interface/io.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="auxiliares_8h" kindref="compound">auxiliares.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub1_alpha2_1ga4e68d436fd02312dbf25a0876e6fcc29" kindref="member">jogar</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__sub1_alpha2_1gab1160bacb55fe9977b2a60e615c2e627" kindref="member">jogada_valida</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub1_alpha2_1ga33aa2b1fccaee5b1c1707d92f6ddc6f7" kindref="member">mostrar_tabuleiro</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/>FILE<sp/>*file);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="logica_8h_1afb7d37204f937c5a75d647c6537ef22a" kindref="member">prompt</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_comandos);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="logica_8h_1a9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="logica_8h_1a8a79a457a813dff34cfcdd48ac2c941c" kindref="member">pos</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>state);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="logica_8h_1a893b15b1044151de83eb9b01817dcdc0" kindref="member">movs</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/>FILE<sp/>*file);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="logica_8h_1ab39d4dc63e6d2693c1db926f53cba16d" kindref="member">desfazer_ultjogada</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="logica_8h_1a85768460d2d874c166cfdfb78c21b5aa" kindref="member">minMax</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>profundidade);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/><ref refid="logica_8h_1a636e9e396c3d409d5f71bf3020268d0b" kindref="member">randomJog</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="logica_8h_1a9dfbc982d23a619e36575d8e7ec8e41c" kindref="member">jog</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="logica_8h_1a75a3c6feb2f2ec713f96559558b136d0" kindref="member">jog2</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//RASTROS_LOGICA_H</highlight></codeline>
+    </programlisting>
+    <location file="Camadas/logica/logica.h"/>
+  </compounddef>
+</doxygen>

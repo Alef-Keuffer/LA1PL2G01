@@ -1,0 +1,71 @@
+\hypertarget{group__sub1_alpha2}{}\doxysection{Lógica}
+\label{group__sub1_alpha2}\index{Lógica@{Lógica}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__sub1_alpha2_ga4e68d436fd02312dbf25a0876e6fcc29}{jogar}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} c)
+\begin{DoxyCompactList}\small\item\em É realizada quando uma coordenada é colocada no prompt e enter é pressionado. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{group__sub1_alpha2_gab1160bacb55fe9977b2a60e615c2e627}{jogada\+\_\+valida}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} c)
+\begin{DoxyCompactList}\small\item\em Avalia se a coordenada recebida corresponde a um movimento válido. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__sub1_alpha2_ga33aa2b1fccaee5b1c1707d92f6ddc6f7}{mostrar\+\_\+tabuleiro}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, F\+I\+LE $\ast$file)
+\begin{DoxyCompactList}\small\item\em Essa função é usada para imprimir o tabuleiro, seja no ecrã ou em um fiheiro para ser salvo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group__sub1_alpha2_gab1160bacb55fe9977b2a60e615c2e627}\label{group__sub1_alpha2_gab1160bacb55fe9977b2a60e615c2e627}} 
+\index{Lógica@{Lógica}!jogada\_valida@{jogada\_valida}}
+\index{jogada\_valida@{jogada\_valida}!Lógica@{Lógica}}
+\doxysubsubsection{\texorpdfstring{jogada\_valida()}{jogada\_valida()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} jogada\+\_\+valida (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Avalia se a coordenada recebida corresponde a um movimento válido. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & é o estado do tabuleiro. \\
+\hline
+{\em c} & é a coordenada que corresponde a um movimento. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+é 1 ou 0 dependendo se a coordenada recebida for válida ou não 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__sub1_alpha2_ga4e68d436fd02312dbf25a0876e6fcc29}\label{group__sub1_alpha2_ga4e68d436fd02312dbf25a0876e6fcc29}} 
+\index{Lógica@{Lógica}!jogar@{jogar}}
+\index{jogar@{jogar}!Lógica@{Lógica}}
+\doxysubsubsection{\texorpdfstring{jogar()}{jogar()}}
+{\footnotesize\ttfamily void jogar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}}}]{c }\end{DoxyParamCaption})}
+
+
+
+É realizada quando uma coordenada é colocada no prompt e enter é pressionado. 
+
+Primeiro a função atualiza a casa, ou seja, faz a casa da peça ser P\+R\+E\+TA e faz a casa da coordenada inserida ser B\+R\+A\+N\+CA. Depois atualiza a última jogada para ser a coordenada inserida. Após isso, salva a coordenada inserida no histórico de jogadas do jogador que inseriu a coordenada. Em seguida incrementa o número de jogadas. Finalmente, atualiza o jogador atual, ou seja, determina o jogador atual para 1 ou para 2. 
+\begin{DoxyParams}{Parameters}
+{\em e} & é o estado do tabuleiro \\
+\hline
+{\em c} & é a coordenada que foi inserida \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group__sub1_alpha2_ga33aa2b1fccaee5b1c1707d92f6ddc6f7}\label{group__sub1_alpha2_ga33aa2b1fccaee5b1c1707d92f6ddc6f7}} 
+\index{Lógica@{Lógica}!mostrar\_tabuleiro@{mostrar\_tabuleiro}}
+\index{mostrar\_tabuleiro@{mostrar\_tabuleiro}!Lógica@{Lógica}}
+\doxysubsubsection{\texorpdfstring{mostrar\_tabuleiro()}{mostrar\_tabuleiro()}}
+{\footnotesize\ttfamily void mostrar\+\_\+tabuleiro (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{F\+I\+LE $\ast$}]{file }\end{DoxyParamCaption})}
+
+
+
+Essa função é usada para imprimir o tabuleiro, seja no ecrã ou em um fiheiro para ser salvo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & é o estado do tabuleiro \\
+\hline
+{\em file} & é o que permite determinar se estamos imprimindo para o ecrã ou para um ficheito. Se for N\+U\+LL é para o ecrã. Se for um file pointer é para um ficheiro. \\
+\hline
+\end{DoxyParams}

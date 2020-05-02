@@ -1,0 +1,77 @@
+\hypertarget{auxiliares_8h}{}\doxysection{Camadas/logica/auxiliares.h File Reference}
+\label{auxiliares_8h}\index{Camadas/logica/auxiliares.h@{Camadas/logica/auxiliares.h}}
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Camadas/dados/dados.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Camadas/dados/modificar\+\_\+estado.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Camadas/dados/acessar\+\_\+estado.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}logica.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{auxiliares_8h_a6d18e8736a024c1ed08ce90900fcdf36}{ler\+\_\+linha}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} linha, const \mbox{\hyperlink{_c_make_cache_8txt_afe71f11dacb15682cdc012f7208e6e09}{char}} $\ast$line)
+\item 
+void \mbox{\hyperlink{auxiliares_8h_a7a58dae24162814a0972c47febd9be69}{ler\+\_\+jogada}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{struct_j_o_g_a_d_a}{J\+O\+G\+A\+DA}} \mbox{\hyperlink{logica_8h_a9dfbc982d23a619e36575d8e7ec8e41c}{jog}}, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} numjog)
+\item 
+void \mbox{\hyperlink{auxiliares_8h_a5431e0cd098dba18d4a02e7be69808a2}{ler\+\_\+restante}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} jogadas, \mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} c)
+\item 
+\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{auxiliares_8h_a2ee045374bae731d9f870cc7af3fbdfa}{coord\+\_\+to\+\_\+int}} (\mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} c)
+\item 
+\mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} \mbox{\hyperlink{auxiliares_8h_a82a76985bb1f38602fa46ca450a2ec40}{int\+\_\+to\+\_\+coord}} (\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} x)
+\item 
+\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{auxiliares_8h_a5e60f2c9b94bab3f57c83c2635cf7c1c}{avaliar\+\_\+vitoria}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
+\item 
+\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{auxiliares_8h_a6c309b38237d3442ab40beb24315af56}{array\+\_\+jogadaspossiveis}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} c, \mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} move\+List\mbox{[}$\,$\mbox{]})
+\item 
+\mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} \mbox{\hyperlink{auxiliares_8h_a8b30ef7dcb6d352d3c9f7e6db25f0203}{maisproxima\+Fim}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} move\+List\mbox{[}$\,$\mbox{]}, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} move\+Count)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{auxiliares_8h_a6c309b38237d3442ab40beb24315af56}\label{auxiliares_8h_a6c309b38237d3442ab40beb24315af56}} 
+\index{auxiliares.h@{auxiliares.h}!array\_jogadaspossiveis@{array\_jogadaspossiveis}}
+\index{array\_jogadaspossiveis@{array\_jogadaspossiveis}!auxiliares.h@{auxiliares.h}}
+\doxysubsubsection{\texorpdfstring{array\_jogadaspossiveis()}{array\_jogadaspossiveis()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} array\+\_\+jogadaspossiveis (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}}}]{c,  }\item[{\mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}}}]{move\+List\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{auxiliares_8h_a5e60f2c9b94bab3f57c83c2635cf7c1c}\label{auxiliares_8h_a5e60f2c9b94bab3f57c83c2635cf7c1c}} 
+\index{auxiliares.h@{auxiliares.h}!avaliar\_vitoria@{avaliar\_vitoria}}
+\index{avaliar\_vitoria@{avaliar\_vitoria}!auxiliares.h@{auxiliares.h}}
+\doxysubsubsection{\texorpdfstring{avaliar\_vitoria()}{avaliar\_vitoria()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} avaliar\+\_\+vitoria (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{auxiliares_8h_a2ee045374bae731d9f870cc7af3fbdfa}\label{auxiliares_8h_a2ee045374bae731d9f870cc7af3fbdfa}} 
+\index{auxiliares.h@{auxiliares.h}!coord\_to\_int@{coord\_to\_int}}
+\index{coord\_to\_int@{coord\_to\_int}!auxiliares.h@{auxiliares.h}}
+\doxysubsubsection{\texorpdfstring{coord\_to\_int()}{coord\_to\_int()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} coord\+\_\+to\+\_\+int (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}}}]{c }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{auxiliares_8h_a82a76985bb1f38602fa46ca450a2ec40}\label{auxiliares_8h_a82a76985bb1f38602fa46ca450a2ec40}} 
+\index{auxiliares.h@{auxiliares.h}!int\_to\_coord@{int\_to\_coord}}
+\index{int\_to\_coord@{int\_to\_coord}!auxiliares.h@{auxiliares.h}}
+\doxysubsubsection{\texorpdfstring{int\_to\_coord()}{int\_to\_coord()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} int\+\_\+to\+\_\+coord (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{x }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{auxiliares_8h_a7a58dae24162814a0972c47febd9be69}\label{auxiliares_8h_a7a58dae24162814a0972c47febd9be69}} 
+\index{auxiliares.h@{auxiliares.h}!ler\_jogada@{ler\_jogada}}
+\index{ler\_jogada@{ler\_jogada}!auxiliares.h@{auxiliares.h}}
+\doxysubsubsection{\texorpdfstring{ler\_jogada()}{ler\_jogada()}}
+{\footnotesize\ttfamily void ler\+\_\+jogada (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{struct_j_o_g_a_d_a}{J\+O\+G\+A\+DA}}}]{jog,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{numjog }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{auxiliares_8h_a6d18e8736a024c1ed08ce90900fcdf36}\label{auxiliares_8h_a6d18e8736a024c1ed08ce90900fcdf36}} 
+\index{auxiliares.h@{auxiliares.h}!ler\_linha@{ler\_linha}}
+\index{ler\_linha@{ler\_linha}!auxiliares.h@{auxiliares.h}}
+\doxysubsubsection{\texorpdfstring{ler\_linha()}{ler\_linha()}}
+{\footnotesize\ttfamily void ler\+\_\+linha (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{linha,  }\item[{const \mbox{\hyperlink{_c_make_cache_8txt_afe71f11dacb15682cdc012f7208e6e09}{char}} $\ast$}]{line }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{auxiliares_8h_a5431e0cd098dba18d4a02e7be69808a2}\label{auxiliares_8h_a5431e0cd098dba18d4a02e7be69808a2}} 
+\index{auxiliares.h@{auxiliares.h}!ler\_restante@{ler\_restante}}
+\index{ler\_restante@{ler\_restante}!auxiliares.h@{auxiliares.h}}
+\doxysubsubsection{\texorpdfstring{ler\_restante()}{ler\_restante()}}
+{\footnotesize\ttfamily void ler\+\_\+restante (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{jogadas,  }\item[{\mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}}}]{c }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{auxiliares_8h_a8b30ef7dcb6d352d3c9f7e6db25f0203}\label{auxiliares_8h_a8b30ef7dcb6d352d3c9f7e6db25f0203}} 
+\index{auxiliares.h@{auxiliares.h}!maisproximaFim@{maisproximaFim}}
+\index{maisproximaFim@{maisproximaFim}!auxiliares.h@{auxiliares.h}}
+\doxysubsubsection{\texorpdfstring{maisproximaFim()}{maisproximaFim()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} maisproxima\+Fim (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}}}]{move\+List\mbox{[}$\,$\mbox{]},  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{move\+Count }\end{DoxyParamCaption})}
+

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="test__simple__interface_8h" kind="file" language="C++">
+    <compoundname>test_simple_interface.h</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="test__simple__interface_8h_1a06ef838d09e6c3087a1ef24a0d3e048f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int test_simple_interface</definition>
+        <argsstring>()</argsstring>
+        <name>test_simple_interface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/testes/test_simple_interface.h" line="3" column="5" bodyfile="Camadas/testes/test_simple_interface.c" bodystart="10" bodyend="12" declfile="Camadas/testes/test_simple_interface.h" declline="3" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>RASTROS_C_TEST_SIMPLE_INTERFACE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RASTROS_C_TEST_SIMPLE_INTERFACE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="test__simple__interface_8h_1a06ef838d09e6c3087a1ef24a0d3e048f" kindref="member">test_simple_interface</ref>();</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//RASTROS_C_TEST_SIMPLE_INTERFACE_H</highlight></codeline>
+    </programlisting>
+    <location file="Camadas/testes/test_simple_interface.h"/>
+  </compounddef>
+</doxygen>

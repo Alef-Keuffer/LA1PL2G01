@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>Rastros</title>
+    <innerpage refid="subsystem1">Título</innerpage>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para> <ref refid="subsystem1" kindref="compound">Título</ref> </para>
+<sect1 id="index_1mainpagesection1">
+<title>mainpagesection1</title>
+<para>Ainda não sei o que escrever aqui. </para>
+</sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

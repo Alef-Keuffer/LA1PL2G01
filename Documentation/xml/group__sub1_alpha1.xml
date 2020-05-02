@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="group__sub1_alpha1" kind="group">
+    <compoundname>sub1Alpha1</compoundname>
+    <title>Inteface</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__sub1_alpha1_1gaa8380036eb143858dab4bfad8b780adc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void imprimir_prompt</definition>
+        <argsstring>(int num_comandos, int jog, int num)</argsstring>
+        <name>imprimir_prompt</name>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>num_comandos</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>jog</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+<para>Coloca no ecrã um prompt. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>O ecrã contém o número de comandos que foram executados até o momento, o número do jogador atual e o número da jogada atual <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>num_comandos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é um contador que para o número de comandos que foram realizados </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jog</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o contador para o número do jogador atual </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o contador para o número da jogada atual </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/interface/interface.h" line="22" column="6" bodyfile="Camadas/interface/interface.c" bodystart="5" bodyend="7" declfile="Camadas/interface/interface.h" declline="22" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

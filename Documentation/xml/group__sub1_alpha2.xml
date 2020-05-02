@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="group__sub1_alpha2" kind="group">
+    <compoundname>sub1Alpha2</compoundname>
+    <title>Lógica</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__sub1_alpha2_1ga4e68d436fd02312dbf25a0876e6fcc29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jogar</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>jogar</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>É realizada quando uma coordenada é colocada no prompt e enter é pressionado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Primeiro a função atualiza a casa, ou seja, faz a casa da peça ser PRETA e faz a casa da coordenada inserida ser BRANCA. Depois atualiza a última jogada para ser a coordenada inserida. Após isso, salva a coordenada inserida no histórico de jogadas do jogador que inseriu a coordenada. Em seguida incrementa o número de jogadas. Finalmente, atualiza o jogador atual, ou seja, determina o jogador atual para 1 ou para 2. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coordenada que foi inserida </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/logica.h" line="25" column="6" bodyfile="Camadas/logica/logica.c" bodystart="3" bodyend="9" declfile="Camadas/logica/logica.h" declline="25" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub1_alpha2_1gab1160bacb55fe9977b2a60e615c2e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int jogada_valida</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>jogada_valida</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Avalia se a coordenada recebida corresponde a um movimento válido. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coordenada que corresponde a um movimento. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>é 1 ou 0 dependendo se a coordenada recebida for válida ou não </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/logica.h" line="32" column="5" bodyfile="Camadas/logica/logica.c" bodystart="11" bodyend="20" declfile="Camadas/logica/logica.h" declline="32" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub1_alpha2_1ga33aa2b1fccaee5b1c1707d92f6ddc6f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mostrar_tabuleiro</definition>
+        <argsstring>(ESTADO *e, FILE *file)</argsstring>
+        <name>mostrar_tabuleiro</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>Essa função é usada para imprimir o tabuleiro, seja no ecrã ou em um fiheiro para ser salvo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o que permite determinar se estamos imprimindo para o ecrã ou para um ficheito. Se for NULL é para o ecrã. Se for um file pointer é para um ficheiro. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Camadas/logica/logica.h" line="38" column="6" bodyfile="Camadas/logica/logica.c" bodystart="22" bodyend="29" declfile="Camadas/logica/logica.h" declline="38" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Rastros_C</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Identificação<sp/>dos<sp/>criadores</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Alunos<sp/>da<sp/>Universidade<sp/>do<sp/>Minho:</highlight></codeline>
+<codeline><highlight class="normal">Grupo<sp/>01<sp/>do<sp/>turno<sp/>PL2<sp/>(Laboratório<sp/>de<sp/>Algoritmia),<sp/>composto<sp/>por:</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>Alef<sp/>Pinto<sp/>Keuffer<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>A91683</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>Pedro<sp/>Paulo<sp/>Costa<sp/>Pereira<sp/><sp/>-<sp/>A88062</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>Fernando<sp/>Maria<sp/>Bicalho<sp/><sp/><sp/><sp/><sp/>-<sp/>A93546</highlight></codeline>
+<codeline><highlight class="normal"><sp/></highlight></codeline>
+<codeline><highlight class="normal">##<sp/>Objetivo</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>Pretende-se<sp/>implementar<sp/>o<sp/>jogo<sp/>Rastros.<sp/>Para<sp/>descobrir<sp/>as<sp/>regras<sp/>do<sp/>jogo,<sp/>clique<sp/>[aqui](http://ludicum.org/jogos/abstr/rastros/ludus-jogos-rastros.pdf/view).<sp/>O<sp/>seu<sp/>programa<sp/>deverá<sp/>permitir<sp/>que<sp/>dois<sp/>jogadores,<sp/>partilhando<sp/>o<sp/>mesmo<sp/>teclado,<sp/>o<sp/>possam<sp/>jogar.<sp/>Os<sp/>comandos<sp/>deverão<sp/>ser<sp/>introduzidos<sp/>através<sp/>de<sp/>um<sp/>interpretador<sp/>de<sp/>comandos.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Estruturação<sp/>do<sp/>programa</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Camada<sp/>de<sp/>dados</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>dados</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>acessar_estado</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>modificar_estado</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Lógica<sp/>do<sp/>programa</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>logica</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>auxiliares</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Camada<sp/>de<sp/>interface</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>interface</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>io</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Progresso<sp/>por<sp/>semanas</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Semana<sp/>1<sp/>(guião<sp/>5):</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>*Criação<sp/>dos<sp/>módulos*:<sp/>A<sp/>princípio,<sp/>foram<sp/>criados<sp/>4<sp/>módulos:<sp/>1<sp/>para<sp/>a<sp/>camada<sp/>de<sp/>dados,<sp/>2<sp/>para<sp/>a<sp/>lógica<sp/>do<sp/>programa<sp/>e<sp/>1<sp/>para<sp/>a<sp/>camada<sp/>de<sp/>interface.<sp/>Decidiu-se<sp/>dividir<sp/>a<sp/>lógica<sp/>do<sp/>programa<sp/>em<sp/>dois<sp/>módulos<sp/>para<sp/>se<sp/>ter<sp/>uma<sp/>melhor<sp/>ideia<sp/>de<sp/>quais<sp/>funções<sp/>modificam<sp/>o<sp/>estado.</highlight></codeline>
+<codeline><highlight class="normal"><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>*Inicializar<sp/>o<sp/>estado<sp/>do<sp/>jogo*:<sp/>Tal<sp/>função<sp/>se<sp/>encontra<sp/>no<sp/>módulo<sp/>&quot;dados&quot;.<sp/>Num<sp/>estado<sp/>inicial,<sp/>temos<sp/>que<sp/>o<sp/>jogador<sp/>1<sp/>é<sp/>o<sp/>atual<sp/>jogador;<sp/>o<sp/>número<sp/>de<sp/>jogadas<sp/>é<sp/>igual<sp/>a<sp/>zero;<sp/>a<sp/>peça<sp/>branca<sp/>se<sp/>encontra<sp/>na<sp/>casa<sp/>de<sp/>coordenada<sp/>e5<sp/>e<sp/>todas<sp/>as<sp/>outras<sp/>casas<sp/>estão<sp/>vazias.<sp/>Como<sp/>forma<sp/>de<sp/>facilitar<sp/>o<sp/>processo,<sp/>inicializou-se,<sp/>também,<sp/>a<sp/>última<sp/>jogada<sp/>como<sp/>e5.<sp/>**Nota:**<sp/>houve<sp/>dificuldade<sp/>em<sp/>utilizar<sp/>o<sp/>*typedef<sp/>enum*<sp/>para<sp/>enumerar<sp/>o<sp/>estado<sp/>de<sp/>cada<sp/>casa,<sp/>por<sp/>isso<sp/>definiu-se<sp/>*BRANCA*,<sp/>*PRETA*<sp/>e<sp/>*VAZIA*<sp/>como<sp/>valores<sp/>inteiros<sp/>(utilizando<sp/>*#define<sp/>BRANCA<sp/>1*,<sp/>por<sp/>exemplo).</highlight></codeline>
+<codeline><highlight class="normal"><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>*Colocar<sp/>uma<sp/>peça<sp/>branca<sp/>na<sp/>casa<sp/>jogada*:<sp/>Tal<sp/>função<sp/>se<sp/>encontra<sp/>no<sp/>módulo<sp/>&quot;modificar_estado&quot;<sp/>(_void<sp/>atualizar_tab(ESTADO<sp/>*e,<sp/>COORDENADA<sp/>c)_).<sp/>Consiste<sp/>simplesmente<sp/>em<sp/>mudar<sp/>o<sp/>estado<sp/>da<sp/>casa<sp/>no<sp/>array<sp/>e-&gt;tab.<sp/>Foi<sp/>definida<sp/>de<sp/>forma<sp/>que,<sp/>assumindo<sp/>que<sp/>a<sp/>última<sp/>jogada<sp/>já<sp/>tenha<sp/>sido<sp/>atualizada,<sp/>a<sp/>peça<sp/>preta<sp/>é<sp/>colocada<sp/>no<sp/>lugar<sp/>da<sp/>casa<sp/>branca.<sp/>Falta<sp/>validar<sp/>a<sp/>jogada.</highlight></codeline>
+<codeline><highlight class="normal"><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>*Mostrar<sp/>o<sp/>tabuleiro<sp/>com<sp/>a<sp/>jogada<sp/>efetuada*:<sp/>Tal<sp/>função<sp/>se<sp/>encontra<sp/>no<sp/>módulo<sp/>&quot;interface&quot;.<sp/>A<sp/>função<sp/>imprime<sp/>o<sp/>atual<sp/>estado<sp/>do<sp/>tabuleiro<sp/>(usando<sp/>o<sp/>array<sp/>e-&gt;tab),<sp/>por<sp/>meio<sp/>de<sp/>um<sp/>ciclo<sp/>que<sp/>verifica<sp/>o<sp/>estado<sp/>de<sp/>cada<sp/>casa<sp/>e<sp/>imprime<sp/>o<sp/>char<sp/>desejado<sp/>para<sp/>cada<sp/>estado.</highlight></codeline>
+<codeline><highlight class="normal"><sp/></highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Semana<sp/>2<sp/>(guião<sp/>6):</highlight></codeline>
+<codeline><highlight class="normal">####<sp/>Contribuições<sp/>do<sp/>Alef:</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>Iniciei<sp/>o<sp/>processo<sp/>de<sp/>documentação<sp/>com<sp/>o<sp/>Doxygen.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>1.<sp/>Criei<sp/>o<sp/>grupo<sp/>&quot;Camada<sp/>de<sp/>dados&quot;<sp/>e<sp/>adicionei<sp/>os<sp/>subgrupos<sp/>&quot;modificar<sp/>dados&quot;<sp/>e<sp/>&quot;accesar<sp/>dados&quot;.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>1.<sp/>Coloquei<sp/>as<sp/>funções<sp/>de<sp/>modificar_estado<sp/>no<sp/>grupo<sp/>&quot;Camada<sp/>de<sp/>dados&quot;<sp/>e<sp/>adicionei<sp/>breve<sp/>descrições<sp/>para<sp/>cada<sp/>uma.</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>Implementei<sp/>o<sp/>comando<sp/>Q.</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>Implementei<sp/>o<sp/>comando<sp/>ler.</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>Implementei<sp/>o<sp/>comando<sp/>gr.</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>Implementei<sp/>o<sp/>comando<sp/>movs.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Contribuições<sp/>do<sp/>Pedro:</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>*Validação<sp/>da<sp/>jogada*:<sp/>Criação<sp/>da<sp/>função<sp/>*jogada_valida*<sp/>no<sp/>módulo<sp/>&quot;logica&quot;,<sp/>que<sp/>consiste<sp/>verificar<sp/>se<sp/>a<sp/>casa<sp/>escolhida<sp/>está<sp/>vazia<sp/>e<sp/>se<sp/>é<sp/>adjacente<sp/>à<sp/>casa<sp/>da<sp/>última<sp/>jogada.</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>*Deteção<sp/>do<sp/>fim<sp/>de<sp/>jogo*:<sp/>Criação<sp/>da<sp/>função<sp/>*fim_de_jogo*<sp/>no<sp/>módulo<sp/>&quot;logica&quot;,<sp/>que<sp/>verifica<sp/>se<sp/>a<sp/>peça<sp/>branca<sp/>encontra-se<sp/>na<sp/>casa<sp/>final<sp/>de<sp/>um<sp/>dos<sp/>jogadores<sp/>ou<sp/>numa<sp/>casa<sp/>onde<sp/>não<sp/>há<sp/>nenhuma<sp/>casa<sp/>adjacente<sp/>vazia.<sp/>A<sp/>função<sp/>é<sp/>chamada<sp/>antes<sp/>do<sp/>interpretador<sp/>imprimir<sp/>o<sp/>prompt<sp/>e<sp/>ficar<sp/>à<sp/>espera<sp/>do<sp/>comando.</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>*Implementação<sp/>do<sp/>prompt*:<sp/>Função<sp/>*prompt*,<sp/>no<sp/>módulo<sp/>&quot;interface&quot;.</highlight></codeline>
+<codeline><highlight class="normal"><sp/></highlight></codeline>
+<codeline><highlight class="normal">**Nota:**<sp/>também<sp/>foram<sp/>adicionadas,<sp/>por<sp/>ambos<sp/>integrantes,<sp/>funções<sp/>que<sp/>acessam<sp/>as<sp/>informações<sp/>contidas<sp/>no<sp/>estado<sp/>e<sp/>que<sp/>serão<sp/>usadas<sp/>por<sp/>todo<sp/>o<sp/>programa.<sp/>Tais<sp/>funções<sp/>se<sp/>encontram<sp/>no<sp/>módulo<sp/>&quot;acessar_estado&quot;.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Semana<sp/>3<sp/>(guião<sp/>7):</highlight></codeline>
+<codeline><highlight class="normal">Como<sp/>já<sp/>se<sp/>tinha<sp/>o<sp/>comando<sp/>movs<sp/>a<sp/>funcionar<sp/>e<sp/>o<sp/>comando<sp/>gr<sp/>já<sp/>estava<sp/>completo,<sp/>nesta<sp/>semana<sp/>trabalhou-se<sp/>em<sp/>otimizar<sp/>o<sp/>comando<sp/>ler.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Na<sp/>definição<sp/>da<sp/>função<sp/>ler,<sp/>ignorava-se<sp/>o<sp/>tabuleiro<sp/>dos<sp/>ficheiros<sp/>e<sp/>faziam-se<sp/>jogadas<sp/>com<sp/>as<sp/>coordenadas<sp/>dispostas<sp/>a<sp/>partir<sp/>de<sp/>um<sp/>estado<sp/>novo,<sp/>que<sp/>tinha<sp/>acabado<sp/>de<sp/>ser<sp/>inicializado.<sp/>Esta<sp/>definição<sp/>não<sp/>era<sp/>muito<sp/>eficiente,<sp/>pois<sp/>para<sp/>cada<sp/>vez<sp/>que<sp/>o<sp/>comando<sp/>ler<sp/>era<sp/>chamado,<sp/>alocava-se<sp/>um<sp/>novo<sp/>espaço<sp/>na<sp/>memória.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Criou-se,<sp/>então,<sp/>a<sp/>nova<sp/>definição<sp/>dessa<sp/>função,<sp/>que<sp/>lê<sp/>e<sp/>armazena<sp/>no<sp/>tabuleiro<sp/>as<sp/>8<sp/>primeiras<sp/>linhas<sp/>do<sp/>ficheiro<sp/>e<sp/>depois<sp/>faz<sp/>as<sp/>atualizações<sp/>necessárias<sp/>para<sp/>que<sp/>o<sp/>jogo<sp/>continue<sp/>(i.e.,<sp/>último<sp/>jogador,<sp/>número<sp/>de<sp/>jogadas,<sp/>jogadas).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Semana<sp/>4<sp/>(guião<sp/>8):</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>*Implementação<sp/>do<sp/>comando<sp/>pos*,<sp/>que<sp/>permite<sp/>que<sp/>o<sp/>usuário<sp/>aceda<sp/>a<sp/>jogadas<sp/>anteriores.<sp/>É<sp/>possível<sp/>realizar<sp/>o<sp/>comando<sp/>*pos*<sp/>consecutivamente<sp/>até<sp/>que<sp/>uma<sp/>nova<sp/>jogada<sp/>seja<sp/>feita<sp/>ou<sp/>seja<sp/>realizada<sp/>a<sp/>leitura<sp/>de<sp/>um<sp/>novo<sp/>tabuleiro.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>*Alterações<sp/>necessárias*,<sp/>conforme<sp/>sugerido<sp/>pelo<sp/>professor.<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>*Adição<sp/>de<sp/>screenshots<sp/>das<sp/>funcionalidades<sp/>do<sp/>programa*.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>*Reorganização<sp/>das<sp/>camadas<sp/>e<sp/>seus<sp/>módulos*.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Semana<sp/>5<sp/>(guião<sp/>9):</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>*Criação<sp/>do<sp/>módulo<sp/>independente<sp/>para<sp/>as<sp/>funções<sp/>genéricas<sp/>de<sp/>listas<sp/>ligadas/encadeadas.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>*Implementação<sp/>do<sp/>comando<sp/>jog*:<sp/>Foi<sp/>utilizada<sp/>a<sp/>heurística<sp/>Minimax<sp/>para<sp/>a<sp/>implementação<sp/>deste<sp/>comando.<sp/>Através<sp/>de<sp/>uma<sp/>função<sp/>recursiva,<sp/>o<sp/>computador<sp/>prevê<sp/>até<sp/>8<sp/>jogadas<sp/>à<sp/>frente<sp/>e<sp/>verifica<sp/>qual<sp/>das<sp/>jogadas<sp/>possíveis<sp/>tem<sp/>o<sp/>melhor<sp/>*score*<sp/>(é<sp/>atribuído<sp/>-1<sp/>quando<sp/>em<sp/>alguma<sp/>jogada<sp/>seguinte<sp/>o<sp/>jogador<sp/>adversário<sp/>ganha<sp/>o<sp/>jogo,<sp/>1<sp/>quando<sp/>o<sp/>jogador<sp/>atual<sp/>ganha<sp/>o<sp/>jogo<sp/>e<sp/>0<sp/>quando<sp/>o<sp/>jogo<sp/>não<sp/>chegou<sp/>ao<sp/>fim).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>*Ajustes<sp/>e<sp/>atualização<sp/>nas<sp/>camadas<sp/>e<sp/>nos<sp/>módulos.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Semana<sp/>6<sp/>(guião<sp/>10):</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>*Implementação<sp/>do<sp/>comando<sp/>jog2*:<sp/>Implementação<sp/>do<sp/>comando<sp/>jog2.<sp/>Neste<sp/>comando<sp/>optamos<sp/>por<sp/>utilizar<sp/>a<sp/>heurística<sp/>de<sp/>jogadas<sp/>Aleatórias,<sp/>onde<sp/>a<sp/>peça<sp/>analiza<sp/>as<sp/>casas<sp/>vizinhas<sp/>VAZIAS<sp/>e<sp/>faz<sp/>o<sp/>movimento<sp/>para<sp/>uma<sp/>qualquer.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>*Implementação<sp/>do<sp/>Bot*:<sp/>Foi<sp/>implementado<sp/>um<sp/>novo<sp/>main<sp/>&quot;mainBot.c&quot;<sp/>para<sp/>a<sp/>execução<sp/>desta<sp/>tarefa.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>*Atualização<sp/>da<sp/>Documentation<sp/>com<sp/>a<sp/>Doxygen*:<sp/>Esta<sp/>a<sp/>ser<sp/>feita<sp/>uma<sp/>atualização<sp/>nos<sp/>ficheiros<sp/>de<sp/>documentação.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>*Atualização<sp/>da<sp/>Camada<sp/>Testes*:<sp/>O<sp/>módulo<sp/>testes<sp/>esta<sp/>a<sp/>ser<sp/>atualizado<sp/>para<sp/>os<sp/>novos<sp/>comandos.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Semana<sp/>7<sp/>(guião<sp/>Final)<sp/>-<sp/>Sprint<sp/>Backlog:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">|<sp/><sp/><sp/><sp/>História<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/>Tarefas<sp/><sp/><sp/><sp/>|<sp/><sp/>Status/Obs.<sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>---<sp/><sp/>|<sp/><sp/>---<sp/><sp/>|<sp/><sp/>---<sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/><sp/><sp/>Documentação<sp/><sp/><sp/><sp/>|<sp/><sp/>Verificar<sp/>se<sp/>todas<sp/>as<sp/>estruturas<sp/>de<sp/>dados<sp/>e<sp/>Macros<sp/>estão<sp/>documentadas.<sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>Modularidade<sp/>e<sp/>legibilidade<sp/><sp/>|<sp/><sp/>Funções<sp/>que<sp/>caibam<sp/>no<sp/>ecrã.<sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/><sp/><sp/>|<sp/><sp/>Funçnoes<sp/>aux<sp/>com<sp/>nome<sp/>sugestivo.<sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/><sp/><sp/>|<sp/><sp/>NÃO<sp/>aceder<sp/>diretamente<sp/>o<sp/>módulo<sp/>dados.<sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/><sp/><sp/>|<sp/><sp/>Estrutura<sp/>em<sp/>módulos<sp/>estanques.<sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/><sp/><sp/>|<sp/><sp/>NÃO<sp/>utilizar<sp/>variaveis<sp/>globais.<sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/><sp/><sp/>|<sp/><sp/>NÃO<sp/>misturar<sp/>a<sp/>camada<sp/>interface<sp/>com<sp/>o<sp/>resto.<sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/><sp/><sp/>|<sp/><sp/>NÃO<sp/>misturar<sp/>a<sp/>camada<sp/>dados<sp/>com<sp/>o<sp/>resto.<sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>Deteção<sp/>dos<sp/>fins<sp/>de<sp/>jogo<sp/><sp/>|<sp/><sp/>O<sp/>projeto<sp/>deverá<sp/>detetar<sp/>todas<sp/>as<sp/>instâncias<sp/>de<sp/>fim<sp/>de<sp/>jogo.<sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>Compilar<sp/>sem<sp/>warnings<sp/><sp/>|<sp/><sp/>Compilar<sp/>sem<sp/>warnings<sp/>com<sp/>o<sp/>comando:<sp/>-std=gnu11<sp/>-Wall<sp/>-Wextra<sp/>-pedantic-errors<sp/>-O<sp/>no<sp/>gcc.<sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>Bot<sp/><sp/>|<sp/><sp/>Entrega<sp/>do<sp/>Bot<sp/>finalizado<sp/>através<sp/>da<sp/>BB.<sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>Projeto<sp/><sp/>|<sp/><sp/>Entrega<sp/>do<sp/>Projeto<sp/>finalizado<sp/>através<sp/>da<sp/>BB<sp/>com<sp/>a<sp/>seguinte<sp/>definição:<sp/>la1PL2G01.zip.<sp/><sp/>|</highlight></codeline>
+    </programlisting>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

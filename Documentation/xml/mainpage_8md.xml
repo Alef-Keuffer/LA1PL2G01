@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="mainpage_8md" kind="file" language="Markdown">
+    <compoundname>mainpage.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">@mainpage<sp/>Rastros</highlight></codeline>
+<codeline><highlight class="normal">&lt;div<sp/>style=&quot;display:none;&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal">@subpage<sp/>subsystem1</highlight></codeline>
+<codeline><highlight class="normal">@section<sp/>mainpagesection1<sp/>mainpagesection1</highlight></codeline>
+<codeline><highlight class="normal">Ainda<sp/>não<sp/>sei<sp/>o<sp/>que<sp/>escrever<sp/>aqui.</highlight></codeline>
+    </programlisting>
+    <location file="Documentation/doc_pages/mainpage.md"/>
+  </compounddef>
+</doxygen>
