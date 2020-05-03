@@ -1,3 +1,6 @@
+/// @file logicaBot.h
+/// @brief As funções do bot são as mesmas do que estão documentadas nas camadas do projeto.
+
 /// @defgroup CamadaLogica Lógica
 /// @ingroup Beta
 /// @defgroup ModuloLogica Lógica

@@ -1,4 +1,10 @@
-/// @defgroup groupAlpha Camada de dados
+/// @file dados.h
+/// @brief Contém as definições das estruturas de dados que serão usadas no programa.
+///
+/// Nesse aqurivo está declarada e comentada para documentação a função em dados.c
+
+/// @defgroup groupAlpha Dados
+/// @ingroup camadas
 /// @defgroup subAlpha1 Modificar dados
 /// @ingroup groupAlpha
 /// @defgroup subAlpha2 Acessar dados

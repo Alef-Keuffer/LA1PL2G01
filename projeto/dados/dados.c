@@ -1,3 +1,6 @@
+/// @file dados.c
+/// @brief Contém a definição da função que inicializa o tabuleiro.
+
 #include <stdlib.h>
 #include "dados.h"
 

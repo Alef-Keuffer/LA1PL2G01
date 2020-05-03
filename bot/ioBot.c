@@ -1,3 +1,6 @@
+/// @file ioBot.c
+/// @brief As funções do bot são as mesmas do que estão documentadas nas camadas do projeto.
+
 #include "ioBot.h"
 
 void gr (ESTADO *e, char *file_path) {

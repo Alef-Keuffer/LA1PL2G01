@@ -1,3 +1,6 @@
+/// @file modificar_estadoBot.c
+/// @brief As funções do bot são as mesmas do que estão documentadas nas camadas do projeto.
+
 #include "modificar_estadoBot.h"
 
 void atualizar_tab(ESTADO *e, COORDENADA c){

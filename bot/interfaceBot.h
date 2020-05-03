@@ -1,12 +1,14 @@
+/// @file interfaceBot.h
+/// @brief As funções do bot são as mesmas do que estão documentadas nas camadas do projeto.
+
 /// @defgroup Beta Bot
-/// As funções aqui são análogas às funções no programa original
+/// As funções do bot estão documentadas nas camadas do projeto
 /// @defgroup CamadaInterface Interface
 /// @ingroup Beta
 /// @defgroup ModuloInterface Interface
 /// @ingroup CamadaInterface
 /// @defgroup CamadaIO IO
 /// @ingroup CamadaInterface
-
 
 #ifndef RASTROS_INTERFACE_H
 #define RASTROS_INTERFACE_H

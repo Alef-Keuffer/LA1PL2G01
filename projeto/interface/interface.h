@@ -1,4 +1,8 @@
+/// @file interface.h
+/// @brief Contém comentários para documentação e declarações das funções em interface.c
+
 /// @defgroup groupAlpha1 Interface
+/// @ingroup camadas
 /// @defgroup sub1Alpha1 Interface
 /// @ingroup groupAlpha1
 /// @defgroup sub2Alpha1 IO
@@ -43,8 +47,22 @@ int interpretador(ESTADO *e, int num_comandos, int state);
 /// \param file é o ficheiro em que serã colocado o character (caso o filepointer !=NULL)
 void imprimir_char(int c, FILE *file);
 
-
+/// Imprime uma jogada completa, isso é, com as jogadas dos dois jogadores.
+/// @ingroup sub1Alpha1
+/// \param file se for NULL será para o ecrã, de outra forma será escrito em um ficheiro
+/// \param i é o número da jogada
+/// \param c1 é a coluna do movimento do jogador 1
+/// \param r1 é a linha do movimento do jogador 1
+/// \param c2 é a coluna do movimento do jogador 2
+/// \param r2 é a linha do movimento do jogador 2
 void imprime_movs1(FILE *file, int i, int c1, int r1, int c2, int r2);
+
+/// Imprime uma jogada somente com o movimento do jogador 1
+/// @ingroup sub1Alpha1
+/// \param file se for NULL será para o ecrã, de outra forma será escrito em um ficheiro
+/// \param i é o número da jogada
+/// \param c1 é a coluna do movimento do jogador 1
+/// \param r1 é a linha do movimento do jogador 1
 void imprime_movs2(FILE *file, int i, int c1, int r1);
 
 #endif //RASTROS_INTERFACE_H

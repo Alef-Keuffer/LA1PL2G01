@@ -1,3 +1,6 @@
+/// @file auxiliares.h
+/// @brief Contém comentários para documentação e declarações das funções em auxiliares.c
+
 #ifndef RASTROS_AUXILIARES_H
 #define RASTROS_AUXILIARES_H
 #include <math.h>

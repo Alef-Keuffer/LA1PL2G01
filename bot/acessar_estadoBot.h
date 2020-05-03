@@ -1,3 +1,6 @@
+/// @file acessar_estadoBot.h
+/// @brief As funções do bot são as mesmas do que estão documentadas nas camadas do projeto.
+
 /// @defgroup CamadaDados Dados
 /// @ingroup Beta
 /// @defgroup ModuloAcessarEstado Acessar Estado

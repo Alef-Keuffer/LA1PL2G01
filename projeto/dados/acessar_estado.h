@@ -1,3 +1,6 @@
+/// @file acessar_estado.h
+/// @brief Nesse aqurivo estão declaradas e comentadas para documentação as funções em acessar_estado.c
+
 #ifndef RASTROS_C_ACESSAR_ESTADO_H
 #define RASTROS_C_ACESSAR_ESTADO_H
 #include "dados.h"
@@ -13,7 +16,7 @@ int obter_casa (ESTADO *e, int row, int col);
 /// Obtêm o número do jogador atual
 /// \ingroup subAlpha2
 /// \param e é o estado do tabuleiro
-/// \return o npumero do jogador no momento em que a função foi executada
+/// \return o número do jogador no momento em que a função foi executada
 int JogadorAtual (ESTADO *e);
 
 /// Obtem a coordenada de uma linha ou coluna.

@@ -1,3 +1,8 @@
+/// @file interface.c
+/// @brief Contém a definição de funções de interação direta com o usuário pela interface.
+///
+/// Funções que intepretam comandos e chamam outras funções na camada de lógica e imprimem texto no ecrã.
+
 #include "interface.h"
 
 #define BUF_SIZE 1024

@@ -1,3 +1,6 @@
+/// @file logica.c
+/// @brief Contém as definições dos principais comandos do jogo.
+
 #include "logica.h"
 
 void jogar(ESTADO *e, COORDENADA c) {

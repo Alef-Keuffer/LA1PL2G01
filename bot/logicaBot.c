@@ -1,3 +1,6 @@
+/// @file logicaBot.c
+/// @brief As funções do bot são as mesmas do que estão documentadas nas camadas do projeto.
+
 #include "logicaBot.h"
 
 int jogar(ESTADO *e, COORDENADA c) {

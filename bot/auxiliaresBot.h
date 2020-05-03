@@ -1,3 +1,6 @@
+/// @file auxiliaresBot.h
+/// @brief As funções do bot são as mesmas do que estão documentadas nas camadas do projeto.
+
 #ifndef BOTRASTROS_AUXILIARES_H
 #define BOTRASTROS_AUXILIARES_H
 #include <math.h>

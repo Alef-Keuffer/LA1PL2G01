@@ -1,3 +1,6 @@
+/// @file modificar_estadoBot.h
+/// @brief As funções do bot são as mesmas do que estão documentadas nas camadas do projeto.
+
 #ifndef RASTROS_MODIFICAR_ESTADO_H
 #define RASTROS_MODIFICAR_ESTADO_H
 #include "dados.h"

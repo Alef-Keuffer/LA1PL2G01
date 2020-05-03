@@ -1,5 +1,7 @@
-#include "io.h"
+/// @file io.c
+/// @brief Contém definições de funções que manipulam ficheiros.
 
+#include "io.h"
 
 void gr(ESTADO *e, char *file_path){
     FILE * fPtr;

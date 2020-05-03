@@ -1,3 +1,6 @@
+/// @file acessar_estadoBot.c
+/// @brief As funções do bot são as mesmas do que estão documentadas nas camadas do projeto.
+
 #include "acessar_estadoBot.h"
 
 int obter_casa (ESTADO *e, int row, int col) {

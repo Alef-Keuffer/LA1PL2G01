@@ -1,3 +1,6 @@
+/// @file test_simple_commands.c
+/// @brief Contém as definições funções que testam se alguns comandos do projeto estão a serem executados corretamente.
+
 #include "Camadas/logica/logica.h"
 #include "Camadas/dados/dados.h"
 #include <assert.h>

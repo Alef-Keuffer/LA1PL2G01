@@ -1,3 +1,6 @@
+/// @file main.c
+/// @brief As funções do bot são as mesmas do que estão documentadas nas camadas do projeto.
+
 #include "dados.h"
 #include "logicaBot.h"
 #include "ioBot.h"

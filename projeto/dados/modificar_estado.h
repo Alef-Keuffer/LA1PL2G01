@@ -1,3 +1,6 @@
+/// @file modificar_estado.h
+/// @brief Contém a declaraão das funções em modificar_estado.c e comentários para documentação sobre elas.
+
 #ifndef MODIFICAR_ESTADO_H
 #define MODIFICAR_ESTADO_H
 

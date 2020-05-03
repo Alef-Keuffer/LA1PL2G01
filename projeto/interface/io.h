@@ -1,3 +1,6 @@
+/// @file io.h
+/// @brief Contém declarações e comentários para documentação das funções em io.c
+
 #ifndef RASTROS_IO_H
 #define RASTROS_IO_H
 #include <stdio.h>

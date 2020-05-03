@@ -1,4 +1,8 @@
+/// @file logica.h
+/// @brief Contém comentários para documentação e declarações de funções em logica.h
+
 /// @defgroup groupAlpha2 Lógica
+/// @ingroup camadas
 /// @defgroup sub1Alpha2 Lógica
 /// @ingroup groupAlpha2
 /// @defgroup sub2Alpha2 Auxiliares

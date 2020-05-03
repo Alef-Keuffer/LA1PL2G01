@@ -1,3 +1,6 @@
+/// @file auxiliares.c
+/// @brief Contém definições de funções pequenas usadas tanto em logica.c como em io.c
+
 #include "auxiliares.h"
 
 void ler_linha(ESTADO *e, int linha, const char *line){

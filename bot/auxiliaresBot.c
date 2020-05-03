@@ -1,3 +1,6 @@
+/// @file auxiliaresBot.c
+/// @brief As funções do bot são as mesmas do que estão documentadas nas camadas do projeto.
+
 #include "auxiliaresBot.h"
 
 void ler_linha(ESTADO *e, int linha, const char *line){

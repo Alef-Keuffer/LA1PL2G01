@@ -1,3 +1,6 @@
+/// @file acessar_estado.c
+/// @brief Contém as definições de funções que leem valores que estão na camada de dados.
+
 #include "acessar_estado.h"
 
 int obter_casa (ESTADO *e, int row, int col) {

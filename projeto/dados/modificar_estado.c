@@ -1,3 +1,6 @@
+/// @file modificar_estado.c
+/// @brief Contém as definições de funções que modificam valores na camada de dados.
+
 #include "modificar_estado.h"
 
 void atualizar_tab(ESTADO *e, COORDENADA c){

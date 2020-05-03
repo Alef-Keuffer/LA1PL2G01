@@ -1,3 +1,6 @@
+/// @file test_simple_commands.h
+/// @brief Contém comentários para documentação e declaração das funções em test_simple_commands.c
+
 /// @defgroup groupAlpha3 Testes
 
 #ifndef RASTROS_C_TEST_SIMPLE_COMMANDS_H
@@ -7,7 +10,6 @@
 /// @ingroup groupAlpha3
 /// A função executa alguns movimentos e verifica que se fim_de_jogo(e)==1
 void commands_winner_is_player1();
-
 
 /// Essa funão deve testar fim_de_jogo().
 /// @ingroup groupAlpha3

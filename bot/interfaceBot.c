@@ -1,3 +1,6 @@
+/// @file interfaceBot.c
+/// @brief As funções do bot são as mesmas do que estão documentadas nas camadas do projeto.
+
 #include "interfaceBot.h"
 
 void mensagem_fimdejogo(ESTADO *e){
