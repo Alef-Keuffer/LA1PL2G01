@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="logica_bot_8c" kind="file" language="C++">
+    <compoundname>logicaBot.c</compoundname>
+    <includes refid="logica_bot_8h" local="yes">logicaBot.h</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>acessar_estadoBot.h</label>
+        <link refid="acessar__estado_bot_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>modificar_estadoBot.h</label>
+        <link refid="modificar__estado_bot_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>dados.h</label>
+        <link refid="bot_2dados_8h"/>
+      </node>
+      <node id="7">
+        <label>interfaceBot.h</label>
+        <link refid="interface_bot_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>math.h</label>
+      </node>
+      <node id="1">
+        <label>LA1PL2G1/bot/logicaBot.c</label>
+        <link refid="logica_bot_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>logicaBot.h</label>
+        <link refid="logica_bot_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdio.h</label>
+      </node>
+      <node id="8">
+        <label>auxiliaresBot.h</label>
+        <link refid="auxiliares_bot_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int jogar</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>jogar</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>É realizada quando uma coordenada é colocada no prompt e enter é pressionado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Primeiro a função atualiza a casa, ou seja, faz a casa da peça ser PRETA e faz a casa da coordenada inserida ser BRANCA. Depois atualiza a última jogada para ser a coordenada inserida. Após isso, salva a coordenada inserida no histórico de jogadas do jogador que inseriu a coordenada. Em seguida incrementa o número de jogadas. Finalmente, atualiza o jogador atual, ou seja, determina o jogador atual para 1 ou para 2. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coordenada que foi inserida </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/logicaBot.c" line="3" column="5" bodyfile="LA1PL2G1/bot/logicaBot.c" bodystart="3" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1ga33aa2b1fccaee5b1c1707d92f6ddc6f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mostrar_tabuleiro</definition>
+        <argsstring>(ESTADO *e, FILE *file)</argsstring>
+        <name>mostrar_tabuleiro</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>Essa função é usada para imprimir o tabuleiro, seja no ecrã ou em um ficheiro para ser salvo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o que permite determinar se estamos imprimindo para o ecrã ou para um ficheito. Se for NULL é para o ecrã. Se for um file pointer é para um ficheiro. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/logicaBot.c" line="12" column="6" bodyfile="LA1PL2G1/bot/logicaBot.c" bodystart="12" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int fim_de_jogo</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>fim_de_jogo</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Avalia os fins de jogos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 se o jogador 1 venceu; 2 se o jogador 2 venceu; 0 se o jogo ainda não acabou </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/logicaBot.c" line="21" column="5" bodyfile="LA1PL2G1/bot/logicaBot.c" bodystart="21" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1ga893b15b1044151de83eb9b01817dcdc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void movs</definition>
+        <argsstring>(ESTADO *e, FILE *file)</argsstring>
+        <name>movs</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>Lógica para imprimir a lista de jogadas, tanto no ecrã quanto num ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o que permite determinar se estamos imprimindo para o ecrã ou para um ficheito. Se for NULL é para o ecrã. Se for um file pointer é para um ficheiro. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/logicaBot.c" line="39" column="6" bodyfile="LA1PL2G1/bot/logicaBot.c" bodystart="39" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1gab39d4dc63e6d2693c1db926f53cba16d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int desfazer_ultjogada</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>desfazer_ultjogada</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Desfaz a última jogada <ndash/> função auxiliar para o comando jog. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 se correu bem </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/logicaBot.c" line="47" column="5" bodyfile="LA1PL2G1/bot/logicaBot.c" bodystart="47" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1ga85768460d2d874c166cfdfb78c21b5aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int minMax</definition>
+        <argsstring>(ESTADO *e, int profundidade)</argsstring>
+        <name>minMax</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>profundidade</declname>
+        </param>
+        <briefdescription>
+<para>Lógica do MinMax, para realizar uma jogada sozinho. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Prevê até 8 jogadas à frente.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>profundidade</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a atual profundidade da função, ou seja, quantas vezes a função já foi chamada recursivamente </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o melhor resultado do galho quando profundidade &gt; 0; uma coordenada em formato de inteiro quando profundidade == 0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/logicaBot.c" line="56" column="5" bodyfile="LA1PL2G1/bot/logicaBot.c" bodystart="56" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1ga9dfbc982d23a619e36575d8e7ec8e41c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jog</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>jog</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Joga na coordenada devolvida pelo minMax. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/logicaBot.c" line="94" column="6" bodyfile="LA1PL2G1/bot/logicaBot.c" bodystart="94" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="logica_bot_8h" kindref="compound">logicaBot.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c)<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modificar_estado_1ga4069ee1a3c9975d368b648b5fbff1c5c" kindref="member">atualizar_tab</ref>(e,<sp/>c);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modificar_estado_1gaebf2419cf55feca531ac70958169e398" kindref="member">atualizar_ultima_jogada</ref>(e,<sp/>c);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modificar_estado_1ga0ee843b08fd54f63fb85b3f9d376d328" kindref="member">atualizar_jogadas</ref>(e,<sp/>c);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modificar_estado_1ga75ab770a26c3ee2a5bc4758d7c625c97" kindref="member">atualizar_num_jogadas</ref>(e);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modificar_estado_1ga63bad4a4c76df6c152ef23210eeb5cf2" kindref="member">atualizar_jogador_atual</ref>(e);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1ga33aa2b1fccaee5b1c1707d92f6ddc6f7" kindref="member">mostrar_tabuleiro</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/>FILE<sp/>*file){</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row<sp/>=<sp/>7;<sp/>row<sp/>&gt;=0;<sp/>row--){</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col<sp/>=<sp/>0;<sp/>col<sp/>&lt;<sp/>8;<sp/>col++){</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___modulo_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" kindref="member">imprimir_char</ref>((<ref refid="group___modulo_acessar_estado_1ga3db658c95db4d69986c78b16a7c6aa45" kindref="member">obter_casa</ref>(e,<sp/>row,<sp/>col)),<sp/>file);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___modulo_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" kindref="member">imprimir_char</ref>(</highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal">,<sp/>file);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e){</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>j,<sp/>res,<sp/>num_vazias<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1ga9dfbc982d23a619e36575d8e7ec8e41c" kindref="member">jog</ref><sp/>=<sp/><ref refid="group___modulo_acessar_estado_1ga996b7cbab9689ba24980590d140ef7de" kindref="member">JogadorAtual</ref>(e);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c<sp/>=<sp/><ref refid="group___modulo_acessar_estado_1ga86f898b1ea1b15a6353dd16e9e6d78cb" kindref="member">obter_ultimajogada</ref>(e);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i<sp/>=<sp/>-1;<sp/>i<sp/>&lt;<sp/>2;<sp/>i++){</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(j<sp/>=<sp/>-1;<sp/>j<sp/>&lt;<sp/>2;<sp/>j++){</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" kindref="member">linha</ref><sp/>+<sp/>i<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" kindref="member">linha</ref><sp/>+<sp/>i<sp/>&lt;=<sp/>7<sp/>&amp;&amp;<sp/>c.coluna<sp/>+<sp/>j<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1a4a2f44649af1dfbf8d13141d5a336455" kindref="member">coluna</ref><sp/>+<sp/>j<sp/>&lt;=<sp/>7<sp/>&amp;&amp;<sp/><ref refid="group___modulo_acessar_estado_1ga3db658c95db4d69986c78b16a7c6aa45" kindref="member">obter_casa</ref>(e,<sp/>c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" kindref="member">linha</ref><sp/>+<sp/>i,<sp/>c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1a4a2f44649af1dfbf8d13141d5a336455" kindref="member">coluna</ref><sp/>+<sp/>j)<sp/>!=<sp/><ref refid="bot_2dados_8h_1aba91601f16d4c485b2d9b8c429f27039a007278eb3827d19891b47cdd3ac8846d" kindref="member">PRETA</ref><sp/>&amp;&amp;<sp/><ref refid="group___modulo_acessar_estado_1ga3db658c95db4d69986c78b16a7c6aa45" kindref="member">obter_casa</ref>(e,<sp/>c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" kindref="member">linha</ref><sp/>+<sp/>i,<sp/>c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1a4a2f44649af1dfbf8d13141d5a336455" kindref="member">coluna</ref><sp/>+<sp/>j)<sp/>!=<sp/><ref refid="bot_2dados_8h_1aba91601f16d4c485b2d9b8c429f27039ad24485fddec75419fd4a0cc9edda0ca5" kindref="member">BRANCA</ref>)<sp/>num_vazias++;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((num_vazias<sp/>==<sp/>0<sp/>&amp;&amp;<sp/><ref refid="group___modulo_logica_1ga9dfbc982d23a619e36575d8e7ec8e41c" kindref="member">jog</ref><sp/>==<sp/>2)<sp/>||<sp/>(c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" kindref="member">linha</ref><sp/>==<sp/>0<sp/>&amp;&amp;<sp/>c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1a4a2f44649af1dfbf8d13141d5a336455" kindref="member">coluna</ref><sp/>==<sp/>0))<sp/>res<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((num_vazias<sp/>==<sp/>0<sp/>&amp;&amp;<sp/><ref refid="group___modulo_logica_1ga9dfbc982d23a619e36575d8e7ec8e41c" kindref="member">jog</ref><sp/>==<sp/>1)<sp/>||<sp/>(c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" kindref="member">linha</ref><sp/>==<sp/>7<sp/>&amp;&amp;<sp/>c.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1a4a2f44649af1dfbf8d13141d5a336455" kindref="member">coluna</ref><sp/>==<sp/>7))<sp/>res<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>res<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1ga893b15b1044151de83eb9b01817dcdc0" kindref="member">movs</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/>FILE<sp/>*file){</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a,<sp/>i;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(a=0,<sp/>i=1;<sp/>a&lt;<ref refid="group___modulo_acessar_estado_1ga8c8c063a176d50b62eed70a24b79197d" kindref="member">NumJogadas</ref>(e);<sp/>i++,<sp/>a++)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___modulo_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" kindref="member">imprime_movs1</ref>(file,<sp/>i,<sp/><ref refid="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" kindref="member">obter_subcoordenadas</ref>(e,<sp/>a,<sp/>1,<sp/><ref refid="bot_2dados_8h_1a22fcc38f0b9c3e40ab8633467c02f572" kindref="member">COLUNA</ref>)<sp/>+</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/><ref refid="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" kindref="member">obter_subcoordenadas</ref>(e,<sp/>a,<sp/>1,<sp/><ref refid="bot_2dados_8h_1aeacec08094a09fad151024d1c569cf3e" kindref="member">LINHA</ref>)<sp/>+</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">,<sp/><ref refid="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" kindref="member">obter_subcoordenadas</ref>(e,<sp/>a,<sp/>2,<sp/><ref refid="bot_2dados_8h_1a22fcc38f0b9c3e40ab8633467c02f572" kindref="member">COLUNA</ref>)<sp/>+<sp/></highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/><ref refid="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" kindref="member">obter_subcoordenadas</ref>(e,<sp/>a,<sp/>2,<sp/><ref refid="bot_2dados_8h_1aeacec08094a09fad151024d1c569cf3e" kindref="member">LINHA</ref>)<sp/>+<sp/></highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="group___modulo_acessar_estado_1ga996b7cbab9689ba24980590d140ef7de" kindref="member">JogadorAtual</ref>(e)<sp/>==<sp/>2)<sp/><ref refid="group___modulo_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" kindref="member">imprime_movs2</ref>(file,<sp/>i,<sp/><ref refid="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" kindref="member">obter_subcoordenadas</ref>(e,<sp/>a,<sp/>1,<sp/><ref refid="bot_2dados_8h_1a22fcc38f0b9c3e40ab8633467c02f572" kindref="member">COLUNA</ref>)<sp/>+</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/><ref refid="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" kindref="member">obter_subcoordenadas</ref>(e,<sp/>a,<sp/>1,<sp/><ref refid="bot_2dados_8h_1aeacec08094a09fad151024d1c569cf3e" kindref="member">LINHA</ref>)<sp/>+</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1gab39d4dc63e6d2693c1db926f53cba16d" kindref="member">desfazer_ultjogada</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e){</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modificar_estado_1ga82e1af1f85e70a85fd135884853b818e" kindref="member">branca_para_vazia</ref>(e);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modificar_estado_1ga94259f2b53573c4f1ad12be8e6ca1c10" kindref="member">nova_ultjogada</ref>(e);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modificar_estado_1ga300f4b3aa4522aaafb5352d55e9979da" kindref="member">colocar_branca</ref>(e,<sp/><ref refid="group___modulo_acessar_estado_1ga86f898b1ea1b15a6353dd16e9e6d78cb" kindref="member">obter_ultimajogada</ref>(e));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modificar_estado_1ga8eaf691dc7ba2309966cb8a095c6a3bf" kindref="member">modificar_numjogadas</ref>(e);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modificar_estado_1ga63bad4a4c76df6c152ef23210eeb5cf2" kindref="member">atualizar_jogador_atual</ref>(e);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1ga85768460d2d874c166cfdfb78c21b5aa" kindref="member">minMax</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>profundidade){</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>moveList[8];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>moveCount<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bestScore<sp/>=<sp/>-2;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>score<sp/>=<sp/>-2;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>bestMove<sp/>=<sp/>{-1,<sp/>-1};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>move;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/>lose<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c<sp/>=<sp/><ref refid="group___modulo_acessar_estado_1ga86f898b1ea1b15a6353dd16e9e6d78cb" kindref="member">obter_ultimajogada</ref>(e);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(profundidade<sp/>&gt;<sp/>0){</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>score<sp/>=<sp/><ref refid="group___modulo_auxiliares_1ga5e60f2c9b94bab3f57c83c2635cf7c1c" kindref="member">avaliar_vitoria</ref>(e);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(score<sp/>!=<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>score;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>moveCount<sp/>=<sp/><ref refid="group___modulo_auxiliares_1ga6c309b38237d3442ab40beb24315af56" kindref="member">array_jogadaspossiveis</ref>(e,<sp/>c,<sp/>moveList);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(index<sp/>=<sp/>0;<sp/>index<sp/>&lt;<sp/>moveCount<sp/>&amp;&amp;<sp/>profundidade<sp/>&lt;<sp/>8;<sp/>index++){</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>move<sp/>=<sp/>moveList[index];</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(e,<sp/>move);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>profundidade++;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>score<sp/>=<sp/>-<ref refid="group___modulo_logica_1ga85768460d2d874c166cfdfb78c21b5aa" kindref="member">minMax</ref>(e,<sp/>profundidade);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(score<sp/>&gt;<sp/>bestScore){</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bestScore<sp/>=<sp/>score;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bestMove<sp/>=<sp/>move;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(score<sp/>==<sp/>-1)<sp/>lose<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1gab39d4dc63e6d2693c1db926f53cba16d" kindref="member">desfazer_ultjogada</ref>(e);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>profundidade--;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(profundidade<sp/>==<sp/>0<sp/>&amp;&amp;<sp/>bestScore<sp/>==<sp/>0<sp/>&amp;&amp;<sp/>lose<sp/>==<sp/>0)<sp/>bestMove<sp/>=<sp/><ref refid="group___modulo_auxiliares_1ga8b30ef7dcb6d352d3c9f7e6db25f0203" kindref="member">maisproximaFim</ref>(e,<sp/>moveList,<sp/>moveCount);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(profundidade<sp/>!=<sp/>0<sp/>&amp;&amp;<sp/>profundidade<sp/>&lt;<sp/>8)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bestScore;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(profundidade<sp/>&gt;=<sp/>8)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group___modulo_auxiliares_1ga2ee045374bae731d9f870cc7af3fbdfa" kindref="member">coord_to_int</ref>(bestMove);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1ga9dfbc982d23a619e36575d8e7ec8e41c" kindref="member">jog</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e){</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/><ref refid="group___modulo_logica_1ga85768460d2d874c166cfdfb78c21b5aa" kindref="member">minMax</ref>(e,<sp/>0);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>c<sp/>=<sp/><ref refid="group___modulo_auxiliares_1ga82a76985bb1f38602fa46ca450a2ec40" kindref="member">int_to_coord</ref>(x);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(e,<sp/>c);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="LA1PL2G1/bot/logicaBot.c"/>
+  </compounddef>
+</doxygen>

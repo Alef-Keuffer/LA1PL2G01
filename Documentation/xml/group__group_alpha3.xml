@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="group__group_alpha3" kind="group">
+    <compoundname>groupAlpha3</compoundname>
+    <title>Testes</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__group_alpha3_1ga0f443c0cd1ecc490170db13e8c32ce74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void commands_winner_is_player1</definition>
+        <argsstring>()</argsstring>
+        <name>commands_winner_is_player1</name>
+        <briefdescription>
+<para>Essa funão deve testar <ref refid="group___modulo_logica_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo()</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>A função executa alguns movimentos e verifica que se fim_de_jogo(e)==1 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/Camadas/testes/test_simple_commands.h" line="9" column="6" bodyfile="LA1PL2G1/Camadas/testes/test_simple_commands.c" bodystart="6" bodyend="15" declfile="LA1PL2G1/Camadas/testes/test_simple_commands.h" declline="9" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group_alpha3_1gacf2c83f2a73de71c173fd186b19e7042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void commands_winner_is_player2</definition>
+        <argsstring>()</argsstring>
+        <name>commands_winner_is_player2</name>
+        <briefdescription>
+<para>Essa funão deve testar <ref refid="group___modulo_logica_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo()</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/Camadas/testes/test_simple_commands.h" line="15" column="6" bodyfile="LA1PL2G1/Camadas/testes/test_simple_commands.c" bodystart="17" bodyend="26" declfile="LA1PL2G1/Camadas/testes/test_simple_commands.h" declline="15" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group_alpha3_1gafc75f5744d68ffae542c05b5ff82b431" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void commands_jogada_invalida</definition>
+        <argsstring>()</argsstring>
+        <name>commands_jogada_invalida</name>
+        <briefdescription>
+<para>Testa <ref refid="group__sub1_alpha2_1gab1160bacb55fe9977b2a60e615c2e627" kindref="member">jogada_valida()</ref> para um movimento inválido. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/Camadas/testes/test_simple_commands.h" line="19" column="6" bodyfile="LA1PL2G1/Camadas/testes/test_simple_commands.c" bodystart="28" bodyend="32" declfile="LA1PL2G1/Camadas/testes/test_simple_commands.h" declline="19" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group_alpha3_1ga437ea3de8ffbeb2fa1f7d375aa4a2cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void commands_gr_ler_branca</definition>
+        <argsstring>()</argsstring>
+        <name>commands_gr_ler_branca</name>
+        <briefdescription>
+<para>Testa se no ficheiro que foi salvo e depois aberto se a casa experada está com a peça branca. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/Camadas/testes/test_simple_commands.h" line="23" column="6" bodyfile="LA1PL2G1/Camadas/testes/test_simple_commands.c" bodystart="34" bodyend="45" declfile="LA1PL2G1/Camadas/testes/test_simple_commands.h" declline="23" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group_alpha3_1ga7a4e7652690d0081c54bf135dedaff55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void commands_gr_ler_pretas</definition>
+        <argsstring>()</argsstring>
+        <name>commands_gr_ler_pretas</name>
+        <briefdescription>
+<para>Verifica que algumas casas estão pretas em um ficheiro que foi salvo de depois lido. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/Camadas/testes/test_simple_commands.h" line="27" column="6" bodyfile="LA1PL2G1/Camadas/testes/test_simple_commands.c" bodystart="47" bodyend="59" declfile="LA1PL2G1/Camadas/testes/test_simple_commands.h" declline="27" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group_alpha3_1ga35964b02516b1842f56dda061b5e234f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_simple_commands</definition>
+        <argsstring>()</argsstring>
+        <name>test_simple_commands</name>
+        <briefdescription>
+<para>Função principal a ser chamada para executar todos os testes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/Camadas/testes/test_simple_commands.h" line="31" column="6" bodyfile="LA1PL2G1/Camadas/testes/test_simple_commands.c" bodystart="63" bodyend="70" declfile="LA1PL2G1/Camadas/testes/test_simple_commands.h" declline="31" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

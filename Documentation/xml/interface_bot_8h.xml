@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="interface_bot_8h" kind="file" language="C++">
+    <compoundname>interfaceBot.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes refid="bot_2dados_8h" local="yes">dados.h</includes>
+    <includes refid="logica_bot_8h" local="yes">logicaBot.h</includes>
+    <includedby refid="logica_bot_8h" local="yes">LA1PL2G1/bot/logicaBot.h</includedby>
+    <includedby refid="interface_bot_8c" local="yes">LA1PL2G1/bot/interfaceBot.c</includedby>
+    <includedby refid="bot_2main_8c" local="yes">LA1PL2G1/bot/main.c</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>acessar_estadoBot.h</label>
+        <link refid="acessar__estado_bot_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>modificar_estadoBot.h</label>
+        <link refid="modificar__estado_bot_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>dados.h</label>
+        <link refid="bot_2dados_8h"/>
+      </node>
+      <node id="1">
+        <label>LA1PL2G1/bot/interfaceBot.h</label>
+        <link refid="interface_bot_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>math.h</label>
+      </node>
+      <node id="4">
+        <label>logicaBot.h</label>
+        <link refid="logica_bot_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="7">
+        <label>auxiliaresBot.h</label>
+        <link refid="auxiliares_bot_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="7">
+        <label>LA1PL2G1/bot/main.c</label>
+        <link refid="bot_2main_8c"/>
+      </node>
+      <node id="9">
+        <label>LA1PL2G1/bot/interfaceBot.c</label>
+        <link refid="interface_bot_8c"/>
+      </node>
+      <node id="1">
+        <label>LA1PL2G1/bot/interfaceBot.h</label>
+        <link refid="interface_bot_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>LA1PL2G1/bot/ioBot.c</label>
+        <link refid="io_bot_8c"/>
+      </node>
+      <node id="5">
+        <label>LA1PL2G1/bot/ioBot.h</label>
+        <link refid="io_bot_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>LA1PL2G1/bot/logicaBot.c</label>
+        <link refid="logica_bot_8c"/>
+      </node>
+      <node id="2">
+        <label>LA1PL2G1/bot/logicaBot.h</label>
+        <link refid="logica_bot_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>LA1PL2G1/bot/auxiliaresBot.c</label>
+        <link refid="auxiliares_bot_8c"/>
+      </node>
+      <node id="3">
+        <label>LA1PL2G1/bot/auxiliaresBot.h</label>
+        <link refid="auxiliares_bot_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group___modulo_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void imprimir_char</definition>
+        <argsstring>(int c, FILE *file)</argsstring>
+        <name>imprimir_char</name>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/interfaceBot.h" line="18" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="7" bodyend="10" declfile="LA1PL2G1/bot/interfaceBot.h" declline="18" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_interface_1gaa667396d13cd8ece035aad8ce0d8dafa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mensagem_fimdejogo</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>mensagem_fimdejogo</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/interfaceBot.h" line="21" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="3" bodyend="5" declfile="LA1PL2G1/bot/interfaceBot.h" declline="21" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void imprime_movs1</definition>
+        <argsstring>(FILE *file, int i, int c1, int r1, int c2, int r2)</argsstring>
+        <name>imprime_movs1</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>r1</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>c2</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/interfaceBot.h" line="24" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="12" bodyend="15" declfile="LA1PL2G1/bot/interfaceBot.h" declline="24" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void imprime_movs2</definition>
+        <argsstring>(FILE *file, int i, int c1, int r1)</argsstring>
+        <name>imprime_movs2</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>r1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/interfaceBot.h" line="27" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="17" bodyend="20" declfile="LA1PL2G1/bot/interfaceBot.h" declline="27" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>RASTROS_INTERFACE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RASTROS_INTERFACE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="bot_2dados_8h" kindref="compound">dados.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="logica_bot_8h" kindref="compound">logicaBot.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" kindref="member">imprimir_char</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c,<sp/>FILE<sp/>*file);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_interface_1gaa667396d13cd8ece035aad8ce0d8dafa" kindref="member">mensagem_fimdejogo</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" kindref="member">imprime_movs1</ref>(FILE<sp/>*file,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r2);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" kindref="member">imprime_movs2</ref>(FILE<sp/>*file,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r1);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//RASTROS_INTERFACE_H</highlight></codeline>
+    </programlisting>
+    <location file="LA1PL2G1/bot/interfaceBot.h"/>
+  </compounddef>
+</doxygen>

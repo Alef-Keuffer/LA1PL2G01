@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="group___modulo_interface" kind="group">
+    <compoundname>ModuloInterface</compoundname>
+    <title>Interface</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group___modulo_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void imprimir_char</definition>
+        <argsstring>(int c, FILE *file)</argsstring>
+        <name>imprimir_char</name>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/interfaceBot.h" line="18" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="7" bodyend="10" declfile="LA1PL2G1/bot/interfaceBot.h" declline="18" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_interface_1gaa667396d13cd8ece035aad8ce0d8dafa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mensagem_fimdejogo</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>mensagem_fimdejogo</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/interfaceBot.h" line="21" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="3" bodyend="5" declfile="LA1PL2G1/bot/interfaceBot.h" declline="21" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void imprime_movs1</definition>
+        <argsstring>(FILE *file, int i, int c1, int r1, int c2, int r2)</argsstring>
+        <name>imprime_movs1</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>r1</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>c2</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/interfaceBot.h" line="24" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="12" bodyend="15" declfile="LA1PL2G1/bot/interfaceBot.h" declline="24" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void imprime_movs2</definition>
+        <argsstring>(FILE *file, int i, int c1, int r1)</argsstring>
+        <name>imprime_movs2</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>r1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/interfaceBot.h" line="27" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="17" bodyend="20" declfile="LA1PL2G1/bot/interfaceBot.h" declline="27" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

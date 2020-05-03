@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="logica_bot_8h" kind="file" language="C++">
+    <compoundname>logicaBot.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes refid="modificar__estado_bot_8h" local="yes">modificar_estadoBot.h</includes>
+    <includes refid="bot_2dados_8h" local="yes">dados.h</includes>
+    <includes refid="acessar__estado_bot_8h" local="yes">acessar_estadoBot.h</includes>
+    <includes refid="interface_bot_8h" local="yes">interfaceBot.h</includes>
+    <includes refid="auxiliares_bot_8h" local="yes">auxiliaresBot.h</includes>
+    <includedby refid="auxiliares_bot_8h" local="yes">LA1PL2G1/bot/auxiliaresBot.h</includedby>
+    <includedby refid="interface_bot_8h" local="yes">LA1PL2G1/bot/interfaceBot.h</includedby>
+    <includedby refid="io_bot_8h" local="yes">LA1PL2G1/bot/ioBot.h</includedby>
+    <includedby refid="logica_bot_8c" local="yes">LA1PL2G1/bot/logicaBot.c</includedby>
+    <includedby refid="bot_2main_8c" local="yes">LA1PL2G1/bot/main.c</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>acessar_estadoBot.h</label>
+        <link refid="acessar__estado_bot_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>modificar_estadoBot.h</label>
+        <link refid="modificar__estado_bot_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>dados.h</label>
+        <link refid="bot_2dados_8h"/>
+      </node>
+      <node id="6">
+        <label>interfaceBot.h</label>
+        <link refid="interface_bot_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>math.h</label>
+      </node>
+      <node id="1">
+        <label>LA1PL2G1/bot/logicaBot.h</label>
+        <link refid="logica_bot_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="7">
+        <label>auxiliaresBot.h</label>
+        <link refid="auxiliares_bot_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6">
+        <label>LA1PL2G1/bot/main.c</label>
+        <link refid="bot_2main_8c"/>
+      </node>
+      <node id="8">
+        <label>LA1PL2G1/bot/interfaceBot.c</label>
+        <link refid="interface_bot_8c"/>
+      </node>
+      <node id="7">
+        <label>LA1PL2G1/bot/interfaceBot.h</label>
+        <link refid="interface_bot_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>LA1PL2G1/bot/ioBot.c</label>
+        <link refid="io_bot_8c"/>
+      </node>
+      <node id="4">
+        <label>LA1PL2G1/bot/ioBot.h</label>
+        <link refid="io_bot_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>LA1PL2G1/bot/logicaBot.c</label>
+        <link refid="logica_bot_8c"/>
+      </node>
+      <node id="1">
+        <label>LA1PL2G1/bot/logicaBot.h</label>
+        <link refid="logica_bot_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>LA1PL2G1/bot/auxiliaresBot.c</label>
+        <link refid="auxiliares_bot_8c"/>
+      </node>
+      <node id="2">
+        <label>LA1PL2G1/bot/auxiliaresBot.h</label>
+        <link refid="auxiliares_bot_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int jogar</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>jogar</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/logicaBot.h" line="18" column="5" bodyfile="LA1PL2G1/bot/logicaBot.c" bodystart="3" bodyend="10" declfile="LA1PL2G1/bot/logicaBot.h" declline="18" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1ga33aa2b1fccaee5b1c1707d92f6ddc6f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mostrar_tabuleiro</definition>
+        <argsstring>(ESTADO *e, FILE *file)</argsstring>
+        <name>mostrar_tabuleiro</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/logicaBot.h" line="21" column="6" bodyfile="LA1PL2G1/bot/logicaBot.c" bodystart="12" bodyend="19" declfile="LA1PL2G1/bot/logicaBot.h" declline="21" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int fim_de_jogo</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>fim_de_jogo</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/logicaBot.h" line="24" column="5" bodyfile="LA1PL2G1/bot/logicaBot.c" bodystart="21" bodyend="37" declfile="LA1PL2G1/bot/logicaBot.h" declline="24" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1ga893b15b1044151de83eb9b01817dcdc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void movs</definition>
+        <argsstring>(ESTADO *e, FILE *file)</argsstring>
+        <name>movs</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/logicaBot.h" line="27" column="6" bodyfile="LA1PL2G1/bot/logicaBot.c" bodystart="39" bodyend="45" declfile="LA1PL2G1/bot/logicaBot.h" declline="27" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1gab39d4dc63e6d2693c1db926f53cba16d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int desfazer_ultjogada</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>desfazer_ultjogada</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/logicaBot.h" line="30" column="5" bodyfile="LA1PL2G1/bot/logicaBot.c" bodystart="47" bodyend="54" declfile="LA1PL2G1/bot/logicaBot.h" declline="30" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1ga85768460d2d874c166cfdfb78c21b5aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <definition>int minMax</definition>
+        <argsstring>(ESTADO *e, int profundidade)</argsstring>
+        <name>minMax</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <declname>profundidade</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/logicaBot.h" line="33" column="5" bodyfile="LA1PL2G1/bot/logicaBot.c" bodystart="56" bodyend="92" declfile="LA1PL2G1/bot/logicaBot.h" declline="33" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1ga9dfbc982d23a619e36575d8e7ec8e41c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jog</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>jog</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/bot/logicaBot.h" line="36" column="6" bodyfile="LA1PL2G1/bot/logicaBot.c" bodystart="94" bodyend="101" declfile="LA1PL2G1/bot/logicaBot.h" declline="36" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>RASTROS_LOGICA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RASTROS_LOGICA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="modificar__estado_bot_8h" kindref="compound">modificar_estadoBot.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="bot_2dados_8h" kindref="compound">dados.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="acessar__estado_bot_8h" kindref="compound">acessar_estadoBot.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="interface_bot_8h" kindref="compound">interfaceBot.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="auxiliares_bot_8h" kindref="compound">auxiliaresBot.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1ga33aa2b1fccaee5b1c1707d92f6ddc6f7" kindref="member">mostrar_tabuleiro</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/>FILE<sp/>*file);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1ga893b15b1044151de83eb9b01817dcdc0" kindref="member">movs</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/>FILE<sp/>*file);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1gab39d4dc63e6d2693c1db926f53cba16d" kindref="member">desfazer_ultjogada</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1ga85768460d2d874c166cfdfb78c21b5aa" kindref="member">minMax</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>profundidade);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1ga9dfbc982d23a619e36575d8e7ec8e41c" kindref="member">jog</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//RASTROS_LOGICA_H</highlight></codeline>
+    </programlisting>
+    <location file="LA1PL2G1/bot/logicaBot.h"/>
+  </compounddef>
+</doxygen>

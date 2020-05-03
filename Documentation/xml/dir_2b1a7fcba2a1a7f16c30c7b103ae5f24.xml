@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_2b1a7fcba2a1a7f16c30c7b103ae5f24" kind="dir">
+    <compoundname>LA1PL2G1/listas</compoundname>
+    <innerfile refid="lista_8c">lista.c</innerfile>
+    <innerfile refid="lista_8h">lista.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="LA1PL2G1/listas/"/>
+  </compounddef>
+</doxygen>
