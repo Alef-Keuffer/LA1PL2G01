@@ -112,6 +112,6 @@
 <codeline><highlight class="normal">|<sp/><sp/><sp/><sp/>|<sp/><sp/><sp/><sp/>|</highlight></codeline>
 <codeline><highlight class="normal">|<sp/><sp/>Projeto<sp/><sp/>|<sp/><sp/>Entrega<sp/>do<sp/>Projeto<sp/>finalizado<sp/>através<sp/>da<sp/>BB<sp/>com<sp/>a<sp/>seguinte<sp/>definição:<sp/>la1PL2G01.zip.<sp/><sp/>|</highlight></codeline>
     </programlisting>
-    <location file="LA1PL2G1/README.md"/>
+    <location file="LA1PL2G01/README.md"/>
   </compounddef>
 </doxygen>

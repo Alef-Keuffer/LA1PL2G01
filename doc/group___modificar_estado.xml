@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="group___modificar_estado" kind="group">
+    <compoundname>ModificarEstado</compoundname>
+    <title>ModificarEstado</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group___modificar_estado_1ga4069ee1a3c9975d368b648b5fbff1c5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void atualizar_tab</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>atualizar_tab</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/modificar_estadoBot.h" line="9" column="6" bodyfile="LA1PL2G01/bot/modificar_estadoBot.c" bodystart="6" bodyend="9" declfile="LA1PL2G01/bot/modificar_estadoBot.h" declline="9" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modificar_estado_1gaebf2419cf55feca531ac70958169e398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void atualizar_ultima_jogada</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>atualizar_ultima_jogada</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/modificar_estadoBot.h" line="12" column="6" bodyfile="LA1PL2G01/bot/modificar_estadoBot.c" bodystart="10" bodyend="12" declfile="LA1PL2G01/bot/modificar_estadoBot.h" declline="12" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modificar_estado_1ga75ab770a26c3ee2a5bc4758d7c625c97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void atualizar_num_jogadas</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>atualizar_num_jogadas</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/modificar_estadoBot.h" line="15" column="6" bodyfile="LA1PL2G01/bot/modificar_estadoBot.c" bodystart="13" bodyend="15" declfile="LA1PL2G01/bot/modificar_estadoBot.h" declline="15" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modificar_estado_1ga63bad4a4c76df6c152ef23210eeb5cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void atualizar_jogador_atual</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>atualizar_jogador_atual</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/modificar_estadoBot.h" line="18" column="6" bodyfile="LA1PL2G01/bot/modificar_estadoBot.c" bodystart="20" bodyend="23" declfile="LA1PL2G01/bot/modificar_estadoBot.h" declline="18" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modificar_estado_1ga0ee843b08fd54f63fb85b3f9d376d328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void atualizar_jogadas</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>atualizar_jogadas</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/modificar_estadoBot.h" line="21" column="6" bodyfile="LA1PL2G01/bot/modificar_estadoBot.c" bodystart="16" bodyend="19" declfile="LA1PL2G01/bot/modificar_estadoBot.h" declline="21" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modificar_estado_1ga84ba4eacf2a404e0edd1d317740fd22c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void armazenar_casa</definition>
+        <argsstring>(ESTADO *e, int row, int col, char casa)</argsstring>
+        <name>armazenar_casa</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>casa</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/modificar_estadoBot.h" line="24" column="6" bodyfile="LA1PL2G01/bot/modificar_estadoBot.c" bodystart="25" bodyend="27" declfile="LA1PL2G01/bot/modificar_estadoBot.h" declline="24" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modificar_estado_1gac4765d785b89565edc1e376a9263a644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void armazenar_jogada</definition>
+        <argsstring>(ESTADO *e, JOGADA jog, int num_jog)</argsstring>
+        <name>armazenar_jogada</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_j_o_g_a_d_a" kindref="compound">JOGADA</ref></type>
+          <declname>jog</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_jog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/modificar_estadoBot.h" line="27" column="6" bodyfile="LA1PL2G01/bot/modificar_estadoBot.c" bodystart="29" bodyend="31" declfile="LA1PL2G01/bot/modificar_estadoBot.h" declline="27" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modificar_estado_1ga57b5b121c3fbc5f4957459edb5870106" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void armazenar_jogador</definition>
+        <argsstring>(ESTADO *e, int num_jogadas)</argsstring>
+        <name>armazenar_jogador</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_jogadas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/modificar_estadoBot.h" line="30" column="6" bodyfile="LA1PL2G01/bot/modificar_estadoBot.c" bodystart="33" bodyend="36" declfile="LA1PL2G01/bot/modificar_estadoBot.h" declline="30" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modificar_estado_1ga300f4b3aa4522aaafb5352d55e9979da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void colocar_branca</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>colocar_branca</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/modificar_estadoBot.h" line="33" column="6" bodyfile="LA1PL2G01/bot/modificar_estadoBot.c" bodystart="38" bodyend="40" declfile="LA1PL2G01/bot/modificar_estadoBot.h" declline="33" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modificar_estado_1gaecb95caa1aefce115b9dbb899fbdb642" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void novo_num_jogadas</definition>
+        <argsstring>(ESTADO *e, int num)</argsstring>
+        <name>novo_num_jogadas</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/modificar_estadoBot.h" line="36" column="6" bodyfile="LA1PL2G01/bot/modificar_estadoBot.c" bodystart="42" bodyend="44" declfile="LA1PL2G01/bot/modificar_estadoBot.h" declline="36" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modificar_estado_1ga82e1af1f85e70a85fd135884853b818e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void branca_para_vazia</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>branca_para_vazia</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/modificar_estadoBot.h" line="39" column="6" bodyfile="LA1PL2G01/bot/modificar_estadoBot.c" bodystart="46" bodyend="51" declfile="LA1PL2G01/bot/modificar_estadoBot.h" declline="39" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modificar_estado_1ga94259f2b53573c4f1ad12be8e6ca1c10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nova_ultjogada</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>nova_ultjogada</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/modificar_estadoBot.h" line="42" column="6" bodyfile="LA1PL2G01/bot/modificar_estadoBot.c" bodystart="53" bodyend="61" declfile="LA1PL2G01/bot/modificar_estadoBot.h" declline="42" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modificar_estado_1ga8eaf691dc7ba2309966cb8a095c6a3bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void modificar_numjogadas</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>modificar_numjogadas</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/modificar_estadoBot.h" line="45" column="6" bodyfile="LA1PL2G01/bot/modificar_estadoBot.c" bodystart="63" bodyend="65" declfile="LA1PL2G01/bot/modificar_estadoBot.h" declline="45" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

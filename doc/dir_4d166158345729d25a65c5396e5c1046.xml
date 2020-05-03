@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_4d166158345729d25a65c5396e5c1046" kind="dir">
+    <compoundname>LA1PL2G01/bot</compoundname>
+    <innerfile refid="acessar__estado_bot_8c">acessar_estadoBot.c</innerfile>
+    <innerfile refid="acessar__estado_bot_8h">acessar_estadoBot.h</innerfile>
+    <innerfile refid="auxiliares_bot_8c">auxiliaresBot.c</innerfile>
+    <innerfile refid="auxiliares_bot_8h">auxiliaresBot.h</innerfile>
+    <innerfile refid="bot_2dados_8c">dados.c</innerfile>
+    <innerfile refid="bot_2dados_8h">dados.h</innerfile>
+    <innerfile refid="interface_bot_8c">interfaceBot.c</innerfile>
+    <innerfile refid="interface_bot_8h">interfaceBot.h</innerfile>
+    <innerfile refid="io_bot_8c">ioBot.c</innerfile>
+    <innerfile refid="io_bot_8h">ioBot.h</innerfile>
+    <innerfile refid="logica_bot_8c">logicaBot.c</innerfile>
+    <innerfile refid="logica_bot_8h">logicaBot.h</innerfile>
+    <innerfile refid="bot_2main_8c">main.c</innerfile>
+    <innerfile refid="modificar__estado_bot_8c">modificar_estadoBot.c</innerfile>
+    <innerfile refid="modificar__estado_bot_8h">modificar_estadoBot.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="LA1PL2G01/bot/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="projeto_2dados_2dados_8c" kind="file" language="C++">
+    <compoundname>dados.c</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includes refid="projeto_2dados_2dados_8h" local="yes">dados.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1">
+        <label>LA1PL2G01/projeto/dados/dados.c</label>
+        <link refid="projeto_2dados_2dados_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>dados.h</label>
+        <link refid="projeto_2dados_2dados_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group___modulo_dados_1ga7e0c7e26fb685d9ab501e19b05e6954f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+        <definition>ESTADO* inicializar_estado</definition>
+        <argsstring>()</argsstring>
+        <name>inicializar_estado</name>
+        <briefdescription>
+<para>Inicializa o tabuleiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Cria o apontador &quot;e&quot; do tipo <ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref>. Determina que o jogador atual é o jogador 1. Determina que o número de jogadas é 0. Monta o tabuleiro determinando o estado (VAZIA, UM, DOIS, PRETA, BRANCA) de cada casa. <simplesect kind="return"><para>o apontador para um endereço de um estado </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/projeto/dados/dados.c" line="7" column="8" bodyfile="LA1PL2G01/projeto/dados/dados.c" bodystart="7" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Contém a definição da função que inicializa o tabuleiro. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="projeto_2dados_2dados_8h" kindref="compound">dados.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="group___modulo_dados_1ga7e0c7e26fb685d9ab501e19b05e6954f" refkind="member"><highlight class="normal"><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*<ref refid="group___modulo_dados_1ga7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>(){</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>j;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e<sp/>=<sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*)<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref>));</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>e-&gt;<ref refid="struct_e_s_t_a_d_o_1a6f3701db06762a60333719d94aa4d28c" kindref="member">jogador_atual</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>e-&gt;<ref refid="struct_e_s_t_a_d_o_1a06af1e846368d0fc9525e78f4d86faa3" kindref="member">num_jogadas</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>8;<sp/>i++){</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>8;<sp/>j++){</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i<sp/>==<sp/>4<sp/>&amp;&amp;<sp/>j<sp/>==<sp/>4)<sp/>e-&gt;<ref refid="struct_e_s_t_a_d_o_1aa926398ffe589eaadc535d8b089a985a" kindref="member">tab</ref>[i][j]<sp/>=<sp/><ref refid="bot_2dados_8h_1aba91601f16d4c485b2d9b8c429f27039ad24485fddec75419fd4a0cc9edda0ca5" kindref="member">BRANCA</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i<sp/>==<sp/>7<sp/>&amp;&amp;<sp/>j<sp/>==<sp/>7)<sp/>e-&gt;<ref refid="struct_e_s_t_a_d_o_1aa926398ffe589eaadc535d8b089a985a" kindref="member">tab</ref>[i][j]<sp/>=<sp/><ref refid="bot_2dados_8h_1aba91601f16d4c485b2d9b8c429f27039a2bf153109d0c8b96e61bc18d5be7c5da" kindref="member">DOIS</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i<sp/>==<sp/>0<sp/>&amp;&amp;<sp/>j<sp/>==<sp/>0)<sp/>e-&gt;<ref refid="struct_e_s_t_a_d_o_1aa926398ffe589eaadc535d8b089a985a" kindref="member">tab</ref>[i][j]<sp/>=<sp/><ref refid="bot_2dados_8h_1aba91601f16d4c485b2d9b8c429f27039ab620e38b0268bee43c7e9a88bd6e73fa" kindref="member">UM</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>e-&gt;<ref refid="struct_e_s_t_a_d_o_1aa926398ffe589eaadc535d8b089a985a" kindref="member">tab</ref>[i][j]<sp/>=<sp/><ref refid="bot_2dados_8h_1aba91601f16d4c485b2d9b8c429f27039abc711f491a56ec7af7a688be508c5113" kindref="member">VAZIO</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>e-&gt;<ref refid="struct_e_s_t_a_d_o_1a88f042640b66b99525b1c9d830893177" kindref="member">ultima_jogada</ref>.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1a4a2f44649af1dfbf8d13141d5a336455" kindref="member">coluna</ref><sp/>=<sp/>e-&gt;<ref refid="struct_e_s_t_a_d_o_1a88f042640b66b99525b1c9d830893177" kindref="member">ultima_jogada</ref>.<ref refid="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" kindref="member">linha</ref><sp/>=<sp/>4;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>e;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="LA1PL2G01/projeto/dados/dados.c"/>
+  </compounddef>
+</doxygen>

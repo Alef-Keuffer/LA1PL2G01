@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="md__l_a1_p_l2_g01__r_e_a_d_m_e" kind="page">
+    <compoundname>md_LA1PL2G01_README</compoundname>
+    <title>Rastros_C</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md1">
+<title>Identificação dos criadores</title>
+<sect2 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md2">
+<title>Alunos da Universidade do Minho:</title>
+<para>Grupo 01 do turno PL2 (Laboratório de Algoritmia), composto por:<itemizedlist>
+<listitem><para>Alef Pinto Keuffer - A91683</para>
+</listitem><listitem><para>Pedro Paulo Costa Pereira - A88062</para>
+</listitem><listitem><para>Fernando Maria Bicalho - A93546</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+</sect1>
+<sect1 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md3">
+<title>Objetivo</title>
+<para>Pretende-se implementar o jogo Rastros. Para descobrir as regras do jogo, clique <ulink url="http://ludicum.org/jogos/abstr/rastros/ludus-jogos-rastros.pdf/view">aqui</ulink>. O seu programa deverá permitir que dois jogadores, partilhando o mesmo teclado, o possam jogar. Os comandos deverão ser introduzidos através de um interpretador de comandos.</para>
+</sect1>
+<sect1 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md4">
+<title>Estruturação do programa</title>
+<sect2 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md5">
+<title>Camada de dados</title>
+<para><itemizedlist>
+<listitem><para>dados</para>
+</listitem><listitem><para>acessar_estado</para>
+</listitem><listitem><para>modificar_estado </para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md6">
+<title>Lógica do programa</title>
+<para><itemizedlist>
+<listitem><para>logica</para>
+</listitem><listitem><para>auxiliares </para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md7">
+<title>Camada de interface</title>
+<para><itemizedlist>
+<listitem><para>interface</para>
+</listitem><listitem><para>io</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+</sect1>
+<sect1 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md8">
+<title>Progresso por semanas</title>
+<sect2 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md9">
+<title>Semana 1 (guião 5):</title>
+<para><itemizedlist>
+<listitem><para><emphasis>Criação dos módulos</emphasis>: A princípio, foram criados 4 módulos: 1 para a camada de dados, 2 para a lógica do programa e 1 para a camada de interface. Decidiu-se dividir a lógica do programa em dois módulos para se ter uma melhor ideia de quais funções modificam o estado.</para>
+</listitem><listitem><para><emphasis>Inicializar o estado do jogo</emphasis>: Tal função se encontra no módulo &quot;dados&quot;. Num estado inicial, temos que o jogador 1 é o atual jogador; o número de jogadas é igual a zero; a peça branca se encontra na casa de coordenada e5 e todas as outras casas estão vazias. Como forma de facilitar o processo, inicializou-se, também, a última jogada como e5. <bold>Nota:</bold> houve dificuldade em utilizar o <emphasis>typedef enum</emphasis> para enumerar o estado de cada casa, por isso definiu-se <emphasis>BRANCA</emphasis>, <emphasis>PRETA</emphasis> e <emphasis>VAZIA</emphasis> como valores inteiros (utilizando *#define BRANCA 1*, por exemplo).</para>
+</listitem><listitem><para><emphasis>Colocar uma peça branca na casa jogada</emphasis>: Tal função se encontra no módulo &quot;modificar_estado&quot; (<emphasis>void <ref refid="group__sub_alpha1_1ga4069ee1a3c9975d368b648b5fbff1c5c" kindref="member">atualizar_tab(ESTADO *e, COORDENADA c)</ref></emphasis>). Consiste simplesmente em mudar o estado da casa no array e-&gt;tab. Foi definida de forma que, assumindo que a última jogada já tenha sido atualizada, a peça preta é colocada no lugar da casa branca. Falta validar a jogada.</para>
+</listitem><listitem><para><emphasis>Mostrar o tabuleiro com a jogada efetuada</emphasis>: Tal função se encontra no módulo &quot;interface&quot;. A função imprime o atual estado do tabuleiro (usando o array e-&gt;tab), por meio de um ciclo que verifica o estado de cada casa e imprime o char desejado para cada estado.</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md10">
+<title>Semana 2 (guião 6):</title>
+<sect3 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md11">
+<title>Contribuições do Alef:</title>
+<para><itemizedlist>
+<listitem><para>Iniciei o processo de documentação com o Doxygen.<orderedlist>
+<listitem><para>Criei o grupo &quot;Camada de dados&quot; e adicionei os subgrupos &quot;modificar dados&quot; e &quot;accesar dados&quot;.</para>
+</listitem></orderedlist>
+<orderedlist>
+<listitem><para>Coloquei as funções de modificar_estado no grupo &quot;Camada de dados&quot; e adicionei breve descrições para cada uma.</para>
+</listitem></orderedlist>
+</para>
+</listitem><listitem><para>Implementei o comando Q.</para>
+</listitem><listitem><para>Implementei o comando ler.</para>
+</listitem><listitem><para>Implementei o comando gr.</para>
+</listitem><listitem><para>Implementei o comando movs.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md12">
+<title>Contribuições do Pedro:</title>
+<para><itemizedlist>
+<listitem><para><emphasis>Validação da jogada</emphasis>: Criação da função <emphasis>jogada_valida</emphasis> no módulo &quot;logica&quot;, que consiste verificar se a casa escolhida está vazia e se é adjacente à casa da última jogada.</para>
+</listitem><listitem><para><emphasis>Deteção do fim de jogo</emphasis>: Criação da função <emphasis>fim_de_jogo</emphasis> no módulo &quot;logica&quot;, que verifica se a peça branca encontra-se na casa final de um dos jogadores ou numa casa onde não há nenhuma casa adjacente vazia. A função é chamada antes do interpretador imprimir o prompt e ficar à espera do comando.</para>
+</listitem><listitem><para><emphasis>Implementação do prompt</emphasis>: Função <emphasis>prompt</emphasis>, no módulo &quot;interface&quot;.</para>
+</listitem></itemizedlist>
+</para>
+<para><bold>Nota:</bold> também foram adicionadas, por ambos integrantes, funções que acessam as informações contidas no estado e que serão usadas por todo o programa. Tais funções se encontram no módulo &quot;acessar_estado&quot;.</para>
+</sect3>
+</sect2>
+<sect2 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md13">
+<title>Semana 3 (guião 7):</title>
+<para>Como já se tinha o comando movs a funcionar e o comando gr já estava completo, nesta semana trabalhou-se em otimizar o comando ler.</para>
+<para>Na definição da função ler, ignorava-se o tabuleiro dos ficheiros e faziam-se jogadas com as coordenadas dispostas a partir de um estado novo, que tinha acabado de ser inicializado. Esta definição não era muito eficiente, pois para cada vez que o comando ler era chamado, alocava-se um novo espaço na memória.</para>
+<para>Criou-se, então, a nova definição dessa função, que lê e armazena no tabuleiro as 8 primeiras linhas do ficheiro e depois faz as atualizações necessárias para que o jogo continue (i.e., último jogador, número de jogadas, jogadas).</para>
+</sect2>
+<sect2 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md14">
+<title>Semana 4 (guião 8):</title>
+<para><itemizedlist>
+<listitem><para><emphasis>Implementação do comando pos</emphasis>, que permite que o usuário aceda a jogadas anteriores. É possível realizar o comando <emphasis>pos</emphasis> consecutivamente até que uma nova jogada seja feita ou seja realizada a leitura de um novo tabuleiro.</para>
+</listitem><listitem><para><emphasis>Alterações necessárias</emphasis>, conforme sugerido pelo professor.</para>
+</listitem><listitem><para><emphasis>Adição de screenshots das funcionalidades do programa</emphasis>.</para>
+</listitem><listitem><para><emphasis>Reorganização das camadas e seus módulos</emphasis>.</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md15">
+<title>Semana 5 (guião 9):</title>
+<para><itemizedlist>
+<listitem><para><emphasis>Criação do módulo independente para as funções genéricas de listas ligadas/encadeadas.</emphasis></para>
+</listitem><listitem><para><emphasis>Implementação do comando jog</emphasis>: Foi utilizada a heurística Minimax para a implementação deste comando. Através de uma função recursiva, o computador prevê até 8 jogadas à frente e verifica qual das jogadas possíveis tem o melhor <emphasis>score</emphasis> (é atribuído -1 quando em alguma jogada seguinte o jogador adversário ganha o jogo, 1 quando o jogador atual ganha o jogo e 0 quando o jogo não chegou ao fim).</para>
+</listitem><listitem><para><emphasis>Ajustes e atualização nas camadas e nos módulos.</emphasis></para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md16">
+<title>Semana 6 (guião 10):</title>
+<para><itemizedlist>
+<listitem><para><emphasis>Implementação do comando jog2</emphasis>: Implementação do comando jog2. Neste comando optamos por utilizar a heurística de jogadas Aleatórias, onde a peça analiza as casas vizinhas VAZIAS e faz o movimento para uma qualquer.</para>
+</listitem><listitem><para><emphasis>Implementação do Bot</emphasis>: Foi implementado um novo main &quot;mainBot.c&quot; para a execução desta tarefa.</para>
+</listitem><listitem><para><emphasis>Atualização da Documentation com a Doxygen</emphasis>: Esta a ser feita uma atualização nos ficheiros de documentação.</para>
+</listitem><listitem><para><emphasis>Atualização da Camada Testes</emphasis>: O módulo testes esta a ser atualizado para os novos comandos.</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="md__l_a1_p_l2_g01__r_e_a_d_m_e_1autotoc_md17">
+<title>Semana 7 (guião Final) - Sprint Backlog:</title>
+<para><table rows="15" cols="3"><row>
+<entry thead="yes"><para>História </para>
+</entry><entry thead="yes"><para>Tarefas </para>
+</entry><entry thead="yes"><para>Status/Obs.  </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Documentação </para>
+</entry><entry thead="no"><para>Verificar se todas as estruturas de dados e Macros estão documentadas. </para>
+</entry><entry thead="no"><para></para>
+</entry></row>
+<row>
+<entry thead="no"><para></para>
+</entry><entry thead="no"><para></para>
+</entry><entry thead="no"><para></para>
+</entry></row>
+<row>
+<entry thead="no"><para>Modularidade e legibilidade </para>
+</entry><entry thead="no"><para>Funções que caibam no ecrã. </para>
+</entry><entry thead="no"><para></para>
+</entry></row>
+<row>
+<entry thead="no"><para></para>
+</entry><entry thead="no"><para>Funçnoes aux com nome sugestivo. </para>
+</entry><entry thead="no"><para></para>
+</entry></row>
+<row>
+<entry thead="no"><para></para>
+</entry><entry thead="no"><para>NÃO aceder diretamente o módulo dados. </para>
+</entry><entry thead="no"><para></para>
+</entry></row>
+<row>
+<entry thead="no"><para></para>
+</entry><entry thead="no"><para>Estrutura em módulos estanques. </para>
+</entry><entry thead="no"><para></para>
+</entry></row>
+<row>
+<entry thead="no"><para></para>
+</entry><entry thead="no"><para>NÃO utilizar variaveis globais. </para>
+</entry><entry thead="no"><para></para>
+</entry></row>
+<row>
+<entry thead="no"><para></para>
+</entry><entry thead="no"><para>NÃO misturar a camada interface com o resto. </para>
+</entry><entry thead="no"><para></para>
+</entry></row>
+<row>
+<entry thead="no"><para></para>
+</entry><entry thead="no"><para>NÃO misturar a camada dados com o resto. </para>
+</entry><entry thead="no"><para></para>
+</entry></row>
+<row>
+<entry thead="no"><para></para>
+</entry><entry thead="no"><para></para>
+</entry><entry thead="no"><para></para>
+</entry></row>
+<row>
+<entry thead="no"><para>Deteção dos fins de jogo </para>
+</entry><entry thead="no"><para>O projeto deverá detetar todas as instâncias de fim de jogo. </para>
+</entry><entry thead="no"><para></para>
+</entry></row>
+<row>
+<entry thead="no"><para></para>
+</entry><entry thead="no"><para></para>
+</entry><entry thead="no"><para></para>
+</entry></row>
+<row>
+<entry thead="no"><para>Compilar sem warnings </para>
+</entry><entry thead="no"><para>Compilar sem warnings com o comando: -std=gnu11 -Wall -Wextra -pedantic-errors -O no gcc. </para>
+</entry><entry thead="no"><para></para>
+</entry></row>
+<row>
+<entry thead="no"><para></para>
+</entry><entry thead="no"><para></para>
+</entry><entry thead="no"><para></para>
+</entry></row>
+</table>
+<table rows="2" cols="2"><row>
+<entry thead="yes"><para>Bot </para>
+</entry><entry thead="yes"><para>Entrega do Bot finalizado através da BB.  </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Projeto </para>
+</entry><entry thead="no"><para>Entrega do Projeto finalizado através da BB com a seguinte definição: la1PL2G01.zip.  </para>
+</entry></row>
+</table>
+</para>
+</sect2>
+</sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

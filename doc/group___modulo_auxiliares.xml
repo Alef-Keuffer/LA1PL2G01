@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="group___modulo_auxiliares" kind="group">
+    <compoundname>ModuloAuxiliares</compoundname>
+    <title>Auxiliares</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group___modulo_auxiliares_1ga6d18e8736a024c1ed08ce90900fcdf36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ler_linha</definition>
+        <argsstring>(ESTADO *e, int linha, const char *line)</argsstring>
+        <name>ler_linha</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>linha</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/auxiliaresBot.h" line="13" column="6" bodyfile="LA1PL2G01/bot/auxiliaresBot.c" bodystart="6" bodyend="11" declfile="LA1PL2G01/bot/auxiliaresBot.h" declline="13" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_auxiliares_1ga7a58dae24162814a0972c47febd9be69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ler_jogada</definition>
+        <argsstring>(ESTADO *e, JOGADA jog, int numjog)</argsstring>
+        <name>ler_jogada</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_j_o_g_a_d_a" kindref="compound">JOGADA</ref></type>
+          <declname>jog</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numjog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/auxiliaresBot.h" line="16" column="6" bodyfile="LA1PL2G01/bot/auxiliaresBot.c" bodystart="13" bodyend="15" declfile="LA1PL2G01/bot/auxiliaresBot.h" declline="16" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_auxiliares_1ga5431e0cd098dba18d4a02e7be69808a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ler_restante</definition>
+        <argsstring>(ESTADO *e, int jogadas, COORDENADA c)</argsstring>
+        <name>ler_restante</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jogadas</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/auxiliaresBot.h" line="19" column="6" bodyfile="LA1PL2G01/bot/auxiliaresBot.c" bodystart="17" bodyend="21" declfile="LA1PL2G01/bot/auxiliaresBot.h" declline="19" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_auxiliares_1ga2ee045374bae731d9f870cc7af3fbdfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int coord_to_int</definition>
+        <argsstring>(COORDENADA c)</argsstring>
+        <name>coord_to_int</name>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/auxiliaresBot.h" line="22" column="5" bodyfile="LA1PL2G01/bot/auxiliaresBot.c" bodystart="23" bodyend="27" declfile="LA1PL2G01/bot/auxiliaresBot.h" declline="22" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_auxiliares_1ga82a76985bb1f38602fa46ca450a2ec40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+        <definition>COORDENADA int_to_coord</definition>
+        <argsstring>(int x)</argsstring>
+        <name>int_to_coord</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/auxiliaresBot.h" line="25" column="12" bodyfile="LA1PL2G01/bot/auxiliaresBot.c" bodystart="29" bodyend="34" declfile="LA1PL2G01/bot/auxiliaresBot.h" declline="25" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_auxiliares_1ga5e60f2c9b94bab3f57c83c2635cf7c1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int avaliar_vitoria</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>avaliar_vitoria</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/auxiliaresBot.h" line="28" column="5" bodyfile="LA1PL2G01/bot/auxiliaresBot.c" bodystart="36" bodyend="41" declfile="LA1PL2G01/bot/auxiliaresBot.h" declline="28" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_auxiliares_1ga6c309b38237d3442ab40beb24315af56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int array_jogadaspossiveis</definition>
+        <argsstring>(ESTADO *e, COORDENADA c, COORDENADA moveList[])</argsstring>
+        <name>array_jogadaspossiveis</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>moveList</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/auxiliaresBot.h" line="31" column="5" bodyfile="LA1PL2G01/bot/auxiliaresBot.c" bodystart="43" bodyend="57" declfile="LA1PL2G01/bot/auxiliaresBot.h" declline="31" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_auxiliares_1ga8b30ef7dcb6d352d3c9f7e6db25f0203" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+        <definition>COORDENADA maisproximaFim</definition>
+        <argsstring>(ESTADO *e, COORDENADA moveList[], int moveCount)</argsstring>
+        <name>maisproximaFim</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>moveList</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>moveCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/auxiliaresBot.h" line="34" column="12" bodyfile="LA1PL2G01/bot/auxiliaresBot.c" bodystart="59" bodyend="72" declfile="LA1PL2G01/bot/auxiliaresBot.h" declline="34" declcolumn="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

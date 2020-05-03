@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_614852d75b75709ec9f7ed4501ce0aad" kind="dir">
+    <compoundname>LA1PL2G01/projeto/dados</compoundname>
+    <innerfile refid="acessar__estado_8c">acessar_estado.c</innerfile>
+    <innerfile refid="acessar__estado_8h">acessar_estado.h</innerfile>
+    <innerfile refid="projeto_2dados_2dados_8c">dados.c</innerfile>
+    <innerfile refid="projeto_2dados_2dados_8h">dados.h</innerfile>
+    <innerfile refid="modificar__estado_8c">modificar_estado.c</innerfile>
+    <innerfile refid="modificar__estado_8h">modificar_estado.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="LA1PL2G01/projeto/dados/"/>
+  </compounddef>
+</doxygen>

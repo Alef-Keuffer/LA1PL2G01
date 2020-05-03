@@ -3,12 +3,12 @@
   <compounddef id="acessar__estado_bot_8h" kind="file" language="C++">
     <compoundname>acessar_estadoBot.h</compoundname>
     <includes refid="bot_2dados_8h" local="yes">dados.h</includes>
-    <includedby refid="acessar__estado_bot_8c" local="yes">LA1PL2G1/bot/acessar_estadoBot.c</includedby>
-    <includedby refid="auxiliares_bot_8h" local="yes">LA1PL2G1/bot/auxiliaresBot.h</includedby>
-    <includedby refid="logica_bot_8h" local="yes">LA1PL2G1/bot/logicaBot.h</includedby>
+    <includedby refid="acessar__estado_bot_8c" local="yes">LA1PL2G01/bot/acessar_estadoBot.c</includedby>
+    <includedby refid="auxiliares_bot_8h" local="yes">LA1PL2G01/bot/auxiliaresBot.h</includedby>
+    <includedby refid="logica_bot_8h" local="yes">LA1PL2G01/bot/logicaBot.h</includedby>
     <incdepgraph>
       <node id="1">
-        <label>LA1PL2G1/bot/acessar_estadoBot.h</label>
+        <label>LA1PL2G01/bot/acessar_estadoBot.h</label>
         <link refid="acessar__estado_bot_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -20,15 +20,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8">
-        <label>LA1PL2G1/bot/main.c</label>
+        <label>LA1PL2G01/bot/main.c</label>
         <link refid="bot_2main_8c"/>
       </node>
       <node id="2">
-        <label>LA1PL2G1/bot/acessar_estadoBot.c</label>
+        <label>LA1PL2G01/bot/acessar_estadoBot.c</label>
         <link refid="acessar__estado_bot_8c"/>
       </node>
       <node id="1">
-        <label>LA1PL2G1/bot/acessar_estadoBot.h</label>
+        <label>LA1PL2G01/bot/acessar_estadoBot.h</label>
         <link refid="acessar__estado_bot_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -37,38 +37,12 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="7">
-        <label>LA1PL2G1/bot/interfaceBot.c</label>
-        <link refid="interface_bot_8c"/>
-      </node>
-      <node id="6">
-        <label>LA1PL2G1/bot/interfaceBot.h</label>
-        <link refid="interface_bot_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>LA1PL2G1/bot/ioBot.c</label>
-        <link refid="io_bot_8c"/>
-      </node>
-      <node id="9">
-        <label>LA1PL2G1/bot/ioBot.h</label>
-        <link refid="io_bot_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
       <node id="11">
-        <label>LA1PL2G1/bot/logicaBot.c</label>
+        <label>LA1PL2G01/bot/logicaBot.c</label>
         <link refid="logica_bot_8c"/>
       </node>
       <node id="5">
-        <label>LA1PL2G1/bot/logicaBot.h</label>
+        <label>LA1PL2G01/bot/logicaBot.h</label>
         <link refid="logica_bot_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -82,11 +56,11 @@
         </childnode>
       </node>
       <node id="4">
-        <label>LA1PL2G1/bot/auxiliaresBot.c</label>
+        <label>LA1PL2G01/bot/auxiliaresBot.c</label>
         <link refid="auxiliares_bot_8c"/>
       </node>
       <node id="3">
-        <label>LA1PL2G1/bot/auxiliaresBot.h</label>
+        <label>LA1PL2G01/bot/auxiliaresBot.h</label>
         <link refid="auxiliares_bot_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -95,10 +69,36 @@
         <childnode refid="9" relation="include">
         </childnode>
       </node>
+      <node id="10">
+        <label>LA1PL2G01/bot/ioBot.c</label>
+        <link refid="io_bot_8c"/>
+      </node>
+      <node id="9">
+        <label>LA1PL2G01/bot/ioBot.h</label>
+        <link refid="io_bot_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>LA1PL2G01/bot/interfaceBot.c</label>
+        <link refid="interface_bot_8c"/>
+      </node>
+      <node id="6">
+        <label>LA1PL2G01/bot/interfaceBot.h</label>
+        <link refid="interface_bot_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
     </invincdepgraph>
       <sectiondef kind="func">
       <memberdef kind="function" id="group___modulo_acessar_estado_1ga3db658c95db4d69986c78b16a7c6aa45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <type>int</type>
         <definition>int obter_casa</definition>
         <argsstring>(ESTADO *e, int row, int col)</argsstring>
         <name>obter_casa</name>
@@ -107,11 +107,11 @@
           <declname>e</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>row</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>col</declname>
         </param>
         <briefdescription>
@@ -120,10 +120,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/acessar_estadoBot.h" line="15" column="5" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="3" bodyend="5" declfile="LA1PL2G1/bot/acessar_estadoBot.h" declline="15" declcolumn="5"/>
+        <location file="LA1PL2G01/bot/acessar_estadoBot.h" line="18" column="5" bodyfile="LA1PL2G01/bot/acessar_estadoBot.c" bodystart="6" bodyend="8" declfile="LA1PL2G01/bot/acessar_estadoBot.h" declline="18" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="group___modulo_acessar_estado_1ga996b7cbab9689ba24980590d140ef7de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <type>int</type>
         <definition>int JogadorAtual</definition>
         <argsstring>(ESTADO *e)</argsstring>
         <name>JogadorAtual</name>
@@ -137,10 +137,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/acessar_estadoBot.h" line="18" column="5" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="16" bodyend="18" declfile="LA1PL2G1/bot/acessar_estadoBot.h" declline="18" declcolumn="5"/>
+        <location file="LA1PL2G01/bot/acessar_estadoBot.h" line="21" column="5" bodyfile="LA1PL2G01/bot/acessar_estadoBot.c" bodystart="19" bodyend="21" declfile="LA1PL2G01/bot/acessar_estadoBot.h" declline="21" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <type>int</type>
         <definition>int obter_subcoordenadas</definition>
         <argsstring>(ESTADO *e, int jogada, int jogador, int info)</argsstring>
         <name>obter_subcoordenadas</name>
@@ -149,15 +149,15 @@
           <declname>e</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>jogada</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>jogador</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>info</declname>
         </param>
         <briefdescription>
@@ -166,10 +166,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/acessar_estadoBot.h" line="21" column="5" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="7" bodyend="14" declfile="LA1PL2G1/bot/acessar_estadoBot.h" declline="21" declcolumn="5"/>
+        <location file="LA1PL2G01/bot/acessar_estadoBot.h" line="24" column="5" bodyfile="LA1PL2G01/bot/acessar_estadoBot.c" bodystart="10" bodyend="17" declfile="LA1PL2G01/bot/acessar_estadoBot.h" declline="24" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="group___modulo_acessar_estado_1ga8c8c063a176d50b62eed70a24b79197d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <type>int</type>
         <definition>int NumJogadas</definition>
         <argsstring>(ESTADO *e)</argsstring>
         <name>NumJogadas</name>
@@ -183,7 +183,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/acessar_estadoBot.h" line="24" column="5" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="20" bodyend="22" declfile="LA1PL2G1/bot/acessar_estadoBot.h" declline="24" declcolumn="5"/>
+        <location file="LA1PL2G01/bot/acessar_estadoBot.h" line="27" column="5" bodyfile="LA1PL2G01/bot/acessar_estadoBot.c" bodystart="23" bodyend="25" declfile="LA1PL2G01/bot/acessar_estadoBot.h" declline="27" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="group___modulo_acessar_estado_1ga86f898b1ea1b15a6353dd16e9e6d78cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
@@ -200,31 +200,33 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/acessar_estadoBot.h" line="27" column="12" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="24" bodyend="26" declfile="LA1PL2G1/bot/acessar_estadoBot.h" declline="27" declcolumn="12"/>
+        <location file="LA1PL2G01/bot/acessar_estadoBot.h" line="30" column="12" bodyfile="LA1PL2G01/bot/acessar_estadoBot.c" bodystart="27" bodyend="29" declfile="LA1PL2G01/bot/acessar_estadoBot.h" declline="30" declcolumn="12"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>As funções do bot são as mesmas do que estão documentadas nas camadas do projeto. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>RASTROS_ACESSAR_ESTADO_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RASTROS_ACESSAR_ESTADO_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="bot_2dados_8h" kindref="compound">dados.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga3db658c95db4d69986c78b16a7c6aa45" kindref="member">obter_casa</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col);</highlight></codeline>
+<codeline lineno="1"></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>RASTROS_ACESSAR_ESTADO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RASTROS_ACESSAR_ESTADO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="bot_2dados_8h" kindref="compound">dados.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga996b7cbab9689ba24980590d140ef7de" kindref="member">JogadorAtual</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="18"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga3db658c95db4d69986c78b16a7c6aa45" kindref="member">obter_casa</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" kindref="member">obter_subcoordenadas</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogada,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogador,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>info);</highlight></codeline>
+<codeline lineno="21"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga996b7cbab9689ba24980590d140ef7de" kindref="member">JogadorAtual</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga8c8c063a176d50b62eed70a24b79197d" kindref="member">NumJogadas</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="24"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" kindref="member">obter_subcoordenadas</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogada,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogador,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>info);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/><ref refid="group___modulo_acessar_estado_1ga86f898b1ea1b15a6353dd16e9e6d78cb" kindref="member">obter_ultimajogada</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="27"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga8c8c063a176d50b62eed70a24b79197d" kindref="member">NumJogadas</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//RASTROS_ACESSAR_ESTADO_H</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/><ref refid="group___modulo_acessar_estado_1ga86f898b1ea1b15a6353dd16e9e6d78cb" kindref="member">obter_ultimajogada</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//RASTROS_ACESSAR_ESTADO_H</highlight></codeline>
     </programlisting>
-    <location file="LA1PL2G1/bot/acessar_estadoBot.h"/>
+    <location file="LA1PL2G01/bot/acessar_estadoBot.h"/>
   </compounddef>
 </doxygen>

@@ -14,7 +14,7 @@
           <declname>e</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kindref="member">char</ref> *</type>
+          <type>char *</type>
           <declname>file_path</declname>
         </param>
         <briefdescription>
@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/ioBot.h" line="9" column="6" bodyfile="LA1PL2G1/bot/ioBot.c" bodystart="3" bodyend="10" declfile="LA1PL2G1/bot/ioBot.h" declline="9" declcolumn="6"/>
+        <location file="LA1PL2G01/bot/ioBot.h" line="12" column="6" bodyfile="LA1PL2G01/bot/ioBot.c" bodystart="6" bodyend="13" declfile="LA1PL2G01/bot/ioBot.h" declline="12" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___camada_i_o_1gab184b82fd763449103d10b56b797c537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -35,7 +35,7 @@
           <declname>e</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kindref="member">char</ref> *</type>
+          <type>char *</type>
           <declname>filename</declname>
         </param>
         <briefdescription>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/ioBot.h" line="12" column="6" bodyfile="LA1PL2G1/bot/ioBot.c" bodystart="12" bodyend="41" declfile="LA1PL2G1/bot/ioBot.h" declline="12" declcolumn="6"/>
+        <location file="LA1PL2G01/bot/ioBot.h" line="15" column="6" bodyfile="LA1PL2G01/bot/ioBot.c" bodystart="15" bodyend="44" declfile="LA1PL2G01/bot/ioBot.h" declline="15" declcolumn="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_fbae408bd82713a93cfd204661c2ae3e" kind="dir">
+    <compoundname>LA1PL2G01/projeto/logica</compoundname>
+    <innerfile refid="auxiliares_8c">auxiliares.c</innerfile>
+    <innerfile refid="auxiliares_8h">auxiliares.h</innerfile>
+    <innerfile refid="logica_8c">logica.c</innerfile>
+    <innerfile refid="logica_8h">logica.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="LA1PL2G01/projeto/logica/"/>
+  </compounddef>
+</doxygen>

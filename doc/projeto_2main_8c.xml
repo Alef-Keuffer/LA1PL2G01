@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="projeto_2main_8c" kind="file" language="C++">
+    <compoundname>main.c</compoundname>
+    <includes local="yes">Camadas/dados/dados.h</includes>
+    <includes local="yes">Camadas/interface/interface.h</includes>
+    <includes local="no">Camadas/testes/test_simple_commands.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>Camadas/interface/interface.h</label>
+      </node>
+      <node id="1">
+        <label>LA1PL2G01/projeto/main.c</label>
+        <link refid="projeto_2main_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Camadas/testes/test_simple_commands.h</label>
+      </node>
+      <node id="2">
+        <label>Camadas/dados/dados.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="projeto_2main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+<para>Essa função começa o jogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Realiza teste antes do programa começar chaman do <ref refid="group__group_alpha3_1ga35964b02516b1842f56dda061b5e234f" kindref="member">test_simple_commands()</ref>. Depois determina o estado de alguns parâmentros para o início do jogo e chama o <ref refid="group__sub1_alpha1_1gadcd0ed74fee6ab3cae6d67e5ddadb270" kindref="member">interpretador()</ref>. <simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/projeto/main.c" line="14" column="5" bodyfile="LA1PL2G01/projeto/main.c" bodystart="14" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Contém a função <ref refid="bot_2main_8c_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main()</ref> que inicia o programa. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Camadas/dados/dados.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Camadas/interface/interface.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Camadas/testes/test_simple_commands.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="projeto_2main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="bot_2main_8c_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__group_alpha3_1ga35964b02516b1842f56dda061b5e234f" kindref="member">test_simple_commands</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_comandos<sp/>=<sp/>0,<sp/>state<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e<sp/>=<sp/><ref refid="group___modulo_dados_1ga7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub1_alpha1_1gadcd0ed74fee6ab3cae6d67e5ddadb270" kindref="member">interpretador</ref>(e,<sp/>num_comandos,<sp/>state);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="LA1PL2G01/projeto/main.c"/>
+  </compounddef>
+</doxygen>

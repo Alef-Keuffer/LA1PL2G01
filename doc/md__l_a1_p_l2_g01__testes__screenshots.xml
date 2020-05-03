@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="md__l_a1_p_l2_g01__testes__screenshots" kind="page">
+    <compoundname>md_LA1PL2G01_Testes_Screenshots</compoundname>
+    <title>Testes do Projeto Rastros</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="md__l_a1_p_l2_g01__testes__screenshots_1autotoc_md19">
+<title>Teste Vencedor 1:</title>
+<para>Atualizado em 03/04/2020.</para>
+<para><emphasis>A Screenshot apresenta o jogo na situação onde o Jogador 1 é o Vencedor.</emphasis></para>
+<para><image type="html" name="Jogador%201.png" inline="yes"></image>
+</para>
+</sect1>
+<sect1 id="md__l_a1_p_l2_g01__testes__screenshots_1autotoc_md20">
+<title>Teste Vencedor 2:</title>
+<para>Atualizado em 03/04/2020</para>
+<para><emphasis>A Screenshot apresenta o jogo na situação onde o Jogador 2 é o Vencedor</emphasis></para>
+<para><image type="html" name="Jogador%202.png" inline="yes"></image>
+</para>
+</sect1>
+<sect1 id="md__l_a1_p_l2_g01__testes__screenshots_1autotoc_md21">
+<title>Teste Jogada Impossível:</title>
+<para>Atualizado em 03/04/2020</para>
+<para><emphasis>A Screenshot apresenta o jogo na situação onde o Jogador faz uma jogada impossível.</emphasis></para>
+<para><image type="html" name="Jogada%20Invalida.png" inline="yes"></image>
+</para>
+</sect1>
+<sect1 id="md__l_a1_p_l2_g01__testes__screenshots_1autotoc_md22">
+<title>Teste Comando &lt;em&gt;gr&lt;/em&gt;/_ler_:</title>
+<para>Atualizado em 03/04/2020</para>
+<para><emphasis>A Screenshot apresenta o comando gr que guarda o jogo e o comando ler que retorna o jogo guardado.</emphasis></para>
+<para><image type="html" name="Comando%20gr_ler.png" inline="yes"></image>
+</para>
+</sect1>
+<sect1 id="md__l_a1_p_l2_g01__testes__screenshots_1autotoc_md23">
+<title>Teste Comando &lt;em&gt;Q&lt;/em&gt; (quit/exit):</title>
+<para>Atualizado em 03/04/2020</para>
+<para><emphasis>A Screenshot apresenta o comando Q que termina a partida.</emphasis></para>
+<para><image type="html" name="Comando%20Q%20(quit).png" inline="yes"></image>
+</para>
+</sect1>
+<sect1 id="md__l_a1_p_l2_g01__testes__screenshots_1autotoc_md24">
+<title>Teste Comando &lt;em&gt;movs&lt;/em&gt;:</title>
+<para>Atualizado em 03/04/2020</para>
+<para><emphasis>A Screenshot apresenta o comando movs que imprime as jogadas que foram feitas.</emphasis></para>
+<para><image type="html" name="Comando%20Movs.png" inline="yes"></image>
+</para>
+</sect1>
+<sect1 id="md__l_a1_p_l2_g01__testes__screenshots_1autotoc_md25">
+<title>Teste Tabuleiros Propostos:</title>
+<para>Atualizado em 03/04/2020</para>
+<para><emphasis>A Screenshot apresenta os testes dos 3 tabuleiros propostos pelo guião 7.</emphasis></para>
+<para><image type="html" name="3%20Tabuleiros.png" inline="yes"></image>
+</para>
+</sect1>
+<sect1 id="md__l_a1_p_l2_g01__testes__screenshots_1autotoc_md26">
+<title>Teste Comando &lt;em&gt;pos&lt;/em&gt;</title>
+<para>Atualizado em 03/04/2020</para>
+<para><emphasis>A Screenshot apresenta o comando pos que retorna o jogo num determinado estado.</emphasis></para>
+<para><image type="html" name="Comando%20pos.png" inline="yes"></image>
+</para>
+</sect1>
+<sect1 id="md__l_a1_p_l2_g01__testes__screenshots_1autotoc_md27">
+<title>Teste Comando &lt;em&gt;jog&lt;/em&gt;</title>
+<para>Atualizado em 18/04/2020</para>
+<para><emphasis>A Screenshot apresenta o comando jog que retorna uma jogada com a Heurística Minimax.</emphasis></para>
+<para><image type="html" name="Comando%20jog.png" inline="yes"></image>
+</para>
+</sect1>
+<sect1 id="md__l_a1_p_l2_g01__testes__screenshots_1autotoc_md28">
+<title>Teste Comando &lt;em&gt;jog2&lt;/em&gt;</title>
+<para>Atualizado em 23/04/2020</para>
+<para><emphasis>A Screenshot apresenta o comando jog2 que retorna uma jogada Aleatória.</emphasis></para>
+<para><image type="html" name="Comando%20jog2.png" inline="yes"></image>
+</para>
+</sect1>
+<sect1 id="md__l_a1_p_l2_g01__testes__screenshots_1autotoc_md29">
+<title>Teste Erros:</title>
+<para>Atualizado em 03/04/2020</para>
+<para><emphasis>As Screenshots abaixo apresentam os erros encontrados no projeto até a data acima.</emphasis></para>
+<para>//<image type="html" name="link-da-screen.png" inline="yes"></image>
+ </para>
+</sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

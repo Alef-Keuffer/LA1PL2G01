@@ -5,7 +5,7 @@
     <includes refid="bot_2dados_8h" local="no">dados.h</includes>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="struct_c_o_o_r_d_e_n_a_d_a_1a4a2f44649af1dfbf8d13141d5a336455" prot="public" static="no" mutable="no">
-        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <type>int</type>
         <definition>int coluna</definition>
         <argsstring></argsstring>
         <name>coluna</name>
@@ -15,10 +15,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/dados.h" line="16" column="9" bodyfile="LA1PL2G1/bot/dados.h" bodystart="16" bodyend="-1"/>
+        <location file="LA1PL2G01/bot/dados.h" line="20" column="9" bodyfile="LA1PL2G01/bot/dados.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" prot="public" static="no" mutable="no">
-        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <type>int</type>
         <definition>int linha</definition>
         <argsstring></argsstring>
         <name>linha</name>
@@ -28,14 +28,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/dados.h" line="17" column="9" bodyfile="LA1PL2G1/bot/dados.h" bodystart="17" bodyend="-1"/>
+        <location file="LA1PL2G01/bot/dados.h" line="21" column="9" bodyfile="LA1PL2G01/bot/dados.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="LA1PL2G1/bot/dados.h" line="15" column="15" bodyfile="LA1PL2G1/bot/dados.h" bodystart="15" bodyend="18"/>
+    <location file="LA1PL2G01/bot/dados.h" line="19" column="15" bodyfile="LA1PL2G01/bot/dados.h" bodystart="19" bodyend="22"/>
     <listofallmembers>
       <member refid="struct_c_o_o_r_d_e_n_a_d_a_1a4a2f44649af1dfbf8d13141d5a336455" prot="public" virt="non-virtual"><scope>COORDENADA</scope><name>coluna</name></member>
       <member refid="struct_c_o_o_r_d_e_n_a_d_a_1af20d02e678ba0aeaf8727d747151baf0" prot="public" virt="non-virtual"><scope>COORDENADA</scope><name>linha</name></member>

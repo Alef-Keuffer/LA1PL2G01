@@ -10,35 +10,6 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>modificar_estadoBot.h</label>
-        <link refid="modificar__estado_bot_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>dados.h</label>
-        <link refid="bot_2dados_8h"/>
-      </node>
-      <node id="1">
-        <label>LA1PL2G1/bot/interfaceBot.c</label>
-        <link refid="interface_bot_8c"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>interfaceBot.h</label>
-        <link refid="interface_bot_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>math.h</label>
-      </node>
       <node id="5">
         <label>logicaBot.h</label>
         <link refid="logica_bot_8h"/>
@@ -55,9 +26,6 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>stdio.h</label>
-      </node>
       <node id="8">
         <label>auxiliaresBot.h</label>
         <link refid="auxiliares_bot_8h"/>
@@ -71,6 +39,38 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+      </node>
+      <node id="4">
+        <label>dados.h</label>
+        <link refid="bot_2dados_8h"/>
+      </node>
+      <node id="6">
+        <label>modificar_estadoBot.h</label>
+        <link refid="modificar__estado_bot_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>math.h</label>
+      </node>
+      <node id="1">
+        <label>LA1PL2G01/bot/interfaceBot.c</label>
+        <link refid="interface_bot_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>interfaceBot.h</label>
+        <link refid="interface_bot_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdio.h</label>
       </node>
     </incdepgraph>
       <sectiondef kind="func">
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/interfaceBot.c" line="3" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="3" bodyend="5"/>
+        <location file="LA1PL2G01/bot/interfaceBot.c" line="6" column="6" bodyfile="LA1PL2G01/bot/interfaceBot.c" bodystart="6" bodyend="8"/>
       </memberdef>
       <memberdef kind="function" id="group___modulo_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -108,7 +108,7 @@
         <argsstring>(int c, FILE *file)</argsstring>
         <name>imprimir_char</name>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>c</declname>
         </param>
         <param>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/interfaceBot.c" line="7" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="7" bodyend="10"/>
+        <location file="LA1PL2G01/bot/interfaceBot.c" line="10" column="6" bodyfile="LA1PL2G01/bot/interfaceBot.c" bodystart="10" bodyend="13"/>
       </memberdef>
       <memberdef kind="function" id="group___modulo_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -152,32 +152,83 @@
           <declname>file</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>i</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>c1</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>r1</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>c2</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>r2</declname>
         </param>
         <briefdescription>
+<para>Imprime uma jogada completa, isso é, com as jogadas dos dois jogadores. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>se for NULL será para o ecrã, de outra forma será escrito em um ficheiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o número da jogada </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coluna do movimento do jogador 1 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a linha do movimento do jogador 1 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coluna do movimento do jogador 2 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a linha do movimento do jogador 2 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/interfaceBot.c" line="12" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="12" bodyend="15"/>
+        <location file="LA1PL2G01/bot/interfaceBot.c" line="15" column="6" bodyfile="LA1PL2G01/bot/interfaceBot.c" bodystart="15" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="group___modulo_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -189,52 +240,89 @@
           <declname>file</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>i</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>c1</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>r1</declname>
         </param>
         <briefdescription>
+<para>Imprime uma jogada somente com o movimento do jogador 1. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>se for NULL será para o ecrã, de outra forma será escrito em um ficheiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o número da jogada </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coluna do movimento do jogador 1 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a linha do movimento do jogador 1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/interfaceBot.c" line="17" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="17" bodyend="20"/>
+        <location file="LA1PL2G01/bot/interfaceBot.c" line="20" column="6" bodyfile="LA1PL2G01/bot/interfaceBot.c" bodystart="20" bodyend="23"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>As funções do bot são as mesmas do que estão documentadas nas camadas do projeto. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="interface_bot_8h" kindref="compound">interfaceBot.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_interface_1gaa667396d13cd8ece035aad8ce0d8dafa" kindref="member">mensagem_fimdejogo</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e){</highlight></codeline>
-<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="group___modulo_logica_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo</ref>(e))<sp/>printf(</highlight><highlight class="stringliteral">&quot;Fim<sp/>de<sp/>jogo!<sp/>O<sp/>jogador<sp/>%d<sp/>venceu.\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="group___modulo_logica_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo</ref>(e));</highlight></codeline>
-<codeline lineno="5"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" kindref="member">imprimir_char</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c,<sp/>FILE<sp/>*file){</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(file<sp/>==<sp/>NULL)<sp/>putchar(c);</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>putc(c,<sp/>file);</highlight></codeline>
-<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" kindref="member">imprime_movs1</ref>(FILE<sp/>*file,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r2){</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(file<sp/>==<sp/>NULL)<sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;%02d:<sp/>%c%c<sp/>%c%c\n&quot;</highlight><highlight class="normal">,<sp/>i,<sp/>c1,<sp/>r1,<sp/>c2,<sp/>r2);</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>fprintf(file,<sp/></highlight><highlight class="stringliteral">&quot;%02d:<sp/>%c%c<sp/>%c%c\n&quot;</highlight><highlight class="normal">,<sp/>i,<sp/>c1,<sp/>r1,<sp/>c2,<sp/>r2);</highlight></codeline>
-<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" kindref="member">imprime_movs2</ref>(FILE<sp/>*file,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r1){</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(file<sp/>==<sp/>NULL)<sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;%02d:<sp/>%c%c\n&quot;</highlight><highlight class="normal">,<sp/>i,<sp/>c1,<sp/>r1);</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>fprintf(file,<sp/></highlight><highlight class="stringliteral">&quot;%02d:<sp/>%c%c\n&quot;</highlight><highlight class="normal">,<sp/>i,<sp/>c1,<sp/>r1);</highlight></codeline>
-<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="interface_bot_8h" kindref="compound">interfaceBot.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="group__sub1_alpha1_1gaa667396d13cd8ece035aad8ce0d8dafa" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_interface_1gaa667396d13cd8ece035aad8ce0d8dafa" kindref="member">mensagem_fimdejogo</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e){</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="group___modulo_logica_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo</ref>(e))<sp/>printf(</highlight><highlight class="stringliteral">&quot;Fim<sp/>de<sp/>jogo!<sp/>O<sp/>jogador<sp/>%d<sp/>venceu.\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="group___modulo_logica_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo</ref>(e));</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="group__sub1_alpha1_1gad0fb7f53028d4e76c9703fa4f7f82cbd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" kindref="member">imprimir_char</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c,<sp/>FILE<sp/>*file){</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(file<sp/>==<sp/>NULL)<sp/>putchar(c);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>putc(c,<sp/>file);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="group__sub1_alpha1_1ga805702ffaf6ccf788b5819f4c8bd5029" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" kindref="member">imprime_movs1</ref>(FILE<sp/>*file,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r2){</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(file<sp/>==<sp/>NULL)<sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;%02d:<sp/>%c%c<sp/>%c%c\n&quot;</highlight><highlight class="normal">,<sp/>i,<sp/>c1,<sp/>r1,<sp/>c2,<sp/>r2);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>fprintf(file,<sp/></highlight><highlight class="stringliteral">&quot;%02d:<sp/>%c%c<sp/>%c%c\n&quot;</highlight><highlight class="normal">,<sp/>i,<sp/>c1,<sp/>r1,<sp/>c2,<sp/>r2);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="group__sub1_alpha1_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___modulo_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" kindref="member">imprime_movs2</ref>(FILE<sp/>*file,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r1){</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(file<sp/>==<sp/>NULL)<sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;%02d:<sp/>%c%c\n&quot;</highlight><highlight class="normal">,<sp/>i,<sp/>c1,<sp/>r1);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>fprintf(file,<sp/></highlight><highlight class="stringliteral">&quot;%02d:<sp/>%c%c\n&quot;</highlight><highlight class="normal">,<sp/>i,<sp/>c1,<sp/>r1);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="LA1PL2G1/bot/interfaceBot.c"/>
+    <location file="LA1PL2G01/bot/interfaceBot.c"/>
   </compounddef>
 </doxygen>

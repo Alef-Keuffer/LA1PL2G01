@@ -39,6 +39,6 @@
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>LICENSE</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>README.md)</highlight></codeline>
     </programlisting>
-    <location file="LA1PL2G1/CMakeLists.txt"/>
+    <location file="LA1PL2G01/CMakeLists.txt"/>
   </compounddef>
 </doxygen>

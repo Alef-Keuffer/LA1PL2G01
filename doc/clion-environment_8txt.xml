@@ -12,6 +12,6 @@
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal">Options:-DCMAKE_C_COMPILER=C:/Program<sp/>Files/Haskell<sp/>Platform/8.6.5/mingw/bin/gcc.exe<sp/>-DCMAKE_CXX_COMPILER=C:/Program<sp/>Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe</highlight></codeline>
     </programlisting>
-    <location file="LA1PL2G1/cmake-build-debug/CMakeFiles/clion-environment.txt"/>
+    <location file="LA1PL2G01/cmake-build-debug/CMakeFiles/clion-environment.txt"/>
   </compounddef>
 </doxygen>

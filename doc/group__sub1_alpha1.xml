@@ -10,15 +10,15 @@
         <argsstring>(int num_comandos, int jog, int num)</argsstring>
         <name>imprimir_prompt</name>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>num_comandos</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>jog</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>num</declname>
         </param>
         <briefdescription>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/Camadas/interface/interface.h" line="22" column="6" bodyfile="LA1PL2G1/Camadas/interface/interface.c" bodystart="5" bodyend="7" declfile="LA1PL2G1/Camadas/interface/interface.h" declline="22" declcolumn="6"/>
+        <location file="LA1PL2G01/projeto/interface/interface.h" line="26" column="6" bodyfile="LA1PL2G01/projeto/interface/interface.c" bodystart="10" bodyend="12" declfile="LA1PL2G01/projeto/interface/interface.h" declline="26" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__sub1_alpha1_1gaa667396d13cd8ece035aad8ce0d8dafa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -82,10 +82,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/Camadas/interface/interface.h" line="28" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="3" bodyend="5" declfile="LA1PL2G1/Camadas/interface/interface.h" declline="28" declcolumn="6"/>
+        <location file="LA1PL2G01/projeto/interface/interface.h" line="32" column="6" bodyfile="LA1PL2G01/bot/interfaceBot.c" bodystart="6" bodyend="8" declfile="LA1PL2G01/projeto/interface/interface.h" declline="32" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__sub1_alpha1_1gadcd0ed74fee6ab3cae6d67e5ddadb270" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <type>int</type>
         <definition>int interpretador</definition>
         <argsstring>(ESTADO *e, int num_comandos, int state)</argsstring>
         <name>interpretador</name>
@@ -94,11 +94,11 @@
           <declname>e</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>num_comandos</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>state</declname>
         </param>
         <briefdescription>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/Camadas/interface/interface.h" line="37" column="5" bodyfile="LA1PL2G1/Camadas/interface/interface.c" bodystart="13" bodyend="57" declfile="LA1PL2G1/Camadas/interface/interface.h" declline="37" declcolumn="5"/>
+        <location file="LA1PL2G01/projeto/interface/interface.h" line="41" column="5" bodyfile="LA1PL2G01/projeto/interface/interface.c" bodystart="18" bodyend="62" declfile="LA1PL2G01/projeto/interface/interface.h" declline="41" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="group__sub1_alpha1_1gad0fb7f53028d4e76c9703fa4f7f82cbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -144,7 +144,7 @@
         <argsstring>(int c, FILE *file)</argsstring>
         <name>imprimir_char</name>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>c</declname>
         </param>
         <param>
@@ -176,7 +176,159 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/Camadas/interface/interface.h" line="44" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="7" bodyend="10" declfile="LA1PL2G1/Camadas/interface/interface.h" declline="44" declcolumn="6"/>
+        <location file="LA1PL2G01/projeto/interface/interface.h" line="48" column="6" bodyfile="LA1PL2G01/bot/interfaceBot.c" bodystart="10" bodyend="13" declfile="LA1PL2G01/projeto/interface/interface.h" declline="48" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub1_alpha1_1ga805702ffaf6ccf788b5819f4c8bd5029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void imprime_movs1</definition>
+        <argsstring>(FILE *file, int i, int c1, int r1, int c2, int r2)</argsstring>
+        <name>imprime_movs1</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>r1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>c2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+<para>Imprime uma jogada completa, isso é, com as jogadas dos dois jogadores. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>se for NULL será para o ecrã, de outra forma será escrito em um ficheiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o número da jogada </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coluna do movimento do jogador 1 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a linha do movimento do jogador 1 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coluna do movimento do jogador 2 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a linha do movimento do jogador 2 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/projeto/interface/interface.h" line="58" column="6" bodyfile="LA1PL2G01/bot/interfaceBot.c" bodystart="15" bodyend="18" declfile="LA1PL2G01/projeto/interface/interface.h" declline="58" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub1_alpha1_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void imprime_movs2</definition>
+        <argsstring>(FILE *file, int i, int c1, int r1)</argsstring>
+        <name>imprime_movs2</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>r1</declname>
+        </param>
+        <briefdescription>
+<para>Imprime uma jogada somente com o movimento do jogador 1. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>se for NULL será para o ecrã, de outra forma será escrito em um ficheiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o número da jogada </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coluna do movimento do jogador 1 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a linha do movimento do jogador 1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/projeto/interface/interface.h" line="66" column="6" bodyfile="LA1PL2G01/bot/interfaceBot.c" bodystart="20" bodyend="23" declfile="LA1PL2G01/projeto/interface/interface.h" declline="66" declcolumn="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

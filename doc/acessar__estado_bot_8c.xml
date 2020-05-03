@@ -5,7 +5,7 @@
     <includes refid="acessar__estado_bot_8h" local="yes">acessar_estadoBot.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>LA1PL2G1/bot/acessar_estadoBot.c</label>
+        <label>LA1PL2G01/bot/acessar_estadoBot.c</label>
         <link refid="acessar__estado_bot_8c"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -23,7 +23,7 @@
     </incdepgraph>
       <sectiondef kind="func">
       <memberdef kind="function" id="group___modulo_acessar_estado_1ga3db658c95db4d69986c78b16a7c6aa45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <type>int</type>
         <definition>int obter_casa</definition>
         <argsstring>(ESTADO *e, int row, int col)</argsstring>
         <name>obter_casa</name>
@@ -32,11 +32,11 @@
           <declname>e</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>row</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>col</declname>
         </param>
         <briefdescription>
@@ -74,10 +74,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/acessar_estadoBot.c" line="3" column="5" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="3" bodyend="5"/>
+        <location file="LA1PL2G01/bot/acessar_estadoBot.c" line="6" column="5" bodyfile="LA1PL2G01/bot/acessar_estadoBot.c" bodystart="6" bodyend="8"/>
       </memberdef>
       <memberdef kind="function" id="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <type>int</type>
         <definition>int obter_subcoordenadas</definition>
         <argsstring>(ESTADO *e, int jogada, int jogador, int info)</argsstring>
         <name>obter_subcoordenadas</name>
@@ -86,15 +86,15 @@
           <declname>e</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>jogada</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>jogador</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+          <type>int</type>
           <declname>info</declname>
         </param>
         <briefdescription>
@@ -140,10 +140,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/acessar_estadoBot.c" line="7" column="5" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="7" bodyend="14"/>
+        <location file="LA1PL2G01/bot/acessar_estadoBot.c" line="10" column="5" bodyfile="LA1PL2G01/bot/acessar_estadoBot.c" bodystart="10" bodyend="17"/>
       </memberdef>
       <memberdef kind="function" id="group___modulo_acessar_estado_1ga996b7cbab9689ba24980590d140ef7de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <type>int</type>
         <definition>int JogadorAtual</definition>
         <argsstring>(ESTADO *e)</argsstring>
         <name>JogadorAtual</name>
@@ -164,16 +164,16 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>o npumero do jogador no momento em que a função foi executada </para>
+<simplesect kind="return"><para>o número do jogador no momento em que a função foi executada </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/acessar_estadoBot.c" line="16" column="5" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="16" bodyend="18"/>
+        <location file="LA1PL2G01/bot/acessar_estadoBot.c" line="19" column="5" bodyfile="LA1PL2G01/bot/acessar_estadoBot.c" bodystart="19" bodyend="21"/>
       </memberdef>
       <memberdef kind="function" id="group___modulo_acessar_estado_1ga8c8c063a176d50b62eed70a24b79197d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
+        <type>int</type>
         <definition>int NumJogadas</definition>
         <argsstring>(ESTADO *e)</argsstring>
         <name>NumJogadas</name>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/acessar_estadoBot.c" line="20" column="5" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="20" bodyend="22"/>
+        <location file="LA1PL2G01/bot/acessar_estadoBot.c" line="23" column="5" bodyfile="LA1PL2G01/bot/acessar_estadoBot.c" bodystart="23" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="group___modulo_acessar_estado_1ga86f898b1ea1b15a6353dd16e9e6d78cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
@@ -230,41 +230,43 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/acessar_estadoBot.c" line="24" column="12" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="24" bodyend="26"/>
+        <location file="LA1PL2G01/bot/acessar_estadoBot.c" line="27" column="12" bodyfile="LA1PL2G01/bot/acessar_estadoBot.c" bodystart="27" bodyend="29"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>As funções do bot são as mesmas do que estão documentadas nas camadas do projeto. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="acessar__estado_bot_8h" kindref="compound">acessar_estadoBot.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga3db658c95db4d69986c78b16a7c6aa45" kindref="member">obter_casa</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col)<sp/>{</highlight></codeline>
-<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*e).tab[row][col];</highlight></codeline>
-<codeline lineno="5"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" kindref="member">obter_subcoordenadas</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogada,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogador,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>info){</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(jogador==1)</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(info<sp/>==<sp/><ref refid="bot_2dados_8h_1a22fcc38f0b9c3e40ab8633467c02f572" kindref="member">COLUNA</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*e).jogadas[jogada].jogador1.coluna;</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>return<sp/>(*e).jogadas[jogada].jogador1.linha;</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(info<sp/>==<sp/><ref refid="bot_2dados_8h_1a22fcc38f0b9c3e40ab8633467c02f572" kindref="member">COLUNA</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*e).jogadas[jogada].jogador2.coluna;</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>return<sp/>(*e).jogadas[jogada].jogador2.linha;</highlight></codeline>
-<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga996b7cbab9689ba24980590d140ef7de" kindref="member">JogadorAtual</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e)<sp/>{</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*e).jogador_atual;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga8c8c063a176d50b62eed70a24b79197d" kindref="member">NumJogadas</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e){</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*e).num_jogadas;</highlight></codeline>
-<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/><ref refid="group___modulo_acessar_estado_1ga86f898b1ea1b15a6353dd16e9e6d78cb" kindref="member">obter_ultimajogada</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e){</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>e-&gt;<ref refid="struct_e_s_t_a_d_o_1a88f042640b66b99525b1c9d830893177" kindref="member">ultima_jogada</ref>;</highlight></codeline>
-<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="acessar__estado_bot_8h" kindref="compound">acessar_estadoBot.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="group__sub_alpha2_1ga3db658c95db4d69986c78b16a7c6aa45" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga3db658c95db4d69986c78b16a7c6aa45" kindref="member">obter_casa</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col)<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*e).tab[row][col];</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="group__sub_alpha2_1ga5ba7758412b57f34f490ee46645e98cf" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" kindref="member">obter_subcoordenadas</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogada,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogador,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>info){</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(jogador==1)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(info<sp/>==<sp/><ref refid="bot_2dados_8h_1a22fcc38f0b9c3e40ab8633467c02f572" kindref="member">COLUNA</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*e).jogadas[jogada].jogador1.coluna;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>return<sp/>(*e).jogadas[jogada].jogador1.linha;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(info<sp/>==<sp/><ref refid="bot_2dados_8h_1a22fcc38f0b9c3e40ab8633467c02f572" kindref="member">COLUNA</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*e).jogadas[jogada].jogador2.coluna;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>return<sp/>(*e).jogadas[jogada].jogador2.linha;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="group__sub_alpha2_1ga996b7cbab9689ba24980590d140ef7de" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga996b7cbab9689ba24980590d140ef7de" kindref="member">JogadorAtual</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e)<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*e).jogador_atual;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="group__sub_alpha2_1ga8c8c063a176d50b62eed70a24b79197d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_acessar_estado_1ga8c8c063a176d50b62eed70a24b79197d" kindref="member">NumJogadas</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e){</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*e).num_jogadas;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="group__sub_alpha2_1ga86f898b1ea1b15a6353dd16e9e6d78cb" refkind="member"><highlight class="normal"><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/><ref refid="group___modulo_acessar_estado_1ga86f898b1ea1b15a6353dd16e9e6d78cb" kindref="member">obter_ultimajogada</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e){</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>e-&gt;<ref refid="struct_e_s_t_a_d_o_1a88f042640b66b99525b1c9d830893177" kindref="member">ultima_jogada</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="LA1PL2G1/bot/acessar_estadoBot.c"/>
+    <location file="LA1PL2G01/bot/acessar_estadoBot.c"/>
   </compounddef>
 </doxygen>

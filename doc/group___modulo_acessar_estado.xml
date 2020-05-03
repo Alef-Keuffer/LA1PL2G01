@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="group___modulo_acessar_estado" kind="group">
+    <compoundname>ModuloAcessarEstado</compoundname>
+    <title>Acessar Estado</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group___modulo_acessar_estado_1ga3db658c95db4d69986c78b16a7c6aa45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int obter_casa</definition>
+        <argsstring>(ESTADO *e, int row, int col)</argsstring>
+        <name>obter_casa</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/acessar_estadoBot.h" line="18" column="5" bodyfile="LA1PL2G01/bot/acessar_estadoBot.c" bodystart="6" bodyend="8" declfile="LA1PL2G01/bot/acessar_estadoBot.h" declline="18" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_acessar_estado_1ga996b7cbab9689ba24980590d140ef7de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int JogadorAtual</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>JogadorAtual</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/acessar_estadoBot.h" line="21" column="5" bodyfile="LA1PL2G01/bot/acessar_estadoBot.c" bodystart="19" bodyend="21" declfile="LA1PL2G01/bot/acessar_estadoBot.h" declline="21" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int obter_subcoordenadas</definition>
+        <argsstring>(ESTADO *e, int jogada, int jogador, int info)</argsstring>
+        <name>obter_subcoordenadas</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jogada</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jogador</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/acessar_estadoBot.h" line="24" column="5" bodyfile="LA1PL2G01/bot/acessar_estadoBot.c" bodystart="10" bodyend="17" declfile="LA1PL2G01/bot/acessar_estadoBot.h" declline="24" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_acessar_estado_1ga8c8c063a176d50b62eed70a24b79197d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int NumJogadas</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>NumJogadas</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/acessar_estadoBot.h" line="27" column="5" bodyfile="LA1PL2G01/bot/acessar_estadoBot.c" bodystart="23" bodyend="25" declfile="LA1PL2G01/bot/acessar_estadoBot.h" declline="27" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_acessar_estado_1ga86f898b1ea1b15a6353dd16e9e6d78cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+        <definition>COORDENADA obter_ultimajogada</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>obter_ultimajogada</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/acessar_estadoBot.h" line="30" column="12" bodyfile="LA1PL2G01/bot/acessar_estadoBot.c" bodystart="27" bodyend="29" declfile="LA1PL2G01/bot/acessar_estadoBot.h" declline="30" declcolumn="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="group___modulo_logica" kind="group">
+    <compoundname>ModuloLogica</compoundname>
+    <title>Lógica</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int jogar</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>jogar</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/logicaBot.h" line="21" column="5" bodyfile="LA1PL2G01/bot/logicaBot.c" bodystart="6" bodyend="13" declfile="LA1PL2G01/bot/logicaBot.h" declline="21" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1ga33aa2b1fccaee5b1c1707d92f6ddc6f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mostrar_tabuleiro</definition>
+        <argsstring>(ESTADO *e, FILE *file)</argsstring>
+        <name>mostrar_tabuleiro</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/logicaBot.h" line="24" column="6" bodyfile="LA1PL2G01/bot/logicaBot.c" bodystart="15" bodyend="22" declfile="LA1PL2G01/bot/logicaBot.h" declline="24" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int fim_de_jogo</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>fim_de_jogo</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/logicaBot.h" line="27" column="5" bodyfile="LA1PL2G01/bot/logicaBot.c" bodystart="24" bodyend="40" declfile="LA1PL2G01/bot/logicaBot.h" declline="27" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1ga893b15b1044151de83eb9b01817dcdc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void movs</definition>
+        <argsstring>(ESTADO *e, FILE *file)</argsstring>
+        <name>movs</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/logicaBot.h" line="30" column="6" bodyfile="LA1PL2G01/bot/logicaBot.c" bodystart="42" bodyend="48" declfile="LA1PL2G01/bot/logicaBot.h" declline="30" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1gab39d4dc63e6d2693c1db926f53cba16d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int desfazer_ultjogada</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>desfazer_ultjogada</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/logicaBot.h" line="33" column="5" bodyfile="LA1PL2G01/bot/logicaBot.c" bodystart="50" bodyend="57" declfile="LA1PL2G01/bot/logicaBot.h" declline="33" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1ga85768460d2d874c166cfdfb78c21b5aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int minMax</definition>
+        <argsstring>(ESTADO *e, int profundidade)</argsstring>
+        <name>minMax</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>profundidade</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/logicaBot.h" line="36" column="5" bodyfile="LA1PL2G01/bot/logicaBot.c" bodystart="59" bodyend="95" declfile="LA1PL2G01/bot/logicaBot.h" declline="36" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group___modulo_logica_1ga9dfbc982d23a619e36575d8e7ec8e41c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void jog</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>jog</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G01/bot/logicaBot.h" line="39" column="6" bodyfile="LA1PL2G01/bot/logicaBot.c" bodystart="97" bodyend="104" declfile="LA1PL2G01/bot/logicaBot.h" declline="39" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

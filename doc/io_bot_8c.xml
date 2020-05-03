@@ -10,47 +10,6 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>modificar_estadoBot.h</label>
-        <link refid="modificar__estado_bot_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>dados.h</label>
-        <link refid="bot_2dados_8h"/>
-      </node>
-      <node id="8">
-        <label>interfaceBot.h</label>
-        <link refid="interface_bot_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="1">
-        <label>LA1PL2G1/bot/ioBot.c</label>
-        <link refid="io_bot_8c"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>ioBot.h</label>
-        <link refid="io_bot_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>math.h</label>
-      </node>
       <node id="5">
         <label>logicaBot.h</label>
         <link refid="logica_bot_8h"/>
@@ -67,9 +26,6 @@
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>stdio.h</label>
-      </node>
       <node id="9">
         <label>auxiliaresBot.h</label>
         <link refid="auxiliares_bot_8h"/>
@@ -84,6 +40,50 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
+      <node id="1">
+        <label>LA1PL2G01/bot/ioBot.c</label>
+        <link refid="io_bot_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ioBot.h</label>
+        <link refid="io_bot_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>dados.h</label>
+        <link refid="bot_2dados_8h"/>
+      </node>
+      <node id="6">
+        <label>modificar_estadoBot.h</label>
+        <link refid="modificar__estado_bot_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>math.h</label>
+      </node>
+      <node id="8">
+        <label>interfaceBot.h</label>
+        <link refid="interface_bot_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdio.h</label>
+      </node>
     </incdepgraph>
       <sectiondef kind="func">
       <memberdef kind="function" id="group___camada_i_o_1ga23a23b7826b87285db7e15c4bdbd7897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -96,7 +96,7 @@
           <declname>e</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kindref="member">char</ref> *</type>
+          <type>char *</type>
           <declname>file_path</declname>
         </param>
         <briefdescription>
@@ -124,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/ioBot.c" line="3" column="6" bodyfile="LA1PL2G1/bot/ioBot.c" bodystart="3" bodyend="10"/>
+        <location file="LA1PL2G01/bot/ioBot.c" line="6" column="6" bodyfile="LA1PL2G01/bot/ioBot.c" bodystart="6" bodyend="13"/>
       </memberdef>
       <memberdef kind="function" id="group___camada_i_o_1gab184b82fd763449103d10b56b797c537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -136,7 +136,7 @@
           <declname>e</declname>
         </param>
         <param>
-          <type><ref refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kindref="member">char</ref> *</type>
+          <type>char *</type>
           <declname>filename</declname>
         </param>
         <briefdescription>
@@ -164,56 +164,58 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/bot/ioBot.c" line="12" column="6" bodyfile="LA1PL2G1/bot/ioBot.c" bodystart="12" bodyend="41"/>
+        <location file="LA1PL2G01/bot/ioBot.c" line="15" column="6" bodyfile="LA1PL2G01/bot/ioBot.c" bodystart="15" bodyend="44"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>As funções do bot são as mesmas do que estão documentadas nas camadas do projeto. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="io_bot_8h" kindref="compound">ioBot.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___camada_i_o_1ga23a23b7826b87285db7e15c4bdbd7897" kindref="member">gr</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_path)<sp/>{</highlight></codeline>
-<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*<sp/>fPtr;</highlight></codeline>
-<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>fPtr<sp/>=<sp/>fopen(file_path,<sp/></highlight><highlight class="stringliteral">&quot;w&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1ga33aa2b1fccaee5b1c1707d92f6ddc6f7" kindref="member">mostrar_tabuleiro</ref>(e,<sp/>fPtr);</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>putc(</highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal">,<sp/>fPtr);</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1ga893b15b1044151de83eb9b01817dcdc0" kindref="member">movs</ref>(e,<sp/>fPtr);</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(fPtr);</highlight></codeline>
-<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___camada_i_o_1gab184b82fd763449103d10b56b797c537" kindref="member">ler</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename){</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE*<sp/>file<sp/>=<sp/>fopen(filename,<sp/></highlight><highlight class="stringliteral">&quot;r&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>line[256],<sp/>jog1[256],<sp/><ref refid="group__sub1_alpha2_1ga75a3c6feb2f2ec713f96559558b136d0" kindref="member">jog2</ref>[256];</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>num_jog,<sp/>jogadas<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c<sp/>=<sp/>{4,4};</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;<sp/>fgets(line,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(line),<sp/>file);<sp/>i++){</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>&lt;<sp/>8)<sp/>{</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___modulo_auxiliares_1ga6d18e8736a024c1ed08ce90900fcdf36" kindref="member">ler_linha</ref>(e,<sp/>i,<sp/>line);</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i&gt;=8<sp/><sp/>&amp;&amp;<sp/><sp/>sscanf(line,<sp/></highlight><highlight class="stringliteral">&quot;%d:<sp/>%s<sp/>%s&quot;</highlight><highlight class="normal">,<sp/>&amp;num_jog,<sp/>jog1,<sp/><ref refid="group__sub1_alpha2_1ga75a3c6feb2f2ec713f96559558b136d0" kindref="member">jog2</ref>)<sp/>==<sp/>3)<sp/>{</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c1<sp/>=<sp/>{jog1[0]<sp/>-<sp/></highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/>jog1[1]<sp/>-<sp/></highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c2<sp/>=<sp/>{<ref refid="group__sub1_alpha2_1ga75a3c6feb2f2ec713f96559558b136d0" kindref="member">jog2</ref>[0]<sp/>-<sp/></highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/><ref refid="group__sub1_alpha2_1ga75a3c6feb2f2ec713f96559558b136d0" kindref="member">jog2</ref>[1]<sp/>-<sp/></highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_j_o_g_a_d_a" kindref="compound">JOGADA</ref><sp/>j<sp/>=<sp/>{c1,<sp/>c2};</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___modulo_auxiliares_1ga7a58dae24162814a0972c47febd9be69" kindref="member">ler_jogada</ref>(e,<sp/>j,<sp/>num_jog<sp/>-<sp/>1);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jogadas<sp/>+=<sp/>2;</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c<sp/>=<sp/>c2;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i&gt;=8<sp/>&amp;&amp;<sp/>sscanf(line,<sp/></highlight><highlight class="stringliteral">&quot;%d:<sp/>%s<sp/>%s&quot;</highlight><highlight class="normal">,<sp/>&amp;num_jog,<sp/>jog1,<sp/><ref refid="group__sub1_alpha2_1ga75a3c6feb2f2ec713f96559558b136d0" kindref="member">jog2</ref>)<sp/>==<sp/>2){</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c1<sp/>=<sp/>{jog1[0]<sp/>-<sp/></highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/>jog1[1]<sp/>-<sp/></highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c2<sp/>=<sp/>{-1,<sp/>1};</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_j_o_g_a_d_a" kindref="compound">JOGADA</ref><sp/>j<sp/>=<sp/>{c1,<sp/>c2};</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___modulo_auxiliares_1ga7a58dae24162814a0972c47febd9be69" kindref="member">ler_jogada</ref>(e,<sp/>j,<sp/>num_jog<sp/>-<sp/>1);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jogadas++;</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c<sp/>=<sp/>c1;</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_auxiliares_1ga5431e0cd098dba18d4a02e7be69808a2" kindref="member">ler_restante</ref>(e,<sp/>jogadas,<sp/>c);</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(file);</highlight></codeline>
-<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="io_bot_8h" kindref="compound">ioBot.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="group__sub2_alpha1_1ga23a23b7826b87285db7e15c4bdbd7897" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___camada_i_o_1ga23a23b7826b87285db7e15c4bdbd7897" kindref="member">gr</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_path)<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*<sp/>fPtr;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>fPtr<sp/>=<sp/>fopen(file_path,<sp/></highlight><highlight class="stringliteral">&quot;w&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1ga33aa2b1fccaee5b1c1707d92f6ddc6f7" kindref="member">mostrar_tabuleiro</ref>(e,<sp/>fPtr);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>putc(</highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal">,<sp/>fPtr);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1ga893b15b1044151de83eb9b01817dcdc0" kindref="member">movs</ref>(e,<sp/>fPtr);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(fPtr);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="group__sub2_alpha1_1gab184b82fd763449103d10b56b797c537" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___camada_i_o_1gab184b82fd763449103d10b56b797c537" kindref="member">ler</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename){</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE*<sp/>file<sp/>=<sp/>fopen(filename,<sp/></highlight><highlight class="stringliteral">&quot;r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>line[256],<sp/>jog1[256],<sp/><ref refid="group__sub1_alpha2_1ga75a3c6feb2f2ec713f96559558b136d0" kindref="member">jog2</ref>[256];</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>num_jog,<sp/>jogadas<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c<sp/>=<sp/>{4,4};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;<sp/>fgets(line,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(line),<sp/>file);<sp/>i++){</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>&lt;<sp/>8)<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___modulo_auxiliares_1ga6d18e8736a024c1ed08ce90900fcdf36" kindref="member">ler_linha</ref>(e,<sp/>i,<sp/>line);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i&gt;=8<sp/><sp/>&amp;&amp;<sp/><sp/>sscanf(line,<sp/></highlight><highlight class="stringliteral">&quot;%d:<sp/>%s<sp/>%s&quot;</highlight><highlight class="normal">,<sp/>&amp;num_jog,<sp/>jog1,<sp/><ref refid="group__sub1_alpha2_1ga75a3c6feb2f2ec713f96559558b136d0" kindref="member">jog2</ref>)<sp/>==<sp/>3)<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c1<sp/>=<sp/>{jog1[0]<sp/>-<sp/></highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/>jog1[1]<sp/>-<sp/></highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c2<sp/>=<sp/>{<ref refid="group__sub1_alpha2_1ga75a3c6feb2f2ec713f96559558b136d0" kindref="member">jog2</ref>[0]<sp/>-<sp/></highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/><ref refid="group__sub1_alpha2_1ga75a3c6feb2f2ec713f96559558b136d0" kindref="member">jog2</ref>[1]<sp/>-<sp/></highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_j_o_g_a_d_a" kindref="compound">JOGADA</ref><sp/>j<sp/>=<sp/>{c1,<sp/>c2};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___modulo_auxiliares_1ga7a58dae24162814a0972c47febd9be69" kindref="member">ler_jogada</ref>(e,<sp/>j,<sp/>num_jog<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jogadas<sp/>+=<sp/>2;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c<sp/>=<sp/>c2;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i&gt;=8<sp/>&amp;&amp;<sp/>sscanf(line,<sp/></highlight><highlight class="stringliteral">&quot;%d:<sp/>%s<sp/>%s&quot;</highlight><highlight class="normal">,<sp/>&amp;num_jog,<sp/>jog1,<sp/><ref refid="group__sub1_alpha2_1ga75a3c6feb2f2ec713f96559558b136d0" kindref="member">jog2</ref>)<sp/>==<sp/>2){</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c1<sp/>=<sp/>{jog1[0]<sp/>-<sp/></highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/>jog1[1]<sp/>-<sp/></highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>c2<sp/>=<sp/>{-1,<sp/>1};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_j_o_g_a_d_a" kindref="compound">JOGADA</ref><sp/>j<sp/>=<sp/>{c1,<sp/>c2};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___modulo_auxiliares_1ga7a58dae24162814a0972c47febd9be69" kindref="member">ler_jogada</ref>(e,<sp/>j,<sp/>num_jog<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jogadas++;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c<sp/>=<sp/>c1;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_auxiliares_1ga5431e0cd098dba18d4a02e7be69808a2" kindref="member">ler_restante</ref>(e,<sp/>jogadas,<sp/>c);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(file);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="LA1PL2G1/bot/ioBot.c"/>
+    <location file="LA1PL2G01/bot/ioBot.c"/>
   </compounddef>
 </doxygen>

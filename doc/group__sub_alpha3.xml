@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/Camadas/dados/dados.h" line="44" column="8" bodyfile="LA1PL2G1/bot/dados.c" bodystart="4" bodyend="21" declfile="LA1PL2G1/Camadas/dados/dados.h" declline="44" declcolumn="8"/>
+        <location file="LA1PL2G01/projeto/dados/dados.h" line="50" column="8" bodyfile="LA1PL2G01/bot/dados.c" bodystart="7" bodyend="24" declfile="LA1PL2G01/projeto/dados/dados.h" declline="50" declcolumn="8"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

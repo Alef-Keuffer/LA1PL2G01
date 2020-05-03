@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="group___camada_dados" kind="group">
+    <compoundname>CamadaDados</compoundname>
+    <title>Dados</title>
+    <innergroup refid="group___modulo_acessar_estado">Acessar Estado</innergroup>
+    <innergroup refid="group___modulo_dados">Dados</innergroup>
+    <innergroup refid="group___modificar_estado">ModificarEstado</innergroup>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

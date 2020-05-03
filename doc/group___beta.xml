@@ -7,7 +7,7 @@
     <innergroup refid="group___camada_interface">Interface</innergroup>
     <innergroup refid="group___camada_logica">Lógica</innergroup>
     <briefdescription>
-<para>As funções aqui são análogas às funções no programa original. </para>
+<para>As funções do bot estão documentadas nas camadas do projeto. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
