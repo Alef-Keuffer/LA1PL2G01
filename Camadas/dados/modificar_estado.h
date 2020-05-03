@@ -86,7 +86,7 @@ void colocar_branca(ESTADO *e, COORDENADA c);
 void novo_num_jogadas(ESTADO *e, int num);
 
 /// Faz a casa da última jogada ser vazia
-///@ingroup subAlpha1
+/// @ingroup subAlpha1
 /// \param e é o estado do tabuleiro
 void branca_para_vazia(ESTADO *e);
 

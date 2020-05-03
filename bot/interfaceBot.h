@@ -14,16 +14,16 @@
 #include "dados.h"
 #include "logicaBot.h"
 
-/// @ingroup CamadaInterface
+/// @ingroup ModuloInterface
 void imprimir_char(int c, FILE *file);
 
-/// @ingroup CamadaInterface
+/// @ingroup ModuloInterface
 void mensagem_fimdejogo(ESTADO *e);
 
-/// @ingroup CamadaInterface
+/// @ingroup ModuloInterface
 void imprime_movs1(FILE *file, int i, int c1, int r1, int c2, int r2);
 
-/// @ingroup CamadaInterface
+/// @ingroup ModuloInterface
 void imprime_movs2(FILE *file, int i, int c1, int r1);
 
 #endif //RASTROS_INTERFACE_H

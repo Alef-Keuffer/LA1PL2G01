@@ -20,18 +20,18 @@
     <member refid="structnodo_1a03f1eceb28ca4022ecc73589b6ca39d9" kind="variable"><name>proximo</name></member>
   </compound>
   <compound refid="acessar__estado_bot_8c" kind="file"><name>acessar_estadoBot.c</name>
-    <member refid="group__sub_alpha2_1ga3db658c95db4d69986c78b16a7c6aa45" kind="function"><name>obter_casa</name></member>
-    <member refid="group__sub_alpha2_1ga5ba7758412b57f34f490ee46645e98cf" kind="function"><name>obter_subcoordenadas</name></member>
-    <member refid="group__sub_alpha2_1ga996b7cbab9689ba24980590d140ef7de" kind="function"><name>JogadorAtual</name></member>
-    <member refid="group__sub_alpha2_1ga8c8c063a176d50b62eed70a24b79197d" kind="function"><name>NumJogadas</name></member>
-    <member refid="group__sub_alpha2_1ga86f898b1ea1b15a6353dd16e9e6d78cb" kind="function"><name>obter_ultimajogada</name></member>
+    <member refid="group___modulo_acessar_estado_1ga3db658c95db4d69986c78b16a7c6aa45" kind="function"><name>obter_casa</name></member>
+    <member refid="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" kind="function"><name>obter_subcoordenadas</name></member>
+    <member refid="group___modulo_acessar_estado_1ga996b7cbab9689ba24980590d140ef7de" kind="function"><name>JogadorAtual</name></member>
+    <member refid="group___modulo_acessar_estado_1ga8c8c063a176d50b62eed70a24b79197d" kind="function"><name>NumJogadas</name></member>
+    <member refid="group___modulo_acessar_estado_1ga86f898b1ea1b15a6353dd16e9e6d78cb" kind="function"><name>obter_ultimajogada</name></member>
   </compound>
   <compound refid="acessar__estado_bot_8h" kind="file"><name>acessar_estadoBot.h</name>
-    <member refid="acessar__estado_bot_8h_1a3db658c95db4d69986c78b16a7c6aa45" kind="function"><name>obter_casa</name></member>
-    <member refid="acessar__estado_bot_8h_1a996b7cbab9689ba24980590d140ef7de" kind="function"><name>JogadorAtual</name></member>
-    <member refid="acessar__estado_bot_8h_1a5ba7758412b57f34f490ee46645e98cf" kind="function"><name>obter_subcoordenadas</name></member>
-    <member refid="acessar__estado_bot_8h_1a8c8c063a176d50b62eed70a24b79197d" kind="function"><name>NumJogadas</name></member>
-    <member refid="acessar__estado_bot_8h_1a86f898b1ea1b15a6353dd16e9e6d78cb" kind="function"><name>obter_ultimajogada</name></member>
+    <member refid="group___modulo_acessar_estado_1ga3db658c95db4d69986c78b16a7c6aa45" kind="function"><name>obter_casa</name></member>
+    <member refid="group___modulo_acessar_estado_1ga996b7cbab9689ba24980590d140ef7de" kind="function"><name>JogadorAtual</name></member>
+    <member refid="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" kind="function"><name>obter_subcoordenadas</name></member>
+    <member refid="group___modulo_acessar_estado_1ga8c8c063a176d50b62eed70a24b79197d" kind="function"><name>NumJogadas</name></member>
+    <member refid="group___modulo_acessar_estado_1ga86f898b1ea1b15a6353dd16e9e6d78cb" kind="function"><name>obter_ultimajogada</name></member>
   </compound>
   <compound refid="auxiliares_bot_8c" kind="file"><name>auxiliaresBot.c</name>
     <member refid="group___modulo_auxiliares_1ga6d18e8736a024c1ed08ce90900fcdf36" kind="function"><name>ler_linha</name></member>
@@ -94,16 +94,16 @@
     <member refid="group__sub_alpha3_1ga7e0c7e26fb685d9ab501e19b05e6954f" kind="function"><name>inicializar_estado</name></member>
   </compound>
   <compound refid="interface_bot_8c" kind="file"><name>interfaceBot.c</name>
-    <member refid="group___camada_interface_1gaa667396d13cd8ece035aad8ce0d8dafa" kind="function"><name>mensagem_fimdejogo</name></member>
-    <member refid="group___camada_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" kind="function"><name>imprimir_char</name></member>
-    <member refid="group___camada_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" kind="function"><name>imprime_movs1</name></member>
-    <member refid="group___camada_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" kind="function"><name>imprime_movs2</name></member>
+    <member refid="group___modulo_interface_1gaa667396d13cd8ece035aad8ce0d8dafa" kind="function"><name>mensagem_fimdejogo</name></member>
+    <member refid="group___modulo_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" kind="function"><name>imprimir_char</name></member>
+    <member refid="group___modulo_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" kind="function"><name>imprime_movs1</name></member>
+    <member refid="group___modulo_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" kind="function"><name>imprime_movs2</name></member>
   </compound>
   <compound refid="interface_bot_8h" kind="file"><name>interfaceBot.h</name>
-    <member refid="group___camada_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" kind="function"><name>imprimir_char</name></member>
-    <member refid="group___camada_interface_1gaa667396d13cd8ece035aad8ce0d8dafa" kind="function"><name>mensagem_fimdejogo</name></member>
-    <member refid="group___camada_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" kind="function"><name>imprime_movs1</name></member>
-    <member refid="group___camada_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" kind="function"><name>imprime_movs2</name></member>
+    <member refid="group___modulo_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" kind="function"><name>imprimir_char</name></member>
+    <member refid="group___modulo_interface_1gaa667396d13cd8ece035aad8ce0d8dafa" kind="function"><name>mensagem_fimdejogo</name></member>
+    <member refid="group___modulo_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" kind="function"><name>imprime_movs1</name></member>
+    <member refid="group___modulo_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" kind="function"><name>imprime_movs2</name></member>
   </compound>
   <compound refid="io_bot_8c" kind="file"><name>ioBot.c</name>
     <member refid="group___camada_i_o_1ga23a23b7826b87285db7e15c4bdbd7897" kind="function"><name>gr</name></member>
@@ -168,11 +168,11 @@
     <member refid="group___modificar_estado_1ga8eaf691dc7ba2309966cb8a095c6a3bf" kind="function"><name>modificar_numjogadas</name></member>
   </compound>
   <compound refid="acessar__estado_8c" kind="file"><name>acessar_estado.c</name>
-    <member refid="group__sub_alpha2_1ga3db658c95db4d69986c78b16a7c6aa45" kind="function"><name>obter_casa</name></member>
-    <member refid="group__sub_alpha2_1ga5ba7758412b57f34f490ee46645e98cf" kind="function"><name>obter_subcoordenadas</name></member>
-    <member refid="group__sub_alpha2_1ga996b7cbab9689ba24980590d140ef7de" kind="function"><name>JogadorAtual</name></member>
-    <member refid="group__sub_alpha2_1ga8c8c063a176d50b62eed70a24b79197d" kind="function"><name>NumJogadas</name></member>
-    <member refid="group__sub_alpha2_1ga86f898b1ea1b15a6353dd16e9e6d78cb" kind="function"><name>obter_ultimajogada</name></member>
+    <member refid="group___modulo_acessar_estado_1ga3db658c95db4d69986c78b16a7c6aa45" kind="function"><name>obter_casa</name></member>
+    <member refid="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" kind="function"><name>obter_subcoordenadas</name></member>
+    <member refid="group___modulo_acessar_estado_1ga996b7cbab9689ba24980590d140ef7de" kind="function"><name>JogadorAtual</name></member>
+    <member refid="group___modulo_acessar_estado_1ga8c8c063a176d50b62eed70a24b79197d" kind="function"><name>NumJogadas</name></member>
+    <member refid="group___modulo_acessar_estado_1ga86f898b1ea1b15a6353dd16e9e6d78cb" kind="function"><name>obter_ultimajogada</name></member>
     <member refid="group__sub_alpha2_1gaa1acb9ab56a9997c82130721e58192ca" kind="function"><name>obter_coordenada</name></member>
   </compound>
   <compound refid="acessar__estado_8h" kind="file"><name>acessar_estado.h</name>
@@ -220,19 +220,19 @@
   <compound refid="interface_8c" kind="file"><name>interface.c</name>
     <member refid="interface_8c_1a6821bafc3c88dfb2e433a095df9940c6" kind="define"><name>BUF_SIZE</name></member>
     <member refid="group__sub1_alpha1_1gaa8380036eb143858dab4bfad8b780adc" kind="function"><name>imprimir_prompt</name></member>
-    <member refid="group___camada_interface_1gaa667396d13cd8ece035aad8ce0d8dafa" kind="function"><name>mensagem_fimdejogo</name></member>
+    <member refid="group___modulo_interface_1gaa667396d13cd8ece035aad8ce0d8dafa" kind="function"><name>mensagem_fimdejogo</name></member>
     <member refid="group__sub1_alpha1_1gadcd0ed74fee6ab3cae6d67e5ddadb270" kind="function"><name>interpretador</name></member>
-    <member refid="group___camada_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" kind="function"><name>imprimir_char</name></member>
-    <member refid="group___camada_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" kind="function"><name>imprime_movs1</name></member>
-    <member refid="group___camada_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" kind="function"><name>imprime_movs2</name></member>
+    <member refid="group___modulo_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" kind="function"><name>imprimir_char</name></member>
+    <member refid="group___modulo_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" kind="function"><name>imprime_movs1</name></member>
+    <member refid="group___modulo_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" kind="function"><name>imprime_movs2</name></member>
   </compound>
   <compound refid="interface_8h" kind="file"><name>interface.h</name>
     <member refid="group__sub1_alpha1_1gaa8380036eb143858dab4bfad8b780adc" kind="function"><name>imprimir_prompt</name></member>
     <member refid="group__sub1_alpha1_1gaa667396d13cd8ece035aad8ce0d8dafa" kind="function"><name>mensagem_fimdejogo</name></member>
     <member refid="group__sub1_alpha1_1gadcd0ed74fee6ab3cae6d67e5ddadb270" kind="function"><name>interpretador</name></member>
     <member refid="group__sub1_alpha1_1gad0fb7f53028d4e76c9703fa4f7f82cbd" kind="function"><name>imprimir_char</name></member>
-    <member refid="group___camada_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" kind="function"><name>imprime_movs1</name></member>
-    <member refid="group___camada_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" kind="function"><name>imprime_movs2</name></member>
+    <member refid="group___modulo_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" kind="function"><name>imprime_movs1</name></member>
+    <member refid="group___modulo_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" kind="function"><name>imprime_movs2</name></member>
   </compound>
   <compound refid="io_8c" kind="file"><name>io.c</name>
     <member refid="group___camada_i_o_1ga23a23b7826b87285db7e15c4bdbd7897" kind="function"><name>gr</name></member>
@@ -492,6 +492,11 @@
   <compound refid="group___camada_dados" kind="group"><name>CamadaDados</name>
   </compound>
   <compound refid="group___modulo_acessar_estado" kind="group"><name>ModuloAcessarEstado</name>
+    <member refid="group___modulo_acessar_estado_1ga3db658c95db4d69986c78b16a7c6aa45" kind="function"><name>obter_casa</name></member>
+    <member refid="group___modulo_acessar_estado_1ga996b7cbab9689ba24980590d140ef7de" kind="function"><name>JogadorAtual</name></member>
+    <member refid="group___modulo_acessar_estado_1ga5ba7758412b57f34f490ee46645e98cf" kind="function"><name>obter_subcoordenadas</name></member>
+    <member refid="group___modulo_acessar_estado_1ga8c8c063a176d50b62eed70a24b79197d" kind="function"><name>NumJogadas</name></member>
+    <member refid="group___modulo_acessar_estado_1ga86f898b1ea1b15a6353dd16e9e6d78cb" kind="function"><name>obter_ultimajogada</name></member>
   </compound>
   <compound refid="group___modulo_dados" kind="group"><name>ModuloDados</name>
     <member refid="group___modulo_dados_1ga7e0c7e26fb685d9ab501e19b05e6954f" kind="function"><name>inicializar_estado</name></member>
@@ -514,12 +519,12 @@
   <compound refid="group___beta" kind="group"><name>Beta</name>
   </compound>
   <compound refid="group___camada_interface" kind="group"><name>CamadaInterface</name>
-    <member refid="group___camada_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" kind="function"><name>imprimir_char</name></member>
-    <member refid="group___camada_interface_1gaa667396d13cd8ece035aad8ce0d8dafa" kind="function"><name>mensagem_fimdejogo</name></member>
-    <member refid="group___camada_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" kind="function"><name>imprime_movs1</name></member>
-    <member refid="group___camada_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" kind="function"><name>imprime_movs2</name></member>
   </compound>
   <compound refid="group___modulo_interface" kind="group"><name>ModuloInterface</name>
+    <member refid="group___modulo_interface_1gad0fb7f53028d4e76c9703fa4f7f82cbd" kind="function"><name>imprimir_char</name></member>
+    <member refid="group___modulo_interface_1gaa667396d13cd8ece035aad8ce0d8dafa" kind="function"><name>mensagem_fimdejogo</name></member>
+    <member refid="group___modulo_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" kind="function"><name>imprime_movs1</name></member>
+    <member refid="group___modulo_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" kind="function"><name>imprime_movs2</name></member>
   </compound>
   <compound refid="group___camada_i_o" kind="group"><name>CamadaIO</name>
     <member refid="group___camada_i_o_1ga23a23b7826b87285db7e15c4bdbd7897" kind="function"><name>gr</name></member>

@@ -11,19 +11,19 @@
 #define RASTROS_ACESSAR_ESTADO_H
 #include "dados.h"
 
-/// @ingroup CamadaAcessarEstado
+/// @ingroup ModuloAcessarEstado
 int obter_casa (ESTADO *e, int row, int col);
 
-/// @ingroup CamadaAcessarEstado
+/// @ingroup ModuloAcessarEstado
 int JogadorAtual (ESTADO *e);
 
-/// @ingroup CamadaAcessarEstado
+/// @ingroup ModuloAcessarEstado
 int obter_subcoordenadas (ESTADO *e, int jogada, int jogador, int info);
 
-/// @ingroup CamadaAcessarEstado
+/// @ingroup ModuloAcessarEstado
 int NumJogadas(ESTADO *e);
 
-/// @ingroup CamadaAcessarEstado
+/// @ingroup ModuloAcessarEstado
 COORDENADA obter_ultimajogada(ESTADO *e);
 
 #endif //RASTROS_ACESSAR_ESTADO_H

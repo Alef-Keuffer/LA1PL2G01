@@ -74,7 +74,7 @@ var NAVTREEINDEX =
 [
 "_c_make_c_compiler_id_8c.html",
 "group___modulo_auxiliares.html#ga7a58dae24162814a0972c47febd9be69",
-"md__l_a1_p_l2_g1__r_e_a_d_m_e.html#autotoc_md6"
+"md__l_a1_p_l2_g1__r_e_a_d_m_e.html#autotoc_md17"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
