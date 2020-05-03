@@ -1,9 +1,6 @@
 #include "io.h"
 
-/// Função deve gravar em um ficheiro o tabuleiro com as jogadas
-///
-/// \param e
-/// \param file_path
+
 void gr(ESTADO *e, char *file_path){
     FILE * fPtr;
     fPtr = fopen(file_path, "w");
@@ -13,10 +10,6 @@ void gr(ESTADO *e, char *file_path){
     fclose(fPtr);
 }
 
-/// Função deve ler o ficheiro de um tabuleiro
-///
-/// \param e
-/// \param filename
 void ler(ESTADO *e, char *filename){
     FILE* file = fopen(filename, "r");
     char line[256], jog1[256], jog2[256];

@@ -1,13 +1,13 @@
-\hypertarget{io_8c}{}\doxysection{Camadas/interface/io.c File Reference}
-\label{io_8c}\index{Camadas/interface/io.c@{Camadas/interface/io.c}}
+\hypertarget{io_8c}{}\doxysection{L\+A1\+P\+L2\+G1/\+Camadas/interface/io.c File Reference}
+\label{io_8c}\index{LA1PL2G1/Camadas/interface/io.c@{LA1PL2G1/Camadas/interface/io.c}}
 {\ttfamily \#include \char`\"{}io.\+h\char`\"{}}\newline
 \doxysubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{io_8c_a23a23b7826b87285db7e15c4bdbd7897}{gr}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{_c_make_cache_8txt_afe71f11dacb15682cdc012f7208e6e09}{char}} $\ast$file\+\_\+path)
-\item 
+\begin{DoxyCompactList}\small\item\em Função deve gravar em um ficheiro o tabuleiro com as jogadas. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{io_8c_ab184b82fd763449103d10b56b797c537}{ler}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{_c_make_cache_8txt_afe71f11dacb15682cdc012f7208e6e09}{char}} $\ast$filename)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Função deve ler o ficheiro de um tabuleiro. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Function Documentation}
@@ -17,9 +17,31 @@ void \mbox{\hyperlink{io_8c_ab184b82fd763449103d10b56b797c537}{ler}} (\mbox{\hyp
 \doxysubsubsection{\texorpdfstring{gr()}{gr()}}
 {\footnotesize\ttfamily void gr (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_afe71f11dacb15682cdc012f7208e6e09}{char}} $\ast$}]{file\+\_\+path }\end{DoxyParamCaption})}
 
+
+
+Função deve gravar em um ficheiro o tabuleiro com as jogadas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & é o estado do tabuleiro \\
+\hline
+{\em file\+\_\+path} & é o nome do ficheiro \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{io_8c_ab184b82fd763449103d10b56b797c537}\label{io_8c_ab184b82fd763449103d10b56b797c537}} 
 \index{io.c@{io.c}!ler@{ler}}
 \index{ler@{ler}!io.c@{io.c}}
 \doxysubsubsection{\texorpdfstring{ler()}{ler()}}
 {\footnotesize\ttfamily void ler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_afe71f11dacb15682cdc012f7208e6e09}{char}} $\ast$}]{filename }\end{DoxyParamCaption})}
 
+
+
+Função deve ler o ficheiro de um tabuleiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & é o estado do tabuleiro \\
+\hline
+{\em filename} & é o nome do ficheiro \\
+\hline
+\end{DoxyParams}

@@ -3,7 +3,7 @@
   <compounddef id="group__group_alpha1" kind="group">
     <compoundname>groupAlpha1</compoundname>
     <title>Interface</title>
-    <innergroup refid="group__sub1_alpha1">Inteface</innergroup>
+    <innergroup refid="group__sub1_alpha1">Interface</innergroup>
     <innergroup refid="group__sub2_alpha1">IO</innergroup>
     <briefdescription>
     </briefdescription>

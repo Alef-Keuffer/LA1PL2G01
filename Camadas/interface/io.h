@@ -5,7 +5,16 @@
 #include "Camadas/logica/logica.h"
 #include "Camadas/logica/auxiliares.h"
 
+/// Função deve gravar em um ficheiro o tabuleiro com as jogadas
+///
+/// \param e é o estado do tabuleiro
+/// \param file_path é o nome do ficheiro
 void gr (ESTADO *e, char *file_path);
+
+/// Função deve ler o ficheiro de um tabuleiro
+///
+/// \param e é o estado do tabuleiro
+/// \param filename é o nome do ficheiro
 void ler (ESTADO *e, char *filename);
 
 #endif //RASTROS_IO_H

@@ -6,10 +6,10 @@
     <incdepgraph>
       <node id="3">
         <label>dados.h</label>
-        <link refid="dados_8h"/>
+        <link refid="_camadas_2dados_2dados_8h"/>
       </node>
       <node id="1">
-        <label>Camadas/dados/acessar_estado.c</label>
+        <label>LA1PL2G1/Camadas/dados/acessar_estado.c</label>
         <link refid="acessar__estado_8c"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/acessar_estado.c" line="3" column="5" bodyfile="Camadas/dados/acessar_estado.c" bodystart="3" bodyend="5"/>
+        <location file="LA1PL2G1/Camadas/dados/acessar_estado.c" line="3" column="5" bodyfile="LA1PL2G1/Camadas/dados/acessar_estado.c" bodystart="3" bodyend="5"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha2_1ga5ba7758412b57f34f490ee46645e98cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/acessar_estado.c" line="7" column="5" bodyfile="Camadas/dados/acessar_estado.c" bodystart="7" bodyend="14"/>
+        <location file="LA1PL2G1/Camadas/dados/acessar_estado.c" line="7" column="5" bodyfile="LA1PL2G1/Camadas/dados/acessar_estado.c" bodystart="7" bodyend="14"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha2_1ga996b7cbab9689ba24980590d140ef7de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
@@ -169,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/acessar_estado.c" line="16" column="5" bodyfile="Camadas/dados/acessar_estado.c" bodystart="16" bodyend="18"/>
+        <location file="LA1PL2G1/Camadas/dados/acessar_estado.c" line="16" column="5" bodyfile="LA1PL2G1/Camadas/dados/acessar_estado.c" bodystart="16" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha2_1ga8c8c063a176d50b62eed70a24b79197d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/acessar_estado.c" line="20" column="5" bodyfile="Camadas/dados/acessar_estado.c" bodystart="20" bodyend="22"/>
+        <location file="LA1PL2G1/Camadas/dados/acessar_estado.c" line="20" column="5" bodyfile="LA1PL2G1/Camadas/dados/acessar_estado.c" bodystart="20" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha2_1ga86f898b1ea1b15a6353dd16e9e6d78cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/acessar_estado.c" line="24" column="12" bodyfile="Camadas/dados/acessar_estado.c" bodystart="24" bodyend="26"/>
+        <location file="LA1PL2G1/Camadas/dados/acessar_estado.c" line="24" column="12" bodyfile="LA1PL2G1/Camadas/dados/acessar_estado.c" bodystart="24" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha2_1gaa1acb9ab56a9997c82130721e58192ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
@@ -281,7 +281,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/acessar_estado.c" line="28" column="12" bodyfile="Camadas/dados/acessar_estado.c" bodystart="28" bodyend="33"/>
+        <location file="LA1PL2G1/Camadas/dados/acessar_estado.c" line="28" column="12" bodyfile="LA1PL2G1/Camadas/dados/acessar_estado.c" bodystart="28" bodyend="33"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -297,10 +297,10 @@
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__sub_alpha2_1ga5ba7758412b57f34f490ee46645e98cf" kindref="member">obter_subcoordenadas</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogada,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogador,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>info){</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(jogador==1)</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(info<sp/>==<sp/><ref refid="dados_8h_1a22fcc38f0b9c3e40ab8633467c02f572" kindref="member">COLUNA</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*e).jogadas[jogada].jogador1.coluna;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(info<sp/>==<sp/><ref refid="bot_2dados_8h_1a22fcc38f0b9c3e40ab8633467c02f572" kindref="member">COLUNA</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*e).jogadas[jogada].jogador1.coluna;</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>return<sp/>(*e).jogadas[jogada].jogador1.linha;</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(info<sp/>==<sp/><ref refid="dados_8h_1a22fcc38f0b9c3e40ab8633467c02f572" kindref="member">COLUNA</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*e).jogadas[jogada].jogador2.coluna;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(info<sp/>==<sp/><ref refid="bot_2dados_8h_1a22fcc38f0b9c3e40ab8633467c02f572" kindref="member">COLUNA</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*e).jogadas[jogada].jogador2.coluna;</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>return<sp/>(*e).jogadas[jogada].jogador2.linha;</highlight></codeline>
 <codeline lineno="14"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
@@ -323,6 +323,6 @@
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>c;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="Camadas/dados/acessar_estado.c"/>
+    <location file="LA1PL2G1/Camadas/dados/acessar_estado.c"/>
   </compounddef>
 </doxygen>

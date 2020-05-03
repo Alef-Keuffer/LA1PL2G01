@@ -3,13 +3,13 @@
   <compounddef id="io_8h" kind="file" language="C++">
     <compoundname>io.h</compoundname>
     <includes local="no">stdio.h</includes>
-    <includes refid="dados_8h" local="yes">Camadas/dados/dados.h</includes>
+    <includes refid="_camadas_2dados_2dados_8h" local="yes">Camadas/dados/dados.h</includes>
     <includes refid="logica_8h" local="yes">Camadas/logica/logica.h</includes>
     <includes refid="auxiliares_8h" local="yes">Camadas/logica/auxiliares.h</includes>
-    <includedby refid="logica_8h" local="yes">Camadas/logica/logica.h</includedby>
-    <includedby refid="interface_8h" local="yes">Camadas/interface/interface.h</includedby>
-    <includedby refid="io_8c" local="yes">Camadas/interface/io.c</includedby>
-    <includedby refid="test__simple__commands_8c" local="yes">Camadas/testes/test_simple_commands.c</includedby>
+    <includedby refid="interface_8h" local="yes">LA1PL2G1/Camadas/interface/interface.h</includedby>
+    <includedby refid="io_8c" local="yes">LA1PL2G1/Camadas/interface/io.c</includedby>
+    <includedby refid="logica_8h" local="yes">LA1PL2G1/Camadas/logica/logica.h</includedby>
+    <includedby refid="test__simple__commands_8c" local="yes">LA1PL2G1/Camadas/testes/test_simple_commands.c</includedby>
     <incdepgraph>
       <node id="12">
         <label>auxiliares.h</label>
@@ -53,7 +53,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>Camadas/interface/io.h</label>
+        <label>LA1PL2G1/Camadas/interface/io.h</label>
         <link refid="io_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -85,7 +85,7 @@
       </node>
       <node id="3">
         <label>Camadas/dados/dados.h</label>
-        <link refid="dados_8h"/>
+        <link refid="_camadas_2dados_2dados_8h"/>
       </node>
       <node id="9">
         <label>Camadas/dados/acessar_estado.h</label>
@@ -110,82 +110,82 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="8">
-        <label>Camadas/logica/auxiliares.c</label>
+      <node id="6">
+        <label>LA1PL2G1/Camadas/logica/auxiliares.c</label>
         <link refid="auxiliares_8c"/>
       </node>
-      <node id="7">
-        <label>Camadas/logica/auxiliares.h</label>
+      <node id="5">
+        <label>LA1PL2G1/Camadas/logica/auxiliares.h</label>
         <link refid="auxiliares_8h"/>
         <childnode refid="1" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>LA1PL2G1/Camadas/logica/logica.c</label>
+        <link refid="logica_8c"/>
+      </node>
+      <node id="4">
+        <label>LA1PL2G1/Camadas/logica/logica.h</label>
+        <link refid="logica_8h"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>LA1PL2G1/Camadas/interface/io.c</label>
+        <link refid="io_8c"/>
+      </node>
+      <node id="1">
+        <label>LA1PL2G1/Camadas/interface/io.h</label>
+        <link refid="io_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="9">
-        <label>Camadas/logica/logica.c</label>
-        <link refid="logica_8c"/>
+        <label>LA1PL2G1/Camadas/testes/test_simple_interface.c</label>
+        <link refid="test__simple__interface_8c"/>
+      </node>
+      <node id="3">
+        <label>LA1PL2G1/Camadas/interface/interface.c</label>
+        <link refid="interface_8c"/>
       </node>
       <node id="2">
-        <label>Camadas/logica/logica.h</label>
-        <link refid="logica_8h"/>
+        <label>LA1PL2G1/Camadas/interface/interface.h</label>
+        <link refid="interface_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="1" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
       </node>
-      <node id="11">
-        <label>Camadas/interface/io.c</label>
-        <link refid="io_8c"/>
-      </node>
-      <node id="1">
-        <label>Camadas/interface/io.h</label>
-        <link refid="io_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>Camadas/testes/test_simple_interface.c</label>
-        <link refid="test__simple__interface_8c"/>
-      </node>
-      <node id="4">
-        <label>Camadas/interface/interface.c</label>
-        <link refid="interface_8c"/>
-      </node>
-      <node id="3">
-        <label>Camadas/interface/interface.h</label>
-        <link refid="interface_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>Camadas/testes/test_simple_commands.c</label>
+      <node id="8">
+        <label>LA1PL2G1/Camadas/testes/test_simple_commands.c</label>
         <link refid="test__simple__commands_8c"/>
       </node>
-      <node id="6">
-        <label>main.c</label>
+      <node id="10">
+        <label>LA1PL2G1/main.c</label>
         <link refid="main_8c"/>
       </node>
     </invincdepgraph>
@@ -204,12 +204,31 @@
           <declname>file_path</declname>
         </param>
         <briefdescription>
+<para>Função deve gravar em um ficheiro o tabuleiro com as jogadas. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o nome do ficheiro </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/interface/io.h" line="8" column="6" bodyfile="Camadas/interface/io.c" bodystart="3" bodyend="10" declfile="Camadas/interface/io.h" declline="8" declcolumn="6"/>
+        <location file="LA1PL2G1/Camadas/interface/io.h" line="12" column="6" bodyfile="LA1PL2G1/bot/ioBot.c" bodystart="3" bodyend="10" declfile="LA1PL2G1/Camadas/interface/io.h" declline="12" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="io_8h_1ab184b82fd763449103d10b56b797c537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -225,12 +244,31 @@
           <declname>filename</declname>
         </param>
         <briefdescription>
+<para>Função deve ler o ficheiro de um tabuleiro. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o nome do ficheiro </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/interface/io.h" line="9" column="6" bodyfile="Camadas/interface/io.c" bodystart="12" bodyend="41" declfile="Camadas/interface/io.h" declline="9" declcolumn="6"/>
+        <location file="LA1PL2G1/Camadas/interface/io.h" line="18" column="6" bodyfile="LA1PL2G1/bot/ioBot.c" bodystart="12" bodyend="41" declfile="LA1PL2G1/Camadas/interface/io.h" declline="18" declcolumn="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -241,15 +279,16 @@
 <codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>RASTROS_IO_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RASTROS_IO_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dados_8h" kindref="compound">Camadas/dados/dados.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_camadas_2dados_2dados_8h" kindref="compound">Camadas/dados/dados.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="logica_8h" kindref="compound">Camadas/logica/logica.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="auxiliares_8h" kindref="compound">Camadas/logica/auxiliares.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="io_8h_1a23a23b7826b87285db7e15c4bdbd7897" kindref="member">gr</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_path);</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="io_8h_1ab184b82fd763449103d10b56b797c537" kindref="member">ler</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//RASTROS_IO_H</highlight></codeline>
+<codeline lineno="12"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="io_8h_1a23a23b7826b87285db7e15c4bdbd7897" kindref="member">gr</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_path);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="io_8h_1ab184b82fd763449103d10b56b797c537" kindref="member">ler</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//RASTROS_IO_H</highlight></codeline>
     </programlisting>
-    <location file="Camadas/interface/io.h"/>
+    <location file="LA1PL2G1/Camadas/interface/io.h"/>
   </compounddef>
 </doxygen>

@@ -12,6 +12,6 @@
 <codeline lineno="3"><highlight class="normal">--<sp/>Generating<sp/>done</highlight></codeline>
 <codeline lineno="4"><highlight class="normal">--<sp/>Build<sp/>files<sp/>have<sp/>been<sp/>written<sp/>to:<sp/>C:/Users/alefk/Documents/LA1PL2G1/cmake-build-debug</highlight></codeline>
     </programlisting>
-    <location file="cmake-build-debug/CMakeFiles/clion-log.txt"/>
+    <location file="LA1PL2G1/cmake-build-debug/CMakeFiles/clion-log.txt"/>
   </compounddef>
 </doxygen>

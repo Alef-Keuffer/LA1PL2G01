@@ -67,7 +67,15 @@ void armazenar_jogador(ESTADO *e, int num_jogadas);
 void armazenar_num_jogadas(ESTADO *e, int num);
 
 void limpar_casas(ESTADO *e, int num);
+
+/// Coloca uma peça branca em uma coordenada do tabuleiro.
+/// @ingroup subAlpha1
+/// É utilizada em funções que voltam jogada no tabuleiro.
+/// \param e é o estado do tabuleiro
+/// \param c é a coordenada em que será colocada a peça branca.
 void colocar_branca(ESTADO *e, COORDENADA c);
+
+
 void novo_num_jogadas(ESTADO *e, int num);
 void branca_para_vazia(ESTADO *e);
 void nova_ultjogada(ESTADO *e);

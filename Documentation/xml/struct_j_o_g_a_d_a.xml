@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
   <compounddef id="struct_j_o_g_a_d_a" kind="struct" language="C++" prot="public">
     <compoundname>JOGADA</compoundname>
-    <includes refid="dados_8h" local="no">dados.h</includes>
+    <includes refid="bot_2dados_8h" local="no">dados.h</includes>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="struct_j_o_g_a_d_a_1aad7d21d5a8e288caf7e90f717066aa09" prot="public" static="no" mutable="no">
         <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/dados.h" line="28" column="16" bodyfile="Camadas/dados/dados.h" bodystart="28" bodyend="-1"/>
+        <location file="LA1PL2G1/bot/dados.h" line="21" column="16" bodyfile="LA1PL2G1/bot/dados.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_j_o_g_a_d_a_1a3dc122c89c610e66c84c57e574e2fdc0" prot="public" static="no" mutable="no">
         <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/dados.h" line="29" column="16" bodyfile="Camadas/dados/dados.h" bodystart="29" bodyend="-1"/>
+        <location file="LA1PL2G1/bot/dados.h" line="22" column="16" bodyfile="LA1PL2G1/bot/dados.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -49,7 +49,7 @@
         <link refid="struct_c_o_o_r_d_e_n_a_d_a"/>
       </node>
     </collaborationgraph>
-    <location file="Camadas/dados/dados.h" line="27" column="15" bodyfile="Camadas/dados/dados.h" bodystart="27" bodyend="30"/>
+    <location file="LA1PL2G1/bot/dados.h" line="20" column="15" bodyfile="LA1PL2G1/bot/dados.h" bodystart="20" bodyend="23"/>
     <listofallmembers>
       <member refid="struct_j_o_g_a_d_a_1aad7d21d5a8e288caf7e90f717066aa09" prot="public" virt="non-virtual"><scope>JOGADA</scope><name>jogador1</name></member>
       <member refid="struct_j_o_g_a_d_a_1a3dc122c89c610e66c84c57e574e2fdc0" prot="public" virt="non-virtual"><scope>JOGADA</scope><name>jogador2</name></member>

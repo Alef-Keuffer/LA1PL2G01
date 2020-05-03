@@ -24,7 +24,7 @@
         <label>string.h</label>
       </node>
       <node id="1">
-        <label>mainlista.c</label>
+        <label>LA1PL2G1/mainlista.c</label>
         <link refid="mainlista_8c"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="mainlista.c" line="5" column="13" bodyfile="mainlista.c" bodystart="5" bodyend="-1"/>
+        <location file="LA1PL2G1/mainlista.c" line="5" column="13" bodyfile="LA1PL2G1/mainlista.c" bodystart="5" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="mainlista.c" line="7" column="5" bodyfile="mainlista.c" bodystart="7" bodyend="43"/>
+        <location file="LA1PL2G1/mainlista.c" line="7" column="5" bodyfile="LA1PL2G1/mainlista.c" bodystart="7" bodyend="43"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -116,6 +116,6 @@
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="mainlista.c"/>
+    <location file="LA1PL2G1/mainlista.c"/>
   </compounddef>
 </doxygen>

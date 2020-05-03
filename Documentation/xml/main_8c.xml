@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
   <compounddef id="main_8c" kind="file" language="C++">
     <compoundname>main.c</compoundname>
-    <includes refid="dados_8h" local="yes">Camadas/dados/dados.h</includes>
+    <includes refid="_camadas_2dados_2dados_8h" local="yes">Camadas/dados/dados.h</includes>
     <includes refid="interface_8h" local="yes">Camadas/interface/interface.h</includes>
     <includes refid="test__simple__commands_8h" local="no">Camadas/testes/test_simple_commands.h</includes>
     <incdepgraph>
@@ -84,7 +84,7 @@
       </node>
       <node id="2">
         <label>Camadas/dados/dados.h</label>
-        <link refid="dados_8h"/>
+        <link refid="_camadas_2dados_2dados_8h"/>
       </node>
       <node id="11">
         <label>Camadas/dados/acessar_estado.h</label>
@@ -108,7 +108,7 @@
         <label>stdio.h</label>
       </node>
       <node id="1">
-        <label>main.c</label>
+        <label>LA1PL2G1/main.c</label>
         <link refid="main_8c"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="main.c" line="4" column="5" bodyfile="main.c" bodystart="4" bodyend="10"/>
+        <location file="LA1PL2G1/main.c" line="4" column="5" bodyfile="LA1PL2G1/main.c" bodystart="4" bodyend="10"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -138,17 +138,17 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dados_8h" kindref="compound">Camadas/dados/dados.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_camadas_2dados_2dados_8h" kindref="compound">Camadas/dados/dados.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="interface_8h" kindref="compound">Camadas/interface/interface.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="test__simple__commands_8h" kindref="compound">Camadas/testes/test_simple_commands.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="bot_2main_8c_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref>()<sp/>{</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="test__simple__commands_8c_1a35964b02516b1842f56dda061b5e234f" kindref="member">test_simple_commands</ref>();</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_comandos<sp/>=<sp/>0,<sp/>state<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e<sp/>=<sp/><ref refid="group__sub_alpha3_1ga7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>();</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="interface_8c_1adcd0ed74fee6ab3cae6d67e5ddadb270" kindref="member">interpretador</ref>(e,<sp/>num_comandos,<sp/>state);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub1_alpha1_1gadcd0ed74fee6ab3cae6d67e5ddadb270" kindref="member">interpretador</ref>(e,<sp/>num_comandos,<sp/>state);</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
 <codeline lineno="10"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="main.c"/>
+    <location file="LA1PL2G1/main.c"/>
   </compounddef>
 </doxygen>

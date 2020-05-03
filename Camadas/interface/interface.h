@@ -1,5 +1,5 @@
 /// @defgroup groupAlpha1 Interface
-/// @defgroup sub1Alpha1 Inteface
+/// @defgroup sub1Alpha1 Interface
 /// @ingroup groupAlpha1
 /// @defgroup sub2Alpha1 IO
 /// @ingroup groupAlpha1
@@ -20,9 +20,30 @@
 /// \param jog é o contador para o número do jogador atual
 /// \param num é o contador para o número da jogada atual
 void imprimir_prompt(int num_comandos, int jog, int num);
+
+/// Deve imprimir uma mensagem quando o jogo acaba
+/// \ingroup sub1Alpha1
+/// Além disso, a mesagem declara qual jogador venceu.
+/// \param e é o estado do tabuleiro
 void mensagem_fimdejogo(ESTADO *e);
+
+/// Deve iniciar um interpretador de comandos.
+/// \ingroup sub1Alpha1
+/// Por meio de if scanf comparamos o input com os comandos programados.
+/// \param e é o estado do tabuleiro em que os comandos executados serão executados.
+/// \param num_comandos funciona como um contador para o número de comandos válidos executados.
+/// \param state ...
+/// \return ...
 int interpretador(ESTADO *e, int num_comandos, int state);
+
+/// Imprime char em ficheiro ou no ecrã
+/// @ingroup sub1Alpha1
+/// Se o filepointer for NULL o char será impresso no ecrã.
+/// \param c é o número que equivale ao chatacter desejado.
+/// \param file é o ficheiro em que serã colocado o character (caso o filepointer !=NULL)
 void imprimir_char(int c, FILE *file);
+
+
 void imprime_movs1(FILE *file, int i, int c1, int r1, int c2, int r2);
 void imprime_movs2(FILE *file, int i, int c1, int r1);
 

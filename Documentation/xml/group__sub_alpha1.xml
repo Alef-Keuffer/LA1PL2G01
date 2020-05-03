@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/modificar_estado.h" line="10" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="3" bodyend="6" declfile="Camadas/dados/modificar_estado.h" declline="10" declcolumn="6"/>
+        <location file="LA1PL2G1/Camadas/dados/modificar_estado.h" line="10" column="6" bodyfile="LA1PL2G1/bot/modificar_estadoBot.c" bodystart="3" bodyend="6" declfile="LA1PL2G1/Camadas/dados/modificar_estado.h" declline="10" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha1_1gaebf2419cf55feca531ac70958169e398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/modificar_estado.h" line="17" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="7" bodyend="9" declfile="Camadas/dados/modificar_estado.h" declline="17" declcolumn="6"/>
+        <location file="LA1PL2G1/Camadas/dados/modificar_estado.h" line="17" column="6" bodyfile="LA1PL2G1/bot/modificar_estadoBot.c" bodystart="7" bodyend="9" declfile="LA1PL2G1/Camadas/dados/modificar_estado.h" declline="17" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha1_1ga75ab770a26c3ee2a5bc4758d7c625c97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/modificar_estado.h" line="23" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="10" bodyend="12" declfile="Camadas/dados/modificar_estado.h" declline="23" declcolumn="6"/>
+        <location file="LA1PL2G1/Camadas/dados/modificar_estado.h" line="23" column="6" bodyfile="LA1PL2G1/bot/modificar_estadoBot.c" bodystart="10" bodyend="12" declfile="LA1PL2G1/Camadas/dados/modificar_estado.h" declline="23" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha1_1ga63bad4a4c76df6c152ef23210eeb5cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/modificar_estado.h" line="29" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="17" bodyend="20" declfile="Camadas/dados/modificar_estado.h" declline="29" declcolumn="6"/>
+        <location file="LA1PL2G1/Camadas/dados/modificar_estado.h" line="29" column="6" bodyfile="LA1PL2G1/bot/modificar_estadoBot.c" bodystart="17" bodyend="20" declfile="LA1PL2G1/Camadas/dados/modificar_estado.h" declline="29" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha1_1ga0ee843b08fd54f63fb85b3f9d376d328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/modificar_estado.h" line="36" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="13" bodyend="16" declfile="Camadas/dados/modificar_estado.h" declline="36" declcolumn="6"/>
+        <location file="LA1PL2G1/Camadas/dados/modificar_estado.h" line="36" column="6" bodyfile="LA1PL2G1/bot/modificar_estadoBot.c" bodystart="13" bodyend="16" declfile="LA1PL2G1/Camadas/dados/modificar_estado.h" declline="36" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha1_1ga6651cdac009bec76f77dacafed099b49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/modificar_estado.h" line="45" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="22" bodyend="24" declfile="Camadas/dados/modificar_estado.h" declline="45" declcolumn="6"/>
+        <location file="LA1PL2G1/Camadas/dados/modificar_estado.h" line="45" column="6" bodyfile="LA1PL2G1/bot/modificar_estadoBot.c" bodystart="22" bodyend="24" declfile="LA1PL2G1/Camadas/dados/modificar_estado.h" declline="45" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha1_1gac4765d785b89565edc1e376a9263a644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -294,7 +294,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/modificar_estado.h" line="53" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="26" bodyend="28" declfile="Camadas/dados/modificar_estado.h" declline="53" declcolumn="6"/>
+        <location file="LA1PL2G1/Camadas/dados/modificar_estado.h" line="53" column="6" bodyfile="LA1PL2G1/bot/modificar_estadoBot.c" bodystart="26" bodyend="28" declfile="LA1PL2G1/Camadas/dados/modificar_estado.h" declline="53" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha1_1ga57b5b121c3fbc5f4957459edb5870106" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -334,7 +334,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/modificar_estado.h" line="60" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="30" bodyend="33" declfile="Camadas/dados/modificar_estado.h" declline="60" declcolumn="6"/>
+        <location file="LA1PL2G1/Camadas/dados/modificar_estado.h" line="60" column="6" bodyfile="LA1PL2G1/bot/modificar_estadoBot.c" bodystart="30" bodyend="33" declfile="LA1PL2G1/Camadas/dados/modificar_estado.h" declline="60" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha1_1ga94991a9b91ee973d95184163f299048b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -374,7 +374,47 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Camadas/dados/modificar_estado.h" line="67" column="6" bodyfile="Camadas/dados/modificar_estado.c" bodystart="35" bodyend="37" declfile="Camadas/dados/modificar_estado.h" declline="67" declcolumn="6"/>
+        <location file="LA1PL2G1/Camadas/dados/modificar_estado.h" line="67" column="6" bodyfile="LA1PL2G1/Camadas/dados/modificar_estado.c" bodystart="35" bodyend="37" declfile="LA1PL2G1/Camadas/dados/modificar_estado.h" declline="67" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub_alpha1_1ga300f4b3aa4522aaafb5352d55e9979da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void colocar_branca</definition>
+        <argsstring>(ESTADO *e, COORDENADA c)</argsstring>
+        <name>colocar_branca</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Coloca uma peça branca em uma coordenada do tabuleiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>É utilizada em funções que voltam jogada no tabuleiro. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é a coordenada em que será colocada a peça branca. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/Camadas/dados/modificar_estado.h" line="76" column="6" bodyfile="LA1PL2G1/bot/modificar_estadoBot.c" bodystart="35" bodyend="37" declfile="LA1PL2G1/Camadas/dados/modificar_estado.h" declline="76" declcolumn="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

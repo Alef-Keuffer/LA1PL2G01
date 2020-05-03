@@ -1,5 +1,5 @@
-\hypertarget{logica_8h}{}\doxysection{Camadas/logica/logica.h File Reference}
-\label{logica_8h}\index{Camadas/logica/logica.h@{Camadas/logica/logica.h}}
+\hypertarget{logica_8h}{}\doxysection{L\+A1\+P\+L2\+G1/\+Camadas/logica/logica.h File Reference}
+\label{logica_8h}\index{LA1PL2G1/Camadas/logica/logica.h@{LA1PL2G1/Camadas/logica/logica.h}}
 {\ttfamily \#include $<$stdio.\+h$>$}\newline
 {\ttfamily \#include $<$math.\+h$>$}\newline
 {\ttfamily \#include $<$stdlib.\+h$>$}\newline
@@ -18,79 +18,22 @@ void \mbox{\hyperlink{group__sub1_alpha2_ga4e68d436fd02312dbf25a0876e6fcc29}{jog
 \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{group__sub1_alpha2_gab1160bacb55fe9977b2a60e615c2e627}{jogada\+\_\+valida}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} c)
 \begin{DoxyCompactList}\small\item\em Avalia se a coordenada recebida corresponde a um movimento válido. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{group__sub1_alpha2_ga33aa2b1fccaee5b1c1707d92f6ddc6f7}{mostrar\+\_\+tabuleiro}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, F\+I\+LE $\ast$file)
-\begin{DoxyCompactList}\small\item\em Essa função é usada para imprimir o tabuleiro, seja no ecrã ou em um fiheiro para ser salvo. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{logica_8h_afb7d37204f937c5a75d647c6537ef22a}{prompt}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} num\+\_\+comandos)
-\item 
-\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{logica_8h_a9a0ae8b2e0ca2ed4b5fdd4145a742791}{fim\+\_\+de\+\_\+jogo}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
-\item 
-void \mbox{\hyperlink{logica_8h_a8a79a457a813dff34cfcdd48ac2c941c}{pos}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} position, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} state)
-\item 
-void \mbox{\hyperlink{logica_8h_a893b15b1044151de83eb9b01817dcdc0}{movs}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, F\+I\+LE $\ast$file)
-\item 
-\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{logica_8h_ab39d4dc63e6d2693c1db926f53cba16d}{desfazer\+\_\+ultjogada}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
-\item 
-\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{logica_8h_a85768460d2d874c166cfdfb78c21b5aa}{min\+Max}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} profundidade)
-\item 
-\mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} \mbox{\hyperlink{logica_8h_a636e9e396c3d409d5f71bf3020268d0b}{random\+Jog}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
-\item 
-void \mbox{\hyperlink{logica_8h_a9dfbc982d23a619e36575d8e7ec8e41c}{jog}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
-\item 
-void \mbox{\hyperlink{logica_8h_a75a3c6feb2f2ec713f96559558b136d0}{jog2}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
-\end{DoxyCompactItemize}
-
-
-\doxysubsection{Function Documentation}
-\mbox{\Hypertarget{logica_8h_ab39d4dc63e6d2693c1db926f53cba16d}\label{logica_8h_ab39d4dc63e6d2693c1db926f53cba16d}} 
-\index{logica.h@{logica.h}!desfazer\_ultjogada@{desfazer\_ultjogada}}
-\index{desfazer\_ultjogada@{desfazer\_ultjogada}!logica.h@{logica.h}}
-\doxysubsubsection{\texorpdfstring{desfazer\_ultjogada()}{desfazer\_ultjogada()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} desfazer\+\_\+ultjogada (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
-
-\mbox{\Hypertarget{logica_8h_a9a0ae8b2e0ca2ed4b5fdd4145a742791}\label{logica_8h_a9a0ae8b2e0ca2ed4b5fdd4145a742791}} 
-\index{logica.h@{logica.h}!fim\_de\_jogo@{fim\_de\_jogo}}
-\index{fim\_de\_jogo@{fim\_de\_jogo}!logica.h@{logica.h}}
-\doxysubsubsection{\texorpdfstring{fim\_de\_jogo()}{fim\_de\_jogo()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} fim\+\_\+de\+\_\+jogo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
-
-\mbox{\Hypertarget{logica_8h_a9dfbc982d23a619e36575d8e7ec8e41c}\label{logica_8h_a9dfbc982d23a619e36575d8e7ec8e41c}} 
-\index{logica.h@{logica.h}!jog@{jog}}
-\index{jog@{jog}!logica.h@{logica.h}}
-\doxysubsubsection{\texorpdfstring{jog()}{jog()}}
-{\footnotesize\ttfamily void jog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
-
-\mbox{\Hypertarget{logica_8h_a75a3c6feb2f2ec713f96559558b136d0}\label{logica_8h_a75a3c6feb2f2ec713f96559558b136d0}} 
-\index{logica.h@{logica.h}!jog2@{jog2}}
-\index{jog2@{jog2}!logica.h@{logica.h}}
-\doxysubsubsection{\texorpdfstring{jog2()}{jog2()}}
-{\footnotesize\ttfamily void jog2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
-
-\mbox{\Hypertarget{logica_8h_a85768460d2d874c166cfdfb78c21b5aa}\label{logica_8h_a85768460d2d874c166cfdfb78c21b5aa}} 
-\index{logica.h@{logica.h}!minMax@{minMax}}
-\index{minMax@{minMax}!logica.h@{logica.h}}
-\doxysubsubsection{\texorpdfstring{minMax()}{minMax()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} min\+Max (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{profundidade }\end{DoxyParamCaption})}
-
-\mbox{\Hypertarget{logica_8h_a893b15b1044151de83eb9b01817dcdc0}\label{logica_8h_a893b15b1044151de83eb9b01817dcdc0}} 
-\index{logica.h@{logica.h}!movs@{movs}}
-\index{movs@{movs}!logica.h@{logica.h}}
-\doxysubsubsection{\texorpdfstring{movs()}{movs()}}
-{\footnotesize\ttfamily void movs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{F\+I\+LE $\ast$}]{file }\end{DoxyParamCaption})}
-
-\mbox{\Hypertarget{logica_8h_a8a79a457a813dff34cfcdd48ac2c941c}\label{logica_8h_a8a79a457a813dff34cfcdd48ac2c941c}} 
-\index{logica.h@{logica.h}!pos@{pos}}
-\index{pos@{pos}!logica.h@{logica.h}}
-\doxysubsubsection{\texorpdfstring{pos()}{pos()}}
-{\footnotesize\ttfamily void pos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{position,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{state }\end{DoxyParamCaption})}
-
-\mbox{\Hypertarget{logica_8h_afb7d37204f937c5a75d647c6537ef22a}\label{logica_8h_afb7d37204f937c5a75d647c6537ef22a}} 
-\index{logica.h@{logica.h}!prompt@{prompt}}
-\index{prompt@{prompt}!logica.h@{logica.h}}
-\doxysubsubsection{\texorpdfstring{prompt()}{prompt()}}
-{\footnotesize\ttfamily void prompt (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{num\+\_\+comandos }\end{DoxyParamCaption})}
-
-\mbox{\Hypertarget{logica_8h_a636e9e396c3d409d5f71bf3020268d0b}\label{logica_8h_a636e9e396c3d409d5f71bf3020268d0b}} 
-\index{logica.h@{logica.h}!randomJog@{randomJog}}
-\index{randomJog@{randomJog}!logica.h@{logica.h}}
-\doxysubsubsection{\texorpdfstring{randomJog()}{randomJog()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} random\+Jog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
-
+\begin{DoxyCompactList}\small\item\em Essa função é usada para imprimir o tabuleiro, seja no ecrã ou em um ficheiro para ser salvo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__sub1_alpha2_gafb7d37204f937c5a75d647c6537ef22a}{prompt}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} num\+\_\+comandos)
+\begin{DoxyCompactList}\small\item\em Função usada para gerar os argumentos a serem impressos como prompt. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{group__sub1_alpha2_ga9a0ae8b2e0ca2ed4b5fdd4145a742791}{fim\+\_\+de\+\_\+jogo}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Avalia os fins de jogos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__sub1_alpha2_ga8a79a457a813dff34cfcdd48ac2c941c}{pos}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} position, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} state)
+\begin{DoxyCompactList}\small\item\em Permite aceder jogadas anteriores do jogo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__sub1_alpha2_ga893b15b1044151de83eb9b01817dcdc0}{movs}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, F\+I\+LE $\ast$file)
+\begin{DoxyCompactList}\small\item\em Lógica para imprimir a lista de jogadas, tanto no ecrã quanto num ficheiro. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{group__sub1_alpha2_gab39d4dc63e6d2693c1db926f53cba16d}{desfazer\+\_\+ultjogada}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Desfaz a última jogada -- função auxiliar para o comando jog. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{group__sub1_alpha2_ga85768460d2d874c166cfdfb78c21b5aa}{min\+Max}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} profundidade)
+\begin{DoxyCompactList}\small\item\em Lógica do Min\+Max, para realizar uma jogada sozinho. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} \mbox{\hyperlink{group__sub1_alpha2_ga636e9e396c3d409d5f71bf3020268d0b}{random\+Jog}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Devolve uma coordenada aleatória dentre as jogadas possíveis. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__sub1_alpha2_ga9dfbc982d23a619e36575d8e7ec8e41c}{jog}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Joga na coordenada devolvida pelo min\+Max. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__sub1_alpha2_ga75a3c6feb2f2ec713f96559558b136d0}{jog2}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Joga na coordenada devolvida pelo random\+Jog. \end{DoxyCompactList}\end{DoxyCompactItemize}

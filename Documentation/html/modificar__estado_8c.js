@@ -10,7 +10,7 @@ var modificar__estado_8c =
     [ "atualizar_tab", "group__sub_alpha1.html#ga4069ee1a3c9975d368b648b5fbff1c5c", null ],
     [ "atualizar_ultima_jogada", "group__sub_alpha1.html#gaebf2419cf55feca531ac70958169e398", null ],
     [ "branca_para_vazia", "modificar__estado_8c.html#a82e1af1f85e70a85fd135884853b818e", null ],
-    [ "colocar_branca", "modificar__estado_8c.html#a300f4b3aa4522aaafb5352d55e9979da", null ],
+    [ "colocar_branca", "group__sub_alpha1.html#ga300f4b3aa4522aaafb5352d55e9979da", null ],
     [ "limpar_casas", "modificar__estado_8c.html#a93688e7a4c41ec22376045924a90fab0", null ],
     [ "modificar_numjogadas", "modificar__estado_8c.html#a8eaf691dc7ba2309966cb8a095c6a3bf", null ],
     [ "nova_ultjogada", "modificar__estado_8c.html#a94259f2b53573c4f1ad12be8e6ca1c10", null ],
