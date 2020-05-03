@@ -85,20 +85,20 @@ Criou-se, então, a nova definição dessa função, que lê e armazena no tabul
 
 |    História    |    Tarefas    |  Status/Obs.  |
 |  ---  |  ---  |  ---  |
-|    Documentação    |  Verificar se todas as estruturas de dados e Macros estão documentadas.  |    |
+|    Documentação    |  Verificar se todas as estruturas de dados e Macros estão documentadas.  |  ✅  |
 |    |    |    |
-|  Modularidade e legibilidade  |  Funções que caibam no ecrã.  |    |
-|    |  Funçnoes aux com nome sugestivo.  |    |
-|    |  NÃO aceder diretamente o módulo dados.  |    |
-|    |  Estrutura em módulos estanques.  |    |
-|    |  NÃO utilizar variaveis globais.  |    |
-|    |  NÃO misturar a camada interface com o resto.  |    |
-|    |  NÃO misturar a camada dados com o resto.  |    |
+|  Modularidade e legibilidade  |  Funções que caibam no ecrã.  |  ✅  |
+|    |  Funçnoes aux com nome sugestivo.  |  ✅  |
+|    |  NÃO aceder diretamente o módulo dados.  |  ✅  |
+|    |  Estrutura em módulos estanques.  |  ✅  |
+|    |  NÃO utilizar variaveis globais.  |  ✅  |
+|    |  NÃO misturar a camada interface com o resto.  |  ✅  |
+|    |  NÃO misturar a camada dados com o resto.  |  ✅  |
 |    |    |    |
-|  Deteção dos fins de jogo  |  O projeto deverá detetar todas as instâncias de fim de jogo.  |    |
+|  Deteção dos fins de jogo  |  O projeto deverá detetar todas as instâncias de fim de jogo.  |  ✅  |
 |    |    |    |
-|  Compilar sem warnings  |  Compilar sem warnings com o comando: -std=gnu11 -Wall -Wextra -pedantic-errors -O no gcc.  |    |
+|  Compilar sem warnings  |  Compilar sem warnings com o comando: -std=gnu11 -Wall -Wextra -pedantic-errors -O no gcc.  |  ✅  |
 |    |    |    |
-|  Bot  |  Entrega do Bot finalizado através da BB.  |
+|  Bot  |  Entrega do Bot finalizado através da BB.  |  ✅  |
 |    |    |
-|  Projeto  |  Entrega do Projeto finalizado através da BB com a seguinte definição: la1PL2G01.zip.  |
+|  Projeto  |  Entrega do Projeto finalizado através da BB com a seguinte definição: la1PL2G01.zip.  |  ✅  |
