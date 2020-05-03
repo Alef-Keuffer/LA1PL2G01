@@ -314,7 +314,7 @@
 <parametername>state</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>... </para>
+<para>usada por pos para indicar se será gravado um ficheiropos ou se será lido esse ficheiro. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -366,7 +366,7 @@
         </inbodydescription>
         <location file="LA1PL2G1/Camadas/interface/interface.h" line="44" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="7" bodyend="10" declfile="LA1PL2G1/Camadas/interface/interface.h" declline="44" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="interface_8h_1a805702ffaf6ccf788b5819f4c8bd5029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group___camada_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void imprime_movs1</definition>
         <argsstring>(FILE *file, int i, int c1, int r1, int c2, int r2)</argsstring>
@@ -403,7 +403,7 @@
         </inbodydescription>
         <location file="LA1PL2G1/Camadas/interface/interface.h" line="47" column="6" bodyfile="LA1PL2G1/bot/interfaceBot.c" bodystart="12" bodyend="15" declfile="LA1PL2G1/Camadas/interface/interface.h" declline="47" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="interface_8h_1af20e0f95f5d99e3d0dbf4df0ad6518e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group___camada_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void imprime_movs2</definition>
         <argsstring>(FILE *file, int i, int c1, int r1)</argsstring>
@@ -448,7 +448,7 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="logica_8h" kindref="compound">Camadas/logica/logica.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="io_8h" kindref="compound">Camadas/interface/io.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub1_alpha1_1gaa8380036eb143858dab4bfad8b780adc" kindref="member">imprimir_prompt</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_comandos,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__sub1_alpha2_1ga9dfbc982d23a619e36575d8e7ec8e41c" kindref="member">jog</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num);</highlight></codeline>
+<codeline lineno="22"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub1_alpha1_1gaa8380036eb143858dab4bfad8b780adc" kindref="member">imprimir_prompt</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_comandos,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group___modulo_logica_1ga9dfbc982d23a619e36575d8e7ec8e41c" kindref="member">jog</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num);</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub1_alpha1_1gaa667396d13cd8ece035aad8ce0d8dafa" kindref="member">mensagem_fimdejogo</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
@@ -457,8 +457,8 @@
 <codeline lineno="44"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub1_alpha1_1gad0fb7f53028d4e76c9703fa4f7f82cbd" kindref="member">imprimir_char</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c,<sp/>FILE<sp/>*file);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_8h_1a805702ffaf6ccf788b5819f4c8bd5029" kindref="member">imprime_movs1</ref>(FILE<sp/>*file,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r2);</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_8h_1af20e0f95f5d99e3d0dbf4df0ad6518e3" kindref="member">imprime_movs2</ref>(FILE<sp/>*file,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r1);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___camada_interface_1ga805702ffaf6ccf788b5819f4c8bd5029" kindref="member">imprime_movs1</ref>(FILE<sp/>*file,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r2);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___camada_interface_1gaf20e0f95f5d99e3d0dbf4df0ad6518e3" kindref="member">imprime_movs2</ref>(FILE<sp/>*file,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r1);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//RASTROS_INTERFACE_H</highlight></codeline>
     </programlisting>

@@ -32,6 +32,7 @@ typedef struct {
     int jogador_atual;
 } ESTADO;
 
+/// @ingroup ModuloDados
 ESTADO *inicializar_estado();
 
 #endif //RASTROS_DADOS_H

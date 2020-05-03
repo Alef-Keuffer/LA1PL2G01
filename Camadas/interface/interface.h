@@ -32,7 +32,7 @@ void mensagem_fimdejogo(ESTADO *e);
 /// Por meio de if scanf comparamos o input com os comandos programados.
 /// \param e é o estado do tabuleiro em que os comandos executados serão executados.
 /// \param num_comandos funciona como um contador para o número de comandos válidos executados.
-/// \param state ...
+/// \param state usada por pos para indicar se será gravado um ficheiropos ou se será lido esse ficheiro.
 /// \return ...
 int interpretador(ESTADO *e, int num_comandos, int state);
 

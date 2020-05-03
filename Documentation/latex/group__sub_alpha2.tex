@@ -8,13 +8,13 @@
 \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{group__sub_alpha2_ga996b7cbab9689ba24980590d140ef7de}{Jogador\+Atual}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
 \begin{DoxyCompactList}\small\item\em Obtêm o número do jogador atual. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{group__sub_alpha2_ga5ba7758412b57f34f490ee46645e98cf}{obter\+\_\+subcoordenadas}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} jogada, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} jogador, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} info)
-\item 
+\begin{DoxyCompactList}\small\item\em Obtem a coordenada de uma linha ou coluna. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} \mbox{\hyperlink{group__sub_alpha2_ga8c8c063a176d50b62eed70a24b79197d}{Num\+Jogadas}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
 \begin{DoxyCompactList}\small\item\em Obtem número de jogadas feitas até o momento da execução da função. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} \mbox{\hyperlink{group__sub_alpha2_ga86f898b1ea1b15a6353dd16e9e6d78cb}{obter\+\_\+ultimajogada}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e)
-\item 
+\begin{DoxyCompactList}\small\item\em Devolve a coordenada da última jogada salva no estado do tabuleiro. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} \mbox{\hyperlink{group__sub_alpha2_gaa1acb9ab56a9997c82130721e58192ca}{obter\+\_\+coordenada}} (\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} jogada, \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} jogador)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Deve fornecer a coordenada do movimento de um jogador em uma jogada. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
@@ -86,16 +86,20 @@ o estado da casa (V\+A\+Z\+IO, UM, D\+O\+IS, P\+R\+E\+TA, B\+R\+A\+N\+CA equival
 {\footnotesize\ttfamily \mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} obter\+\_\+coordenada (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{jogada,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{jogador }\end{DoxyParamCaption})}
 
 
+
+Deve fornecer a coordenada do movimento de um jogador em uma jogada. 
+
+
 \begin{DoxyParams}{Parameters}
-{\em e} & \\
+{\em e} & é o estado do tabuleiro \\
 \hline
-{\em jogada} & \\
+{\em jogada} & especifica de qual jogada iremos buscar a coordenada \\
 \hline
-{\em jogador} & \\
+{\em jogador} & especifica de qual jogador será requisatada a coordenada. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-
+coordenada que o jogador 1 ou 2 fez em uma jogada x. 
 \end{DoxyReturn}
 \mbox{\Hypertarget{group__sub_alpha2_ga5ba7758412b57f34f490ee46645e98cf}\label{group__sub_alpha2_ga5ba7758412b57f34f490ee46645e98cf}} 
 \index{Acessar dados@{Acessar dados}!obter\_subcoordenadas@{obter\_subcoordenadas}}
@@ -104,18 +108,22 @@ o estado da casa (V\+A\+Z\+IO, UM, D\+O\+IS, P\+R\+E\+TA, B\+R\+A\+N\+CA equival
 {\footnotesize\ttfamily \mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}} obter\+\_\+subcoordenadas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{jogada,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{jogador,  }\item[{\mbox{\hyperlink{_c_make_cache_8txt_a1cb0c2afe2f6ed3001e79e875440ed60}{int}}}]{info }\end{DoxyParamCaption})}
 
 
+
+Obtem a coordenada de uma linha ou coluna. 
+
+Fornecendo o número da jogada e o número da jogado devolve a int da coluna ou linha depenendo se int info == C\+O\+L\+U\+NA 
 \begin{DoxyParams}{Parameters}
-{\em e} & \\
+{\em e} & é o estado do tabuleiro \\
 \hline
-{\em jogada} & \\
+{\em jogada} & é a jogada em questão \\
 \hline
-{\em jogador} & \\
+{\em jogador} & é o número do jogador da qual a linha ou coluna está a ser requisatada \\
 \hline
-{\em info} & \\
+{\em info} & determina se será a coluna ou linha que será devolvida. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-
+coluna ou linha 
 \end{DoxyReturn}
 \mbox{\Hypertarget{group__sub_alpha2_ga86f898b1ea1b15a6353dd16e9e6d78cb}\label{group__sub_alpha2_ga86f898b1ea1b15a6353dd16e9e6d78cb}} 
 \index{Acessar dados@{Acessar dados}!obter\_ultimajogada@{obter\_ultimajogada}}
@@ -124,10 +132,14 @@ o estado da casa (V\+A\+Z\+IO, UM, D\+O\+IS, P\+R\+E\+TA, B\+R\+A\+N\+CA equival
 {\footnotesize\ttfamily \mbox{\hyperlink{struct_c_o_o_r_d_e_n_a_d_a}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} obter\+\_\+ultimajogada (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_e_s_t_a_d_o}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
 
 
+
+Devolve a coordenada da última jogada salva no estado do tabuleiro. 
+
+
 \begin{DoxyParams}{Parameters}
-{\em e} & \\
+{\em e} & é o estado do tabuleiro \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-
+coordenada da última jogada 
 \end{DoxyReturn}

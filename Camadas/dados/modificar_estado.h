@@ -66,6 +66,10 @@ void armazenar_jogador(ESTADO *e, int num_jogadas);
 /// \param num é o número da jogada.
 void armazenar_num_jogadas(ESTADO *e, int num);
 
+/// Deve fazer as casas de um tabuleiro serem vazios baseado-se numa jogada.
+/// @ingroup subAlpha1
+/// \param e é o estado do tabuleiro
+/// \param num é o número da jogada de onde as casas a serem limpas são determinadas
 void limpar_casas(ESTADO *e, int num);
 
 /// Coloca uma peça branca em uma coordenada do tabuleiro.
@@ -75,10 +79,27 @@ void limpar_casas(ESTADO *e, int num);
 /// \param c é a coordenada em que será colocada a peça branca.
 void colocar_branca(ESTADO *e, COORDENADA c);
 
-
+/// Usanda na leitura de ficheiros, atualiza o número de jogadas para ser igual ao do ficheiro lido.
+/// @ingroup subAlpha1
+/// \param e é o estado do tabuleiro
+/// \param num é o número de movimentos feitos no ficheiro
 void novo_num_jogadas(ESTADO *e, int num);
+
+/// Faz a casa da última jogada ser vazia
+///@ingroup subAlpha1
+/// \param e é o estado do tabuleiro
 void branca_para_vazia(ESTADO *e);
+
+/// Faz a última jogada ser uma jogada antes da jogada atual
+/// @ingroup subAlpha1
+/// Usada para desfazer uma jogada
+/// \param e é o estado do tabuleiro
 void nova_ultjogada(ESTADO *e);
+
+/// Se o jogador atual for o 1 diminui em 1 o número de jogadas
+/// @ingroup subAlpha1
+/// Usada para desfazer uma jogada
+/// \param e é o estado do tabuleiro
 void modificar_numjogadas(ESTADO *e);
 
 #endif //MODIFICAR_ESTADO_H

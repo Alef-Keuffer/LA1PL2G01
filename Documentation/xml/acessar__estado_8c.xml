@@ -98,14 +98,15 @@
           <declname>info</declname>
         </param>
         <briefdescription>
+<para>Obtem a coordenada de uma linha ou coluna. </para>
         </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
+<para>Fornecendo o número da jogada e o número da jogado devolve a int da coluna ou linha depenendo se int info == COLUNA <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>e</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>é o estado do tabuleiro </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -113,7 +114,7 @@
 <parametername>jogada</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>é a jogada em questão </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -121,7 +122,7 @@
 <parametername>jogador</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>é o número do jogador da qual a linha ou coluna está a ser requisatada </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -129,11 +130,11 @@
 <parametername>info</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>determina se será a coluna ou linha que será devolvida. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para></para>
+<simplesect kind="return"><para>coluna ou linha </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -211,6 +212,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
+<para>Devolve a coordenada da última jogada salva no estado do tabuleiro. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -218,11 +220,11 @@
 <parametername>e</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>é o estado do tabuleiro </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para></para>
+<simplesect kind="return"><para>coordenada da última jogada </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -248,6 +250,7 @@
           <declname>jogador</declname>
         </param>
         <briefdescription>
+<para>Deve fornecer a coordenada do movimento de um jogador em uma jogada. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -255,7 +258,7 @@
 <parametername>e</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>é o estado do tabuleiro </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -263,7 +266,7 @@
 <parametername>jogada</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>especifica de qual jogada iremos buscar a coordenada </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -271,11 +274,11 @@
 <parametername>jogador</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>especifica de qual jogador será requisatada a coordenada. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para></para>
+<simplesect kind="return"><para>coordenada que o jogador 1 ou 2 fez em uma jogada x. </para>
 </simplesect>
 </para>
         </detaileddescription>

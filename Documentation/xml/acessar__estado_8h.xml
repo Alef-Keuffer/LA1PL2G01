@@ -219,14 +219,15 @@
           <declname>info</declname>
         </param>
         <briefdescription>
+<para>Obtem a coordenada de uma linha ou coluna. </para>
         </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
+<para>Fornecendo o número da jogada e o número da jogado devolve a int da coluna ou linha depenendo se int info == COLUNA <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>e</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>é o estado do tabuleiro </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -234,7 +235,7 @@
 <parametername>jogada</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>é a jogada em questão </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -242,7 +243,7 @@
 <parametername>jogador</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>é o número do jogador da qual a linha ou coluna está a ser requisatada </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -250,17 +251,17 @@
 <parametername>info</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>determina se será a coluna ou linha que será devolvida. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para></para>
+<simplesect kind="return"><para>coluna ou linha </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/Camadas/dados/acessar_estado.h" line="26" column="5" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="7" bodyend="14" declfile="LA1PL2G1/Camadas/dados/acessar_estado.h" declline="26" declcolumn="5"/>
+        <location file="LA1PL2G1/Camadas/dados/acessar_estado.h" line="27" column="5" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="7" bodyend="14" declfile="LA1PL2G1/Camadas/dados/acessar_estado.h" declline="27" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha2_1ga8c8c063a176d50b62eed70a24b79197d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="_c_make_cache_8txt_1a1cb0c2afe2f6ed3001e79e875440ed60" kindref="member">int</ref></type>
@@ -290,7 +291,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/Camadas/dados/acessar_estado.h" line="32" column="5" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="20" bodyend="22" declfile="LA1PL2G1/Camadas/dados/acessar_estado.h" declline="32" declcolumn="5"/>
+        <location file="LA1PL2G1/Camadas/dados/acessar_estado.h" line="33" column="5" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="20" bodyend="22" declfile="LA1PL2G1/Camadas/dados/acessar_estado.h" declline="33" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha2_1ga86f898b1ea1b15a6353dd16e9e6d78cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
@@ -302,6 +303,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
+<para>Devolve a coordenada da última jogada salva no estado do tabuleiro. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -309,17 +311,17 @@
 <parametername>e</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>é o estado do tabuleiro </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para></para>
+<simplesect kind="return"><para>coordenada da última jogada </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/Camadas/dados/acessar_estado.h" line="38" column="12" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="24" bodyend="26" declfile="LA1PL2G1/Camadas/dados/acessar_estado.h" declline="38" declcolumn="12"/>
+        <location file="LA1PL2G1/Camadas/dados/acessar_estado.h" line="39" column="12" bodyfile="LA1PL2G1/bot/acessar_estadoBot.c" bodystart="24" bodyend="26" declfile="LA1PL2G1/Camadas/dados/acessar_estado.h" declline="39" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__sub_alpha2_1gaa1acb9ab56a9997c82130721e58192ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref></type>
@@ -339,6 +341,7 @@
           <declname>jogador</declname>
         </param>
         <briefdescription>
+<para>Deve fornecer a coordenada do movimento de um jogador em uma jogada. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -346,7 +349,7 @@
 <parametername>e</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>é o estado do tabuleiro </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -354,7 +357,7 @@
 <parametername>jogada</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>especifica de qual jogada iremos buscar a coordenada </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -362,17 +365,17 @@
 <parametername>jogador</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>especifica de qual jogador será requisatada a coordenada. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para></para>
+<simplesect kind="return"><para>coordenada que o jogador 1 ou 2 fez em uma jogada x. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="LA1PL2G1/Camadas/dados/acessar_estado.h" line="46" column="12" bodyfile="LA1PL2G1/Camadas/dados/acessar_estado.c" bodystart="28" bodyend="33" declfile="LA1PL2G1/Camadas/dados/acessar_estado.h" declline="46" declcolumn="12"/>
+        <location file="LA1PL2G1/Camadas/dados/acessar_estado.h" line="47" column="12" bodyfile="LA1PL2G1/Camadas/dados/acessar_estado.c" bodystart="28" bodyend="33" declfile="LA1PL2G1/Camadas/dados/acessar_estado.h" declline="47" declcolumn="12"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -388,15 +391,15 @@
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__sub_alpha2_1ga996b7cbab9689ba24980590d140ef7de" kindref="member">JogadorAtual</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__sub_alpha2_1ga5ba7758412b57f34f490ee46645e98cf" kindref="member">obter_subcoordenadas</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogada,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogador,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>info);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__sub_alpha2_1ga8c8c063a176d50b62eed70a24b79197d" kindref="member">NumJogadas</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/><ref refid="group__sub_alpha2_1ga86f898b1ea1b15a6353dd16e9e6d78cb" kindref="member">obter_ultimajogada</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/><ref refid="group__sub_alpha2_1gaa1acb9ab56a9997c82130721e58192ca" kindref="member">obter_coordenada</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogada,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogador);</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//RASTROS_C_ACESSAR_ESTADO_H</highlight></codeline>
+<codeline lineno="27"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__sub_alpha2_1ga5ba7758412b57f34f490ee46645e98cf" kindref="member">obter_subcoordenadas</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogada,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogador,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>info);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__sub_alpha2_1ga8c8c063a176d50b62eed70a24b79197d" kindref="member">NumJogadas</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/><ref refid="group__sub_alpha2_1ga86f898b1ea1b15a6353dd16e9e6d78cb" kindref="member">obter_ultimajogada</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/><ref refid="group__sub_alpha2_1gaa1acb9ab56a9997c82130721e58192ca" kindref="member">obter_coordenada</ref>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogada,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogador);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//RASTROS_C_ACESSAR_ESTADO_H</highlight></codeline>
     </programlisting>
     <location file="LA1PL2G1/Camadas/dados/acessar_estado.h"/>
   </compounddef>

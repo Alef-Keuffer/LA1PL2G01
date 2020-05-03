@@ -121,25 +121,28 @@
       </node>
     </incdepgraph>
       <sectiondef kind="func">
-      <memberdef kind="function" id="test__simple__commands_8c_1a0f443c0cd1ecc490170db13e8c32ce74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group_alpha3_1ga0f443c0cd1ecc490170db13e8c32ce74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void commands_winner_is_player1</definition>
         <argsstring>()</argsstring>
         <name>commands_winner_is_player1</name>
         <briefdescription>
+<para>Essa funão deve testar <ref refid="group___modulo_logica_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo()</ref>. </para>
         </briefdescription>
         <detaileddescription>
+<para>A função executa alguns movimentos e verifica que se fim_de_jogo(e)==1 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="LA1PL2G1/Camadas/testes/test_simple_commands.c" line="6" column="6" bodyfile="LA1PL2G1/Camadas/testes/test_simple_commands.c" bodystart="6" bodyend="15"/>
       </memberdef>
-      <memberdef kind="function" id="test__simple__commands_8c_1acf2c83f2a73de71c173fd186b19e7042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group_alpha3_1gacf2c83f2a73de71c173fd186b19e7042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void commands_winner_is_player2</definition>
         <argsstring>()</argsstring>
         <name>commands_winner_is_player2</name>
         <briefdescription>
+<para>Essa funão deve testar <ref refid="group___modulo_logica_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo()</ref>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -147,12 +150,13 @@
         </inbodydescription>
         <location file="LA1PL2G1/Camadas/testes/test_simple_commands.c" line="17" column="6" bodyfile="LA1PL2G1/Camadas/testes/test_simple_commands.c" bodystart="17" bodyend="26"/>
       </memberdef>
-      <memberdef kind="function" id="test__simple__commands_8c_1afc75f5744d68ffae542c05b5ff82b431" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group_alpha3_1gafc75f5744d68ffae542c05b5ff82b431" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void commands_jogada_invalida</definition>
         <argsstring>()</argsstring>
         <name>commands_jogada_invalida</name>
         <briefdescription>
+<para>Testa <ref refid="group__sub1_alpha2_1gab1160bacb55fe9977b2a60e615c2e627" kindref="member">jogada_valida()</ref> para um movimento inválido. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -160,12 +164,13 @@
         </inbodydescription>
         <location file="LA1PL2G1/Camadas/testes/test_simple_commands.c" line="28" column="6" bodyfile="LA1PL2G1/Camadas/testes/test_simple_commands.c" bodystart="28" bodyend="32"/>
       </memberdef>
-      <memberdef kind="function" id="test__simple__commands_8c_1a437ea3de8ffbeb2fa1f7d375aa4a2cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group_alpha3_1ga437ea3de8ffbeb2fa1f7d375aa4a2cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void commands_gr_ler_branca</definition>
         <argsstring>()</argsstring>
         <name>commands_gr_ler_branca</name>
         <briefdescription>
+<para>Testa se no ficheiro que foi salvo e depois aberto se a casa experada está com a peça branca. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -173,12 +178,13 @@
         </inbodydescription>
         <location file="LA1PL2G1/Camadas/testes/test_simple_commands.c" line="34" column="6" bodyfile="LA1PL2G1/Camadas/testes/test_simple_commands.c" bodystart="34" bodyend="45"/>
       </memberdef>
-      <memberdef kind="function" id="test__simple__commands_8c_1a7a4e7652690d0081c54bf135dedaff55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group_alpha3_1ga7a4e7652690d0081c54bf135dedaff55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void commands_gr_ler_pretas</definition>
         <argsstring>()</argsstring>
         <name>commands_gr_ler_pretas</name>
         <briefdescription>
+<para>Verifica que algumas casas estão pretas em um ficheiro que foi salvo de depois lido. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -186,12 +192,13 @@
         </inbodydescription>
         <location file="LA1PL2G1/Camadas/testes/test_simple_commands.c" line="47" column="6" bodyfile="LA1PL2G1/Camadas/testes/test_simple_commands.c" bodystart="47" bodyend="59"/>
       </memberdef>
-      <memberdef kind="function" id="test__simple__commands_8c_1a35964b02516b1842f56dda061b5e234f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group_alpha3_1ga35964b02516b1842f56dda061b5e234f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void test_simple_commands</definition>
         <argsstring>()</argsstring>
         <name>test_simple_commands</name>
         <briefdescription>
+<para>Função principal a ser chamada para executar todos os testes. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -210,69 +217,69 @@
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;assert.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="io_8h" kindref="compound">Camadas/interface/io.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="test__simple__commands_8c_1a0f443c0cd1ecc490170db13e8c32ce74" kindref="member">commands_winner_is_player1</ref>(){</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e<sp/>=<sp/><ref refid="group__sub_alpha3_1ga7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>();</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group_alpha3_1ga0f443c0cd1ecc490170db13e8c32ce74" kindref="member">commands_winner_is_player1</ref>(){</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e<sp/>=<sp/><ref refid="group___modulo_dados_1ga7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>();</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>coord1<sp/>=<sp/><sp/>{</highlight><highlight class="charliteral">&apos;c&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;3&apos;</highlight><highlight class="normal"><sp/>-</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub1_alpha2_1ga4e68d436fd02312dbf25a0876e6fcc29" kindref="member">jogar</ref><sp/>(e,<sp/>coord1);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref><sp/>(e,<sp/>coord1);</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>coord2<sp/>=<sp/>{</highlight><highlight class="charliteral">&apos;b&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;2&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub1_alpha2_1ga4e68d436fd02312dbf25a0876e6fcc29" kindref="member">jogar</ref><sp/>(e,<sp/>coord2);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref><sp/>(e,<sp/>coord2);</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>coord3<sp/>=<sp/>{</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub1_alpha2_1ga4e68d436fd02312dbf25a0876e6fcc29" kindref="member">jogar</ref><sp/>(e,<sp/>coord3);</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>assert<sp/>(<ref refid="group__sub1_alpha2_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo</ref>(e)==1<sp/>&amp;&amp;<sp/></highlight><highlight class="stringliteral">&quot;commands_winner_is_player1()&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref><sp/>(e,<sp/>coord3);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>assert<sp/>(<ref refid="group___modulo_logica_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo</ref>(e)==1<sp/>&amp;&amp;<sp/></highlight><highlight class="stringliteral">&quot;commands_winner_is_player1()&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="15"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="test__simple__commands_8c_1acf2c83f2a73de71c173fd186b19e7042" kindref="member">commands_winner_is_player2</ref>(){</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e<sp/>=<sp/><ref refid="group__sub_alpha3_1ga7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group_alpha3_1gacf2c83f2a73de71c173fd186b19e7042" kindref="member">commands_winner_is_player2</ref>(){</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e<sp/>=<sp/><ref refid="group___modulo_dados_1ga7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>();</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>coord1<sp/>=<sp/><sp/>{</highlight><highlight class="charliteral">&apos;f&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;6&apos;</highlight><highlight class="normal"><sp/>-</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub1_alpha2_1ga4e68d436fd02312dbf25a0876e6fcc29" kindref="member">jogar</ref><sp/>(e,<sp/>coord1);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref><sp/>(e,<sp/>coord1);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>coord2<sp/>=<sp/>{</highlight><highlight class="charliteral">&apos;g&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;7&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub1_alpha2_1ga4e68d436fd02312dbf25a0876e6fcc29" kindref="member">jogar</ref><sp/>(e,<sp/>coord2);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref><sp/>(e,<sp/>coord2);</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>coord3<sp/>=<sp/>{</highlight><highlight class="charliteral">&apos;h&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;8&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub1_alpha2_1ga4e68d436fd02312dbf25a0876e6fcc29" kindref="member">jogar</ref><sp/>(e,<sp/>coord3);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>assert<sp/>(<ref refid="group__sub1_alpha2_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo</ref>(e)==2<sp/>&amp;&amp;<sp/></highlight><highlight class="stringliteral">&quot;commands_winner_is_player2()&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref><sp/>(e,<sp/>coord3);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>assert<sp/>(<ref refid="group___modulo_logica_1ga9a0ae8b2e0ca2ed4b5fdd4145a742791" kindref="member">fim_de_jogo</ref>(e)==2<sp/>&amp;&amp;<sp/></highlight><highlight class="stringliteral">&quot;commands_winner_is_player2()&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="test__simple__commands_8c_1afc75f5744d68ffae542c05b5ff82b431" kindref="member">commands_jogada_invalida</ref>(){</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e<sp/>=<sp/><ref refid="group__sub_alpha3_1ga7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group_alpha3_1gafc75f5744d68ffae542c05b5ff82b431" kindref="member">commands_jogada_invalida</ref>(){</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e<sp/>=<sp/><ref refid="group___modulo_dados_1ga7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>();</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>coord1<sp/>=<sp/><sp/>{</highlight><highlight class="charliteral">&apos;e&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;7&apos;</highlight><highlight class="normal"><sp/>-</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>assert<sp/>(<ref refid="group__sub1_alpha2_1gab1160bacb55fe9977b2a60e615c2e627" kindref="member">jogada_valida</ref>(e,<sp/>coord1)==0<sp/>&amp;&amp;<sp/></highlight><highlight class="stringliteral">&quot;commands_jogada_invalida()&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="test__simple__commands_8c_1a437ea3de8ffbeb2fa1f7d375aa4a2cda" kindref="member">commands_gr_ler_branca</ref>(){</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e<sp/>=<sp/><ref refid="group__sub_alpha3_1ga7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group_alpha3_1ga437ea3de8ffbeb2fa1f7d375aa4a2cda" kindref="member">commands_gr_ler_branca</ref>(){</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e<sp/>=<sp/><ref refid="group___modulo_dados_1ga7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>();</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>coord1<sp/>=<sp/><sp/>{</highlight><highlight class="charliteral">&apos;d&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;5&apos;</highlight><highlight class="normal"><sp/>-</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub1_alpha2_1ga4e68d436fd02312dbf25a0876e6fcc29" kindref="member">jogar</ref><sp/>(e,<sp/>coord1);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref><sp/>(e,<sp/>coord1);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>coord2<sp/>=<sp/>{</highlight><highlight class="charliteral">&apos;d&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;6&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub1_alpha2_1ga4e68d436fd02312dbf25a0876e6fcc29" kindref="member">jogar</ref><sp/>(e,<sp/>coord2);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref><sp/>(e,<sp/>coord2);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>coord3<sp/>=<sp/>{</highlight><highlight class="charliteral">&apos;c&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;6&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub1_alpha2_1ga4e68d436fd02312dbf25a0876e6fcc29" kindref="member">jogar</ref><sp/>(e,<sp/>coord3);</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="io_bot_8c_1a23a23b7826b87285db7e15c4bdbd7897" kindref="member">gr</ref>(e,<sp/></highlight><highlight class="stringliteral">&quot;save&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="io_bot_8c_1ab184b82fd763449103d10b56b797c537" kindref="member">ler</ref><sp/>(e,<sp/></highlight><highlight class="stringliteral">&quot;save&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref><sp/>(e,<sp/>coord3);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___camada_i_o_1ga23a23b7826b87285db7e15c4bdbd7897" kindref="member">gr</ref>(e,<sp/></highlight><highlight class="stringliteral">&quot;save&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___camada_i_o_1gab184b82fd763449103d10b56b797c537" kindref="member">ler</ref><sp/>(e,<sp/></highlight><highlight class="stringliteral">&quot;save&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>assert<sp/>((*e).tab[5][2]==<ref refid="bot_2dados_8h_1aba91601f16d4c485b2d9b8c429f27039ad24485fddec75419fd4a0cc9edda0ca5" kindref="member">BRANCA</ref><sp/>&amp;&amp;<sp/></highlight><highlight class="stringliteral">&quot;commands_gr_ler_branca&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="test__simple__commands_8c_1a7a4e7652690d0081c54bf135dedaff55" kindref="member">commands_gr_ler_pretas</ref>(){</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e<sp/>=<sp/><ref refid="group__sub_alpha3_1ga7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group_alpha3_1ga7a4e7652690d0081c54bf135dedaff55" kindref="member">commands_gr_ler_pretas</ref>(){</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e<sp/>=<sp/><ref refid="group___modulo_dados_1ga7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>();</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>coord1<sp/>=<sp/><sp/>{</highlight><highlight class="charliteral">&apos;d&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;6&apos;</highlight><highlight class="normal"><sp/>-</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub1_alpha2_1ga4e68d436fd02312dbf25a0876e6fcc29" kindref="member">jogar</ref><sp/>(e,<sp/>coord1);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref><sp/>(e,<sp/>coord1);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>coord2<sp/>=<sp/>{</highlight><highlight class="charliteral">&apos;d&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;5&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub1_alpha2_1ga4e68d436fd02312dbf25a0876e6fcc29" kindref="member">jogar</ref><sp/>(e,<sp/>coord2);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref><sp/>(e,<sp/>coord2);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_c_o_o_r_d_e_n_a_d_a" kindref="compound">COORDENADA</ref><sp/>coord3<sp/>=<sp/>{</highlight><highlight class="charliteral">&apos;c&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;5&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__sub1_alpha2_1ga4e68d436fd02312dbf25a0876e6fcc29" kindref="member">jogar</ref><sp/>(e,<sp/>coord3);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="io_bot_8c_1a23a23b7826b87285db7e15c4bdbd7897" kindref="member">gr</ref>(e,<sp/></highlight><highlight class="stringliteral">&quot;save&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="io_bot_8c_1ab184b82fd763449103d10b56b797c537" kindref="member">ler</ref><sp/>(e,<sp/></highlight><highlight class="stringliteral">&quot;save&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___modulo_logica_1gac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref><sp/>(e,<sp/>coord3);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___camada_i_o_1ga23a23b7826b87285db7e15c4bdbd7897" kindref="member">gr</ref>(e,<sp/></highlight><highlight class="stringliteral">&quot;save&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___camada_i_o_1gab184b82fd763449103d10b56b797c537" kindref="member">ler</ref><sp/>(e,<sp/></highlight><highlight class="stringliteral">&quot;save&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>assert<sp/>((*e).tab[5][3]==<ref refid="bot_2dados_8h_1aba91601f16d4c485b2d9b8c429f27039a007278eb3827d19891b47cdd3ac8846d" kindref="member">PRETA</ref><sp/>&amp;&amp;</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*e).tab[4][3]==<ref refid="bot_2dados_8h_1aba91601f16d4c485b2d9b8c429f27039a007278eb3827d19891b47cdd3ac8846d" kindref="member">PRETA</ref><sp/>&amp;&amp;<sp/></highlight><highlight class="stringliteral">&quot;commands_gr_ler_pretas&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//void<sp/>commands_gr_ler_vaias();</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="test__simple__commands_8c_1a35964b02516b1842f56dda061b5e234f" kindref="member">test_simple_commands</ref>(){</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="test__simple__commands_8c_1a0f443c0cd1ecc490170db13e8c32ce74" kindref="member">commands_winner_is_player1</ref>();</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="test__simple__commands_8c_1acf2c83f2a73de71c173fd186b19e7042" kindref="member">commands_winner_is_player2</ref>();</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="test__simple__commands_8c_1afc75f5744d68ffae542c05b5ff82b431" kindref="member">commands_jogada_invalida</ref>();</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="test__simple__commands_8c_1a437ea3de8ffbeb2fa1f7d375aa4a2cda" kindref="member">commands_gr_ler_branca</ref>();</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="test__simple__commands_8c_1a7a4e7652690d0081c54bf135dedaff55" kindref="member">commands_gr_ler_pretas</ref>();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group_alpha3_1ga35964b02516b1842f56dda061b5e234f" kindref="member">test_simple_commands</ref>(){</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__group_alpha3_1ga0f443c0cd1ecc490170db13e8c32ce74" kindref="member">commands_winner_is_player1</ref>();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__group_alpha3_1gacf2c83f2a73de71c173fd186b19e7042" kindref="member">commands_winner_is_player2</ref>();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__group_alpha3_1gafc75f5744d68ffae542c05b5ff82b431" kindref="member">commands_jogada_invalida</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__group_alpha3_1ga437ea3de8ffbeb2fa1f7d375aa4a2cda" kindref="member">commands_gr_ler_branca</ref>();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__group_alpha3_1ga7a4e7652690d0081c54bf135dedaff55" kindref="member">commands_gr_ler_pretas</ref>();</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//commands_gr_ler_vazias();</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal">}</highlight></codeline>
     </programlisting>

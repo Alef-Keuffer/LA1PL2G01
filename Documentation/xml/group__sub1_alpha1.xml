@@ -126,7 +126,7 @@
 <parametername>state</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>... </para>
+<para>usada por pos para indicar se será gravado um ficheiropos ou se será lido esse ficheiro. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>

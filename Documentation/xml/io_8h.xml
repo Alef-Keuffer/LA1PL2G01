@@ -190,7 +190,7 @@
       </node>
     </invincdepgraph>
       <sectiondef kind="func">
-      <memberdef kind="function" id="io_8h_1a23a23b7826b87285db7e15c4bdbd7897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__sub2_alpha1_1ga23a23b7826b87285db7e15c4bdbd7897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void gr</definition>
         <argsstring>(ESTADO *e, char *file_path)</argsstring>
@@ -230,7 +230,7 @@
         </inbodydescription>
         <location file="LA1PL2G1/Camadas/interface/io.h" line="12" column="6" bodyfile="LA1PL2G1/bot/ioBot.c" bodystart="3" bodyend="10" declfile="LA1PL2G1/Camadas/interface/io.h" declline="12" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="io_8h_1ab184b82fd763449103d10b56b797c537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__sub2_alpha1_1gab184b82fd763449103d10b56b797c537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void ler</definition>
         <argsstring>(ESTADO *e, char *filename)</argsstring>
@@ -283,9 +283,9 @@
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="logica_8h" kindref="compound">Camadas/logica/logica.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="auxiliares_8h" kindref="compound">Camadas/logica/auxiliares.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="io_8h_1a23a23b7826b87285db7e15c4bdbd7897" kindref="member">gr</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_path);</highlight></codeline>
+<codeline lineno="12"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub2_alpha1_1ga23a23b7826b87285db7e15c4bdbd7897" kindref="member">gr</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_path);</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="io_8h_1ab184b82fd763449103d10b56b797c537" kindref="member">ler</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="18"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__sub2_alpha1_1gab184b82fd763449103d10b56b797c537" kindref="member">ler</ref><sp/>(<ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//RASTROS_IO_H</highlight></codeline>
     </programlisting>

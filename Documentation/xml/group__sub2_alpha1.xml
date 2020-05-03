@@ -3,6 +3,88 @@
   <compounddef id="group__sub2_alpha1" kind="group">
     <compoundname>sub2Alpha1</compoundname>
     <title>IO</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__sub2_alpha1_1ga23a23b7826b87285db7e15c4bdbd7897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr</definition>
+        <argsstring>(ESTADO *e, char *file_path)</argsstring>
+        <name>gr</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kindref="member">char</ref> *</type>
+          <declname>file_path</declname>
+        </param>
+        <briefdescription>
+<para>Função deve gravar em um ficheiro o tabuleiro com as jogadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o nome do ficheiro </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/Camadas/interface/io.h" line="12" column="6" bodyfile="LA1PL2G1/bot/ioBot.c" bodystart="3" bodyend="10" declfile="LA1PL2G1/Camadas/interface/io.h" declline="12" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__sub2_alpha1_1gab184b82fd763449103d10b56b797c537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ler</definition>
+        <argsstring>(ESTADO *e, char *filename)</argsstring>
+        <name>ler</name>
+        <param>
+          <type><ref refid="struct_e_s_t_a_d_o" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kindref="member">char</ref> *</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>Função deve ler o ficheiro de um tabuleiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o estado do tabuleiro </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>é o nome do ficheiro </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LA1PL2G1/Camadas/interface/io.h" line="18" column="6" bodyfile="LA1PL2G1/bot/ioBot.c" bodystart="12" bodyend="41" declfile="LA1PL2G1/Camadas/interface/io.h" declline="18" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
