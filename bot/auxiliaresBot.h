@@ -4,6 +4,7 @@
 #ifndef BOTRASTROS_AUXILIARES_H
 #define BOTRASTROS_AUXILIARES_H
 #include <math.h>
+#include <stdlib.h>
 #include "dados.h"
 #include "modificar_estadoBot.h"
 #include "acessar_estadoBot.h"
